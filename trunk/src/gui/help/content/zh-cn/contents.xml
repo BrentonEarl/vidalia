@@ -1,0 +1,55 @@
+<!--
+  $Id$
+  
+  Vidalia is distributed under the following license:
+
+  Copyright (C) 2006,  Matt Edman, Justin Hipple
+
+  This program is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License
+  as published by the Free Software Foundation; either version 2
+  of the License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  
+  02110-1301, USA.
+-->
+
+<Contents name="Vidalia帮助" html="index.html">
+  <Topic id="running" name="运行Tor" html="running.html">
+    <Topic id="starting" name="启动和停止Tor" html="running.html" section="starting"/>
+    <Topic id="monitoring" name="监视Tor的状态" html="running.html" section="monitoring"/>
+  </Topic>
+  <Topic id="log" name="消息日志" html="log.html">
+    <Topic id="basic" name="基本信息" html="log.html" section="basic"/>
+    <Topic id="severities" name="消息级别" html="log.html" section="severities"/>
+    <Topic id="logfile" name="记录到文件" html="log.html" section="tofile"/>
+  </Topic>
+  <!--
+  <Topic id="netview" name="Network Viewer" html="netview.html">
+    <Topic id="overview" name="Overview" html="netview.html" section="overview"/>
+    <Topic id="status" name="Router Status" html="netview.html" section="status"/>
+  </Topic>
+  -->
+  <Topic id="config" name="配置Vidalia和Tor" html="config.html">
+    <Topic id="general" name="一般设置" html="config.html" section="general"/>
+    <Topic id="server" name="服务器设置" html="config.html" section="server"/>
+    <Topic id="advanced" name="高级设置" html="config.html" section="advanced"/>
+  </Topic>
+  <Topic id="server" name="运行Tor服务器" html="server.html">
+    <Topic id="basic" name="安装基础" html="server.html" section="basic"/>
+    <Topic id="exitpolicy" name="退出策略" html="server.html" section="exitpolicy"/>
+  </Topic>
+  <Topic id="troubleshooting" name="问题多多" html="troubleshooting.html">
+    <Topic id="start" name="我无法运行Tor" html="troubleshooting.html" section="start"/>
+    <Topic id="connect" name="Vidalia Can't Connect to Tor" html="troubleshooting.html" section="connect"/>
+    <Topic id="stop" name="Vidalia Can't Stop Tor" html="troubleshooting.html" section="stop"/>
+ </Topic>
+</Contents>
+

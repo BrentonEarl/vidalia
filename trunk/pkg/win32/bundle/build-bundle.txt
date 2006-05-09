@@ -1,0 +1,45 @@
+                Building the Vidalia/Tor/Privoxy Bundle
+
+
+1. Create a base directory under which the necessary sources will be extracted
+and place the .nsi file in it. For this example, we will just use C:\bundle\.
+      
+       C:\bundle\bundle.nsi
+
+2. Create directories for each component in the bundle.
+
+        C:\bundle\privoxy\
+        C:\bundle\tor\
+        C:\bundle\vidalia\
+
+3. Modify the appropriate version values (VIDALIA_VERSION, TOR_VERSION, and
+PRIVOXY_VERSION) at the top of the .nsi file.
+
+4. Create directories for the appropriate versions of each component.
+
+        C:\bundle\privoxy\3.0.3\
+        C:\bundle\tor\0.1.1.18-rc\
+        C:\bundle\vidalia\0.0.4\
+
+5. Install Vidalia, Tor, and Privoxy to the directories you created for them.
+
+6. Modify Privoxy's config.txt file as follows:
+
+    * Add "forward-socks4a / localhost:9050 ." (without quotes) to the top
+    * Comment out "logfile privoxy.log" in Section 1.5
+    * Comment out "jarfile jar.log" in Section 1.6
+    * Uncomment "log-messages 1" in Section 6 and change the '1' to a '0'
+
+7. Install Tor to the directory you created for its version. Remember that you
+may need to grab the torrc.sample file from %APPDATA%\Tor that was created by
+the installer and place it in the directory for the bundle's version of Tor.
+
+8. Run the .nsi script. The bundle will be named according the the versions
+you specified in Step 4 and placed in the base directory created in Step 1.
+
+--------------------------------------------------------------------------------
+
+For each additional release of some component of the bundle, follow Steps 4-9.
+If the version of some component didn't change, you can skip its step. For
+example, if the version of Privoxy didn't change then you can skip Step 6.
+
