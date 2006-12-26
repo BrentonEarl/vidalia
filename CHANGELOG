@@ -1,31 +1,52 @@
-0.0.10  ??-Dec-2006
+0.0.10  25-Dec-2006
   o Load NT service functions on demand so we can run on Windows 95/98/ME
     again. (Ticket #211)
+  o Add a column to the list of servers in the network map window, with a 
+    little flag icon for each server. 
   o If the network map window is not visible, queue all GeoIP requests until
     either the window becomes visible again or the queue contains requests for
     at least one-quarter of all known servers.
+  o If we get a valid geoip response telling us the geoip database doesn't
+    have a location for the requested IP address, cache that response for one 
+    week so we don't keep sending requests that are likely to fail anyway. 
   o Use QSystemTrayIcon when available (except on Mac). If we are using 
     QSystemTrayIcon on systems that support balloon messages, use a balloon to 
     indicate when NEWNYM is successful. We still show a message box when NEWNYM 
     fails. (Ticket #183)
+  o Add a graph style dropdown box to the bandwidth graph settings, so you can
+    choose between a fancy alpha blended area graph and a faster, simpler line
+    graph.
+  o Add a button to continue starting Vidalia anyway, even if Vidalia thinks
+    there might be another Vidalia process already running. It's possible that a
+    previous Vidalia did not exit cleanly and another process ended up with
+    the old Vidalia's PID.
+  o Add a "Zoom to Circuit" option to the circuit context menu in the network
+    map's list of circuits.
   o Add a context menu to the dock icon on OS X. (Ticket #135)
   o If we're building with Qt >= 4.2.0, then use its new saveGeometry() and 
     restoreGeometry() functions to save and restore window size and position. 
     If we're still using an old Qt, make sure the window fits on screen when
     we try to restore it. (Ticket #207)
+  o Fix a bug in how the server points were keyed on the network map that
+    could cause some circuits to not get drawn. (Ticket #175)
   o Really close the read channel when we want to stop reading from the Tor
     process's stdout. This would sometimes cause duplicate messages in the
     message log if Vidalia was running on a non-English-speaking Windows.
+  o Be more correct about what we consider as valid latitudes and longitudes.
   o Give a better error message if we fail to determine what version of Tor's
     control protocol is being spoken.
   o Clarify some labels in the message log settings. (Ticket #203)
   o Settle on a convention of not ending tool tips or status tips with a
     period.
+  o Start shipping a geoip-cache file in our Win32 installers so people have
+    some initial geographic information, instead of starting out entirely
+    empty-handed.
   o Add a Farsi translation.
   o Add a Spanish translation contributed by desolator.
   o Add a Portuguese (Brazilian) translation contributed by Mabat Haram.
   o Add a Simplified Chinese installer translation contributed by omg.
-  o Updates to Finnish, French, German, Italian, Polish, and Russian translations.
+  o Updates to Finnish, French, German, Italian, Norwegian, Polish, 
+    Russian, and Simplified Chinese translations.
 
 
 0.0.9   05-Nov-2006
