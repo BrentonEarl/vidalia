@@ -16,7 +16,7 @@ SetCompressor /SOLID lzma
 
 !define VIDALIA_NAME        "Vidalia"
 !define VIDALIA_EXEC        "vidalia.exe"
-!define VIDALIA_APPVERSION  "0.0.12-svn"
+!define VIDALIA_APPVERSION  "0.0.12"
 !define VIDALIA_DESC        "${VIDALIA_NAME} ${VIDALIA_APPVERSION}"
 
 !define TOR_NAME            "Tor"
