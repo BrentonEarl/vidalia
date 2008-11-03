@@ -104,3 +104,31 @@ read_pidfile(QString pidFileName, QString *errmsg)
   return pid;
 }
 
+QHash<qint64, QString>
+process_list()
+{
+#if defined(Q_OS_WIN32)
+  return win32_process_list();
+#else
+  return QHash<qint64, QString>();
+#endif
+}
+
+bool
+process_kill(qint64 pid)
+{
+#if defined(Q_OS_WIN32)
+  HANDLE hProcess = OpenProcess(PROCESS_TERMINATE, FALSE,
+                                static_cast<DWORD>(pid));
+  if (hProcess == NULL)
+    return false;
+
+  BOOL ret = TerminateProcess(hProcess, 0);
+  CloseHandle(hProcess);
+
+  return (ret != FALSE);
+#else
+  return false;
+#endif
+}
+

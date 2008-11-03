@@ -1,4 +1,7 @@
 0.1.10  xx-Nov-2008
+  o Add a prettier dialog for prompting people for their control port password
+    that also includes a checkbox for whether the user wants Vidalia to remember
+    the entered password, a Help button, and a Reset button (Windows only).
   o Fix a crash bug that occurred when the user clicks 'Clear' in the message
     log toolbar followed by 'Save All'. (Ticket #434)
   o Uncheck the Torbutton options by default in the Windows bundle installer
