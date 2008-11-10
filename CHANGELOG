@@ -1,3 +1,8 @@
+0.1.11  xx-xxx-xxxx
+  o Remove support for configuring Tor's User and Group options in the 
+    Advanced settings page.
+
+
 0.1.10  02-Nov-2008
   o Add a prettier dialog for prompting people for their control port password
     that also includes a checkbox for whether the user wants Vidalia to remember
