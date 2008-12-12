@@ -4,6 +4,11 @@
   o Only set HttpsProxy if both the "I use a proxy..." checkbox and the 
     "Use this proxy for HTTPS also" checkboxes are checked. Otherwise,
     unset it. (Ticket #440)
+  o Fix a use of an uninitialized variable that would occur when Tor was
+    already running when Vidalia started, and the "Start Tor when Vidalia
+    Starts" checkbox is checked. (Ticket #443)
+  o Backport a change that removes a verticalSpacing property from a .ui
+    file, so Vidalia 0.1.x will still build on Qt 4.2. (Ticket #442)
 
 
 0.1.10  02-Nov-2008
