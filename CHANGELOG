@@ -11,6 +11,7 @@
     'getinfo addr-mappings'. (Ticket #454)
   o Backport a change that removes a verticalSpacing property from a .ui
     file, so Vidalia 0.1.x will still build on Qt 4.2. (Ticket #442)
+  o Fix some memory leaks in the hidden service configuration dialog.
 
 
 0.1.10  02-Nov-2008
