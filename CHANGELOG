@@ -12,6 +12,8 @@
   o Backport a change that removes a verticalSpacing property from a .ui
     file, so Vidalia 0.1.x will still build on Qt 4.2. (Ticket #442)
   o Fix some memory leaks in the hidden service configuration dialog.
+  o Include a patch from Steven J. Murdoch that enables the Tor Browser
+    Bundle to launch Firefox itself without relying on Portable Firefox.
 
 
 0.1.10  02-Nov-2008
