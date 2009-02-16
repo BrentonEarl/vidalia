@@ -150,6 +150,66 @@ win32_registry_remove_key(QString keyLocation, QString keyName)
   RegCloseKey(key);
 }
 
+/**
+ * Callback for EnumThreadWindows which sends the WM_QUIT message
+ */
+BOOL CALLBACK quitWindowCallback(HWND hwnd, LPARAM targetPID)
+{
+  DWORD hwndPID = 0;
+
+  /* If the process ID for hwnd matches the target PID, post
+     WM_QUIT to the window */
+  GetWindowThreadProcessId(hwnd, &hwndPID);
+  if (hwndPID == (DWORD)targetPID)
+    PostMessage(hwnd, WM_QUIT, 0, (LPARAM)NULL);
+}
+
+/**
+ * Close process with the specified PID. Sends WM_QUIT to all
+ * top-level windows.
+ */
+void
+win32_end_process_by_pid(DWORD pid)
+{
+  /* Send WM_QUIT to all windows */
+  EnumWindows(&quitWindowCallback, (LPARAM)pid);
+  /* At this point we could kill the main thread, but how do we find
+     the ID of the main thread? We can find the ID of all threads
+     but killing them all seems to cause a problem for Firefox */
+  //PostThreadMessage(thread.th32ThreadID, WM_CLOSE, 0, (LPARAM)NULL);
+}
+
+/**
+ * Close all processes started from the specified filename. Sends
+ * WM_QUIT to all top-level windows. Filename should be given in
+ * lowercase, and comparison is case insensitive. Note: the MSDN
+ * documentation for WM_QUIT states that the message should not be
+ * sent by PostMessage(). However, sending WM_CLOSE leaves Firefox
+ * running, whereas WM_QUIT seems to work.
+ */
+void
+win32_end_process_by_filename(QString filename)
+{
+  /* Get list of running processes */
+  QHash<qint64, QString> procList = win32_process_list();
+
+  /* On old versions of Windows win32_process_list() will return
+     an empty list. In this case, just keep Vidalia open */
+  if (procList.isEmpty()) {
+    return;
+  }
+
+  /* Loop over all processes */
+  QHashIterator<qint64, QString> i(procList);
+  while (i.hasNext()) {
+    i.next();
+    if (i.value().toLower() == filename) {
+      /* Kill this process */
+      win32_end_process_by_pid((DWORD)i.key());
+    }
+  }
+}
+
 /** Returns a list of all currently active processes, including their pid
  * and exe filename. */
 QHash<qint64, QString>
