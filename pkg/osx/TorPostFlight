@@ -47,9 +47,9 @@ fi
 ln -sf $TARGET/tor .
 ln -sf $TARGET/tor-resolve .
 
-cd /usr/share/man/man1
-MAN1=$TARGET/man/man1
-ln -sf $MAN1/*.1 .
+#cd /usr/share/man/man1
+#MAN1=$TARGET/man/man1
+#ln -sf $MAN1/*.1 .
 
 if [ ! -e /var/log/tor -o -L /var/log/tor ]; then
   cd /var/log
