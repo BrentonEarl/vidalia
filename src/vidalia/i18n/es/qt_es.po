@@ -152,10 +152,6 @@ msgctxt "QDirModel"
 msgid "Size"
 msgstr "Tamaño"
 
-msgctxt "QDirModel"
-msgid "Kind"
-msgstr "Clase"
-
 #: qdirmodel.cpp:431
 msgctxt "QDirModel"
 msgid "Type"
@@ -420,10 +416,6 @@ msgstr "Tamaño"
 msgctxt "QFileSystemModel"
 msgid "Kind"
 msgstr "Clase"
-
-msgctxt "QFileSystemModel"
-msgid "Type"
-msgstr "Tipo"
 
 #: qfilesystemmodel.cpp:849
 msgctxt "QFileSystemModel"
