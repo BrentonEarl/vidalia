@@ -9,6 +9,7 @@
   o Remove the code that altered PublishServerDescriptor when becoming a
     bridge, since Tor handles that itself now, and ensure that BridgeRelay
     is reset when going from bridge to just-a-client mode.
+  o Remove an unnecessary #include from helpbrowser.cpp.
   o Add an application icon based on Tor's logo to the vidalia.desktop
     file.
 
