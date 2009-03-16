@@ -6,6 +6,9 @@
   o Remove two duplicated strings in the Spanish translation of Qt's
     internal strings (qt_es.po). The duplicated strings caused build
     errors when building with Qt 4.5. (Ticket #469)
+  o Remove the code that altered PublishServerDescriptor when becoming a
+    bridge, since Tor handles that itself now, and ensure that BridgeRelay
+    is reset when going from bridge to just-a-client mode.
   o Add an application icon based on Tor's logo to the vidalia.desktop
     file.
 
