@@ -1,4 +1,4 @@
-0.1.12  xx-xxx-2009
+0.1.12  16-Mar-2009
   o Fix a bug in the hidden service settings configuration class that
     could lead to compile errors in Visual Studio and on IRIX.
   o Fix a build error that occurred on IRIX when using the MIPSPro
