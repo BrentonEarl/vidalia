@@ -15,7 +15,13 @@
 */
 
 #include <QStringList>
+
+#if defined(__sgi) && defined(_COMPILER_VERSION) && _COMPILER_VERSION >= 730
+#include <math.h>
+#else
 #include <cmath>
+#endif
+
 #include "tormapwidget.h"
 
 #define IMG_WORLD_MAP   ":/images/map/world-map.png"

@@ -1,6 +1,8 @@
 0.1.12  xx-xxx-2009
   o Fix a bug in the hidden service settings configuration class that
     could lead to compile errors in Visual Studio and on IRIX.
+  o Fix a build error that occurred on IRIX when using the MIPSPro
+    compiler. Patch from Matthew Saunier.
   o Remove two duplicated strings in the Spanish translation of Qt's
     internal strings (qt_es.po). The duplicated strings caused build
     errors when building with Qt 4.5. (Ticket #469)
