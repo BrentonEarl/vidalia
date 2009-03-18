@@ -76,6 +76,11 @@ executable installers.
 
   where "$MINGWDIR" is the path to your MinGW installation.
 
+  Copy the OpenSSL .dll file into your "bin" directory:
+
+    copy $OPENSSLDIR\bin\ssleay32.dll bin\
+
+  where "$OPENSSLDIR" is the path to your OpenSSL installation.
 
   Copy the Vidalia executable into your "bin" directory:
 
