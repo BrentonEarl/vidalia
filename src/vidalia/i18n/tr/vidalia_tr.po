@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
 "POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2009-03-16 11:39+0000\n"
+"Last-Translator: yunus kaba <yunuskaba@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Vidalia ts2po 0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: aboutdialog.ui:25
 msgctxt "AboutDialog"
@@ -30,33 +30,37 @@ msgstr "Tor"
 #: aboutdialog.ui:156
 msgctxt "AboutDialog"
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: aboutdialog.ui:166
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Qt Version"
-msgstr "Qt Versiyon"
-""
+msgstr "version"
 
 #: aboutdialog.ui:244
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Tor Version"
-msgstr "Tor Versiyon"
+msgstr "version"
 
 #: aboutdialog.ui:88
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Vidalia Version"
-msgstr "Vidalia Versiyon"
+msgstr "Vidalia Yardım"
 
 #: aboutdialog.cpp:68
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Not Running>"
-msgstr "<Çalışmıyor>"
+msgstr "Çalışmıyor"
 
 #: aboutdialog.cpp:64
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Unavailable>"
-msgstr "<Kullanım Dışı>"
+msgstr "Kullanımdışı"
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
@@ -66,12 +70,13 @@ msgstr "Kontrol Portu"
 #: advancedpage.ui:318
 msgctxt "AdvancedPage"
 msgid "Browse"
-msgstr "Gözat"
+msgstr "Gezgin"
 
 #: advancedpage.ui:337
+#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Permissions"
-msgstr "İzinler"
+msgstr "version"
 
 #: advancedpage.ui:360
 msgctxt "AdvancedPage"
@@ -96,7 +101,7 @@ msgstr "Vidalia bu grup izinlerinlerine göre çalışacak"
 #: advancedpage.cpp:221
 msgctxt "AdvancedPage"
 msgid "Select Tor Configuration File"
-msgstr "Tor ayar dosyası seç"
+msgstr "Tor Yapılandırma Dosyası Seçin"
 
 #: advancedpage.cpp:234
 msgctxt "AdvancedPage"
@@ -111,34 +116,34 @@ msgstr "%1 bulunamadı.Yeniden oluşturmak istermisin?"
 #: advancedpage.cpp:247
 msgctxt "AdvancedPage"
 msgid "Failed to Create File"
-msgstr "Dosya yaratmada hata"
+msgstr "Dosya Oluşturulamadı"
 
 #: advancedpage.cpp:248
 msgctxt "AdvancedPage"
 msgid "Unable to create %1 [%2]"
-msgstr "Yaratılamadı %1 [%2]"
+msgstr "%1 [%2] Oluşturulamadı"
 
 #: advancedpage.cpp:285
 msgctxt "AdvancedPage"
 msgid "Unable to remove Tor Service"
-msgstr "Tor servisi kaldıramıyor"
+msgstr "Tor Servisi kaldırılamadı"
 
 #: advancedpage.cpp:296
 msgctxt "AdvancedPage"
 msgid "Unable to install Tor Service"
-msgstr "Tor servis olarak yüklenemiyor"
+msgstr "Tor Servisi yüklenemedi"
 
 #: advancedpage.cpp:297
 msgctxt "AdvancedPage"
 msgid "Vidalia was unable to install the Tor service."
-msgstr "Vidalia Tor'u  servis olarak yükleyemiyor."
+msgstr "Vidalia, Tor Servisini yükleyemedi"
 
 #: advancedpage.cpp:287
 msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service."
-""
-"You may need to remove it manually."
-msgstr "Vidalia Tor'u  servis olarak kaldıramıyor.Elle kaldırmayı deneyebilirsiniz."
+msgid ""
+"Vidalia was unable to remove the Tor service.You may need to remove it "
+"manually."
+msgstr "Vidalia, Tor Servisini kaldıramadı. Elle kaldırmayı deneyebilirsiniz."
 
 #: advancedpage.cpp:103
 msgctxt "AdvancedPage"
@@ -183,7 +188,7 @@ msgstr "Şifre"
 #: advancedpage.ui:111
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
-msgstr "Rastgele Seç"
+msgstr "Rastgele Oluştur"
 
 #: advancedpage.ui:86
 msgctxt "AdvancedPage"
@@ -191,6 +196,7 @@ msgid "None"
 msgstr "Hiçbiri"
 
 #: advancedpage.cpp:34
+#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Advanced"
 msgstr "Gelişmiş"
@@ -198,32 +204,32 @@ msgstr "Gelişmiş"
 #: advancedpage.ui:240
 msgctxt "AdvancedPage"
 msgid "Start the Tor software with the specified configuration file (torrc)"
-msgstr ""
+msgstr "Tor yazılımını, belirtilen yapılandırma dosyası (torrc) ile çalıştır"
 
 #: advancedpage.ui:259
 msgctxt "AdvancedPage"
 msgid "Select path to your configuration file"
-msgstr ""
+msgstr "Yapılandırma dosyasının yolunu seçin"
 
 #: advancedpage.ui:275
 msgctxt "AdvancedPage"
 msgid "Data Directory"
-msgstr ""
+msgstr "Veri Dizini"
 
 #: advancedpage.ui:296
 msgctxt "AdvancedPage"
 msgid "Store data for the Tor software in the following directory"
-msgstr ""
+msgstr "Tor yazılımına ait verileri, aşağıdaki dizinde depola"
 
 #: advancedpage.ui:315
 msgctxt "AdvancedPage"
 msgid "Select the directory used to store data for the Tor software"
-msgstr ""
+msgstr "Tor yazılımı için kullanılacak depolanmış veri dizinini seçin"
 
 #: advancedpage.ui:219
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
-msgstr ""
+msgstr "Tor Yapılandırma Dosyası"
 
 #: appearancepage.ui:31
 msgctxt "AppearancePage"
@@ -243,14 +249,15 @@ msgstr "Dil seçiminiz Vidalia'yı yeniden başlattığınızda etkili olacaktı
 #: appearancepage.ui:100
 msgctxt "AppearancePage"
 msgid "Style"
-msgstr "Stil"
+msgstr "Biçim"
 
 #: appearancepage.ui:134
 msgctxt "AppearancePage"
 msgid "Choose Vidalia's interface style"
-msgstr "Vidalia için arayüz belirleyin"
+msgstr "Vidalia arayüz biçimini seçin"
 
 #: appearancepage.cpp:23
+#, fuzzy
 msgctxt "AppearancePage"
 msgid "Appearance"
 msgstr "Görünüm"
@@ -258,7 +265,7 @@ msgstr "Görünüm"
 #: bwgraph.ui:16
 msgctxt "BandwidthGraph"
 msgid "Tor Bandwidth Usage"
-msgstr "Tor Bantgenlişliği kullanımı"
+msgstr "Tor Bant genlişliği kullanımı"
 
 #: bwgraph.ui:40
 msgctxt "BandwidthGraph"
@@ -273,17 +280,17 @@ msgstr "Sıfırla"
 #: bwgraph.ui:151
 msgctxt "BandwidthGraph"
 msgid "Receive Rate"
-msgstr "Alım ortalaması"
+msgstr "Alınan Veri Oranı"
 
 #: bwgraph.ui:170
 msgctxt "BandwidthGraph"
 msgid "Send Rate"
-msgstr "Gönderim ortalaması"
+msgstr "Gönderilen Veri Oranı"
 
 #: bwgraph.ui:284
 msgctxt "BandwidthGraph"
 msgid "Changes the transparency of the Bandwidth Graph"
-msgstr "Bandgenişliği grafiğinin saydamlığını değiştir"
+msgstr "Bant genişliği grafiğinin saydamlığını değiştir"
 
 #: bwgraph.ui:443
 msgctxt "BandwidthGraph"
@@ -308,7 +315,7 @@ msgstr "100"
 #: bwgraph.ui:383
 msgctxt "BandwidthGraph"
 msgid "% Opaque"
-msgstr "%0Saydam"
+msgstr "% Saydam"
 
 #: bwgraph.cpp:226
 msgctxt "BandwidthGraph"
@@ -348,7 +355,7 @@ msgstr "Hata"
 #: circuit.cpp:93
 msgctxt "Circuit"
 msgid "Closed"
-msgstr "Kapat"
+msgstr "Kapandı"
 
 #: circuit.cpp:94
 msgctxt "Circuit"
@@ -396,6 +403,7 @@ msgid "Advanced"
 msgstr "Gelişmiş"
 
 #: configdialog.cpp:59
+#, fuzzy
 msgctxt "ConfigDialog"
 msgid "Cancel"
 msgstr "İptal"
@@ -418,7 +426,7 @@ msgstr "Ayarlar"
 #: configdialog.cpp:76
 msgctxt "ConfigDialog"
 msgid "Network"
-msgstr "Network"
+msgstr "Ağ"
 
 #: configdialog.cpp:174
 msgctxt "ConfigDialog"
@@ -441,6 +449,7 @@ msgid "Vidalia was unable to apply your %1 settings to Tor."
 msgstr "Vidalia %1 ayarlarınızı Tor'a uygulayamıyor."
 
 #: configdialog.cpp:56
+#, fuzzy
 msgctxt "ConfigDialog"
 msgid "OK"
 msgstr "Tamam"
@@ -501,6 +510,7 @@ msgid "Executables (*.exe)"
 msgstr "Çalıştırılabilir(*.exe)"
 
 #: generalpage.cpp:23
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "General"
 msgstr "Genel"
@@ -526,14 +536,16 @@ msgid "Start Vidalia when my system starts"
 msgstr "Windows'la birlikte başlat"
 
 #: generalpage.ui:75
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Vidalia starts"
-msgstr "Proxy uygulamamı Vidalia'la birlikte başlat"
+msgstr "Tor başladığında proxyide başlat"
 
 #: generalpage.ui:97
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Proxy Executable"
-msgstr "Proxy uygulaması"
+msgstr "Proxy seçin"
 
 #: generalpage.ui:129
 msgctxt "GeneralPage"
@@ -543,12 +555,13 @@ msgstr "Komut satırı Argumanları:"
 #: generalpage.ui:63
 msgctxt "GeneralPage"
 msgid "Start the Tor software when Vidalia starts"
-msgstr ""
+msgstr "Vidalia başladığında, Tor yazılımını da başlat"
 
 #: generalpage.ui:38
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Tor Executable"
-msgstr ""
+msgstr "Proxy seçin"
 
 #: graphframe.cpp:237
 msgctxt "GraphFrame"
@@ -563,22 +576,22 @@ msgstr "Gönderilen:"
 #: graphframe.cpp:258
 msgctxt "GraphFrame"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 KB"
 
 #: graphframe.cpp:261
 msgctxt "GraphFrame"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 MB"
 
 #: graphframe.cpp:264
 msgctxt "GraphFrame"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 GB"
 
 #: graphframe.cpp:285
 msgctxt "GraphFrame"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 #: helpbrowser.ui:33
 msgctxt "HelpBrowser"
@@ -633,7 +646,7 @@ msgstr "Bir önceki sayafaya git(Backspace)"
 #: helpbrowser.ui:490
 msgctxt "HelpBrowser"
 msgid "Backspace"
-msgstr ""
+msgstr "Backspace"
 
 #: helpbrowser.ui:498
 msgctxt "HelpBrowser"
@@ -643,12 +656,12 @@ msgstr "İleri"
 #: helpbrowser.ui:501
 msgctxt "HelpBrowser"
 msgid "Move to next page (Shift+Backspace)"
-msgstr "Bir sonraki sayafa git(Shift+Backspace)"
+msgstr "Bir sonraki sayafa git (Shift+Backspace) "
 
 #: helpbrowser.ui:504
 msgctxt "HelpBrowser"
 msgid "Shift+Backspace"
-msgstr ""
+msgstr "Shift+Backspace"
 
 #: helpbrowser.ui:512
 msgctxt "HelpBrowser"
@@ -663,7 +676,7 @@ msgstr "Ana Sayfaya git(Ctrl+H)"
 #: helpbrowser.ui:518
 msgctxt "HelpBrowser"
 msgid "Ctrl+H"
-msgstr ""
+msgstr "Ctrl+H"
 
 #: helpbrowser.ui:535
 msgctxt "HelpBrowser"
@@ -678,7 +691,7 @@ msgstr "Şuanki sayfada ara(Ctrl+F)"
 #: helpbrowser.ui:541
 msgctxt "HelpBrowser"
 msgid "Ctrl+F"
-msgstr ""
+msgstr "Ctrl+F"
 
 #: helpbrowser.ui:549
 msgctxt "HelpBrowser"
@@ -693,7 +706,7 @@ msgstr "Vidalia Yardımı Kapat"
 #: helpbrowser.ui:555
 msgctxt "HelpBrowser"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: helpbrowser.cpp:122
 msgctxt "HelpBrowser"
@@ -748,32 +761,41 @@ msgstr "Yardım dosyası açılırken hata oluştu:"
 #: helptextbrowser.cpp:72
 msgctxt "HelpTextBrowser"
 msgid "Opening External Link"
-msgstr ""
+msgstr "Başka bir link açma"
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
 msgstr ""
+"Vidali seçmiş olduğunuz adresi web gezgininizde açabiliyor. Eğer web "
+"gezgininiz henüz ayarlanmamıışsa isteğiniz Tor üzerinden gerçekleşmeyecektir."
 
 #: helptextbrowser.cpp:78
 msgctxt "HelpTextBrowser"
 msgid "Do you want Vidalia to open the link in your Web browser?"
-msgstr ""
+msgstr "Vidalianın web gezgininde açmasını istermisin?"
 
 #: helptextbrowser.cpp:88
 msgctxt "HelpTextBrowser"
 msgid "Unable to Open Link"
-msgstr ""
+msgstr "Link açılamıyor"
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
 msgstr ""
+"Vidalia seçtiğiniz bağlantıyı web gezgininizde açamıyor. Adresi web "
+"gezgininize kopyalayıp devam edebilirsiniz."
 
 #: logevent.cpp:57
 msgctxt "LogEvent"
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: logevent.cpp:58
 msgctxt "LogEvent"
@@ -828,17 +850,17 @@ msgstr "Yardım"
 #: mainwindow.cpp:394
 msgctxt "MainWindow"
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: mainwindow.cpp:395
 msgctxt "MainWindow"
 msgid "Ctrl+B"
-msgstr ""
+msgstr "Ctrl+B"
 
 #: mainwindow.cpp:396
 msgctxt "MainWindow"
 msgid "Ctrl+L"
-msgstr ""
+msgstr "Ctrl+L"
 
 #: mainwindow.cpp:398
 msgctxt "MainWindow"
@@ -846,9 +868,10 @@ msgid "Ctrl+?"
 msgstr "Ctrl+?"
 
 #: mainwindow.cpp:411
+#, fuzzy
 msgctxt "MainWindow"
 msgid "File"
-msgstr "Dosya"
+msgstr "Hata"
 
 #: mainwindow.cpp:414
 msgctxt "MainWindow"
@@ -873,12 +896,16 @@ msgstr "Tor'u başlatırken hata oluştu"
 #: mainwindow.cpp:397
 msgctxt "MainWindow"
 msgid "Ctrl+N"
-msgstr ""
+msgstr "Ctrl+N"
 
 #: mainwindow.cpp:834
 msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
-msgstr "Vidalia Tor'u başlatamıyor.Ayarlardan Tor için belirlediğiniz konumu kontrol ediniz."
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr ""
+"Vidalia Tor'u başlatamıyor.Ayarlardan Tor için belirlediğiniz konumu kontrol "
+"ediniz."
 
 #: mainwindow.cpp:320
 msgctxt "MainWindow"
@@ -898,11 +925,13 @@ msgstr "Yeni Kimlik"
 #: mainwindow.cpp:399
 msgctxt "MainWindow"
 msgid "Ctrl+I"
-msgstr ""
+msgstr "Ctrl+I"
 
 #: mainwindow.cpp:1334
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
 msgstr "Tüm altbağlantılarınız önceki bağlantılarınızdan farklı gözükecektir."
 
 #: mainwindow.cpp:1349
@@ -993,7 +1022,7 @@ msgstr "Kontol paneli"
 #: mainwindow.cpp:400
 msgctxt "MainWindow"
 msgid "Ctrl+P"
-msgstr ""
+msgstr "Ctrl+P"
 
 #: mainwindow.cpp:1047
 msgctxt "MainWindow"
@@ -1011,9 +1040,10 @@ msgid "Error Registering for Events"
 msgstr "Olayları kaydederken hata oluştu"
 
 #: mainwindow.cpp:1145
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Password Authentication Required"
-msgstr "Şifre doğrulaması gerekli"
+msgstr "Çerez doğrulaması gerekli"
 
 #: mainwindow.cpp:1164
 msgctxt "MainWindow"
@@ -1021,9 +1051,10 @@ msgid "Please check your control port authentication settings."
 msgstr "Lütfen kimlik doğrulama portunuzu kontrol edin."
 
 #: mainwindow.cpp:1146
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Please enter your control password (not the hash):"
-msgstr "Lütfen kontrol şifrenizi giriniz(hash kodu değil):"
+msgstr "Lütfen kimlik doğrulama portunuzu kontrol edin."
 
 #: mainwindow.cpp:910
 msgctxt "MainWindow"
@@ -1047,8 +1078,12 @@ msgstr "Tor yeni güncelleştirmesi var "
 
 #: mainwindow.cpp:1271
 msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
-msgstr "Tor şuanda kullanmış olduğunuz versiyonu tavsyie etmiyor.Lütfen Tor'un websitesini ziyaret edip en son versiyonunu indirin."
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr ""
+"Tor şuanda kullanmış olduğunuz versiyonu tavsyie etmiyor.Lütfen Tor'un "
+"websitesini ziyaret edip en son versiyonunu indirin."
 
 #: mainwindow.cpp:1271
 msgctxt "MainWindow"
@@ -1067,83 +1102,98 @@ msgstr "Vidalia proxy sunucusunu başlatamıyor"
 
 #: mainwindow.cpp:641
 msgctxt "MainWindow"
-msgid "Your relay is shutting down."
-"Click 'Stop' again to stop your relay now."
+msgid "Your relay is shutting down.Click 'Stop' again to stop your relay now."
 msgstr ""
+"Aktarımınız sonlandırılıyor.'Durdur' tuşuna basarak hemen gerçekleşmesini "
+"sağlayabilirsiniz."
 
 #: mainwindow.cpp:878
 msgctxt "MainWindow"
 msgid "Connection Error"
-msgstr ""
+msgstr "Bağlantı hatası"
 
 #: mainwindow.cpp:915
 msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
-""
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any "
+"open connections from clients.Would you like to shutdown gracefully and give "
+"clients time to find a new relay?"
 msgstr ""
+"Şu anda bir bağlantı çalışıyor.Bağlantıyı kesmeniz tüm kullanıcıların açık "
+"bağlantılarını sonlandıracaktır.Bağlantınızı kesmek istediğinizden "
+"eminmisiniz?"
 
 #: mainwindow.cpp:937
 msgctxt "MainWindow"
 msgid "Error Shutting Down"
-msgstr ""
+msgstr "Programı kapatmada hata"
 
 #: mainwindow.cpp:938
 msgctxt "MainWindow"
 msgid "Vidalia was unable to stop the Tor software."
-msgstr ""
+msgstr "Vidalia tor yazlımını sonlandıramıyor."
 
 #: mainwindow.cpp:969
 msgctxt "MainWindow"
 msgid "Unexpected Error"
-msgstr ""
+msgstr "Beklenmedik hata"
 
 #: mainwindow.cpp:973
 msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly."
-""
-"Please check the message log for recent warning or error messages."
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.Please check the "
+"message log for recent warning or error messages."
 msgstr ""
+"Vidalia Tor yazılımının beklenmedik şekilde kapandığını algıladı.Lütfen "
+"günlük kaytılarına bakarak en son uyarı ve hata mesajlarını kontrol ediniz."
 
 #: mainwindow.cpp:1050
 msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
 msgstr ""
+"Tor yazılımı kimlik doprulama çerezlerinin içerini vidaliaya göndermesi "
+"gerekiyor, ama çerez bulamıyor."
 
 #: mainwindow.cpp:1059
 msgctxt "MainWindow"
 msgid "Data Directory"
-msgstr ""
+msgstr "Veri Dizini"
 
 #: mainwindow.cpp:1061
 msgctxt "MainWindow"
 msgid "Control Cookie (control_auth_cookie)"
-msgstr ""
+msgstr "Kontrol çerezleri (control_auth_cookie)"
 
 #: mainwindow.cpp:1111
 msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
 msgstr ""
+"Vidalia bazı olayarın kaydını gerçekleştiremedi.Şu anda bir çok vidalia "
+"fonkisyonu çalışmıyor olabilir."
 
 #: mainwindow.cpp:1160
 msgctxt "MainWindow"
 msgid "Authentication Error"
-msgstr ""
+msgstr "Kimlik doğrulamada hata oluştu"
 
 #: mainwindow.cpp:1162
 msgctxt "MainWindow"
 msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
-msgstr ""
+msgstr "vidalia Tor yazılımını doğruluğunu sağlayamadı.(%1)"
 
 #: mainwindow.cpp:1398
 msgctxt "MainWindow"
 msgid "Port Forwarding Failed"
-msgstr ""
+msgstr "Port yanıtlamada hata oluştu"
 
 #: mainwindow.cpp:1399
 msgctxt "MainWindow"
 msgid "Vidalia was unable to configure automatic port forwarding."
-msgstr ""
+msgstr "Vidalia port yanıtlama ayarlarını uygulayamıyor."
 
 #: mainwindow.ui:49
 msgctxt "MainWindow"
@@ -1153,182 +1203,183 @@ msgstr "Durum"
 #: mainwindow.ui:246
 msgctxt "MainWindow"
 msgid "Set up a relay and help the network grow"
-msgstr ""
+msgstr "Bir aktarım ayarla ve ağın büyümesini sağla"
 
 #: mainwindow.ui:307
 msgctxt "MainWindow"
 msgid "View recent bandwidth usage"
-msgstr ""
+msgstr "En son band kullanımı"
 
 #: mainwindow.ui:320
 msgctxt "MainWindow"
 msgid "View log message history"
-msgstr ""
+msgstr "En son log kayıtları"
 
 #: mainwindow.ui:383
 msgctxt "MainWindow"
 msgid "Configure Vidalia"
-msgstr ""
+msgstr "Ayarlar"
 
 #: mainwindow.ui:233
 msgctxt "MainWindow"
 msgid "Start Tor"
-msgstr ""
+msgstr "Tor'u başlat"
 
 #: mainwindow.cpp:495
 msgctxt "MainWindow"
 msgid "Error starting IM client"
-msgstr ""
+msgstr "Im kullanıcısını başlatamada hata oluştu"
 
 #: mainwindow.cpp:496
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured IM client"
-msgstr ""
+msgstr "Vidalia ayarlanmış IM kullanıcısını başlatamıyor"
 
 #: mainwindow.cpp:534
 msgctxt "MainWindow"
 msgid "Connecting to a relay directory"
-msgstr ""
+msgstr "Aktarım dizinine bağlanıyor"
 
 #: mainwindow.cpp:538
 msgctxt "MainWindow"
 msgid "Establishing an encrypted directory connection"
-msgstr ""
+msgstr "Şifrelenmiş dizin bağlantısı kuruluyor"
 
 #: mainwindow.cpp:541
 msgctxt "MainWindow"
 msgid "Retrieving network status"
-msgstr ""
+msgstr "Ağ durumunu güncelliyor"
 
 #: mainwindow.cpp:544
 msgctxt "MainWindow"
 msgid "Loading network status"
-msgstr ""
+msgstr "Ağ durumunu yüklüyor"
 
 #: mainwindow.cpp:547
 msgctxt "MainWindow"
 msgid "Loading authority certificates"
-msgstr ""
+msgstr "Doğrulama sertifikalarını yüklüyor"
 
 #: mainwindow.cpp:550
 msgctxt "MainWindow"
 msgid "Requesting relay information"
-msgstr ""
+msgstr "Aktarım bilgisi isteniyor"
 
 #: mainwindow.cpp:553
 msgctxt "MainWindow"
 msgid "Loading relay information"
-msgstr ""
+msgstr "Aktarım bilgisi yüklemiyor"
 
 #: mainwindow.cpp:1100
 msgctxt "MainWindow"
 msgid "Connecting to the Tor network"
-msgstr ""
+msgstr "Tor ağına bağlanıyor"
 
 #: mainwindow.cpp:560
 msgctxt "MainWindow"
 msgid "Establishing a Tor circuit"
-msgstr ""
+msgstr "Tor ağına bağlantı kuruluyor"
 
 #: mainwindow.cpp:1235
 msgctxt "MainWindow"
 msgid "Connected to the Tor network!"
-msgstr ""
+msgstr "Tor ağına bağlandı!"
 
 #: mainwindow.cpp:567
 msgctxt "MainWindow"
 msgid "Unrecognized startup status"
-msgstr ""
+msgstr "Tanımlanamayan başlangıç durumu."
 
 #: mainwindow.cpp:574
 msgctxt "MainWindow"
 msgid "miscellaneous"
-msgstr ""
+msgstr "Diğer"
 
 #: mainwindow.cpp:577
 msgctxt "MainWindow"
 msgid "identity mismatch"
-msgstr ""
+msgstr "Kimlik uyumsuzluğu"
 
 #: mainwindow.cpp:580
 msgctxt "MainWindow"
 msgid "done"
-msgstr ""
+msgstr "tamam"
 
 #: mainwindow.cpp:583
 msgctxt "MainWindow"
 msgid "connection refused"
-msgstr ""
+msgstr "bağlantı red edildi"
 
 #: mainwindow.cpp:586
 msgctxt "MainWindow"
 msgid "connection timeout"
-msgstr ""
+msgstr "bağlantıda zaman aşımı"
 
 #: mainwindow.cpp:589
 msgctxt "MainWindow"
 msgid "read/write error"
-msgstr ""
+msgstr "okuma/yazma hatasu"
 
 #: mainwindow.cpp:592
 msgctxt "MainWindow"
 msgid "no route to host"
-msgstr ""
+msgstr "yönlendirecek host yok"
 
 #: mainwindow.cpp:595
 msgctxt "MainWindow"
 msgid "insufficient resources"
-msgstr ""
+msgstr "yetersiz kaynak"
 
 #: mainwindow.cpp:598
 msgctxt "MainWindow"
 msgid "unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #: mainwindow.cpp:600
 msgctxt "MainWindow"
 msgid " failed (%1)"
-msgstr ""
+msgstr "Hata(%1)"
 
 #: mainwindow.cpp:648
 msgctxt "MainWindow"
 msgid "Stop Tor Now"
-msgstr ""
+msgstr "Şimdi durdur"
 
 #: mainwindow.cpp:650
 msgctxt "MainWindow"
 msgid "Stop Tor"
-msgstr ""
+msgstr "Durdur"
 
 #: mainwindow.cpp:666
 msgctxt "MainWindow"
 msgid "Starting the Tor software"
-msgstr ""
+msgstr "Tor'u başlatıyor"
 
 #: mainwindow.ui:75
 msgctxt "MainWindow"
 msgid "Starting Tor"
-msgstr ""
+msgstr "Tor başlıyor"
 
 #: mainwindow.cpp:677
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Tor is Running"
-msgstr ""
+msgstr "Tor çalışmıyor"
 
 #: mainwindow.cpp:868
 msgctxt "MainWindow"
 msgid "Connecting to Tor"
-msgstr ""
+msgstr "Tor'a bağlanıyor"
 
 #: mainwindow.cpp:1027
 msgctxt "MainWindow"
 msgid "Authenticating to Tor"
-msgstr ""
+msgstr "Kimlik doğrulaması gerçekleşiyor"
 
 #: messagelog.ui:19
 msgctxt "MessageLog"
 msgid "Message Log"
-msgstr "Mesaj günlükleri"
+msgstr "Mesaj Günlükleri"
 
 #: messagelog.ui:66
 msgctxt "MessageLog"
@@ -1398,7 +1449,7 @@ msgstr "Bilgi"
 #: messagelog.ui:281
 msgctxt "MessageLog"
 msgid "Debug"
-msgstr ""
+msgstr "Hata ayıklama"
 
 #: messagelog.ui:452
 msgctxt "MessageLog"
@@ -1433,7 +1484,7 @@ msgstr "Günlüklerdeki tüm mesajları temizle(Ctrl+E)"
 #: messagelog.ui:483
 msgctxt "MessageLog"
 msgid "Ctrl+E"
-msgstr ""
+msgstr "Ctrl+E"
 
 #: messagelog.ui:497
 msgctxt "MessageLog"
@@ -1448,7 +1499,7 @@ msgstr "Seçilen mesajı panoya kopyala(Ctrl+C)"
 #: messagelog.ui:503
 msgctxt "MessageLog"
 msgid "Ctrl+C"
-msgstr ""
+msgstr "Ctrl+C"
 
 #: messagelog.ui:514
 msgctxt "MessageLog"
@@ -1463,7 +1514,7 @@ msgstr "Tüm mesajları seç(Ctrl+A)"
 #: messagelog.ui:520
 msgctxt "MessageLog"
 msgid "Ctrl+A"
-msgstr ""
+msgstr "Ctrl+A"
 
 #: messagelog.ui:528
 msgctxt "MessageLog"
@@ -1498,7 +1549,7 @@ msgstr "Mesaj günlüklerini kaydet"
 #: messagelog.ui:587
 msgctxt "MessageLog"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: messagelog.ui:598
 msgctxt "MessageLog"
@@ -1513,45 +1564,41 @@ msgstr "Arananan kelimeyi tüm mesajlarda ara(Ctrl+F)"
 #: messagelog.ui:604
 msgctxt "MessageLog"
 msgid "Ctrl+F"
-msgstr ""
+msgstr "Ctrl+F"
 
 #: messagelog.cpp:137
 msgctxt "MessageLog"
-msgid "Messages that appear when something has "
-"gone very wrong and Tor cannot proceed."
-msgstr "Bu mesajlar bir şeyler ters gittiğinde ortaya çıkar Tor herhangi bir işlem yürütmez."
+msgid ""
+"Messages that appear when something has gone very wrong and Tor cannot "
+"proceed."
+msgstr ""
+"Bu mesajlar bir şeyler ters gittiğinde ortaya çıkar Tor herhangi bir işlem "
+"yürütmez."
 
 #: messagelog.cpp:139
 msgctxt "MessageLog"
-msgid "Messages that only appear when "
-"something has gone wrong with Tor."
-msgstr "Bu mesajlar sadece"
-"Tor'da bir şeyler ters gittiğinde ortaya çıkar. "
+msgid "Messages that only appear when something has gone wrong with Tor."
+msgstr "Bu mesajlar sadeceTor'da bir şeyler ters gittiğinde ortaya çıkar. "
 
 #: messagelog.cpp:143
 msgctxt "MessageLog"
-msgid "Messages that appear infrequently "
-"during normal Tor operation and are "
-"not considered errors, but you may "
-"care about."
-msgstr "Bu mesajlar çok sık ortaya çıkmaz"
-"özellikle normal durumlarda"
-"tabiki hatalar hariç, ama genede"
-"dikkate alabilirsiniz."
+msgid ""
+"Messages that appear infrequently during normal Tor operation and are not "
+"considered errors, but you may care about."
+msgstr ""
+"Bu mesajlar çok sık ortaya çıkmazözellikle normal durumlardatabiki hatalar "
+"hariç, ama genededikkate alabilirsiniz."
 
 #: messagelog.cpp:145
 msgctxt "MessageLog"
-msgid "Messages that appear frequently "
-"during normal Tor operation."
-msgstr "Bu mesajlar normalde sıklıkla"
-"ortaya çıkarlar."
+msgid "Messages that appear frequently during normal Tor operation."
+msgstr "Bu mesajlar normalde sıklıklaortaya çıkarlar."
 
 #: messagelog.cpp:147
 msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of "
-"interest to Tor developers."
-msgstr "Bu tarz İleri düzey mesajlar öncelikli"
-"olarak geliştiricileri ilgilendirir."
+msgid "Hyper-verbose messages primarily of interest to Tor developers."
+msgstr ""
+"Bu tarz İleri düzey mesajlar öncelikliolarak geliştiricileri ilgilendirir."
 
 #: messagelog.cpp:192
 msgctxt "MessageLog"
@@ -1611,7 +1658,7 @@ msgstr "Günlük mesajlar ayarlarını düzenle"
 #: messagelog.ui:559
 msgctxt "MessageLog"
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: messagelog.ui:567
 msgctxt "MessageLog"
@@ -1630,11 +1677,8 @@ msgstr "Vidalia Tor olaylarını günkülerine kaydedemiyor."
 
 #: messagelog.cpp:313
 msgctxt "MessageLog"
-msgid "Cannot write file %1"
-""
-"%2."
-msgstr "Dosyaya yazılamadı %1"
-"%2."
+msgid "Cannot write file %1%2."
+msgstr "Dosyaya yazılamadı %1%2."
 
 #: messagelog.cpp:209
 msgctxt "MessageLog"
@@ -1644,12 +1688,12 @@ msgstr "Vidali belirtilen günlük dosyasını açamıyor."
 #: messagelog.cpp:303
 msgctxt "MessageLog"
 msgid "Text Files (*.txt)"
-msgstr ""
+msgstr "Metin belgesi (*.txt)"
 
 #: messagelog.ui:573
 msgctxt "MessageLog"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: messagelog.cpp:230
 msgctxt "MessageLog"
@@ -1724,32 +1768,32 @@ msgstr "Pencereye sığdır"
 #: netviewer.ui:245
 msgctxt "NetViewer"
 msgid "Ctrl+R"
-msgstr ""
+msgstr "Ctrl+R"
 
 #: netviewer.ui:262
 msgctxt "NetViewer"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #: netviewer.ui:279
 msgctxt "NetViewer"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: netviewer.ui:296
 msgctxt "NetViewer"
 msgid "+"
-msgstr ""
+msgstr "+"
 
 #: netviewer.ui:313
 msgctxt "NetViewer"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: netviewer.ui:330
 msgctxt "NetViewer"
 msgid "Ctrl+Z"
-msgstr ""
+msgstr "Ctrl+Z"
 
 #: netviewer.ui:259
 msgctxt "NetViewer"
@@ -1792,6 +1836,7 @@ msgid "Refresh the list of Tor relays and connections"
 msgstr "Tor bağlantı ve aktarımlarını yenile"
 
 #: networkpage.cpp:34
+#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
 msgstr "Ağ"
@@ -1813,13 +1858,21 @@ msgstr "Kopyala(Ctrl+C)"
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
-msgstr "İnternet bağlanırken proxy kullanmak için IP adresi veya Sunucu ve port numarası girmeniz gerekiyor."
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr ""
+"İnternet bağlanırken proxy kullanmak için IP adresi veya Sunucu ve port "
+"numarası girmeniz gerekiyor."
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
-msgstr "Firewall'un Tor ağına bağlanabilmek için birden fazla port belirlemeniz gerekiyor."
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr ""
+"Firewall'un Tor ağına bağlanabilmek için birden fazla port belirlemeniz "
+"gerekiyor."
 
 #: networkpage.cpp:307
 msgctxt "NetworkPage"
@@ -1910,26 +1963,38 @@ msgstr "<a href=\"bridges.finding\">Nasıl bir köprü bulabilirim?</a>"
 msgctxt "NetworkPage"
 msgid "Check if your local network requires a proxy to access the Internet"
 msgstr ""
+"Eğer internete bağlanmak için bir proxy sunucusuna ihtiyaç duyuyorsa bunu "
+"kontol et."
 
 #: networkpage.ui:176
 msgctxt "NetworkPage"
 msgid "Check to only connect to relays using ports allowed by your firewall"
 msgstr ""
+"Güvenlik duvarı sadece izin verilen portlar üzerinden aktarım izni vermesini "
+"kontrol et"
 
 #: networkpage.ui:235
 msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
 msgstr ""
+"Tor ağına bağlanmak için  köprü kullanr yada şifrelenmiş dizinindeki "
+"istekleri kontrol et"
 
 #: networkpage.ui:262
 msgctxt "NetworkPage"
 msgid "Bridge Settings"
-msgstr ""
+msgstr "Köprü ayarları"
 
 #: networkpage.ui:274
 msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
+msgid ""
+"The Tor software you are currently running does not support bridges. "
+"<br>Directory connections will still be encrypted."
 msgstr ""
+"Şu anda kullanmış olduğunuz tor sürümü köprü özelliğini desteklemiyor."
+"<br>Dizin bağlantılarınız hala şifreli haldedir."
 
 #: policy.cpp:167
 msgctxt "Policy"
@@ -1944,7 +2009,7 @@ msgstr "Reddet"
 #: routerdescriptor.cpp:76
 msgctxt "RouterDescriptor"
 msgid "Online"
-msgstr ""
+msgstr "Çevrimiçi"
 
 #: routerdescriptor.cpp:78
 msgctxt "RouterDescriptor"
@@ -1954,7 +2019,7 @@ msgstr "Hazırda Bekliyor"
 #: routerdescriptor.cpp:80
 msgctxt "RouterDescriptor"
 msgid "Offline"
-msgstr ""
+msgstr "Çevrimdışı"
 
 #: routerdescriptorview.cpp:103
 msgctxt "RouterDescriptorView"
@@ -1989,37 +2054,37 @@ msgstr "Konum:"
 #: routerdescriptorview.cpp:60
 msgctxt "RouterDescriptorView"
 msgid "%1 days "
-msgstr ""
+msgstr "%1 gün"
 
 #: routerdescriptorview.cpp:63
 msgctxt "RouterDescriptorView"
 msgid "%1 hours "
-msgstr ""
+msgstr "%1 saat"
 
 #: routerdescriptorview.cpp:66
 msgctxt "RouterDescriptorView"
 msgid "%1 mins "
-msgstr ""
+msgstr "%1 dakia"
 
 #: routerdescriptorview.cpp:69
 msgctxt "RouterDescriptorView"
 msgid "%1 secs"
-msgstr ""
+msgstr "%1 saniye"
 
 #: routerlistitem.cpp:83
 msgctxt "RouterListItem"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 #: routerlistitem.cpp:67
 msgctxt "RouterListItem"
 msgid "Offline"
-msgstr ""
+msgstr "Çevrimdışı"
 
 #: routerlistitem.cpp:71
 msgctxt "RouterListItem"
 msgid "Hibernating"
-msgstr "Bekletiyor"
+msgstr "Hazırda Bekliyor"
 
 #: routerlistwidget.cpp:31
 msgctxt "RouterListWidget"
@@ -2084,7 +2149,7 @@ msgstr "Ortalama oran"
 #: serverpage.ui:708
 msgctxt "ServerPage"
 msgid "KB/s"
-msgstr ""
+msgstr "KB/s"
 
 #: serverpage.ui:695
 msgctxt "ServerPage"
@@ -2113,8 +2178,12 @@ msgstr "Bandgenişliği sınırı"
 
 #: serverpage.ui:435
 msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
-msgstr "Internet bağlantınızla hızlı indirme yapıp yavaş gönderme yapıyorsanız, lütfen gönderim hızlarınızı burada listeleyin."
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"Internet bağlantınızla hızlı indirme yapıp yavaş gönderme yapıyorsanız, "
+"lütfen gönderim hızlarınızı burada listeleyin."
 
 #: serverpage.ui:456
 msgctxt "ServerPage"
@@ -2124,27 +2193,27 @@ msgstr "Internet bağlantısı için en sık kullanılan girişi seç"
 #: serverpage.ui:466
 msgctxt "ServerPage"
 msgid "Cable/DSL 256 Kbps"
-msgstr ""
+msgstr "Cable/DSL 256 Kbps"
 
 #: serverpage.ui:471
 msgctxt "ServerPage"
 msgid "Cable/DSL 512 Kbps"
-msgstr ""
+msgstr "Cable/DSL 512 Kbps"
 
 #: serverpage.ui:476
 msgctxt "ServerPage"
 msgid "Cable/DSL 768 Kbps"
-msgstr ""
+msgstr "Cable/DSL 768 Kbps"
 
 #: serverpage.ui:481
 msgctxt "ServerPage"
 msgid "T1/Cable/DSL 1.5 Mbps"
-msgstr ""
+msgstr "T1/Cable/DSL 1.5 Mbps"
 
 #: serverpage.ui:486
 msgctxt "ServerPage"
 msgid "> 1.5 Mbps"
-msgstr ""
+msgstr "> 1.5 Mbps"
 
 #: serverpage.ui:491
 msgctxt "ServerPage"
@@ -2159,7 +2228,7 @@ msgstr "Portlar 6660 - 6669 ve 6697"
 #: serverpage.ui:805
 msgctxt "ServerPage"
 msgid "Internet Relay Chat (IRC)"
-msgstr ""
+msgstr "Internet Relay Chat (IRC)"
 
 #: serverpage.ui:815
 msgctxt "ServerPage"
@@ -2189,17 +2258,17 @@ msgstr "Anlık mesajlaşma"
 #: serverpage.ui:854
 msgctxt "ServerPage"
 msgid "Port 443"
-msgstr ""
+msgstr "Port 443"
 
 #: serverpage.ui:857
 msgctxt "ServerPage"
 msgid "Secure Websites (SSL)"
-msgstr ""
+msgstr "Secure Websites (SSL)"
 
 #: serverpage.ui:867
 msgctxt "ServerPage"
 msgid "Port 80"
-msgstr ""
+msgstr "Port 80"
 
 #: serverpage.ui:870
 msgctxt "ServerPage"
@@ -2208,13 +2277,18 @@ msgstr "Web Siteleri"
 
 #: serverpage.ui:737
 msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
-msgstr "Maximum bandgenişliği oranın büyük veya eşit olmalı mevcut bandgenişlği ortlamasına. İki değerde en az 20KB/s."
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+"Maximum bandgenişliği oranın büyük veya eşit olmalı mevcut bandgenişlği "
+"ortlamasına. İki değerde en az 20KB/s."
 
 #: serverpage.cpp:68
+#, fuzzy
 msgctxt "ServerPage"
 msgid "Server"
-msgstr "Sunucu"
+msgstr "Servisler"
 
 #: serverpage.cpp:133
 msgctxt "ServerPage"
@@ -2223,13 +2297,21 @@ msgstr "Köprü desteği kullanım dışı"
 
 #: serverpage.cpp:136
 msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
-msgstr "Ayarlarınız Tor'u köprü gibi davranmaya zorluyor, ama şu anki versiyonunuz köprülemeyi desteklemiyor."
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr ""
+"Ayarlarınız Tor'u köprü gibi davranmaya zorluyor, ama şu anki versiyonunuz "
+"köprülemeyi desteklemiyor."
 
 #: serverpage.cpp:138
 msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
-msgstr "Lütfen Tor yazılımınızı kendi Tor ağınız için ayarlamak için yazılımınızı güncelleyin."
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+"Lütfen Tor yazılımınızı kendi Tor ağınız için ayarlamak için yazılımınızı "
+"güncelleyin."
 
 #: serverpage.cpp:256
 msgctxt "ServerPage"
@@ -2243,9 +2325,12 @@ msgstr "Aktarım portu:"
 
 #: serverpage.ui:204
 msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
-msgstr "Eğer tor ağınızdaki herhangi bir problem olursa size ulaşıması için e-posta adresi gerekiyor. İsterseniz PGP veya GPG'dahil olabilir."
+msgid ""
+"Email address at which you may be reached if there is aproblem with your "
+"relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+"Eğer tor ağınızdaki herhangi bir problem olursa size ulaşıması için e-posta "
+"adresi gerekiyor. İsterseniz PGP veya GPG'dahil olabilir."
 
 #: serverpage.ui:113
 msgctxt "ServerPage"
@@ -2260,7 +2345,8 @@ msgstr "Köprünüz çalışmıyor."
 #: serverpage.ui:39
 msgctxt "ServerPage"
 msgid "Help censored users reach the Tor network (Tor 0.2.0.8-alpha or newer)"
-msgstr "Tor ağına erişirken yardımı gösterme(Tor 0.2.0.8-alpha yada daha yeni) "
+msgstr ""
+"Tor ağına erişirken yardımı gösterme(Tor 0.2.0.8-alpha yada daha yeni) "
 
 #: serverpage.ui:337
 msgctxt "ServerPage"
@@ -2279,7 +2365,8 @@ msgstr "Bu satırı verenlerin kendi köprüne erişmine izin ver:"
 
 #: serverpage.ui:1029
 msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
 msgstr "Bu kimliği hem köprüne hemde ağına erişmeleri için verebilirsin "
 
 #: serverpage.ui:1051
@@ -2295,32 +2382,34 @@ msgstr "Portlar 706, 1863, 5050, 5190, 5222, 5223, 8300 ve 8888"
 #: serverpage.ui:25
 msgctxt "ServerPage"
 msgid "Run as a client only"
-msgstr ""
+msgstr "Sadece kullanıcı olarak çalıştır"
 
 #: serverpage.ui:110
 msgctxt "ServerPage"
 msgid "Enable to mirror the relay directory"
-msgstr ""
+msgstr "Aktarım dizinin etkinleştir"
 
 #: serverpage.ui:139
 msgctxt "ServerPage"
 msgid "Attempt to automatically configure port forwarding"
-msgstr ""
+msgstr "Port yanıtlmayı otomatik olarak gerçekleştir"
 
 #: serverpage.ui:154
 msgctxt "ServerPage"
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: serverpage.ui:969
 msgctxt "ServerPage"
 msgid "What Internet resources should users be able to access from your relay?"
 msgstr ""
+"Hangi  internet kaynakları kullanıcılar tarafından sizin üzerinizden "
+"ulaşabilir?"
 
 #: serverpage.ui:164
 msgctxt "ServerPage"
 msgid "Show help topic on port forwarding"
-msgstr ""
+msgstr "Port yanıtlama başlıklarını göster"
 
 #: servicepage.ui:31
 msgctxt "ServicePage"
@@ -2368,6 +2457,7 @@ msgid "Browse in local file system and choose directory for selected service"
 msgstr "Yerel dosya sistemine gözatarak seçili servis için dizin seç"
 
 #: servicepage.cpp:27
+#, fuzzy
 msgctxt "ServicePage"
 msgid "Services"
 msgstr "Servisler"
@@ -2381,7 +2471,6 @@ msgstr "Türm servsileri durdururken ahta oluştu"
 msgctxt "ServicePage"
 msgid "Error"
 msgstr "Hata"
-""
 
 #: servicepage.cpp:451
 msgctxt "ServicePage"
@@ -2411,7 +2500,7 @@ msgstr "Bu dizin zaten başka bir servis tarafından kullanılıyor."
 #: servicepage.ui:19
 msgctxt "ServicePage"
 msgid "Form"
-msgstr ""
+msgstr "Form"
 
 #: servicepage.ui:61
 msgctxt "ServicePage"
@@ -2420,8 +2509,12 @@ msgstr "Sanal port"
 
 #: servicepage.cpp:116
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
 msgstr ""
+"Lütfen sanal port kullanımı  için en az biri himzet dizin belirleyiniz."
+"Diğerlerini kaldırın."
 
 #: stream.cpp:118
 msgctxt "Stream"
@@ -2491,72 +2584,72 @@ msgstr "Kontrol şifresinin hash kodunda hata oluştu."
 #: upnpcontrol.cpp:139
 msgctxt "UPNPControl"
 msgid "Success"
-msgstr ""
+msgstr "Başarılı"
 
 #: upnpcontrol.cpp:141
 msgctxt "UPNPControl"
 msgid "No UPnP-enabled devices found"
-msgstr ""
+msgstr "UPnP aygıtı bulunamadı"
 
 #: upnpcontrol.cpp:143
 msgctxt "UPNPControl"
 msgid "No valid UPnP-enabled Internet gateway devices found"
-msgstr ""
+msgstr "Geçerli ağ geçidi sağlayan UpnP aygıtı bulunamadı"
 
 #: upnpcontrol.cpp:145
 msgctxt "UPNPControl"
 msgid "WSAStartup failed"
-msgstr ""
+msgstr "WSAStartup başarız"
 
 #: upnpcontrol.cpp:147
 msgctxt "UPNPControl"
 msgid "Failed to add a port mapping"
-msgstr ""
+msgstr "Port haritası ekleyemiyor"
 
 #: upnpcontrol.cpp:149
 msgctxt "UPNPControl"
 msgid "Failed to retrieve a port mapping"
-msgstr ""
+msgstr "Port haritası alamayor"
 
 #: upnpcontrol.cpp:151
 msgctxt "UPNPControl"
 msgid "Failed to remove a port mapping"
-msgstr ""
+msgstr "Port haritalamayı kaldıramıyor"
 
 #: upnpcontrol.cpp:153
 msgctxt "UPNPControl"
 msgid "Unknown error"
-msgstr ""
+msgstr "Bilinmeyen hata"
 
 #: upnptestdialog.cpp:112
 msgctxt "UPNPTestDialog"
 msgid "Discovering UPnP-enabled devices"
-msgstr ""
+msgstr "UPnP-aktif olan aygıtları araştır"
 
 #: upnptestdialog.cpp:117
 msgctxt "UPNPTestDialog"
 msgid "Updating directory port mapping"
-msgstr ""
+msgstr "Port haritalama dizinini güncelliyor"
 
 #: upnptestdialog.cpp:122
 msgctxt "UPNPTestDialog"
 msgid "Updating relay port mapping"
-msgstr ""
+msgstr "Aktarım için port haritalama güncelleniyor"
 
 #: upnptestdialog.cpp:127
 msgctxt "UPNPTestDialog"
 msgid "Test completed successfully!"
-msgstr ""
+msgstr "Test başarıyla gerçekleşti"
 
 #: upnptestdialog.ui:13
 msgctxt "UPNPTestDialog"
 msgid "Testing UPnP Support"
-msgstr ""
+msgstr "UPnP Desteği test ediliyor"
 
 #: upnptestdialog.ui:92
 msgctxt "UPNPTestDialog"
 msgid "Testing Universal Plug & Play Support"
-msgstr ""
+msgstr "Tak ve çalıştır desteği test ediliyor"
 
 #: vmessagebox.cpp:77
 msgctxt "VMessageBox"
@@ -2630,11 +2723,14 @@ msgstr "Vidali zaten çalışıyor"
 
 #: main.cpp:94
 msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
-""
-"Would you like to continue starting Vidalia?"
-msgstr "Başka bir vidalia işlemi zaten çalışıyor.Şu anda çalışan vidali işlemi değilse, devam etmeyi seçebilirsiniz."
-"Vidalia başlatmaya devam etmek istermisiniz?"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not "
+"another Vidalia process running, you can choose to continue anyway.Would you "
+"like to continue starting Vidalia?"
+msgstr ""
+"Başka bir vidalia işlemi zaten çalışıyor.Şu anda çalışan vidali işlemi "
+"değilse, devam etmeyi seçebilirsiniz.Vidalia başlatmaya devam etmek "
+"istermisiniz?"
 
 #: main.cpp:74
 msgctxt "Vidalia"
@@ -2695,4 +2791,3 @@ msgstr "Hatalı günlük seviyesi tanımı:"
 msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
 msgstr "Günlük dosyası açılamıyor'%1':%2"
-
