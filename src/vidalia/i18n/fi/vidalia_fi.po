@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
 "POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: 2008-09-03 13:51+0000\n"
+"PO-Revision-Date: 2009-02-07 23:05+0000\n"
 "Last-Translator: Harri Vähätalo <harri@svahatalo.fi>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -33,29 +33,34 @@ msgid "Qt"
 msgstr "Qt"
 
 #: aboutdialog.ui:166
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Qt Version"
-msgstr "Qt-versio"
+msgstr "versio"
 
 #: aboutdialog.ui:244
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Tor Version"
-msgstr "Tor-ohjelman versio"
+msgstr "versio"
 
 #: aboutdialog.ui:88
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Vidalia Version"
-msgstr "Vidalia-versio"
+msgstr "Vidalian ohje"
 
 #: aboutdialog.cpp:68
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Not Running>"
 msgstr "Ei ole käynnissä"
 
 #: aboutdialog.cpp:64
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Unavailable>"
-msgstr "<Ei ole saatavilla>"
+msgstr "Ei saatavilla"
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
@@ -68,9 +73,10 @@ msgid "Browse"
 msgstr "Selaa"
 
 #: advancedpage.ui:337
+#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Permissions"
-msgstr "Oikeudet"
+msgstr "versio"
 
 #: advancedpage.ui:360
 msgctxt "AdvancedPage"
@@ -183,6 +189,7 @@ msgid "None"
 msgstr "Ei lainkaan"
 
 #: advancedpage.cpp:34
+#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Advanced"
 msgstr "Lisäasetukset"
@@ -219,9 +226,9 @@ msgstr "Tor-asetustiedosto"
 
 #: advancedpage.cpp:287
 msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service."
-""
-"You may need to remove it manually."
+msgid ""
+"Vidalia was unable to remove the Tor service.You may need to remove it "
+"manually."
 msgstr ""
 "Vidalia ei onnistunut poistamaan Tor-palvelua. Sen voi joutua poistamaan "
 "manuaalisesti."
@@ -254,6 +261,7 @@ msgid "Choose Vidalia's interface style"
 msgstr "Valitse teema Vidalian käyttöliittymälle"
 
 #: appearancepage.cpp:23
+#, fuzzy
 msgctxt "AppearancePage"
 msgid "Appearance"
 msgstr "Ulkoasu"
@@ -399,6 +407,7 @@ msgid "Advanced"
 msgstr "Lisäasetukset"
 
 #: configdialog.cpp:59
+#, fuzzy
 msgctxt "ConfigDialog"
 msgid "Cancel"
 msgstr "Peruuta"
@@ -441,9 +450,11 @@ msgstr "Virhe otettaessa käyttöön asetuksia"
 #: configdialog.cpp:205
 msgctxt "ConfigDialog"
 msgid "Vidalia was unable to apply your %1 settings to Tor."
-msgstr "Vidalia ei onnistunut ottamaan käyttöön %1 asetuksia Tor-ohjelman kanssa."
+msgstr ""
+"Vidalia ei onnistunut ottamaan käyttöön %1 asetuksia Tor-ohjelman kanssa."
 
 #: configdialog.cpp:56
+#, fuzzy
 msgctxt "ConfigDialog"
 msgid "OK"
 msgstr "OK"
@@ -504,6 +515,7 @@ msgid "Executables (*.exe)"
 msgstr "Suoritettavat (*.exe)"
 
 #: generalpage.cpp:23
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "General"
 msgstr "Yleiset"
@@ -529,14 +541,16 @@ msgid "Start Vidalia when my system starts"
 msgstr "Käynnistä Vidalia samalla, kun järjestelmä käynnistyy"
 
 #: generalpage.ui:75
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Vidalia starts"
-msgstr "Käynnistä välityspalvelin-ohjelma Vidalian käynnistyessä"
+msgstr "Käynnistä välityspalvelin-ohjelma Tor-ohjelman käynnistyessä"
 
 #: generalpage.ui:97
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Proxy Executable"
-msgstr "Välityspalvelinohjelma"
+msgstr "Valitse välityspalvelinohjelma"
 
 #: generalpage.ui:129
 msgctxt "GeneralPage"
@@ -549,9 +563,10 @@ msgid "Start the Tor software when Vidalia starts"
 msgstr "Käynnistä Tor-ohjelma Vidalian käynnistyessä"
 
 #: generalpage.ui:38
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Tor Executable"
-msgstr "Tor-ohjelma"
+msgstr "Valitse välityspalvelinohjelma"
 
 #: graphframe.cpp:237
 msgctxt "GraphFrame"
@@ -755,8 +770,14 @@ msgstr "Avataan ulkoista linkkiä"
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
-msgstr "Vidalia voi avata valitun linkin oletus Internetselaimessa. Jos selainta ei ole määritelty käyttämään Tor-verkkoa, niin sivulla oleminen ei ole anonyymistä."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr ""
+"Vidalia voi avata valitun linkin oletus Internetselaimessa. Jos selainta ei "
+"ole määritelty käyttämään Tor-verkkoa, niin sivulla oleminen ei ole "
+"anonyymistä."
 
 #: helptextbrowser.cpp:78
 msgctxt "HelpTextBrowser"
@@ -770,8 +791,12 @@ msgstr "Linkin avaaminen epäonnistui"
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
-msgstr "Vidalia ei onnistunut avaamaan valittua linkkiä Internetselaimessa. Linkin voi kuitenkin kopioida ja liittää selaimen osoiteriville."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr ""
+"Vidalia ei onnistunut avaamaan valittua linkkiä Internetselaimessa. Linkin "
+"voi kuitenkin kopioida ja liittää selaimen osoiteriville."
 
 #: logevent.cpp:57
 msgctxt "LogEvent"
@@ -849,9 +874,10 @@ msgid "Ctrl+?"
 msgstr "Ctrl+?"
 
 #: mainwindow.cpp:411
+#, fuzzy
 msgctxt "MainWindow"
 msgid "File"
-msgstr "Tiedosto"
+msgstr "Epäonnistui"
 
 #: mainwindow.cpp:414
 msgctxt "MainWindow"
@@ -880,8 +906,12 @@ msgstr "Ctrl+N"
 
 #: mainwindow.cpp:834
 msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
-msgstr "Vidalia ei onnistunut käynnistämään Tor-ohjelmaa. Tarkista asetuksista onko Tor-ohjelman nimi ja sijaint kirjoitettui oikein."
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr ""
+"Vidalia ei onnistunut käynnistämään Tor-ohjelmaa. Tarkista asetuksista onko "
+"Tor-ohjelman nimi ja sijaint kirjoitettui oikein."
 
 #: mainwindow.cpp:320
 msgctxt "MainWindow"
@@ -905,7 +935,9 @@ msgstr "Ctrl+I"
 
 #: mainwindow.cpp:1334
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
 msgstr "Seuraavat yhteydet tulevat olemaan erilaiset kuin vanhat."
 
 #: mainwindow.cpp:1349
@@ -1014,9 +1046,10 @@ msgid "Error Registering for Events"
 msgstr ""
 
 #: mainwindow.cpp:1145
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Password Authentication Required"
-msgstr "Salasana-kirjautumista vaaditaan"
+msgstr "Eväste-kirjautumista vaaditaan"
 
 #: mainwindow.cpp:1164
 msgctxt "MainWindow"
@@ -1024,9 +1057,10 @@ msgid "Please check your control port authentication settings."
 msgstr "Ole hyvä ja tarkista ohjausportin kirjautumisasetukset."
 
 #: mainwindow.cpp:1146
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Please enter your control password (not the hash):"
-msgstr "Ole hyvä ja anna ohjaussalasanasi (ei hashia):"
+msgstr "Ole hyvä ja tarkista ohjausportin kirjautumisasetukset."
 
 #: mainwindow.cpp:910
 msgctxt "MainWindow"
@@ -1050,8 +1084,12 @@ msgstr "Tor-ohjelmaan on saatavilla päivitys"
 
 #: mainwindow.cpp:1271
 msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
-msgstr "Asennettu versio Tor-ohjelmasta on vanhentunut tai sitä ei suositella enään. Ole hyvä ja lataa uusin versio Tor-ohjelman kotisivulta."
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr ""
+"Asennettu versio Tor-ohjelmasta on vanhentunut tai sitä ei suositella enään. "
+"Ole hyvä ja lataa uusin versio Tor-ohjelman kotisivulta."
 
 #: mainwindow.cpp:1271
 msgctxt "MainWindow"
@@ -1090,8 +1128,12 @@ msgstr "Odottamaton virhe"
 
 #: mainwindow.cpp:1050
 msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
-msgstr "Tor-ohjelma vaatii Vidaliaa lähettämään kirjautumisevästeen sisällön, mutta Vidalia ei löytänyt sillaista."
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr ""
+"Tor-ohjelma vaatii Vidaliaa lähettämään kirjautumisevästeen sisällön, mutta "
+"Vidalia ei löytänyt sillaista."
 
 #: mainwindow.cpp:1059
 msgctxt "MainWindow"
@@ -1105,7 +1147,9 @@ msgstr "Ohjauseväste (control_auth_cookie)"
 
 #: mainwindow.cpp:1111
 msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
 msgstr ""
 
 #: mainwindow.cpp:1160
@@ -1126,7 +1170,8 @@ msgstr "Porttien läpivienti epäonnistui"
 #: mainwindow.cpp:1399
 msgctxt "MainWindow"
 msgid "Vidalia was unable to configure automatic port forwarding."
-msgstr "Vidalia ei onnistunut määrittelemään automaattista porttien läpivientiä."
+msgstr ""
+"Vidalia ei onnistunut määrittelemään automaattista porttien läpivientiä."
 
 #: mainwindow.ui:49
 msgctxt "MainWindow"
@@ -1294,9 +1339,10 @@ msgid "Starting Tor"
 msgstr "Käynnistetään Tor-ohjelmaa"
 
 #: mainwindow.cpp:677
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Tor is Running"
-msgstr "Tor on käynnissä"
+msgstr "Tor-ohjelma ei ole käynnissä"
 
 #: mainwindow.cpp:868
 msgctxt "MainWindow"
@@ -1310,17 +1356,17 @@ msgstr "Kirjaudutaan Tor-ohjelmaan"
 
 #: mainwindow.cpp:641
 msgctxt "MainWindow"
-msgid "Your relay is shutting down."
-"Click 'Stop' again to stop your relay now."
+msgid "Your relay is shutting down.Click 'Stop' again to stop your relay now."
 msgstr ""
 "Reititintäsi lopetetaan. Klikkaa 'Pysäytä' uudestaan pysäyttääkseen "
 "reitittimen nyt."
 
 #: mainwindow.cpp:915
 msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
-""
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any "
+"open connections from clients.Would you like to shutdown gracefully and give "
+"clients time to find a new relay?"
 msgstr ""
 "Tietokone suorittaa tällä hetkellä reititintä. Reitittimen pysäyttäminen "
 "keskeyttää avoimet yhteydet muihin käyttäjiin. Haluaisitko sulkea sulavammin "
@@ -1328,9 +1374,9 @@ msgstr ""
 
 #: mainwindow.cpp:973
 msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly."
-""
-"Please check the message log for recent warning or error messages."
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.Please check the "
+"message log for recent warning or error messages."
 msgstr ""
 "Vidalia havaitsi Tor-ohjelman pysähtyneen yllättäen. Ole hyvä ja selaa "
 "tapahtumalokia varoitus- tai virheilmoitusten vuoksi."
@@ -1657,26 +1703,25 @@ msgstr "Tallenna automaattisesti uudet tapahtumat tiedostoon"
 
 #: messagelog.cpp:137
 msgctxt "MessageLog"
-msgid "Messages that appear when something has "
-"gone very wrong and Tor cannot proceed."
+msgid ""
+"Messages that appear when something has gone very wrong and Tor cannot "
+"proceed."
 msgstr ""
 "Tapahtumat, jotka tapahtuvat kun jotain on pahasti mennyt pieleen eikä Tor-"
 "ohjelma pysty jatkaa."
 
 #: messagelog.cpp:139
 msgctxt "MessageLog"
-msgid "Messages that only appear when "
-"something has gone wrong with Tor."
+msgid "Messages that only appear when something has gone wrong with Tor."
 msgstr ""
 "Tapahtumat, jotka tapahtuvat vain kun on jotain mennyt pieleen Tor-ohjelman "
 "kanssa."
 
 #: messagelog.cpp:143
 msgctxt "MessageLog"
-msgid "Messages that appear infrequently "
-"during normal Tor operation and are "
-"not considered errors, but you may "
-"care about."
+msgid ""
+"Messages that appear infrequently during normal Tor operation and are not "
+"considered errors, but you may care about."
 msgstr ""
 "Tapahtumat, jotka tapahtuvat sattumanvaraisesti normaalin Tor-ohjelman "
 "toiminnan yhteydessä ja joita ei pidetä virheinä, mutta joita kannattaa "
@@ -1684,25 +1729,21 @@ msgstr ""
 
 #: messagelog.cpp:145
 msgctxt "MessageLog"
-msgid "Messages that appear frequently "
-"during normal Tor operation."
+msgid "Messages that appear frequently during normal Tor operation."
 msgstr ""
 "Tapahtumat, jotka tapahtuvat säännöllisesti normaalin Tor-ohjelman toiminnan "
 "kanssa."
 
 #: messagelog.cpp:147
 msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of "
-"interest to Tor developers."
+msgid "Hyper-verbose messages primarily of interest to Tor developers."
 msgstr ""
 "Erittäin monisanaisia tapahtumia, jotka kiinnostavat erityisesti Tor-"
 "ohjelmoijia."
 
 #: messagelog.cpp:313
 msgctxt "MessageLog"
-msgid "Cannot write file %1"
-""
-"%2."
+msgid "Cannot write file %1%2."
 msgstr "Tiedoston %1%2 kirjoittaminen ei onnistunut."
 
 #: netviewer.ui:236
@@ -1806,6 +1847,7 @@ msgid "Refresh the list of Tor relays and connections"
 msgstr "Päivitä Tor-reititin ja -yhteyslista"
 
 #: networkpage.cpp:34
+#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
 msgstr "Verkko"
@@ -1827,13 +1869,21 @@ msgstr "Kopioi (Ctrl+C)"
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
-msgstr "IP-osoite tai isäntä ja portti pitää määrittää, jotta Tor-ohjelma voi yhdistää välityspalvelimen kautta Internettiin."
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr ""
+"IP-osoite tai isäntä ja portti pitää määrittää, jotta Tor-ohjelma voi "
+"yhdistää välityspalvelimen kautta Internettiin."
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
-msgstr "Portteja pitää olla määriteltynä vähintään yksi tai useampi, mihin palomuuri antaa yhdistää."
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr ""
+"Portteja pitää olla määriteltynä vähintään yksi tai useampi, mihin palomuuri "
+"antaa yhdistää."
 
 #: networkpage.cpp:307
 msgctxt "NetworkPage"
@@ -1923,17 +1973,23 @@ msgstr "<a href=\"bridges.finding\">Miten löydän siltareitittimen?</a>"
 #: networkpage.ui:25
 msgctxt "NetworkPage"
 msgid "Check if your local network requires a proxy to access the Internet"
-msgstr "Tarkista, jos paikallinen verkko vaatii välityspalvelimen Internetin pääsyyn"
+msgstr ""
+"Tarkista, jos paikallinen verkko vaatii välityspalvelimen Internetin pääsyyn"
 
 #: networkpage.ui:176
 msgctxt "NetworkPage"
 msgid "Check to only connect to relays using ports allowed by your firewall"
-msgstr "Rastita yhdistääkseen vain reitittimiin käyttäen palomuurin sallimia portteja"
+msgstr ""
+"Rastita yhdistääkseen vain reitittimiin käyttäen palomuurin sallimia portteja"
 
 #: networkpage.ui:235
 msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
-msgstr "Rastita suojatakseen listayhteyspyynnöt ja valinnaisesti käytä siltareitittimiä pääsemään Tor-verkkoon"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr ""
+"Rastita suojatakseen listayhteyspyynnöt ja valinnaisesti käytä "
+"siltareitittimiä pääsemään Tor-verkkoon"
 
 #: networkpage.ui:262
 msgctxt "NetworkPage"
@@ -1942,8 +1998,12 @@ msgstr "Silta-asetukset"
 
 #: networkpage.ui:274
 msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
-msgstr "Käytössä oleva Tor-ohjelma ei tue siltoja. <br>Listayhteydet kuitenkin suojataan."
+msgid ""
+"The Tor software you are currently running does not support bridges. "
+"<br>Directory connections will still be encrypted."
+msgstr ""
+"Käytössä oleva Tor-ohjelma ei tue siltoja. <br>Listayhteydet kuitenkin "
+"suojataan."
 
 #: policy.cpp:167
 msgctxt "Policy"
@@ -2127,8 +2187,12 @@ msgstr "Nopeusrajoitukset"
 
 #: serverpage.ui:435
 msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
-msgstr "Yhteydet, joilla on nopea latausnopeus mutta hidas lähetys, valitkaa listasta alhaalta lähetysnopeutenne."
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"Yhteydet, joilla on nopea latausnopeus mutta hidas lähetys, valitkaa "
+"listasta alhaalta lähetysnopeutenne."
 
 #: serverpage.ui:456
 msgctxt "ServerPage"
@@ -2222,13 +2286,18 @@ msgstr "Verkkosivustot"
 
 #: serverpage.ui:737
 msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
-msgstr "Enimmäisnopeus pitää olla suurempi tai sama kuin keskimääräinen nopeus. Molempien lukujen pitäisi olla vähintään 20 kt/s."
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+"Enimmäisnopeus pitää olla suurempi tai sama kuin keskimääräinen nopeus. "
+"Molempien lukujen pitäisi olla vähintään 20 kt/s."
 
 #: serverpage.cpp:68
+#, fuzzy
 msgctxt "ServerPage"
 msgid "Server"
-msgstr "Palvelin"
+msgstr "Palvelut"
 
 #: serverpage.cpp:133
 msgctxt "ServerPage"
@@ -2237,13 +2306,21 @@ msgstr "Siltatuki ei ole saatavilla"
 
 #: serverpage.cpp:136
 msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
-msgstr "Tor-ohjelma on säädetty käyttäytymään siltareitittimenä sensuroiduille käyttäjille, mutta käytössä oleva Tor ei tue siltoja."
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr ""
+"Tor-ohjelma on säädetty käyttäytymään siltareitittimenä sensuroiduille "
+"käyttäjille, mutta käytössä oleva Tor ei tue siltoja."
 
 #: serverpage.cpp:138
 msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
-msgstr "Ole hyvä ja päivitä Tor-ohjelmasi tai säädä Tor-ohjelmasi toimimaan normaalina Tor-reitittimenä."
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+"Ole hyvä ja päivitä Tor-ohjelmasi tai säädä Tor-ohjelmasi toimimaan "
+"normaalina Tor-reitittimenä."
 
 #: serverpage.cpp:256
 msgctxt "ServerPage"
@@ -2268,7 +2345,9 @@ msgstr "Siltareititin ei ole päällä."
 #: serverpage.ui:39
 msgctxt "ServerPage"
 msgid "Help censored users reach the Tor network (Tor 0.2.0.8-alpha or newer)"
-msgstr "Auta sensuroituja käyttäjiä pääsemään Tor-verkkoon (Tor 0.2.0.8-alpha tai uudempi)"
+msgstr ""
+"Auta sensuroituja käyttäjiä pääsemään Tor-verkkoon (Tor 0.2.0.8-alpha tai "
+"uudempi)"
 
 #: serverpage.ui:337
 msgctxt "ServerPage"
@@ -2278,7 +2357,8 @@ msgstr "Reitittimesi nimi"
 #: serverpage.ui:370
 msgctxt "ServerPage"
 msgid "Port on which users and other relays can communicate with your relay"
-msgstr "Portti, jolla käyttäjät ja muut reitittimet kommunikoivat reitittimesi kanssa"
+msgstr ""
+"Portti, jolla käyttäjät ja muut reitittimet kommunikoivat reitittimesi kanssa"
 
 #: serverpage.ui:1005
 msgctxt "ServerPage"
@@ -2287,8 +2367,11 @@ msgstr "Anna muiden käyttää siltaasi antamalla heille tämä rivi:"
 
 #: serverpage.ui:1029
 msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
-msgstr "Tämä on tämän siltareitittimen henkilöllisyys, jonka voi antaa muille käyttäjille"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr ""
+"Tämä on tämän siltareitittimen henkilöllisyys, jonka voi antaa muille "
+"käyttäjille"
 
 #: serverpage.ui:1051
 msgctxt "ServerPage"
@@ -2323,7 +2406,8 @@ msgstr "Kokeile"
 #: serverpage.ui:969
 msgctxt "ServerPage"
 msgid "What Internet resources should users be able to access from your relay?"
-msgstr "Mitä Internet-palveuita käyttäjien pitäisi voida käyttää reitittimesi kautta?"
+msgstr ""
+"Mitä Internet-palveuita käyttäjien pitäisi voida käyttää reitittimesi kautta?"
 
 #: serverpage.ui:164
 msgctxt "ServerPage"
@@ -2332,13 +2416,15 @@ msgstr "Näytä ohjeenaihe porttien läpiviennistä"
 
 #: serverpage.ui:204
 msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgid ""
+"Email address at which you may be reached if there is aproblem with your "
+"relay. You might also include your PGP or GPG fingerprint."
 msgstr ""
 "Sähköpostiosoite, josta voidaan tavoittaa ongelmien sattuessa reitittimen "
 "kanssa. Voit sisällyttää myös oman PGP- tai GPG-tunnistuksen."
 
 #: servicepage.cpp:27
+#, fuzzy
 msgctxt "ServicePage"
 msgid "Services"
 msgstr "Palvelut"
@@ -2366,7 +2452,8 @@ msgstr "Valitse palvelun kansio"
 #: servicepage.cpp:540
 msgctxt "ServicePage"
 msgid "Virtual Port may only contain valid port numbers [1..65535]."
-msgstr "Virtuaaliportti voi sisältää vain kelvollisia porttinumeroita [1..65535]."
+msgstr ""
+"Virtuaaliportti voi sisältää vain kelvollisia porttinumeroita [1..65535]."
 
 #: servicepage.cpp:571
 msgctxt "ServicePage"
@@ -2431,12 +2518,17 @@ msgstr "Kopioi onion-osoite valitusta palvelusta leikepöydälle"
 #: servicepage.ui:123
 msgctxt "ServicePage"
 msgid "Browse in local file system and choose directory for selected service"
-msgstr "Selaa paikallista tiedostojärjestelmää ja valitse kansio valitulle palvelulle"
+msgstr ""
+"Selaa paikallista tiedostojärjestelmää ja valitse kansio valitulle palvelulle"
 
 #: servicepage.cpp:116
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
-msgstr "Ole hyvä ja määritä vähintään palvelun kansio ja virtuaaliportti jokaiselle halumallesi palvelulle, jonka haluat tallentaa. Muut voi poistaa."
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr ""
+"Ole hyvä ja määritä vähintään palvelun kansio ja virtuaaliportti jokaiselle "
+"halumallesi palvelulle, jonka haluat tallentaa. Muut voi poistaa."
 
 #: stream.cpp:118
 msgctxt "Stream"
@@ -2516,7 +2608,8 @@ msgstr "UPnP-laitteita ei löytynyt"
 #: upnpcontrol.cpp:143
 msgctxt "UPNPControl"
 msgid "No valid UPnP-enabled Internet gateway devices found"
-msgstr "Yhteensopivia UPnP:tä käyttäviä Internet-yhdyskäytävälaitteita ei löytynyt"
+msgstr ""
+"Yhteensopivia UPnP:tä käyttäviä Internet-yhdyskäytävälaitteita ei löytynyt"
 
 #: upnpcontrol.cpp:145
 msgctxt "UPNPControl"
@@ -2705,9 +2798,10 @@ msgstr "Lokitiedoston'%1': %2 avaaminen epäonnistui"
 
 #: main.cpp:94
 msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
-""
-"Would you like to continue starting Vidalia?"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not "
+"another Vidalia process running, you can choose to continue anyway.Would you "
+"like to continue starting Vidalia?"
 msgstr ""
 "Vidalia on jo mahdollisesti päällä. Jos Vidalia ei olekaan päällä, niin voit "
 "kuitenkin jatkaa. Haluatko jatkaa Vidalian käynnistämistä?"
