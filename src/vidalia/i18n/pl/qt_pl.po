@@ -169,35 +169,24 @@ msgstr "Rodzaj"
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
-msgid "%1 already exists."
-"Do you want to replace it?"
-msgstr "%1 już istnieje."
-"Czy chcesz zamienić?"
+msgid "%1 already exists.Do you want to replace it?"
+msgstr "%1 już istnieje.Czy chcesz zamienić?"
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
-msgid "'%1' is write protected."
-"Do you want to delete it anyway?"
-msgstr "'%1' jest zabezpieczony przed zapisem."
-"Czy na pewno chcesz go skasować?"
+msgid "'%1' is write protected.Do you want to delete it anyway?"
+msgstr "'%1' jest zabezpieczony przed zapisem.Czy na pewno chcesz go skasować?"
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
-msgid "%1"
-"Directory not found."
-"Please verify the correct directory name was given."
-msgstr "%1"
-"Katalog nie znaleziony."
-"Sprawdź podaną nazwę katalogu."
+msgid ""
+"%1Directory not found.Please verify the correct directory name was given."
+msgstr "%1Katalog nie znaleziony.Sprawdź podaną nazwę katalogu."
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
-msgid "%1"
-"File not found."
-"Please verify the correct file name was given."
-msgstr "%1"
-"Plik nie znaleziony."
-"Proszę o sprawdzenie podanej nazwy pliku."
+msgid "%1File not found.Please verify the correct file name was given."
+msgstr "%1Plik nie znaleziony.Proszę o sprawdzenie podanej nazwy pliku."
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -391,8 +380,12 @@ msgstr "Niepoprawna nazwa pliku"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
-msgid "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer characters or no punctuations marks."
-msgstr "<b>Nazwa \"%1\" nie może zostać użyta.</b><p>Spróbuj użyć nowej nazwy z mniejszą liczbą znaków lub bez znaków przystankowych."
+msgid ""
+"<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
+"characters or no punctuations marks."
+msgstr ""
+"<b>Nazwa \"%1\" nie może zostać użyta.</b><p>Spróbuj użyć nowej nazwy z "
+"mniejszą liczbą znaków lub bez znaków przystankowych."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -428,4 +421,3 @@ msgstr "Mój komputer"
 msgctxt "QFileSystemModel"
 msgid "Computer"
 msgstr "Komputer"
-
