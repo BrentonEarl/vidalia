@@ -29,14 +29,14 @@ LanguageSupport::languages()
   static QMap<QString, QString> languages;
   if (languages.isEmpty()) {
     languages.insert("en",    "English");
-    languages.insert("ar",
-      QString::fromUtf8("\330\247\331\204\330\271\330\261\330"
-                        "\250\331\212\330\251"));
-    languages.insert("bg",
-      QString::fromUtf8("\320\221\321\212\320\273\320\263\320"
-                        "\260\321\200\321\201\320\272\320\270"));
-    languages.insert("cs",    
-      QString::fromUtf8("\304\215e\305\241tina"));
+//    languages.insert("ar",
+//      QString::fromUtf8("\330\247\331\204\330\271\330\261\330"
+//                        "\250\331\212\330\251"));
+//    languages.insert("bg",
+//      QString::fromUtf8("\320\221\321\212\320\273\320\263\320"
+//                        "\260\321\200\321\201\320\272\320\270"));
+//    languages.insert("cs",    
+//      QString::fromUtf8("\304\215e\305\241tina"));
     languages.insert("de",    "Deutsch");
     languages.insert("es",    
       QString::fromUtf8("espa\303\261ol"));
@@ -49,23 +49,23 @@ LanguageSupport::languages()
       QString::fromUtf8("\327\242\327\221\327\250\327\231\327\252"));
     languages.insert("hu",    "magyar nyelv");
     languages.insert("it",    "Italiano");
-    languages.insert("ja",
-      QString::fromUtf8("\346\227\245\346\234\254\350\252\236"));
-    languages.insert("nb",    
-      QString::fromUtf8("Bokm\303\245l"));
-    languages.insert("nl",    "Nederlands");
+//    languages.insert("ja",
+//      QString::fromUtf8("\346\227\245\346\234\254\350\252\236"));
+//    languages.insert("nb",    
+//      QString::fromUtf8("Bokm\303\245l"));
+//    languages.insert("nl",    "Nederlands");
     languages.insert("pl",    "Polski");
-    languages.insert("pt",    
-      QString::fromUtf8("Portugu\303\252s"));
+//    languages.insert("pt",    
+//      QString::fromUtf8("Portugu\303\252s"));
     languages.insert("ro",
       QString::fromUtf8("rom\303\242n\304\203"));
-    languages.insert("ru",
-      QString::fromUtf8("\320\240\321\203\321\201\321\201\320\272\320\270\320\271"));
-    languages.insert("sq",    "Shqip");
+//    languages.insert("ru",
+//      QString::fromUtf8("\320\240\321\203\321\201\321\201\320\272\320\270\320\271"));
+//    languages.insert("sq",    "Shqip");
     languages.insert("sv",    "svenska");
     languages.insert("tr",    QString::fromUtf8("T\303\274rk\303\247e"));
-    languages.insert("zh_CN", 
-      QString::fromUtf8("\347\256\200\344\275\223\345\255\227"));
+//    languages.insert("zh_CN", 
+//      QString::fromUtf8("\347\256\200\344\275\223\345\255\227"));
     languages.insert("zh_TW", 
       QString::fromUtf8("\347\260\241\351\253\224\345\255\227"));
   }
