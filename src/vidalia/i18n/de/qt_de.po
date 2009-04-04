@@ -254,19 +254,15 @@ msgstr "Verzeichnis:"
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
-msgid "%1 already exists."
-"Do you want to replace it?"
-msgstr "Die Datei %1 existiert bereits."
-"Soll sie überschrieben werden?"
+msgid "%1 already exists.Do you want to replace it?"
+msgstr "Die Datei %1 existiert bereits.Soll sie überschrieben werden?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
-msgid "%1"
-"File not found."
-"Please verify the correct file name was given."
-msgstr "%1"
-"Die Datei konnte nicht gefunden werden."
-"Stellen Sie sicher, dass der Dateiname richtig ist."
+msgid "%1File not found.Please verify the correct file name was given."
+msgstr ""
+"%1Die Datei konnte nicht gefunden werden.Stellen Sie sicher, dass der "
+"Dateiname richtig ist."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -285,28 +281,23 @@ msgstr "Dateien des Typs:"
 
 #: qfiledialog.cpp:1517
 msgctxt "QFileDialog"
-msgid ""
-"File not found."
-"Please verify the correct file name was given"
+msgid "File not found.Please verify the correct file name was given"
 msgstr ""
-"Die Datei konnte nicht gefunden werden."
-"Stellen Sie sicher, dass der Dateiname richtig ist"
+"Die Datei konnte nicht gefunden werden.Stellen Sie sicher, dass der "
+"Dateiname richtig ist"
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
-msgid "%1"
-"Directory not found."
-"Please verify the correct directory name was given."
-msgstr "%1"
-"Das Verzeichnis konnte nicht gefunden werden."
-"Stellen Sie sicher, dass der Verzeichnisname richtig ist."
+msgid ""
+"%1Directory not found.Please verify the correct directory name was given."
+msgstr ""
+"%1Das Verzeichnis konnte nicht gefunden werden.Stellen Sie sicher, dass der "
+"Verzeichnisname richtig ist."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
-msgid "'%1' is write protected."
-"Do you want to delete it anyway?"
-msgstr "'%1' ist schreibgeschützt."
-"Möchten sie die Datei trotzdem löschen?"
+msgid "'%1' is write protected.Do you want to delete it anyway?"
+msgstr "'%1' ist schreibgeschützt.Möchten Sie die Datei trotzdem löschen?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -400,8 +391,12 @@ msgstr "Ungültiger Dateiname"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
-msgid "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer characters or no punctuations marks."
-msgstr "<b>Der Name \"%1\" kann nicht verwendet werden.</b><p>Versuchen Sie, die Sonderzeichen zu entfernen oder einen kürzeren Namen zu verwenden."
+msgid ""
+"<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
+"characters or no punctuations marks."
+msgstr ""
+"<b>Der Name \"%1\" kann nicht verwendet werden.</b><p>Versuchen Sie, die "
+"Sonderzeichen zu entfernen oder einen kürzeren Namen zu verwenden."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -437,4 +432,3 @@ msgstr "Mein Computer"
 msgctxt "QFileSystemModel"
 msgid "Computer"
 msgstr "Computer"
-
