@@ -13,9 +13,9 @@
 
 ## Vidalia translation files
 set(vidalia_PO
-#  ar/vidalia_ar.po
-#  bg/vidalia_bg.po
-#  cs/vidalia_cs.po
+  ar/vidalia_ar.po
+  bg/vidalia_bg.po
+  cs/vidalia_cs.po
   de/vidalia_de.po
   es/vidalia_es.po
   fa/vidalia_fa.po
@@ -24,26 +24,26 @@ set(vidalia_PO
   he/vidalia_he.po
   hu/vidalia_hu.po
   it/vidalia_it.po
-#  ja/vidalia_ja.po
-#  nb/vidalia_nb.po
-#  nl/vidalia_nl.po
+  ja/vidalia_ja.po
+  nb/vidalia_nb.po
+  nl/vidalia_nl.po
   pl/vidalia_pl.po
-#  pt/vidalia_pt.po
+  pt/vidalia_pt.po
   ro/vidalia_ro.po
-#  ru/vidalia_ru.po
-#  sq/vidalia_sq.po
+  ru/vidalia_ru.po
+  sq/vidalia_sq.po
   sv/vidalia_sv.po
   tr/vidalia_tr.po
-#  zh_CN/vidalia_zh_CN.po
+  zh_CN/vidalia_zh_CN.po
   zh_TW/vidalia_zh_TW.po
 )
 vidalia_add_po(vidalia_QMS ${vidalia_PO})
 
 ## Qt translation files
 set(qt_PO
-#  ar/qt_ar.po
-#  bg/qt_bg.po
-#  cs/qt_cs.po
+  ar/qt_ar.po
+  bg/qt_bg.po
+  cs/qt_cs.po
   de/qt_de.po
   es/qt_es.po
   fa/qt_fa.po
@@ -52,17 +52,17 @@ set(qt_PO
   he/qt_he.po
   hu/qt_hu.po
   it/qt_it.po
-#  ja/qt_ja.po
-#  nb/qt_nb.po
-#  nl/qt_nl.po
+  ja/qt_ja.po
+  nb/qt_nb.po
+  nl/qt_nl.po
   pl/qt_pl.po
-#  pt/qt_pt.po
+  pt/qt_pt.po
   ro/qt_ro.po
-#  ru/qt_ru.po
-#  sq/qt_sq.po
+  ru/qt_ru.po
+  sq/qt_sq.po
   sv/qt_sv.po
   tr/qt_tr.po
-#  zh_CN/qt_zh_CN.po
+  zh_CN/qt_zh_CN.po
   zh_TW/qt_zh_TW.po
 )
 vidalia_add_po(qt_QMS ${qt_PO})
