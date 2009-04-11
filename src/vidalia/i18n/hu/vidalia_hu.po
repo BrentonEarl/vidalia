@@ -2,15 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
-"POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2009-04-11 03:21+0000\n"
+"PO-Revision-Date: 2009-02-07 04:29+0000\n"
+"Last-Translator: John Dissident <arrakistor.test1@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Vidalia ts2po 0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 1.1.0\n"
+
+#: aboutdialog.cpp:63
+#, fuzzy
+msgctxt "AboutDialog"
+msgid "<Unavailable>"
+msgstr "Elérhetetlen"
+
+#: aboutdialog.cpp:67
+#, fuzzy
+msgctxt "AboutDialog"
+msgid "<Not Running>"
+msgstr "Nem fut"
 
 #: aboutdialog.ui:25
 msgctxt "AboutDialog"
@@ -22,10 +34,11 @@ msgctxt "AboutDialog"
 msgid "Vidalia"
 msgstr "Vidalia"
 
-#: aboutdialog.ui:234
+#: aboutdialog.ui:88
+#, fuzzy
 msgctxt "AboutDialog"
-msgid "Tor"
-msgstr "Tor"
+msgid "Vidalia Version"
+msgstr "Vidalia súgó"
 
 #: aboutdialog.ui:156
 msgctxt "AboutDialog"
@@ -33,196 +46,172 @@ msgid "Qt"
 msgstr "Qt"
 
 #: aboutdialog.ui:166
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Qt Version"
-msgstr "Qt verzió"
+msgstr "verzió"
+
+#: aboutdialog.ui:234
+msgctxt "AboutDialog"
+msgid "Tor"
+msgstr "TOR"
 
 #: aboutdialog.ui:244
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Tor Version"
-msgstr "Tor verzió"
+msgstr "verzió"
 
-#: aboutdialog.ui:88
-msgctxt "AboutDialog"
-msgid "Vidalia Version"
-msgstr "Vidalia verzió"
+#: advancedpage.cpp:34
+#, fuzzy
+msgctxt "AdvancedPage"
+msgid "Advanced"
+msgstr "Haladó"
 
-#: aboutdialog.cpp:68
-msgctxt "AboutDialog"
-msgid "<Not Running>"
-msgstr "<Nem fut>"
+#: advancedpage.cpp:102
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' egy nem létezõ IP cím."
 
-#: aboutdialog.cpp:64
-msgctxt "AboutDialog"
-msgid "<Unavailable>"
-msgstr ""
+#: advancedpage.cpp:113
+msgctxt "AdvancedPage"
+msgid "You selected 'Password' authentication, but did not specify a password."
+msgstr "Kiválasztotta a Jelszavas bejelentkezést, de nem adott meg jelszót."
+
+#: advancedpage.cpp:216
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "TOR Konfigurációs Fájl kiválasztása"
+
+#: advancedpage.cpp:229
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "A fájl nem található"
+
+#: advancedpage.cpp:231
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 nem létezik. Kívánja létrehozni?"
+
+#: advancedpage.cpp:242
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Fájl létrehozása sikertelen"
+
+#: advancedpage.cpp:243
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Nem lehet létrehozni %1-t [%2]"
+
+#: advancedpage.cpp:258
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Válasszon egy könyvtárat a TOR adatok tárolásához"
+
+#: advancedpage.cpp:280
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Jelenleg a TOR szolgáltatás nem lekapcsolható"
+
+#: advancedpage.cpp:291
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Jelenleg a TOR szolgáltatás nem elindítható"
+
+#: advancedpage.cpp:292
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "A TOR szolgáltatás telepítése sikertelen."
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
 msgid "Control Port"
-msgstr "Vezérlõ port"
-
-#: advancedpage.ui:318
-msgctxt "AdvancedPage"
-msgid "Browse"
-msgstr "Böngészés"
-
-#: advancedpage.ui:337
-msgctxt "AdvancedPage"
-msgid "Permissions"
-msgstr "Engedélyek"
-
-#: advancedpage.ui:360
-msgctxt "AdvancedPage"
-msgid "Run as User:"
-msgstr "Fusson a következõ felhasználó nevében:"
-
-#: advancedpage.ui:373
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this User's permissions"
-msgstr "A Vidalia a megadott felhasználó jogosultságaival fog futni"
-
-#: advancedpage.ui:393
-msgctxt "AdvancedPage"
-msgid "Run as Group:"
-msgstr "Fusson a következõ csoport nevében:"
-
-#: advancedpage.ui:400
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this Group's permissions"
-msgstr "A Vidalia a megadott csoport jogaival fog futni"
-
-#: advancedpage.cpp:221
-msgctxt "AdvancedPage"
-msgid "Select Tor Configuration File"
-msgstr "Tor konfigurációs fájl kiválasztása"
-
-#: advancedpage.cpp:285
-msgctxt "AdvancedPage"
-msgid "Unable to remove Tor Service"
-msgstr ""
-
-#: advancedpage.cpp:296
-msgctxt "AdvancedPage"
-msgid "Unable to install Tor Service"
-msgstr ""
-
-#: advancedpage.cpp:297
-msgctxt "AdvancedPage"
-msgid "Vidalia was unable to install the Tor service."
-msgstr ""
-
-#: advancedpage.cpp:234
-msgctxt "AdvancedPage"
-msgid "File Not Found"
-msgstr ""
-
-#: advancedpage.cpp:236
-msgctxt "AdvancedPage"
-msgid "%1 does not exist. Would you like to create it?"
-msgstr ""
-
-#: advancedpage.cpp:247
-msgctxt "AdvancedPage"
-msgid "Failed to Create File"
-msgstr ""
-
-#: advancedpage.cpp:248
-msgctxt "AdvancedPage"
-msgid "Unable to create %1 [%2]"
-msgstr ""
-
-#: advancedpage.cpp:287
-msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service."
-""
-"You may need to remove it manually."
-msgstr ""
-
-#: advancedpage.cpp:103
-msgctxt "AdvancedPage"
-msgid "'%1' is not a valid IP address."
-msgstr ""
-
-#: advancedpage.ui:157
-msgctxt "AdvancedPage"
-msgid ":"
-msgstr ""
-
-#: advancedpage.cpp:114
-msgctxt "AdvancedPage"
-msgid "You selected 'Password' authentication, but did not specify a password."
-msgstr ""
-
-#: advancedpage.cpp:263
-msgctxt "AdvancedPage"
-msgid "Select a Directory to Use for Tor Data"
-msgstr ""
+msgstr "Kontroll port"
 
 #: advancedpage.ui:48
 msgctxt "AdvancedPage"
 msgid "Authentication:"
-msgstr ""
+msgstr "Ellenõrzés:"
 
 #: advancedpage.ui:58
 msgctxt "AdvancedPage"
 msgid "Address:"
 msgstr "Cím:"
 
+#: advancedpage.ui:86
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Nincs"
+
 #: advancedpage.ui:91
 msgctxt "AdvancedPage"
 msgid "Cookie"
-msgstr ""
+msgstr "Süti"
 
 #: advancedpage.ui:96
 msgctxt "AdvancedPage"
 msgid "Password"
-msgstr ""
+msgstr "Jelszó"
 
 #: advancedpage.ui:111
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
-msgstr ""
+msgstr "Jelszó véletlenszerû létrehozása"
 
-#: advancedpage.ui:86
+#: advancedpage.ui:157
 msgctxt "AdvancedPage"
-msgid "None"
-msgstr ""
-
-#: advancedpage.cpp:34
-msgctxt "AdvancedPage"
-msgid "Advanced"
-msgstr "Haladó"
-
-#: advancedpage.ui:240
-msgctxt "AdvancedPage"
-msgid "Start the Tor software with the specified configuration file (torrc)"
-msgstr ""
-
-#: advancedpage.ui:259
-msgctxt "AdvancedPage"
-msgid "Select path to your configuration file"
-msgstr ""
-
-#: advancedpage.ui:275
-msgctxt "AdvancedPage"
-msgid "Data Directory"
-msgstr ""
-
-#: advancedpage.ui:296
-msgctxt "AdvancedPage"
-msgid "Store data for the Tor software in the following directory"
-msgstr ""
-
-#: advancedpage.ui:315
-msgctxt "AdvancedPage"
-msgid "Select the directory used to store data for the Tor software"
-msgstr ""
+msgid ":"
+msgstr ":"
 
 #: advancedpage.ui:219
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
-msgstr ""
+msgstr "TOR Konfigurációs Fájl"
+
+#: advancedpage.ui:240
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "TOR indítása a 'torrc' konfigurációs fájllal"
+
+#: advancedpage.ui:259
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Adja meg a konfigurációs fájl helyét"
+
+#: advancedpage.ui:318
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Böngészés"
+
+#: advancedpage.ui:275
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Adat könyvtár"
+
+#: advancedpage.ui:296
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "TOR adatok tárolása a következõ könyvtárban"
+
+#: advancedpage.ui:315
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Válassza ki a könytárat melyet a TOR adatok tárolására fog használni"
+
+#: advancedpage.cpp:282
+#, fuzzy
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "A Vidalia nem tudta lekapcsolni a TOR-t. Kézzel kell majd bezárni."
+
+#: appearancepage.cpp:23
+#, fuzzy
+msgctxt "AppearancePage"
+msgid "Appearance"
+msgstr "Megjelenés"
 
 #: appearancepage.ui:31
 msgctxt "AppearancePage"
@@ -232,12 +221,14 @@ msgstr "Nyelv"
 #: appearancepage.ui:52
 msgctxt "AppearancePage"
 msgid "Choose the language used in Vidalia"
-msgstr "Válassza ki a Vidalia-ban használatos nyelvet"
+msgstr "Vidalia nyelve"
 
 #: appearancepage.ui:84
 msgctxt "AppearancePage"
 msgid "Changes to language will only take effect after restarting Vidalia!"
-msgstr "A nyelvben történt változtatások csak a Vidalia újraindításakor fognak érvényesülni!"
+msgstr ""
+"A nyelvben történt változtatások csak a Vidalia újraindításakor fognak "
+"érvényesülni!"
 
 #: appearancepage.ui:100
 msgctxt "AppearancePage"
@@ -247,22 +238,27 @@ msgstr "Stílus"
 #: appearancepage.ui:134
 msgctxt "AppearancePage"
 msgid "Choose Vidalia's interface style"
-msgstr "Válassza ki a Vidalia felületének stílusát"
+msgstr "Vidalia külalakja"
 
-#: appearancepage.cpp:23
-msgctxt "AppearancePage"
-msgid "Appearance"
-msgstr "Megjelenés"
+#: bwgraph.cpp:159
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Ekkortól:"
+
+#: bwgraph.cpp:225
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Beállítások elrejtése"
+
+#: bwgraph.ui:40
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Beállítások megjelenítése"
 
 #: bwgraph.ui:16
 msgctxt "BandwidthGraph"
 msgid "Tor Bandwidth Usage"
 msgstr "Sávszélesség statisztikák"
-
-#: bwgraph.ui:40
-msgctxt "BandwidthGraph"
-msgid "Show Settings"
-msgstr "Beállítások megmutatása"
 
 #: bwgraph.ui:63
 msgctxt "BandwidthGraph"
@@ -279,25 +275,20 @@ msgctxt "BandwidthGraph"
 msgid "Send Rate"
 msgstr "Küldési arány"
 
+#: bwgraph.ui:183
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Mindig látható"
+
+#: bwgraph.ui:234
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Stílus"
+
 #: bwgraph.ui:284
 msgctxt "BandwidthGraph"
 msgid "Changes the transparency of the Bandwidth Graph"
 msgstr "A Sávszélesség grafikon áttûnésének megváltoztatása"
-
-#: bwgraph.ui:443
-msgctxt "BandwidthGraph"
-msgid "Save"
-msgstr "Mentés"
-
-#: bwgraph.ui:450
-msgctxt "BandwidthGraph"
-msgid "Cancel"
-msgstr "Mégse"
-
-#: bwgraph.cpp:160
-msgctxt "BandwidthGraph"
-msgid "Since:"
-msgstr "Ekkortól:"
 
 #: bwgraph.ui:368
 msgctxt "BandwidthGraph"
@@ -309,47 +300,42 @@ msgctxt "BandwidthGraph"
 msgid "% Opaque"
 msgstr "% Áttûnés"
 
-#: bwgraph.cpp:226
+#: bwgraph.ui:443
 msgctxt "BandwidthGraph"
-msgid "Hide Settings"
-msgstr "Beállítások elrejtése"
+msgid "Save"
+msgstr "Mentés"
 
-#: bwgraph.ui:183
+#: bwgraph.ui:450
 msgctxt "BandwidthGraph"
-msgid "Always on Top"
-msgstr "Mindig látható"
+msgid "Cancel"
+msgstr "Mégse"
 
-#: bwgraph.ui:234
-msgctxt "BandwidthGraph"
-msgid "Style"
-msgstr "Stílus"
-
-#: circuit.cpp:89
+#: circuit.cpp:112
 msgctxt "Circuit"
 msgid "New"
 msgstr "Új"
 
-#: circuit.cpp:90
+#: circuit.cpp:113
 msgctxt "Circuit"
 msgid "Open"
 msgstr "Nyitott"
 
-#: circuit.cpp:91
+#: circuit.cpp:114
 msgctxt "Circuit"
 msgid "Building"
 msgstr "Felépítés alatt"
 
-#: circuit.cpp:92
+#: circuit.cpp:115
 msgctxt "Circuit"
 msgid "Failed"
 msgstr "Sikertelen"
 
-#: circuit.cpp:93
+#: circuit.cpp:116
 msgctxt "Circuit"
 msgid "Closed"
 msgstr "Lezárt"
 
-#: circuit.cpp:94
+#: circuit.cpp:117
 msgctxt "Circuit"
 msgid "Unknown"
 msgstr "Ismeretlen"
@@ -357,7 +343,7 @@ msgstr "Ismeretlen"
 #: circuititem.cpp:39
 msgctxt "CircuitItem"
 msgid "<Path Empty>"
-msgstr "<Út üres>"
+msgstr "<Üres ösvény>"
 
 #: circuitlistwidget.cpp:37
 msgctxt "CircuitListWidget"
@@ -372,252 +358,264 @@ msgstr "Állapot"
 #: circuitlistwidget.cpp:72
 msgctxt "CircuitListWidget"
 msgid "Zoom to Circuit"
-msgstr ""
+msgstr "Kapcsolatra közelítés"
 
 #: circuitlistwidget.cpp:74
 msgctxt "CircuitListWidget"
 msgid "Close Circuit (Del)"
-msgstr ""
+msgstr "Ösvény lekapcsolása (Del)"
 
 #: circuitlistwidget.cpp:95
 msgctxt "CircuitListWidget"
 msgid "Close Stream (Del)"
-msgstr ""
+msgstr "Adás megszakítása (Del)"
 
-#: configdialog.cpp:72
+#: configdialog.cpp:76
 msgctxt "ConfigDialog"
 msgid "General"
 msgstr "Általános"
 
-#: configdialog.cpp:92
+#: configdialog.cpp:80
 msgctxt "ConfigDialog"
-msgid "Advanced"
-msgstr "Haladó"
+msgid "Network"
+msgstr "Hálózat"
 
-#: configdialog.cpp:59
+#: configdialog.cpp:84
 msgctxt "ConfigDialog"
-msgid "Cancel"
-msgstr "Mégse"
+msgid "Sharing"
+msgstr "Megosztás"
 
 #: configdialog.cpp:88
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Folyamatok"
+
+#: configdialog.cpp:92
 msgctxt "ConfigDialog"
 msgid "Appearance"
 msgstr "Megjelenés"
 
-#: configdialog.cpp:106
+#: configdialog.cpp:96
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Haladó"
+
+#: configdialog.cpp:110
 msgctxt "ConfigDialog"
 msgid "Help"
 msgstr "Súgó"
+
+#: configdialog.cpp:178
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Hiba adatmentés közben"
+
+#: configdialog.cpp:180
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "A %1 beállítás mentése sikertelen."
+
+#: configdialog.cpp:207
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Hiba lealkalmazás közben"
+
+#: configdialog.cpp:209
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "A %1 TOR beállítás lealkalmazása sikertelen."
 
 #: configdialog.ui:16
 msgctxt "ConfigDialog"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: configdialog.cpp:76
-msgctxt "ConfigDialog"
-msgid "Network"
-msgstr ""
-
-#: configdialog.cpp:174
-msgctxt "ConfigDialog"
-msgid "Error Saving Settings"
-msgstr ""
-
-#: configdialog.cpp:176
-msgctxt "ConfigDialog"
-msgid "Vidalia was unable to save your %1 settings."
-msgstr ""
-
-#: configdialog.cpp:203
-msgctxt "ConfigDialog"
-msgid "Error Applying Settings"
-msgstr ""
-
-#: configdialog.cpp:205
-msgctxt "ConfigDialog"
-msgid "Vidalia was unable to apply your %1 settings to Tor."
-msgstr ""
-
-#: configdialog.cpp:56
-msgctxt "ConfigDialog"
-msgid "OK"
-msgstr "OK"
-
-#: configdialog.cpp:80
-msgctxt "ConfigDialog"
-msgid "Sharing"
-msgstr ""
-
-#: configdialog.cpp:84
-msgctxt "ConfigDialog"
-msgid "Services"
-msgstr ""
-
-#: controlconnection.cpp:319
-msgctxt "ControlConnection"
-msgid "Control socket is not connected."
-msgstr ""
-
-#: controlconnection.cpp:131
+#: controlconnection.cpp:134
 msgctxt "ControlConnection"
 msgid "Vidalia was unable to connect to Tor. (%1)"
-msgstr ""
+msgstr "Nem sikerült a TOR-hoz kapcsolódni. (%1)"
 
-#: controlsocket.cpp:61
+#: controlconnection.cpp:331
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "A Vezérlõ socket nem kapcsolódott."
+
+#: controlpasswordinputdialog.ui:28
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Jelszó szükséges"
+
+#: controlpasswordinputdialog.ui:80
+#, fuzzy
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr ""
+"A Vidalia csatlakozott egy már futó TOR folyamathoz, amely jelszót kér. Írja "
+"be a kotroll jelszót: "
+
+#: controlpasswordinputdialog.ui:99
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Emlékezzen a jelszavamra"
+
+#: controlsocket.cpp:70
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "A Vezérlõ socket nem kapcsolódott."
+
+#: controlsocket.cpp:80
 msgctxt "ControlSocket"
 msgid "Error sending control command. [%1]"
 msgstr "Hiba történt a kontroll parancs küldésekor. [%1]"
 
-#: controlsocket.cpp:98
+#: controlsocket.cpp:117
 msgctxt "ControlSocket"
 msgid "Socket disconnected while attempting to read a line of data."
 msgstr "A kapcsolat megszûnt egy adatsor beolvasása közben."
 
-#: controlsocket.cpp:136
+#: controlsocket.cpp:156
 msgctxt "ControlSocket"
 msgid "Invalid control reply. [%1]"
 msgstr "Érvénytelen kontroll válasz. [%1]"
 
-#: controlsocket.cpp:51
-msgctxt "ControlSocket"
-msgid "Control socket is not connected."
-msgstr ""
-
-#: generalpage.ui:115
+#: generalpage.cpp:23
+#, fuzzy
 msgctxt "GeneralPage"
-msgid "Browse"
-msgstr "Böngészés"
-
-#: generalpage.cpp:72
-msgctxt "GeneralPage"
-msgid "Select Path to Tor"
-msgstr "Tor elérési útjának megadása"
+msgid "General"
+msgstr "Általános"
 
 #: generalpage.cpp:59
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
 msgstr "Futtatható állományok (*.exe)"
 
-#: generalpage.cpp:23
+#: generalpage.cpp:72
 msgctxt "GeneralPage"
-msgid "General"
-msgstr "Általános"
-
-#: generalpage.cpp:95
-msgctxt "GeneralPage"
-msgid "You must specify the name of your Tor executable."
-msgstr ""
+msgid "Select Path to Tor"
+msgstr "TOR elérési útjának megadása"
 
 #: generalpage.cpp:82
 msgctxt "GeneralPage"
 msgid "Select Proxy Executable"
-msgstr ""
+msgstr "Proxy indítófájl kiválasztása"
+
+#: generalpage.cpp:95
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Meg kell határoznia a TOR indítófájl nevét."
 
 #: generalpage.cpp:103
 msgctxt "GeneralPage"
 msgid "The proxy arguments specified are not properly formatted."
-msgstr ""
+msgstr "A Proxy kapcsolói nem megfelelõen vannak beállítva."
 
 #: generalpage.ui:22
 msgctxt "GeneralPage"
 msgid "Start Vidalia when my system starts"
-msgstr ""
+msgstr "Vidalia indítása a rendszerrel"
+
+#: generalpage.ui:38
+#, fuzzy
+msgctxt "GeneralPage"
+msgid "Tor Executable"
+msgstr "Proxy indítófájl kiválasztása"
+
+#: generalpage.ui:115
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Böngészés"
+
+#: generalpage.ui:63
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "TOR indítása a Vidaliával"
 
 #: generalpage.ui:75
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Vidalia starts"
-msgstr ""
+msgstr "Proxy program indítása a TOR-ral"
 
 #: generalpage.ui:97
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Proxy Executable"
-msgstr ""
+msgstr "Proxy indítófájl kiválasztása"
 
 #: generalpage.ui:129
 msgctxt "GeneralPage"
 msgid "Command Line Arguments:"
 msgstr ""
 
-#: generalpage.ui:63
-msgctxt "GeneralPage"
-msgid "Start the Tor software when Vidalia starts"
-msgstr ""
-
-#: generalpage.ui:38
-msgctxt "GeneralPage"
-msgid "Tor Executable"
-msgstr ""
-
-#: graphframe.cpp:237
+#: graphframe.cpp:238
+#, fuzzy
 msgctxt "GraphFrame"
-msgid "Recv: "
+msgid "Recv:"
 msgstr "Fog.:"
 
-#: graphframe.cpp:246
+#: graphframe.cpp:298
 msgctxt "GraphFrame"
-msgid "Sent: "
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+#: graphframe.cpp:247
+#, fuzzy
+msgctxt "GraphFrame"
+msgid "Sent:"
 msgstr "Küld:"
 
-#: graphframe.cpp:258
+#: graphframe.cpp:259
 msgctxt "GraphFrame"
 msgid "%1 KB"
 msgstr "%1 KB"
 
-#: graphframe.cpp:261
+#: graphframe.cpp:262
 msgctxt "GraphFrame"
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: graphframe.cpp:264
+#: graphframe.cpp:265
 msgctxt "GraphFrame"
 msgid "%1 GB"
 msgstr "%1 GB"
 
-#: graphframe.cpp:285
-msgctxt "GraphFrame"
-msgid "%1 KB/s"
-msgstr "%1 KB/s"
+#: helpbrowser.cpp:122
+#, fuzzy
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Hiba a Súgó tartalmának betöltésekor: "
+
+#: helpbrowser.cpp:134
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "A megadott XML állomány nem egy érvényes Tartalomdokumentum."
+
+#: helpbrowser.cpp:377
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "A keresés elérte a dokumentum végét"
+
+#: helpbrowser.cpp:379
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "A keresés elérte a dokumentum elejét"
+
+#: helpbrowser.cpp:381
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "A keresett szöveg nem található"
+
+#: helpbrowser.cpp:426
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "%1 darab találat"
 
 #: helpbrowser.ui:33
 msgctxt "HelpBrowser"
 msgid "Vidalia Help"
 msgstr "Vidalia súgó"
-
-#: helpbrowser.ui:174
-msgctxt "HelpBrowser"
-msgid "Find Previous"
-msgstr "Elõzõ megtalálása"
-
-#: helpbrowser.ui:187
-msgctxt "HelpBrowser"
-msgid "Find Next"
-msgstr "Következõ megtalálása"
-
-#: helpbrowser.ui:221
-msgctxt "HelpBrowser"
-msgid "Case sensitive"
-msgstr "Kis- és nagybetûérzékeny"
-
-#: helpbrowser.ui:260
-msgctxt "HelpBrowser"
-msgid "Contents"
-msgstr "Tartalom"
-
-#: helpbrowser.ui:305
-msgctxt "HelpBrowser"
-msgid "Help Topics"
-msgstr "Súgó témakörök"
-
-#: helpbrowser.ui:350
-msgctxt "HelpBrowser"
-msgid "Search"
-msgstr "Keresés"
-
-#: helpbrowser.ui:405
-msgctxt "HelpBrowser"
-msgid "Found Documents"
-msgstr "Megtalált dokumentumok"
 
 #: helpbrowser.ui:484
 msgctxt "HelpBrowser"
@@ -672,8 +670,7 @@ msgstr "Keresés"
 #: helpbrowser.ui:538
 msgctxt "HelpBrowser"
 msgid "Search for a word or phrase on current page (Ctrl+F)"
-msgstr "Szóra vagy kifejezésre keresés az aktuális oldalon"
-"(Vtrl+F)"
+msgstr "Szóra vagy kifejezésre keresés az aktuális oldalon(Vtrl+F)"
 
 #: helpbrowser.ui:541
 msgctxt "HelpBrowser"
@@ -695,81 +692,99 @@ msgctxt "HelpBrowser"
 msgid "Esc"
 msgstr "Esc"
 
-#: helpbrowser.cpp:122
-msgctxt "HelpBrowser"
-msgid "Error Loading Help Contents: "
-msgstr "Hiba a Súgó tartalmának betöltésekor: "
-
-#: helpbrowser.cpp:377
-msgctxt "HelpBrowser"
-msgid "Search reached end of document"
-msgstr "A keresés elérte a dokumentum végét"
-
-#: helpbrowser.cpp:379
-msgctxt "HelpBrowser"
-msgid "Search reached start of document"
-msgstr "A keresés elérte a dokumentum elejét"
-
-#: helpbrowser.cpp:381
-msgctxt "HelpBrowser"
-msgid "Text not found in document"
-msgstr "A keresett szöveg nem található"
-
 #: helpbrowser.ui:152
 msgctxt "HelpBrowser"
 msgid "Find:"
 msgstr "Keresés:"
+
+#: helpbrowser.ui:174
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Elõzõ keresése"
+
+#: helpbrowser.ui:187
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Következõ keresése"
+
+#: helpbrowser.ui:221
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Kis- és nagybetûérzékeny"
 
 #: helpbrowser.ui:231
 msgctxt "HelpBrowser"
 msgid "Whole words only"
 msgstr "Csak teljes szavakra"
 
+#: helpbrowser.ui:305
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Súgó témakörök"
+
+#: helpbrowser.ui:260
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Tartalom"
+
+#: helpbrowser.ui:350
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Keresés"
+
 #: helpbrowser.ui:362
 msgctxt "HelpBrowser"
 msgid "Searching for:"
 msgstr "Keresés erre:"
 
-#: helpbrowser.cpp:134
+#: helpbrowser.ui:405
 msgctxt "HelpBrowser"
-msgid "Supplied XML file is not a valid Contents document."
-msgstr "A megadott XML állomány nem egy érvényes Tartalom"
-"dokumentum."
-
-#: helpbrowser.cpp:426
-msgctxt "HelpBrowser"
-msgid "Found %1 results"
-msgstr "%1 darab találat"
+msgid "Found Documents"
+msgstr "Talált dokumentumok"
 
 #: helptextbrowser.cpp:54
+#, fuzzy
 msgctxt "HelpTextBrowser"
-msgid "Error opening help file: "
+msgid "Error opening help file:"
 msgstr "Hiba a súgó állomány megnyitásakor: "
 
 #: helptextbrowser.cpp:72
 msgctxt "HelpTextBrowser"
 msgid "Opening External Link"
-msgstr ""
+msgstr "Külsõ hivatkozás megnyitása"
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
 msgstr ""
+"A Vidalia meg tudja nyitni ezt a hivatkozást az alapértelmezett böngészõben. "
+"Ha a böngészõ nincs jelenleg a TOR beállításaihoz igazítva, a kapcsolat nem "
+"lesz titkos !"
 
 #: helptextbrowser.cpp:78
 msgctxt "HelpTextBrowser"
 msgid "Do you want Vidalia to open the link in your Web browser?"
 msgstr ""
+"Kívánja, hogy a Vidalia megnyissa ezt a hivatkozást az alapértelmezett "
+"böngészõben?"
 
 #: helptextbrowser.cpp:88
 msgctxt "HelpTextBrowser"
 msgid "Unable to Open Link"
-msgstr ""
+msgstr "A hivatkozást nem lehet megnyitni"
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
 msgstr ""
+"A Vidalia nem tudta megnyitni a kiválasztott hivatkozást a böngészõben. "
+"Próbálja meg <b>Másol</b>ni a hivatkozást és <b>Beilleszt</b>eni a böngészõ "
+"URL sávjába."
 
 #: logevent.cpp:57
 msgctxt "LogEvent"
@@ -801,10 +816,10 @@ msgctxt "LogEvent"
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-#: mainwindow.ui:430
+#: mainwindow.ui:233
 msgctxt "MainWindow"
-msgid "About"
-msgstr "Névjegy"
+msgid "Start Tor"
+msgstr "TOR indítása"
 
 #: mainwindow.ui:443
 msgctxt "MainWindow"
@@ -821,588 +836,622 @@ msgctxt "MainWindow"
 msgid "Message Log"
 msgstr "Log üzenetek"
 
-#: mainwindow.ui:367
+#: mainwindow.cpp:349
 msgctxt "MainWindow"
-msgid "Help"
-msgstr "Súgó"
+msgid "Network Map"
+msgstr "Hálózat térkép"
 
-#: mainwindow.cpp:394
+#: mainwindow.cpp:355
 msgctxt "MainWindow"
-msgid "Ctrl+T"
-msgstr "Ctrl+T"
-
-#: mainwindow.cpp:395
-msgctxt "MainWindow"
-msgid "Ctrl+B"
-msgstr "Ctrl+B"
-
-#: mainwindow.cpp:396
-msgctxt "MainWindow"
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: mainwindow.cpp:398
-msgctxt "MainWindow"
-msgid "Ctrl+?"
-msgstr "Ctrl+?"
-
-#: mainwindow.cpp:411
-msgctxt "MainWindow"
-msgid "File"
-msgstr "Fájl"
-
-#: mainwindow.cpp:414
-msgctxt "MainWindow"
-msgid "Tor"
-msgstr "Tor"
-
-#: mainwindow.cpp:419
-msgctxt "MainWindow"
-msgid "View"
-msgstr "Nézet"
-
-#: mainwindow.cpp:428
-msgctxt "MainWindow"
-msgid "Vidalia Help"
-msgstr "Vidalia súgó"
-
-#: mainwindow.cpp:831
-msgctxt "MainWindow"
-msgid "Error Starting Tor"
-msgstr "Hiba a Tor indításával"
-
-#: mainwindow.cpp:397
-msgctxt "MainWindow"
-msgid "Ctrl+N"
-msgstr "Ctrl+N"
-
-#: mainwindow.cpp:834
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
-msgstr "A Vidalia nem tudta elindítani a Tor-t. Ellenõrizd"
-"a beállításaidat, hogy jól van-e megadva a Tor futtatható állományának neve és elérési"
-"útja."
+msgid "Control Panel"
+msgstr "Vezérlõpult"
 
 #: mainwindow.ui:380
 msgctxt "MainWindow"
 msgid "Settings"
 msgstr "Beállítások"
 
-#: mainwindow.cpp:320
+#: mainwindow.ui:430
 msgctxt "MainWindow"
-msgid "Network Map"
-msgstr ""
+msgid "About"
+msgstr "Névjegy"
 
-#: mainwindow.cpp:1331
+#: mainwindow.ui:367
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Súgó"
+
+#: mainwindow.cpp:1495
 msgctxt "MainWindow"
 msgid "New Identity"
 msgstr "Új identitás"
 
-#: mainwindow.cpp:399
+#: mainwindow.cpp:438
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+#: mainwindow.cpp:439
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: mainwindow.cpp:440
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: mainwindow.cpp:441
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: mainwindow.cpp:442
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+#: mainwindow.cpp:443
 msgctxt "MainWindow"
 msgid "Ctrl+I"
-msgstr ""
+msgstr "CTRL+I"
 
-#: mainwindow.cpp:1334
+#: mainwindow.cpp:444
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
-msgstr "Minden további kapcsolat a régi kapcsolataidtól"
-"különbözõként fog szerepelni."
+msgid "Ctrl+P"
+msgstr "CTRL+P"
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:455
+#, fuzzy
 msgctxt "MainWindow"
-msgid "Failed to Create New Identity"
-msgstr "Nem sikerült az új identitás létrehozása"
+msgid "File"
+msgstr "Sikertelen"
+
+#: mainwindow.cpp:458
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "TOR"
+
+#: mainwindow.cpp:463
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Nézet"
+
+#: mainwindow.cpp:472
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia súgó"
+
+#: mainwindow.cpp:626
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Hiba a böngészõ indításakor"
+
+#: mainwindow.cpp:627
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "A beállított böngészõ indítása sikertelen"
+
+#: mainwindow.cpp:639
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Hiba az IM (azonnali üzenetküldõ) program indításakor"
+
+#: mainwindow.cpp:640
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "A beállított IM program indítása sikertelen"
+
+#: mainwindow.cpp:661
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Hiba a proxy kiszolgáló indításakor"
+
+#: mainwindow.cpp:662
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "A beállított proxy kiszolgáló indítása sikertelen"
+
+#: mainwindow.cpp:678
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Csatlakozás egy Elosztó címtárhoz"
+
+#: mainwindow.cpp:682
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Titkosított címtárkapcsolat létrehozása"
+
+#: mainwindow.cpp:685
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Hálózat státuszának lekérdezése"
+
+#: mainwindow.cpp:688
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Hálózat státuszának betöltése"
+
+#: mainwindow.cpp:691
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Biztonsági ellenõrzõk betöltése"
+
+#: mainwindow.cpp:694
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Elosztási adatok lekérdezése"
+
+#: mainwindow.cpp:697
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Elosztási adatok betöltése"
+
+#: mainwindow.cpp:1234
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Kapcsolódás a TOR hálózathoz"
+
+#: mainwindow.cpp:704
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "TOR kapcsolat felépítése"
+
+#: mainwindow.cpp:1399
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "TOR kapcsolódva !"
+
+#: mainwindow.cpp:711
+msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "Felismerhetetlen indítási státusz"
+
+#: mainwindow.cpp:718
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "egyebek"
+
+#: mainwindow.cpp:721
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "identitás eltérés"
+
+#: mainwindow.cpp:724
+msgctxt "MainWindow"
+msgid "done"
+msgstr "kész"
+
+#: mainwindow.cpp:727
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "kapcsolódás visszautasítva"
+
+#: mainwindow.cpp:730
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "a kapcsolódási idõ letelt"
+
+#: mainwindow.cpp:733
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "írás/olvasás hiba"
+
+#: mainwindow.cpp:736
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "nincs út a kiszolgálóhoz"
+
+#: mainwindow.cpp:739
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "elfogytak az erõforrások"
+
+#: mainwindow.cpp:742
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: mainwindow.cpp:744
+#, fuzzy
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "nem sikerült (%1)"
 
 #: mainwindow.ui:168
 msgctxt "MainWindow"
 msgid "Tor is not running"
-msgstr ""
+msgstr "TOR lekapcsolva"
 
-#: mainwindow.cpp:643
+#: mainwindow.cpp:787
 msgctxt "MainWindow"
 msgid "Tor is shutting down"
+msgstr "TOR lekapcsolása folyamatban..."
+
+#: mainwindow.cpp:792
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "TOR azonnali leállítása"
+
+#: mainwindow.cpp:794
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "TOR leállítása"
+
+#: mainwindow.cpp:810
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "TOR indítása"
+
+#: mainwindow.ui:75
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "TOR indítása"
+
+#: mainwindow.cpp:961
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Hiba a TOR indításával"
+
+#: mainwindow.cpp:964
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
 msgstr ""
+"A Vidalia nem tudta elindítani a TOR-t. Ellenõrizze a beállításait, hogy jól "
+"van-e megadva a TOR indítófájl neve és elérési útja."
+
+#: mainwindow.cpp:998
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "TOR kapcsolódása"
+
+#: mainwindow.cpp:1008
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Kapcsolódási hiba"
+
+#: mainwindow.cpp:1040
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Elosztás bekapcsolva"
+
+#: mainwindow.cpp:1067
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Hiba a lekapcsoláskor"
+
+#: mainwindow.cpp:1068
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "A TOR leállítása sikertelen."
+
+#: mainwindow.cpp:1099
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Váratlan hiba"
+
+#: mainwindow.cpp:1157
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "TOR beléptetése"
+
+#: mainwindow.cpp:1177
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Süti ellenõrzés szükséges"
+
+#: mainwindow.cpp:1180
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "A TOR egy bejelentkezõ süti elküldését kéri, de nem található."
+
+#: mainwindow.cpp:1182
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr ""
+"Kívánja kiválasztani kézzel a következõ állományt: 'control_auth_cookie' ?"
+
+#: mainwindow.cpp:1189
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Adat könyvtár"
+
+#: mainwindow.cpp:1191
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kontroll süti (control_auth_cookie)"
+
+#: mainwindow.cpp:1243
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Hiba az Események bejegyzésekor"
+
+#: mainwindow.cpp:1245
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr ""
+"Nem sikerült a Vidaliát kifogástalanul elindítani, ezért bizonyos funkciói "
+"várhatóan nem fognak rendeltetésszerûen mûködni."
+
+#: mainwindow.cpp:1324
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Ellenõrzési hiba"
+
+#: mainwindow.cpp:1326
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "TOR ellenõrzött beléptetése sikertelen. (%1)"
+
+#: mainwindow.cpp:1328
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Ellenõrizze a kontroll port bejelentkezési beállításait !"
+
+#: mainwindow.cpp:1432
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "A legújabb TOR verzió elérhetõ"
+
+#: mainwindow.cpp:1435
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr ""
+"A TOR jelenleg telepített verziója lejárt, vagy nem ajánlatos továbbá "
+"használni. Látogasson el a TOR weboldalára a legfrissebb verzióért !"
+
+#: mainwindow.cpp:1435
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "TOR weboldal: %1"
+
+#: mainwindow.cpp:1498
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr ""
+"Ösvények újrakiépítve.Minden további kapcsolat a régi kapcsolataitól "
+"különbözõként fog szerepelni."
+
+#: mainwindow.cpp:1513
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Új identitás létrehozása sikertelen"
+
+#: mainwindow.cpp:1562
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Port továbbítás sikertelen"
+
+#: mainwindow.cpp:1563
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Automata Port továbbítás beállítása sikertelen."
 
 #: mainwindow.ui:19
 msgctxt "MainWindow"
 msgid "Vidalia Control Panel"
-msgstr ""
-
-#: mainwindow.ui:218
-msgctxt "MainWindow"
-msgid "Vidalia Shortcuts"
-msgstr ""
-
-#: mainwindow.ui:243
-msgctxt "MainWindow"
-msgid "Setup Relaying"
-msgstr ""
-
-#: mainwindow.ui:256
-msgctxt "MainWindow"
-msgid "View the Network"
-msgstr ""
-
-#: mainwindow.ui:259
-msgctxt "MainWindow"
-msgid "View a map of the Tor network"
-msgstr ""
-
-#: mainwindow.ui:272
-msgctxt "MainWindow"
-msgid "Use a New Identity"
-msgstr ""
-
-#: mainwindow.ui:275
-msgctxt "MainWindow"
-msgid "Make subsequent connections appear new"
-msgstr ""
-
-#: mainwindow.ui:370
-msgctxt "MainWindow"
-msgid "View help documentation"
-msgstr ""
-
-#: mainwindow.ui:433
-msgctxt "MainWindow"
-msgid "View version and license information"
-msgstr ""
-
-#: mainwindow.ui:446
-msgctxt "MainWindow"
-msgid "Exit Vidalia"
-msgstr ""
-
-#: mainwindow.ui:498
-msgctxt "MainWindow"
-msgid "Show this window on startup"
-msgstr ""
-
-#: mainwindow.ui:517
-msgctxt "MainWindow"
-msgid "Hide"
-msgstr ""
-
-#: mainwindow.ui:520
-msgctxt "MainWindow"
-msgid "Hide this window"
-msgstr ""
-
-#: mainwindow.cpp:327
-msgctxt "MainWindow"
-msgid "Control Panel"
-msgstr ""
-
-#: mainwindow.cpp:400
-msgctxt "MainWindow"
-msgid "Ctrl+P"
-msgstr ""
-
-#: mainwindow.cpp:1047
-msgctxt "MainWindow"
-msgid "Cookie Authentication Required"
-msgstr ""
-
-#: mainwindow.cpp:1052
-msgctxt "MainWindow"
-msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
-msgstr ""
-
-#: mainwindow.cpp:1109
-msgctxt "MainWindow"
-msgid "Error Registering for Events"
-msgstr ""
-
-#: mainwindow.cpp:1145
-msgctxt "MainWindow"
-msgid "Password Authentication Required"
-msgstr ""
-
-#: mainwindow.cpp:1164
-msgctxt "MainWindow"
-msgid "Please check your control port authentication settings."
-msgstr ""
-
-#: mainwindow.cpp:1146
-msgctxt "MainWindow"
-msgid "Please enter your control password (not the hash):"
-msgstr ""
-
-#: mainwindow.cpp:910
-msgctxt "MainWindow"
-msgid "Relaying is Enabled"
-msgstr ""
-
-#: mainwindow.cpp:482
-msgctxt "MainWindow"
-msgid "Error starting web browser"
-msgstr ""
-
-#: mainwindow.cpp:483
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured web browser"
-msgstr ""
-
-#: mainwindow.cpp:1268
-msgctxt "MainWindow"
-msgid "Tor Update Available"
-msgstr ""
-
-#: mainwindow.cpp:1271
-msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
-msgstr ""
-
-#: mainwindow.cpp:1271
-msgctxt "MainWindow"
-msgid "Tor website: %1"
-msgstr ""
-
-#: mainwindow.cpp:517
-msgctxt "MainWindow"
-msgid "Error starting proxy server"
-msgstr ""
-
-#: mainwindow.cpp:518
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured proxy server"
-msgstr ""
-
-#: mainwindow.cpp:641
-msgctxt "MainWindow"
-msgid "Your relay is shutting down."
-"Click 'Stop' again to stop your relay now."
-msgstr ""
-
-#: mainwindow.cpp:878
-msgctxt "MainWindow"
-msgid "Connection Error"
-msgstr ""
-
-#: mainwindow.cpp:915
-msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
-""
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr ""
-
-#: mainwindow.cpp:937
-msgctxt "MainWindow"
-msgid "Error Shutting Down"
-msgstr ""
-
-#: mainwindow.cpp:938
-msgctxt "MainWindow"
-msgid "Vidalia was unable to stop the Tor software."
-msgstr ""
-
-#: mainwindow.cpp:969
-msgctxt "MainWindow"
-msgid "Unexpected Error"
-msgstr ""
-
-#: mainwindow.cpp:973
-msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly."
-""
-"Please check the message log for recent warning or error messages."
-msgstr ""
-
-#: mainwindow.cpp:1050
-msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
-msgstr ""
-
-#: mainwindow.cpp:1059
-msgctxt "MainWindow"
-msgid "Data Directory"
-msgstr ""
-
-#: mainwindow.cpp:1061
-msgctxt "MainWindow"
-msgid "Control Cookie (control_auth_cookie)"
-msgstr ""
-
-#: mainwindow.cpp:1111
-msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
-msgstr ""
-
-#: mainwindow.cpp:1160
-msgctxt "MainWindow"
-msgid "Authentication Error"
-msgstr ""
-
-#: mainwindow.cpp:1162
-msgctxt "MainWindow"
-msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
-msgstr ""
-
-#: mainwindow.cpp:1398
-msgctxt "MainWindow"
-msgid "Port Forwarding Failed"
-msgstr ""
-
-#: mainwindow.cpp:1399
-msgctxt "MainWindow"
-msgid "Vidalia was unable to configure automatic port forwarding."
-msgstr ""
+msgstr "Vidalia vezérlõpult"
 
 #: mainwindow.ui:49
 msgctxt "MainWindow"
 msgid "Status"
 msgstr "Állapot"
 
+#: mainwindow.ui:218
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia Parancsikonok"
+
+#: mainwindow.ui:243
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Elosztás beállítása"
+
 #: mainwindow.ui:246
 msgctxt "MainWindow"
 msgid "Set up a relay and help the network grow"
-msgstr ""
+msgstr "Elosztás beállítása és a TOR hálózat sebességének növelése"
+
+#: mainwindow.ui:256
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Hálózat megtekintése"
+
+#: mainwindow.ui:259
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "TOR hálózati térkép megtekintése"
+
+#: mainwindow.ui:272
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Új identitás használata"
+
+#: mainwindow.ui:275
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Létezõ kapcsolatok újként való feltüntetése"
 
 #: mainwindow.ui:307
 msgctxt "MainWindow"
 msgid "View recent bandwidth usage"
-msgstr ""
+msgstr "Sávszélesség statisztika megtekintése"
 
 #: mainwindow.ui:320
 msgctxt "MainWindow"
 msgid "View log message history"
-msgstr ""
+msgstr "Naplóbejegyzések megtekintése"
+
+#: mainwindow.ui:370
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Súgó megtekintése"
 
 #: mainwindow.ui:383
 msgctxt "MainWindow"
 msgid "Configure Vidalia"
-msgstr ""
+msgstr "Vidalia konfigurációja"
 
-#: mainwindow.ui:233
+#: mainwindow.ui:433
 msgctxt "MainWindow"
-msgid "Start Tor"
-msgstr ""
+msgid "View version and license information"
+msgstr "Verzió és licensz információk megtekintése"
 
-#: mainwindow.cpp:495
+#: mainwindow.ui:446
 msgctxt "MainWindow"
-msgid "Error starting IM client"
-msgstr ""
+msgid "Exit Vidalia"
+msgstr "Kilépés a Vidaliából"
 
-#: mainwindow.cpp:496
+#: mainwindow.ui:498
 msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured IM client"
-msgstr ""
+msgid "Show this window on startup"
+msgstr "Megjelenítés indításkor"
 
-#: mainwindow.cpp:534
+#: mainwindow.ui:517
 msgctxt "MainWindow"
-msgid "Connecting to a relay directory"
-msgstr ""
+msgid "Hide"
+msgstr "Elrejtés"
 
-#: mainwindow.cpp:538
+#: mainwindow.ui:520
 msgctxt "MainWindow"
-msgid "Establishing an encrypted directory connection"
-msgstr ""
+msgid "Hide this window"
+msgstr "Ablak elrejtése"
 
-#: mainwindow.cpp:541
+#: mainwindow.cpp:785
+#, fuzzy
 msgctxt "MainWindow"
-msgid "Retrieving network status"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
 msgstr ""
+"Elosztás lekapcsolása folyamatban. Kattintson újra a 'Stop'-ra ha azonnal "
+"meg kívánja szakítani a kapcsolatokat."
 
-#: mainwindow.cpp:544
+#: mainwindow.cpp:1045
+#, fuzzy
 msgctxt "MainWindow"
-msgid "Loading network status"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any "
+"open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new "
+"relay?"
 msgstr ""
+"Az Elosztás jelenleg fut. Az elosztások azonnali leállítása váratlanul "
+"lekapcsolja a jelenleg kapcsolódott klienseket. Kíván idõt hagyni a "
+"klienseknek új Ösvények kiépítéséhez ?"
 
-#: mainwindow.cpp:547
+#: mainwindow.cpp:1103
+#, fuzzy
 msgctxt "MainWindow"
-msgid "Loading authority certificates"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
 msgstr ""
+"A TOR váratlanul leállt. Ellenõrizze a napló bejegyzések figyelmeztetõ- és "
+"hibaüzeneteit."
 
-#: mainwindow.cpp:550
+#: mainwindow.cpp:1312
 msgctxt "MainWindow"
-msgid "Requesting relay information"
-msgstr ""
+msgid "Password Reset Failed"
+msgstr "A jelszó-visszaállítás nem sikerült"
 
-#: mainwindow.cpp:553
+#: mainwindow.cpp:1315
 msgctxt "MainWindow"
-msgid "Loading relay information"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
 msgstr ""
+"A Vidalia megpróbálta visszaállítani a TOR kontroll-jelszót, de nem tudta a "
+"TOR-t újraindítani. Ellenőrizze, hogy nem fut-e más TOR példány a "
+"Feladatkezelőben !"
 
-#: mainwindow.cpp:1100
-msgctxt "MainWindow"
-msgid "Connecting to the Tor network"
-msgstr ""
+#: messagelog.cpp:181
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Hiba a szûrõ beállításakor"
 
-#: mainwindow.cpp:560
-msgctxt "MainWindow"
-msgid "Establishing a Tor circuit"
-msgstr ""
+#: messagelog.cpp:182
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "A Vidalia nem tudta regisztrálni a TOR log eseményeit."
 
-#: mainwindow.cpp:1235
-msgctxt "MainWindow"
-msgid "Connected to the Tor network!"
-msgstr ""
+#: messagelog.cpp:197
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Hiba a log fájl megnyitásakor"
 
-#: mainwindow.cpp:567
-msgctxt "MainWindow"
-msgid "Unrecognized startup status"
-msgstr ""
+#: messagelog.cpp:198
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "A Vidalia nem tudta megnyitni a megadott log állományt."
 
-#: mainwindow.cpp:574
-msgctxt "MainWindow"
-msgid "miscellaneous"
-msgstr ""
+#: messagelog.cpp:219
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Log állománynév szükséges"
 
-#: mainwindow.cpp:577
-msgctxt "MainWindow"
-msgid "identity mismatch"
-msgstr ""
+#: messagelog.cpp:221
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Meg kell adnia egy állománynevet a naplózás elmentéséhez."
 
-#: mainwindow.cpp:580
-msgctxt "MainWindow"
-msgid "done"
-msgstr ""
+#: messagelog.cpp:272
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Log fájl kiválasztása"
 
-#: mainwindow.cpp:583
-msgctxt "MainWindow"
-msgid "connection refused"
-msgstr ""
+#: messagelog.cpp:289
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Log üzenetek mentése"
 
-#: mainwindow.cpp:586
-msgctxt "MainWindow"
-msgid "connection timeout"
-msgstr ""
+#: messagelog.cpp:292
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Szöveges állományok (*.txt)"
 
-#: mainwindow.cpp:589
-msgctxt "MainWindow"
-msgid "read/write error"
-msgstr ""
+#: messagelog.cpp:301
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
 
-#: mainwindow.cpp:592
-msgctxt "MainWindow"
-msgid "no route to host"
-msgstr ""
+#: messagelog.cpp:352
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Keresés a log üzenetekben:"
 
-#: mainwindow.cpp:595
-msgctxt "MainWindow"
-msgid "insufficient resources"
-msgstr ""
+#: messagelog.cpp:353
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Keresés:"
 
-#: mainwindow.cpp:598
-msgctxt "MainWindow"
-msgid "unknown"
-msgstr ""
+#: messagelog.cpp:359
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Nem található"
 
-#: mainwindow.cpp:600
-msgctxt "MainWindow"
-msgid " failed (%1)"
-msgstr ""
-
-#: mainwindow.cpp:648
-msgctxt "MainWindow"
-msgid "Stop Tor Now"
-msgstr ""
-
-#: mainwindow.cpp:650
-msgctxt "MainWindow"
-msgid "Stop Tor"
-msgstr ""
-
-#: mainwindow.cpp:666
-msgctxt "MainWindow"
-msgid "Starting the Tor software"
-msgstr ""
-
-#: mainwindow.ui:75
-msgctxt "MainWindow"
-msgid "Starting Tor"
-msgstr ""
-
-#: mainwindow.cpp:677
-msgctxt "MainWindow"
-msgid "Tor is Running"
-msgstr ""
-
-#: mainwindow.cpp:868
-msgctxt "MainWindow"
-msgid "Connecting to Tor"
-msgstr ""
-
-#: mainwindow.cpp:1027
-msgctxt "MainWindow"
-msgid "Authenticating to Tor"
-msgstr ""
+#: messagelog.cpp:360
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "A keresés 0 találati eredményt adott."
 
 #: messagelog.ui:19
 msgctxt "MessageLog"
 msgid "Message Log"
-msgstr "Log üzenetek"
-
-#: messagelog.ui:66
-msgctxt "MessageLog"
-msgid "Time"
-msgstr "Idõ"
-
-#: messagelog.ui:71
-msgctxt "MessageLog"
-msgid "Type"
-msgstr "Típus"
-
-#: messagelog.ui:76
-msgctxt "MessageLog"
-msgid "Message"
-msgstr "Üzenet"
-
-#: messagelog.ui:371
-msgctxt "MessageLog"
-msgid "Browse"
-msgstr "Böngészés"
-
-#: messagelog.ui:160
-msgctxt "MessageLog"
-msgid "Saves the current Message Log settings"
-msgstr "A log üzenetek jelenlegi beállításainak mentése"
-
-#: messagelog.ui:163
-msgctxt "MessageLog"
-msgid "Save Settings"
-msgstr "Beállítások mentése"
-
-#: messagelog.ui:179
-msgctxt "MessageLog"
-msgid "Cancels changes made to settings"
-msgstr "Beállítások módosításainak visszavonása"
-
-#: messagelog.ui:182
-msgctxt "MessageLog"
-msgid "Cancel"
-msgstr "Mégse"
-
-#: messagelog.ui:196
-msgctxt "MessageLog"
-msgid "Message Filter"
-msgstr "Üzenet szûrési feltétel"
-
-#: messagelog.ui:217
-msgctxt "MessageLog"
-msgid "Error"
-msgstr "Hiba"
-
-#: messagelog.ui:233
-msgctxt "MessageLog"
-msgid "Warning"
-msgstr "Figyelmeztetés"
-
-#: messagelog.ui:249
-msgctxt "MessageLog"
-msgid "Notice"
-msgstr "Megjegyzés"
-
-#: messagelog.ui:265
-msgctxt "MessageLog"
-msgid "Info"
-msgstr "Infó"
-
-#: messagelog.ui:281
-msgctxt "MessageLog"
-msgid "Debug"
-msgstr "Hibakeresés"
+msgstr "Log üzenetek (Napló)"
 
 #: messagelog.ui:452
 msgctxt "MessageLog"
@@ -1422,8 +1471,7 @@ msgstr "Elõzmények mérete..."
 #: messagelog.ui:466
 msgctxt "MessageLog"
 msgid "Set maximum number of messages to display"
-msgstr "A megjelenítendõ üzenetek maximális számának"
-"megadása"
+msgstr "A megjelenítendõ üzenetek maximális számának megadása"
 
 #: messagelog.ui:477
 msgctxt "MessageLog"
@@ -1490,119 +1538,6 @@ msgctxt "MessageLog"
 msgid "Save selected messages to a file"
 msgstr "A kiválasztott üzenetek fájlba mentése"
 
-#: messagelog.ui:581
-msgctxt "MessageLog"
-msgid "Close"
-msgstr "Bezárás"
-
-#: messagelog.ui:584
-msgctxt "MessageLog"
-msgid "Close the Message Log"
-msgstr "Log üzenetek bezárása"
-
-#: messagelog.ui:587
-msgctxt "MessageLog"
-msgid "Esc"
-msgstr "Esc"
-
-#: messagelog.ui:598
-msgctxt "MessageLog"
-msgid "Find"
-msgstr "Keresés"
-
-#: messagelog.ui:601
-msgctxt "MessageLog"
-msgid "Find all messages containing the search text (Ctrl+F)"
-msgstr "Minden, az adott szöveget tartalmazó üzenet"
-"megkeresése (Ctrl+F)"
-
-#: messagelog.ui:604
-msgctxt "MessageLog"
-msgid "Ctrl+F"
-msgstr "Ctrl+F"
-
-#: messagelog.cpp:137
-msgctxt "MessageLog"
-msgid "Messages that appear when something has "
-"gone very wrong and Tor cannot proceed."
-msgstr "Olyan üzenetek, amelyek akkor keletkeznek, amikor"
-"valami nagyon rosszul sült el és a Tor nem tud tovább haladni."
-
-#: messagelog.cpp:139
-msgctxt "MessageLog"
-msgid "Messages that only appear when "
-"something has gone wrong with Tor."
-msgstr "Csak a Tor hibás mûködése esetén keletkezõ"
-"üzenetek."
-
-#: messagelog.cpp:143
-msgctxt "MessageLog"
-msgid "Messages that appear infrequently "
-"during normal Tor operation and are "
-"not considered errors, but you may "
-"care about."
-msgstr "Normális Tor mûködés során ritkán keletkezõ log"
-"üzenetek, amelyek nem hibák, de nem árt foglalkoznod velük."
-
-#: messagelog.cpp:145
-msgctxt "MessageLog"
-msgid "Messages that appear frequently "
-"during normal Tor operation."
-msgstr "Normális Tor mûködés során gyakran keletkezõ log"
-"üzenetek."
-
-#: messagelog.cpp:147
-msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of "
-"interest to Tor developers."
-msgstr "Nagyon részletes üzenetek, fõleg Tor fejelsztõk"
-"részére."
-
-#: messagelog.cpp:192
-msgctxt "MessageLog"
-msgid "Error Setting Filter"
-msgstr "Hiba a szûrõ beállításakor"
-
-#: messagelog.cpp:208
-msgctxt "MessageLog"
-msgid "Error Opening Log File"
-msgstr "Hiba a log fájl megnyitásakor"
-
-#: messagelog.cpp:283
-msgctxt "MessageLog"
-msgid "Select Log File"
-msgstr "Log fájl kiválasztása"
-
-#: messagelog.cpp:300
-msgctxt "MessageLog"
-msgid "Save Log Messages"
-msgstr "Log üzenetek mentése"
-
-#: messagelog.cpp:312
-msgctxt "MessageLog"
-msgid "Vidalia"
-msgstr "Vidalia"
-
-#: messagelog.cpp:363
-msgctxt "MessageLog"
-msgid "Find in Message Log"
-msgstr "Keresés a log üzenetekben:"
-
-#: messagelog.cpp:364
-msgctxt "MessageLog"
-msgid "Find:"
-msgstr "Keresés:"
-
-#: messagelog.cpp:370
-msgctxt "MessageLog"
-msgid "Not Found"
-msgstr "Nem található"
-
-#: messagelog.cpp:371
-msgctxt "MessageLog"
-msgid "Search found 0 matches."
-msgstr "A keresés 0 találati eredményt adott."
-
 #: messagelog.ui:553
 msgctxt "MessageLog"
 msgid "Settings"
@@ -1628,146 +1563,275 @@ msgctxt "MessageLog"
 msgid "Show the help browser"
 msgstr "Súgó böngészõ megjelenítése"
 
-#: messagelog.cpp:193
-msgctxt "MessageLog"
-msgid "Vidalia was unable to register for Tor's log events."
-msgstr "A Vidalia nem tudta regisztrálni a Tor log"
-"eseményeit."
-
-#: messagelog.cpp:313
-msgctxt "MessageLog"
-msgid "Cannot write file %1"
-""
-"%2."
-msgstr "Nem írható a %1 állomány"
-""
-"%2."
-
-#: messagelog.cpp:209
-msgctxt "MessageLog"
-msgid "Vidalia was unable to open the specified log file."
-msgstr "A Vidalia nem tudta megnyitni a megadott log"
-"állományt."
-
 #: messagelog.ui:573
 msgctxt "MessageLog"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
-#: messagelog.cpp:303
+#: messagelog.ui:581
 msgctxt "MessageLog"
-msgid "Text Files (*.txt)"
-msgstr ""
+msgid "Close"
+msgstr "Bezárás"
 
-#: messagelog.cpp:230
+#: messagelog.ui:584
 msgctxt "MessageLog"
-msgid "Log Filename Required"
-msgstr ""
+msgid "Close the Message Log"
+msgstr "Log üzenetek bezárása"
 
-#: messagelog.cpp:232
+#: messagelog.ui:587
 msgctxt "MessageLog"
-msgid "You must enter a filename to be able to save log messages to a file."
-msgstr ""
+msgid "Esc"
+msgstr "Esc"
+
+#: messagelog.ui:598
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Keresés"
+
+#: messagelog.ui:601
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Minden, az adott szöveget tartalmazó üzenet megkeresése (Ctrl+F)"
+
+#: messagelog.ui:604
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+#: messagelog.ui:66
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Idõ"
+
+#: messagelog.ui:71
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Típus"
+
+#: messagelog.ui:76
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Üzenet"
+
+#: messagelog.ui:160
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "A log üzenetek jelenlegi beállításainak mentése"
+
+#: messagelog.ui:163
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: messagelog.ui:179
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Beállítások módosításainak visszavonása"
+
+#: messagelog.ui:182
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Mégse"
+
+#: messagelog.ui:196
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Üzenet szûrési feltétel"
+
+#: messagelog.ui:217
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Hiba"
+
+#: messagelog.ui:233
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: messagelog.ui:249
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Megjegyzés"
+
+#: messagelog.ui:265
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Infó"
+
+#: messagelog.ui:281
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Hibakeresés"
 
 #: messagelog.ui:297
 msgctxt "MessageLog"
 msgid "Message Log History"
-msgstr ""
+msgstr "Üzenet napló"
 
 #: messagelog.ui:318
 msgctxt "MessageLog"
 msgid "Number of messages to display in the message log window"
-msgstr ""
+msgstr "Naplóban egyidejûleg megjeleníthetõ log üzenetek száma"
 
 #: messagelog.ui:337
 msgctxt "MessageLog"
 msgid "messages"
-msgstr ""
+msgstr "üzenetek"
 
 #: messagelog.ui:356
 msgctxt "MessageLog"
 msgid "Always Save New Log Messages"
-msgstr ""
+msgstr "Mindig mentse az új üzeneteket"
+
+#: messagelog.ui:371
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Böngészés"
 
 #: messagelog.ui:394
 msgctxt "MessageLog"
 msgid "Enable automatically saving all new log messages to a file"
-msgstr ""
+msgstr "Új üzenetek automatikus mentésének bekapcsolása"
 
 #: messagelog.ui:397
 msgctxt "MessageLog"
 msgid "Automatically save new log messages to a file"
+msgstr "Mindig mentse automatikusan az új üzeneteket"
+
+#: messagelog.cpp:126
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
 msgstr ""
+"Olyan üzenetek, amelyek akkor keletkeznek, amikor valami nagyon rosszul sült "
+"el és a TOR nem tud tovább haladni."
+
+#: messagelog.cpp:128
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Csak a TOR hibás mûködése esetén keletkezõ üzenetek."
+
+#: messagelog.cpp:132
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+"Normális TOR mûködés során ritkán keletkezõ log üzenetek, amelyek nem hibák, "
+"de nem árt foglalkoznod velük."
+
+#: messagelog.cpp:134
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Normális TOR mûködés során gyakran keletkezõ log üzenetek."
+
+#: messagelog.cpp:136
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Nagyon részletes üzenetek, fõleg TOR fejlesztõk részére."
+
+#: messagelog.cpp:302
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Nem írható a %1 állomány %2."
+
+#: netviewer.ui:24
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "TOR hálózati térkép"
 
 #: netviewer.ui:236
 msgctxt "NetViewer"
 msgid "Refresh"
 msgstr "Frissítés"
 
+#: netviewer.ui:242
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "TOR Elosztások és kapcsolatok listájának frissítése"
+
+#: netviewer.ui:245
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "CTRL+R"
+
 #: netviewer.ui:253
 msgctxt "NetViewer"
 msgid "Help"
 msgstr "Súgó"
-
-#: netviewer.ui:270
-msgctxt "NetViewer"
-msgid "Close"
-msgstr "Lezár"
-
-#: netviewer.ui:287
-msgctxt "NetViewer"
-msgid "Zoom In"
-msgstr "Nagyítás"
-
-#: netviewer.ui:304
-msgctxt "NetViewer"
-msgid "Zoom Out"
-msgstr "Kicsinyítés"
-
-#: netviewer.ui:259
-msgctxt "NetViewer"
-msgid "Show network map help"
-msgstr "A hálózati térkép súgójának megtekintése"
 
 #: netviewer.ui:256
 msgctxt "NetViewer"
 msgid "Show the network map help"
 msgstr "A hálózati térkép súgójának megtekintése"
 
-#: netviewer.ui:276
+#: netviewer.ui:259
 msgctxt "NetViewer"
-msgid "Close the network map"
-msgstr "A hálózati térkép bezárása"
-
-#: netviewer.ui:293
-msgctxt "NetViewer"
-msgid "Zoom in on the network map"
-msgstr "Nagyítás a hálózati térképen"
-
-#: netviewer.ui:310
-msgctxt "NetViewer"
-msgid "Zoom out on the network map"
-msgstr "Kicsinyítés a hálózati térképen"
-
-#: netviewer.ui:245
-msgctxt "NetViewer"
-msgid "Ctrl+R"
-msgstr ""
+msgid "Show network map help"
+msgstr "A hálózati térkép súgójának megtekintése"
 
 #: netviewer.ui:262
 msgctxt "NetViewer"
 msgid "F1"
-msgstr ""
+msgstr "F1"
+
+#: netviewer.ui:270
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Bezár"
+
+#: netviewer.ui:276
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "A hálózati térkép bezárása"
 
 #: netviewer.ui:279
 msgctxt "NetViewer"
 msgid "Esc"
 msgstr "Esc"
 
+#: netviewer.ui:287
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Nagyítás"
+
+#: netviewer.ui:293
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Nagyítás a hálózati térképen"
+
 #: netviewer.ui:296
 msgctxt "NetViewer"
 msgid "+"
-msgstr ""
+msgstr "+"
+
+#: netviewer.ui:304
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Kicsinyítés"
+
+#: netviewer.ui:310
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Kicsinyítés a hálózati térképen"
 
 #: netviewer.ui:313
 msgctxt "NetViewer"
@@ -1777,167 +1841,179 @@ msgstr "-"
 #: netviewer.ui:321
 msgctxt "NetViewer"
 msgid "Zoom To Fit"
-msgstr ""
+msgstr "Optimális közelítés"
 
 #: netviewer.ui:327
 msgctxt "NetViewer"
 msgid "Zooms to fit all currently displayed circuits"
-msgstr ""
+msgstr "Közelítés a megjelenített ösvényekre"
 
 #: netviewer.ui:330
 msgctxt "NetViewer"
 msgid "Ctrl+Z"
-msgstr ""
-
-#: netviewer.ui:24
-msgctxt "NetViewer"
-msgid "Tor Network Map"
-msgstr ""
-
-#: netviewer.ui:242
-msgctxt "NetViewer"
-msgid "Refresh the list of Tor relays and connections"
-msgstr ""
+msgstr "Ctrl+Z"
 
 #: networkpage.cpp:34
+#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
-msgstr ""
+msgstr "Hálózat"
 
 #: networkpage.cpp:186
 msgctxt "NetworkPage"
 msgid "Invalid Bridge"
-msgstr ""
+msgstr "Érvénytelen Hídkapcsolat"
 
 #: networkpage.cpp:187
 msgctxt "NetworkPage"
 msgid "The specified bridge identifier is not valid."
-msgstr ""
+msgstr "A megadott Hídkapcsolat azonosító érvénytelen."
 
 #: networkpage.cpp:234
 msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
-msgstr ""
+msgstr "Másolás (Ctrl+C)"
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
 msgstr ""
+"Meg kell adni mind vagy egy IP címet, vagy egy állomásnevet (host) és egy "
+"portot , ahhoz, hogy a TOR ezen a proxy-n keresztül kapcsolódjon az "
+"Internethez."
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
 msgstr ""
+"Meg kell adni egy vagy több olyan portot, amelyek engedélyezve (nyitva) "
+"vannak a tûzfalban."
 
 #: networkpage.cpp:307
 msgctxt "NetworkPage"
 msgid "'%1' is not a valid port number."
+msgstr "A következõ port érvénytelen: '%1' "
+
+#: networkpage.ui:25
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
 msgstr ""
+"Tegye be a pipát, ha a helyi hálózata proxy-t igényel az Internethez való "
+"kapcsolódáshoz"
 
 #: networkpage.ui:28
 msgctxt "NetworkPage"
 msgid "I use a proxy to access the Internet"
-msgstr ""
+msgstr "Proxy-t használok az Internetre való kapcsolódáshoz"
 
 #: networkpage.ui:58
 msgctxt "NetworkPage"
 msgid "Proxy Settings"
-msgstr ""
+msgstr "Proxy beállítások"
 
 #: networkpage.ui:70
 msgctxt "NetworkPage"
 msgid "HTTP Proxy:"
-msgstr ""
+msgstr "HTTP Proxy:"
 
 #: networkpage.ui:80
 msgctxt "NetworkPage"
 msgid "Username:"
-msgstr ""
+msgstr "Felhasználónév: "
 
 #: networkpage.ui:90
 msgctxt "NetworkPage"
 msgid "Use this proxy for HTTPS also"
-msgstr ""
+msgstr "Ezen proxy használata a https:// kapcsolatokhoz is"
 
 #: networkpage.ui:108
 msgctxt "NetworkPage"
 msgid "Password:"
-msgstr ""
+msgstr "Jelszó: "
 
 #: networkpage.ui:135
 msgctxt "NetworkPage"
 msgid "Port:"
+msgstr "Port: "
+
+#: networkpage.ui:176
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
 msgstr ""
+"Kizárólag olyan Elosztókhoz való kapcsolódás, amelyek a tûzfalam nyitott "
+"portjaira vannak konfigurálva"
 
 #: networkpage.ui:179
 msgctxt "NetworkPage"
 msgid "My firewall only lets me connect to certain ports"
-msgstr ""
+msgstr "A tûzfalam csak néhány porton engedélyez kapcsolódást"
 
 #: networkpage.ui:203
 msgctxt "NetworkPage"
 msgid "Firewall Settings"
-msgstr ""
+msgstr "Tûzfal beállítások"
 
 #: networkpage.ui:215
 msgctxt "NetworkPage"
 msgid "Allowed Ports:"
-msgstr ""
+msgstr "Engedélyezett portok: "
 
 #: networkpage.ui:225
 msgctxt "NetworkPage"
 msgid "80, 443"
 msgstr "80, 443"
 
+#: networkpage.ui:235
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr ""
+"Címtár lekérdezések titkosítása és opcionálisan, Hídkapcsolatok használata a "
+"TOR-hoz való kapcsolódáshoz"
+
 #: networkpage.ui:238
 msgctxt "NetworkPage"
 msgid "My ISP blocks connections to the Tor network"
-msgstr ""
-
-#: networkpage.ui:295
-msgctxt "NetworkPage"
-msgid "Add a Bridge:"
-msgstr ""
-
-#: networkpage.ui:383
-msgctxt "NetworkPage"
-msgid "Remove the selected bridges from the list"
-msgstr ""
-
-#: networkpage.ui:399
-msgctxt "NetworkPage"
-msgid "Copy the selected bridges to the clipboard"
-msgstr ""
-
-#: networkpage.ui:318
-msgctxt "NetworkPage"
-msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
-msgstr ""
-
-#: networkpage.ui:25
-msgctxt "NetworkPage"
-msgid "Check if your local network requires a proxy to access the Internet"
-msgstr ""
-
-#: networkpage.ui:176
-msgctxt "NetworkPage"
-msgid "Check to only connect to relays using ports allowed by your firewall"
-msgstr ""
-
-#: networkpage.ui:235
-msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
-msgstr ""
+msgstr "A szolgáltatóm blokkolja a TOR-t"
 
 #: networkpage.ui:262
 msgctxt "NetworkPage"
 msgid "Bridge Settings"
-msgstr ""
+msgstr "Hídkapcsolatok beállításai"
 
 #: networkpage.ui:274
 msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
+msgid ""
+"The Tor software you are currently running does not support bridges. "
+"<br>Directory connections will still be encrypted."
 msgstr ""
+"A TOR jelenleg futó verziója nem támogatja a Hídkapcsolatokat.<br>A "
+"címtárlista le- és feltöltése azonban titkosított lesz."
+
+#: networkpage.ui:295
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Hídkapcsolat hozzáadása: "
+
+#: networkpage.ui:318
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
+msgstr "<a href=\"bridges.finding\">Hogyan találhatok Hídkapcsolatokat?</a>"
+
+#: networkpage.ui:383
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Hídkapcsolat eltávolítása a listából"
+
+#: networkpage.ui:399
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "A kiválasztott Hídkapcsolat vágólapra másolása"
 
 #: policy.cpp:167
 msgctxt "Policy"
@@ -1964,60 +2040,63 @@ msgctxt "RouterDescriptor"
 msgid "Offline"
 msgstr "Kapcsolat nélkül"
 
-#: routerdescriptorview.cpp:103
-msgctxt "RouterDescriptorView"
-msgid "IP Address:"
-msgstr "IP cím:"
-
-#: routerdescriptorview.cpp:104
-msgctxt "RouterDescriptorView"
-msgid "Platform:"
-msgstr "Platform:"
-
-#: routerdescriptorview.cpp:108
-msgctxt "RouterDescriptorView"
-msgid "Bandwidth:"
-msgstr "Sávszélesség:"
-
-#: routerdescriptorview.cpp:110
-msgctxt "RouterDescriptorView"
-msgid "Uptime:"
-msgstr "Aktivitási idõ:"
-
-#: routerdescriptorview.cpp:116
-msgctxt "RouterDescriptorView"
-msgid "Last Updated:"
-msgstr "Utolsó frissítés ideje:"
-
-#: routerdescriptorview.cpp:99
+#: routerdescriptorview.cpp:139
 msgctxt "RouterDescriptorView"
 msgid "Location:"
 msgstr "Hely:"
 
-#: routerdescriptorview.cpp:60
+#: routerdescriptorview.cpp:143
 msgctxt "RouterDescriptorView"
-msgid "%1 days "
-msgstr ""
+msgid "IP Address:"
+msgstr "IP cím:"
 
-#: routerdescriptorview.cpp:63
+#: routerdescriptorview.cpp:144
 msgctxt "RouterDescriptorView"
-msgid "%1 hours "
-msgstr ""
+msgid "Platform:"
+msgstr "Platform:"
 
-#: routerdescriptorview.cpp:66
+#: routerdescriptorview.cpp:148
 msgctxt "RouterDescriptorView"
-msgid "%1 mins "
-msgstr ""
+msgid "Bandwidth:"
+msgstr "Sávszélesség:"
 
-#: routerdescriptorview.cpp:69
+#: routerdescriptorview.cpp:150
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Aktivitási idõ:"
+
+#: routerdescriptorview.cpp:156
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Utolsó frissítés ideje:"
+
+#: routerdescriptorview.cpp:100
+#, fuzzy
+msgctxt "RouterDescriptorView"
+msgid "%1 days"
+msgstr "%1 nap"
+
+#: routerdescriptorview.cpp:103
+#, fuzzy
+msgctxt "RouterDescriptorView"
+msgid "%1 hours"
+msgstr "%1 óra"
+
+#: routerdescriptorview.cpp:106
+#, fuzzy
+msgctxt "RouterDescriptorView"
+msgid "%1 mins"
+msgstr "%1 perc"
+
+#: routerdescriptorview.cpp:109
 msgctxt "RouterDescriptorView"
 msgid "%1 secs"
-msgstr ""
+msgstr "%1 másodperc"
 
-#: routerlistitem.cpp:83
-msgctxt "RouterListItem"
-msgid "%1 KB/s"
-msgstr "%1 KB/s"
+#: routerdescriptorview.cpp:48
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Másolás"
 
 #: routerlistitem.cpp:67
 msgctxt "RouterListItem"
@@ -2029,25 +2108,106 @@ msgctxt "RouterListItem"
 msgid "Hibernating"
 msgstr "Hibernált"
 
+#: routerlistitem.cpp:83
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
 #: routerlistwidget.cpp:31
 msgctxt "RouterListWidget"
 msgid "Relay"
-msgstr ""
+msgstr "Elosztás"
 
 #: routerlistwidget.cpp:58
 msgctxt "RouterListWidget"
 msgid "Zoom to Relay"
-msgstr ""
+msgstr "Elosztókra szûkítés"
 
 #: routerlistwidget.cpp:151
 msgctxt "RouterListWidget"
 msgid "%1 relays online"
+msgstr "%1 Elosztó kapcsolódva"
+
+#: serverpage.cpp:68
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Server"
+msgstr "Folyamatok"
+
+#: serverpage.cpp:133
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "A Hídkapcsolat támogatás nem elérhetõ"
+
+#: serverpage.cpp:136
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
 msgstr ""
+"Ön beállította a TOR-t Hídkapcsolati Elosztóként,blokkolt felhasználók TOR-"
+"hoz kapcsolódásának segítéséhez, viszont ez a TOR verzió nem támogatja a "
+"Hídkapcsolati Elosztást."
+
+#: serverpage.cpp:138
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+"Frissítse a TOR-t vagy állítsa be hagyományos forgalom-Elosztóként "
+"(közvetítõként)."
+
+#: serverpage.cpp:192
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "A Hídkapcsolati Elosztása nem fut."
+
+#: serverpage.cpp:256
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Minimum egy Elosztónevet és a portot meg kell adnia."
+
+#: serverpage.ui:25
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Csak kliens indítása"
 
 #: serverpage.ui:32
 msgctxt "ServerPage"
 msgid "Relay traffic for the Tor network"
-msgstr "A Tor hálózat forgalmának közvetítése"
+msgstr "A TOR hálózat forgalmának közvetítése (Elosztás)"
+
+#: serverpage.ui:91
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Közvetítõ port:"
+
+#: serverpage.ui:110
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Az Elosztócímtár tükrözésének bekapcsolása"
+
+#: serverpage.ui:113
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Elosztócímtárak tükrözése"
+
+#: serverpage.ui:139
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Port továbbítás automatikus konfigurálásának indítása"
+
+#: serverpage.ui:154
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Teszt"
+
+#: serverpage.ui:164
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Port továbbítással kapcsolatos súgó témakörök megtekintése"
 
 #: serverpage.ui:234
 msgctxt "ServerPage"
@@ -2057,513 +2217,490 @@ msgstr "Címtár port:"
 #: serverpage.ui:267
 msgctxt "ServerPage"
 msgid "Directory Port Number"
-msgstr "Címtár port száma"
-
-#: serverpage.ui:380
-msgctxt "ServerPage"
-msgid "Nickname:"
-msgstr "Becenév:"
+msgstr "Címtár portja"
 
 #: serverpage.ui:279
 msgctxt "ServerPage"
 msgid "Contact Info:"
 msgstr "Kapcsolat infó:"
 
-#: serverpage.ui:764
+#: serverpage.ui:337
 msgctxt "ServerPage"
-msgid "Exit Policies"
-msgstr "Kilépési szabályok"
+msgid "Name of your relay"
+msgstr "Az Elosztó neve"
+
+#: serverpage.ui:370
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr ""
+"A port, amelyen más felhasználók és Elosztók kommunikálnak az Ön "
+"közvetítésével"
+
+#: serverpage.ui:380
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Becenév:"
+
+#: serverpage.ui:76
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Alap beállítások"
+
+#: serverpage.ui:435
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"Gyors letöltés, de lassú feltöltés esetén adja meg a feltöltési sebességét "
+"itt."
+
+#: serverpage.ui:466
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Kábel/DSL 256 Kbps"
+
+#: serverpage.ui:471
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Kábel/DSL 512 Kbps"
+
+#: serverpage.ui:476
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Kábel/DSL 768 Kbps"
+
+#: serverpage.ui:481
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Kábel/DSL 1.5 Mbps"
+
+#: serverpage.ui:486
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "több mint 1.5 Mbps"
+
+#: serverpage.ui:491
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Egyéni"
+
+#: serverpage.ui:456
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Válassza ki az Internet-sebességéhez legközelebb álló értéket"
+
+#: serverpage.ui:502
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Sávszélesség-korlátozással kapcsolatos súgó témák megjelenítése"
+
+#: serverpage.ui:591
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Átlagos sávszélesség"
+
+#: serverpage.ui:620
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Hosszútávú átlagos sávszélesség korlátozás"
+
+#: serverpage.ui:708
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+#: serverpage.ui:666
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Maximum sebesség"
+
+#: serverpage.ui:695
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Sávszélesség-korlátozás maximuma"
+
+#: serverpage.ui:737
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+"A maximum Internetsebességnek nagyobbnak kell lennie, mint az átlagosnak, de "
+"mindkét érték minimum 20 KB/s lehet."
+
+#: serverpage.ui:400
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Sávszélesség-korlátozások"
+
+#: serverpage.ui:802
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Portok: 6660 - 6669 és 6697"
+
+#: serverpage.ui:805
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "IRC chat"
+
+#: serverpage.ui:815
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Portok: 110, 143,  993 és 995"
+
+#: serverpage.ui:818
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Levél fogadása (POP, IMAP)"
+
+#: serverpage.ui:828
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Portok melyek egyébként nincsenek máshol bejelölve"
+
+#: serverpage.ui:831
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Egyéb Szolgáltatások"
+
+#: serverpage.ui:841
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Portok: 706, 1863, 5050, 5190, 5222, 5223, 8300 és 8888"
+
+#: serverpage.ui:844
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "IM (azonnali üzenetküldõk)"
+
+#: serverpage.ui:854
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "443-as port"
+
+#: serverpage.ui:857
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Biztonságos (https) weblapok"
+
+#: serverpage.ui:867
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "80-as port"
+
+#: serverpage.ui:870
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Weboldalak"
 
 #: serverpage.ui:896
 msgctxt "ServerPage"
 msgid "Show help topic on exit policies"
 msgstr "Kilépési szabályokkal kapcsolatos súgó témák megjelenítése"
 
-#: serverpage.ui:620
-msgctxt "ServerPage"
-msgid "Long-term average bandwidth limit"
-msgstr ""
-
-#: serverpage.ui:591
-msgctxt "ServerPage"
-msgid "Average Rate"
-msgstr ""
-
-#: serverpage.ui:708
-msgctxt "ServerPage"
-msgid "KB/s"
-msgstr ""
-
-#: serverpage.ui:695
-msgctxt "ServerPage"
-msgid "Peak bandwidth rate limit"
-msgstr ""
-
-#: serverpage.ui:666
-msgctxt "ServerPage"
-msgid "Maximum Rate"
-msgstr ""
-
-#: serverpage.ui:502
-msgctxt "ServerPage"
-msgid "Show help topic on bandwidth rate limits"
-msgstr ""
-
-#: serverpage.ui:76
-msgctxt "ServerPage"
-msgid "Basic Settings"
-msgstr ""
-
-#: serverpage.ui:400
-msgctxt "ServerPage"
-msgid "Bandwidth Limits"
-msgstr ""
-
-#: serverpage.ui:435
-msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
-msgstr ""
-
-#: serverpage.ui:456
-msgctxt "ServerPage"
-msgid "Select the entry that most closely resembles your Internet connection"
-msgstr ""
-
-#: serverpage.ui:466
-msgctxt "ServerPage"
-msgid "Cable/DSL 256 Kbps"
-msgstr ""
-
-#: serverpage.ui:471
-msgctxt "ServerPage"
-msgid "Cable/DSL 512 Kbps"
-msgstr ""
-
-#: serverpage.ui:476
-msgctxt "ServerPage"
-msgid "Cable/DSL 768 Kbps"
-msgstr ""
-
-#: serverpage.ui:481
-msgctxt "ServerPage"
-msgid "T1/Cable/DSL 1.5 Mbps"
-msgstr ""
-
-#: serverpage.ui:486
-msgctxt "ServerPage"
-msgid "> 1.5 Mbps"
-msgstr ""
-
-#: serverpage.ui:491
-msgctxt "ServerPage"
-msgid "Custom"
-msgstr ""
-
-#: serverpage.ui:802
-msgctxt "ServerPage"
-msgid "Ports 6660 - 6669 and 6697"
-msgstr ""
-
-#: serverpage.ui:805
-msgctxt "ServerPage"
-msgid "Internet Relay Chat (IRC)"
-msgstr ""
-
-#: serverpage.ui:815
-msgctxt "ServerPage"
-msgid "Ports 110, 143, 993 and 995"
-msgstr ""
-
-#: serverpage.ui:818
-msgctxt "ServerPage"
-msgid "Retrieve Mail (POP, IMAP)"
-msgstr ""
-
-#: serverpage.ui:828
-msgctxt "ServerPage"
-msgid "Ports unspecified by other checkboxes"
-msgstr ""
-
-#: serverpage.ui:831
-msgctxt "ServerPage"
-msgid "Misc Other Services"
-msgstr ""
-
-#: serverpage.ui:844
-msgctxt "ServerPage"
-msgid "Instant Messaging (IM)"
-msgstr ""
-
-#: serverpage.ui:854
-msgctxt "ServerPage"
-msgid "Port 443"
-msgstr ""
-
-#: serverpage.ui:857
-msgctxt "ServerPage"
-msgid "Secure Websites (SSL)"
-msgstr ""
-
-#: serverpage.ui:867
-msgctxt "ServerPage"
-msgid "Port 80"
-msgstr ""
-
-#: serverpage.ui:870
-msgctxt "ServerPage"
-msgid "Websites"
-msgstr ""
-
-#: serverpage.ui:737
-msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
-msgstr ""
-
-#: serverpage.cpp:68
-msgctxt "ServerPage"
-msgid "Server"
-msgstr "Kiszolgáló"
-
-#: serverpage.cpp:133
-msgctxt "ServerPage"
-msgid "Bridge Support Unavailable"
-msgstr ""
-
-#: serverpage.cpp:136
-msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
-msgstr ""
-
-#: serverpage.cpp:138
-msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
-msgstr ""
-
-#: serverpage.cpp:256
-msgctxt "ServerPage"
-msgid "You must specify at least a relay nickname and port."
-msgstr ""
-
-#: serverpage.ui:91
-msgctxt "ServerPage"
-msgid "Relay Port:"
-msgstr ""
-
-#: serverpage.ui:204
-msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
-msgstr ""
-
-#: serverpage.ui:113
-msgctxt "ServerPage"
-msgid "Mirror the Relay Directory "
-msgstr ""
-
-#: serverpage.cpp:192
-msgctxt "ServerPage"
-msgid "Your bridge relay is not running."
-msgstr ""
-
-#: serverpage.ui:39
-msgctxt "ServerPage"
-msgid "Help censored users reach the Tor network (Tor 0.2.0.8-alpha or newer)"
-msgstr ""
-
-#: serverpage.ui:337
-msgctxt "ServerPage"
-msgid "Name of your relay"
-msgstr ""
-
-#: serverpage.ui:370
-msgctxt "ServerPage"
-msgid "Port on which users and other relays can communicate with your relay"
-msgstr ""
-
-#: serverpage.ui:1005
-msgctxt "ServerPage"
-msgid "Let others access your bridge by giving them this line:"
-msgstr ""
-
-#: serverpage.ui:1029
-msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
-msgstr ""
-
-#: serverpage.ui:1051
-msgctxt "ServerPage"
-msgid "Copy your bridge relay's identity to the clipboard"
-msgstr ""
-
-#: serverpage.ui:841
-msgctxt "ServerPage"
-msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
-msgstr ""
-
-#: serverpage.ui:25
-msgctxt "ServerPage"
-msgid "Run as a client only"
-msgstr ""
-
-#: serverpage.ui:110
-msgctxt "ServerPage"
-msgid "Enable to mirror the relay directory"
-msgstr ""
-
-#: serverpage.ui:139
-msgctxt "ServerPage"
-msgid "Attempt to automatically configure port forwarding"
-msgstr ""
-
-#: serverpage.ui:154
-msgctxt "ServerPage"
-msgid "Test"
-msgstr ""
-
 #: serverpage.ui:969
 msgctxt "ServerPage"
 msgid "What Internet resources should users be able to access from your relay?"
-msgstr ""
+msgstr "Mely típusú Internet-kapcsolatokat engedélyezi a felhasználóknak?"
 
-#: serverpage.ui:164
+#: serverpage.ui:979
 msgctxt "ServerPage"
-msgid "Show help topic on port forwarding"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
 msgstr ""
+"A TOR továbbra is blokkolni fog némely levelező és fájlmegosztó "
+"szolgáltatásokat, a visszaélések megfékezése érdekében."
+
+#: serverpage.ui:764
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Kilépési szabályok"
+
+#: serverpage.ui:1015
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr ""
+"Ezen sort adja meg másoknak, akiket szeretne hozzásegíteni a "
+"Hídkapcsolatával a TOR hálózathoz:"
+
+#: serverpage.ui:1039
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Ez az Ön Hídkapcsolati azonosítója, amelyet megadhat másoknak"
+
+#: serverpage.ui:1061
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "A Hídkapcsolati azonosító vágólapra másolása"
+
+#: serverpage.ui:39
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr ""
+"Blokkolt felhasználók segítése a TOR hálózathoz való kapcsolódához (TOR "
+"0.2.0.8-alfa vagy újabb)"
+
+#: serverpage.ui:204
+#, fuzzy
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+"E-mail cím, amelyen elérhetõ, ha bármi gond adódna az Elosztásával. "
+"Ugyancsak itt érdemes egy PGP vagy egy GPG digitális azonosítókulcsot is "
+"megadni."
 
 #: servicepage.cpp:27
+#, fuzzy
 msgctxt "ServicePage"
 msgid "Services"
-msgstr ""
+msgstr "Folyamatok"
 
-#: servicepage.cpp:109
+#: servicepage.cpp:105
 msgctxt "ServicePage"
 msgid "Error while trying to unpublish all services"
-msgstr ""
+msgstr "Hiba minden futó szolgáltatás lekapcsolásakor"
 
-#: servicepage.cpp:590
+#: servicepage.cpp:112
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr ""
+"Adjon meg minimum egy szolgáltatás könyvtárat és egy portot minden "
+"elmentendõ szolgáltatáshoz, a többit pedig törölje."
+
+#: servicepage.cpp:589
 msgctxt "ServicePage"
 msgid "Error"
 msgstr "Hiba"
 
-#: servicepage.cpp:445
+#: servicepage.cpp:444
 msgctxt "ServicePage"
 msgid "Please select a Service."
-msgstr ""
+msgstr "Válasszon egy szolgáltatást."
 
-#: servicepage.cpp:451
+#: servicepage.cpp:450
 msgctxt "ServicePage"
 msgid "Select Service Directory"
-msgstr ""
+msgstr "Szolgáltatás könyvtár kiválasztása"
 
-#: servicepage.cpp:540
+#: servicepage.cpp:539
 msgctxt "ServicePage"
 msgid "Virtual Port may only contain valid port numbers [1..65535]."
-msgstr ""
+msgstr "A Virtuális port csak érvényes (1..65535) számokat tartalmazhat"
 
-#: servicepage.cpp:571
+#: servicepage.cpp:570
 msgctxt "ServicePage"
 msgid "Target may only contain address:port, address, or port."
 msgstr ""
+"A cél megadási szintaktikája csak a következõ lehet:<br>IP cím:port  vagy "
+"csak IP cím, vagy csak port."
 
-#: servicepage.cpp:591
+#: servicepage.cpp:590
 msgctxt "ServicePage"
 msgid "Directory already in use by another service."
-msgstr ""
+msgstr "A könyvár már használatban van egy másik szolgáltatás által."
 
 #: servicepage.ui:19
 msgctxt "ServicePage"
 msgid "Form"
-msgstr ""
+msgstr "Forma"
 
 #: servicepage.ui:31
 msgctxt "ServicePage"
 msgid "Provided Hidden Services"
-msgstr ""
+msgstr "Megadott Rejtett Szolgáltatások"
 
 #: servicepage.ui:56
 msgctxt "ServicePage"
 msgid "Onion Address"
-msgstr ""
+msgstr "Onion cím"
 
 #: servicepage.ui:61
 msgctxt "ServicePage"
 msgid "Virtual Port"
-msgstr ""
+msgstr "Virtuális Port"
 
 #: servicepage.ui:66
 msgctxt "ServicePage"
 msgid "Target"
-msgstr ""
+msgstr "Cél"
 
 #: servicepage.ui:71
 msgctxt "ServicePage"
 msgid "Directory Path"
-msgstr ""
+msgstr "Címtár Útvonal"
 
 #: servicepage.ui:76
 msgctxt "ServicePage"
 msgid "Enabled"
-msgstr ""
+msgstr "Státusz"
 
 #: servicepage.ui:84
 msgctxt "ServicePage"
 msgid "Add new service to list"
-msgstr ""
+msgstr "Új szolgáltatás felvétele a listába"
 
 #: servicepage.ui:97
 msgctxt "ServicePage"
 msgid "Remove selected service from list"
-msgstr ""
+msgstr "Kiválasztott szolgáltatás eltávolítása a listából"
 
 #: servicepage.ui:110
 msgctxt "ServicePage"
 msgid "Copy onion address of selected service to clipboard"
-msgstr ""
+msgstr "A kiválasztott szolgáltatás .onion címének vágólapra  másolása"
 
 #: servicepage.ui:123
 msgctxt "ServicePage"
 msgid "Browse in local file system and choose directory for selected service"
-msgstr ""
+msgstr "A kiválasztott szolgáltatás helyének kitallózása a Sajátgépben"
 
-#: servicepage.cpp:116
+#: servicepage.cpp:376
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
-msgstr ""
+msgid "Created by Tor"
+msgstr "TOR által generálva"
 
-#: stream.cpp:118
+#: stream.cpp:131
 msgctxt "Stream"
 msgid "New"
 msgstr "Új"
 
-#: stream.cpp:120
+#: stream.cpp:133
 msgctxt "Stream"
 msgid "Resolving"
 msgstr "Feloldás"
 
-#: stream.cpp:121
+#: stream.cpp:134
 msgctxt "Stream"
 msgid "Connecting"
 msgstr "Kapcsolódás"
 
-#: stream.cpp:122
+#: stream.cpp:135
 msgctxt "Stream"
 msgid "Open"
 msgstr "Nyitott"
 
-#: stream.cpp:123
+#: stream.cpp:136
 msgctxt "Stream"
 msgid "Failed"
 msgstr "Nem sikerült"
 
-#: stream.cpp:124
+#: stream.cpp:137
 msgctxt "Stream"
 msgid "Closed"
 msgstr "Lezárt"
 
-#: stream.cpp:127
-msgctxt "Stream"
-msgid "Unknown"
-msgstr "Ismeretlen"
-
-#: stream.cpp:125
+#: stream.cpp:138
 msgctxt "Stream"
 msgid "Retrying"
 msgstr "Újabb próbálkozás"
 
-#: stream.cpp:126
+#: stream.cpp:139
 msgctxt "Stream"
 msgid "Remapped"
-msgstr ""
+msgstr "Újratérképezve"
+
+#: stream.cpp:140
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Ismeretlen"
 
 #: torprocess.cpp:107
 msgctxt "TorProcess"
 msgid "Process %1 failed to stop. [%2]"
-msgstr "%1 folyamatot nem sikerült leállítani. [%2]"
+msgstr "%1 folyamat leállítása sikertelen. [%2]"
 
 #: torservice.cpp:143
 msgctxt "TorService"
 msgid "The Tor service is not installed."
-msgstr ""
+msgstr "A TOR szolgáltatás nincs telepítve."
 
 #: torservice.cpp:161
 msgctxt "TorService"
 msgid "Unable to start the Tor service."
-msgstr ""
+msgstr "TOR szolgáltatás indítása sikertelen."
 
-#: torsettings.cpp:107
+#: torsettings.cpp:103
 msgctxt "TorSettings"
 msgid "Failed to hash the control password."
-msgstr ""
+msgstr "Kontroll jelszó ellenõrzõ-végösszegének  létrehozása sikertelen."
 
 #: upnpcontrol.cpp:139
 msgctxt "UPNPControl"
 msgid "Success"
-msgstr ""
+msgstr "Siker"
 
 #: upnpcontrol.cpp:141
 msgctxt "UPNPControl"
 msgid "No UPnP-enabled devices found"
-msgstr ""
+msgstr "Nem található UPnP eszköz"
 
 #: upnpcontrol.cpp:143
 msgctxt "UPNPControl"
 msgid "No valid UPnP-enabled Internet gateway devices found"
-msgstr ""
+msgstr "Nem található UPnP támogatású Internet Átjáró eszköz"
 
 #: upnpcontrol.cpp:145
 msgctxt "UPNPControl"
 msgid "WSAStartup failed"
-msgstr ""
+msgstr "WSA elindítása sikertelen"
 
 #: upnpcontrol.cpp:147
 msgctxt "UPNPControl"
 msgid "Failed to add a port mapping"
-msgstr ""
+msgstr "Port térképezés hozzáadása sikertelen"
 
 #: upnpcontrol.cpp:149
 msgctxt "UPNPControl"
 msgid "Failed to retrieve a port mapping"
-msgstr ""
+msgstr "Port térképezés fogadása sikertelen"
 
 #: upnpcontrol.cpp:151
 msgctxt "UPNPControl"
 msgid "Failed to remove a port mapping"
-msgstr ""
+msgstr "Port térképezés eltávolítása sikertelen"
 
 #: upnpcontrol.cpp:153
 msgctxt "UPNPControl"
 msgid "Unknown error"
-msgstr ""
+msgstr "Ismeretlen hiba"
 
 #: upnptestdialog.cpp:112
 msgctxt "UPNPTestDialog"
 msgid "Discovering UPnP-enabled devices"
-msgstr ""
+msgstr "Bekapcsolt UPnP eszközök felderítése"
 
 #: upnptestdialog.cpp:117
 msgctxt "UPNPTestDialog"
 msgid "Updating directory port mapping"
-msgstr ""
+msgstr "Címtár térképezés frissítése"
 
 #: upnptestdialog.cpp:122
 msgctxt "UPNPTestDialog"
 msgid "Updating relay port mapping"
-msgstr ""
+msgstr "Elosztó térképezés frissítése"
 
 #: upnptestdialog.cpp:127
 msgctxt "UPNPTestDialog"
 msgid "Test completed successfully!"
-msgstr ""
+msgstr "A teszt sikerült !"
 
 #: upnptestdialog.ui:13
 msgctxt "UPNPTestDialog"
 msgid "Testing UPnP Support"
-msgstr ""
+msgstr "UPnP támogatás tesztelése"
 
 #: upnptestdialog.ui:92
 msgctxt "UPNPTestDialog"
 msgid "Testing Universal Plug & Play Support"
-msgstr ""
+msgstr "Universal Plug & Play támogatás tesztelése"
 
 #: vmessagebox.cpp:77
 msgctxt "VMessageBox"
@@ -2608,97 +2745,104 @@ msgstr "Beállítások megtekintése"
 #: vmessagebox.cpp:85
 msgctxt "VMessageBox"
 msgid "Continue"
-msgstr ""
+msgstr "Folytatás"
 
 #: vmessagebox.cpp:86
 msgctxt "VMessageBox"
 msgid "Quit"
-msgstr ""
+msgstr "Kilépés"
 
 #: vmessagebox.cpp:87
 msgctxt "VMessageBox"
 msgid "Browse"
 msgstr "Böngészés"
 
-#: vidalia.cpp:235
+#: main.cpp:74
 msgctxt "Vidalia"
-msgid "Invalid language code specified: "
-msgstr "A megadott nyelv kód érvénytelen: "
-
-#: vidalia.cpp:242
-msgctxt "Vidalia"
-msgid "Invalid GUI style specified: "
-msgstr "A megadott grafikus felület stílus érvénytelen: "
+msgid "Invalid Argument"
+msgstr "Érvénytelen kapcsoló"
 
 #: main.cpp:88
 msgctxt "Vidalia"
 msgid "Vidalia is already running"
 msgstr "A Vidalia már fut"
 
-#: main.cpp:94
-msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
-""
-"Would you like to continue starting Vidalia?"
-msgstr ""
-
-#: main.cpp:74
-msgctxt "Vidalia"
-msgid "Invalid Argument"
-msgstr ""
-
 #: vidalia.cpp:166
 msgctxt "Vidalia"
 msgid "Displays this usage message and exits."
-msgstr ""
+msgstr "Megjeleníti ezt az üzenetet és kilép."
 
 #: vidalia.cpp:168
 msgctxt "Vidalia"
 msgid "Resets ALL stored Vidalia settings."
-msgstr ""
+msgstr "Visszaállít minden tárolt Vidalia beállítást."
 
 #: vidalia.cpp:170
 msgctxt "Vidalia"
 msgid "Sets the directory Vidalia uses for data files."
-msgstr ""
+msgstr "Beállítja a könyvtárat melyben a Vidalia adatokat tárol."
 
 #: vidalia.cpp:172
 msgctxt "Vidalia"
 msgid "Sets the name and location of Vidalia's pidfile."
-msgstr ""
+msgstr "Beállítja a nevét és a helyét a Vidalia pid-állományának."
 
 #: vidalia.cpp:174
 msgctxt "Vidalia"
 msgid "Sets the name and location of Vidalia's logfile."
-msgstr ""
+msgstr "Beállítja a nevét és a helyét a Vidalia logjának (naplójának)."
 
 #: vidalia.cpp:177
 msgctxt "Vidalia"
 msgid "Sets the verbosity of Vidalia's logging."
-msgstr ""
+msgstr "Beállítja a Vidalia naplózásának összetettségét."
 
 #: vidalia.cpp:180
 msgctxt "Vidalia"
 msgid "Sets Vidalia's interface style."
-msgstr ""
+msgstr "Beállítja a Vidalia kinézetét."
 
 #: vidalia.cpp:183
 msgctxt "Vidalia"
 msgid "Sets Vidalia's language."
-msgstr ""
+msgstr "Beállítja a Vidalia nyelvét."
 
 #: vidalia.cpp:187
 msgctxt "Vidalia"
 msgid "Vidalia Usage Information"
-msgstr ""
+msgstr "Vidalia használati útmutató"
+
+#: vidalia.cpp:235
+#, fuzzy
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "A megadott nyelv kód érvénytelen: "
+
+#: vidalia.cpp:242
+#, fuzzy
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "A megadott grafikus felület stílus érvénytelen: "
 
 #: vidalia.cpp:248
+#, fuzzy
 msgctxt "Vidalia"
-msgid "Invalid log level specified: "
-msgstr ""
+msgid "Invalid log level specified:"
+msgstr "Érvénytelen naplózási szint:"
 
 #: vidalia.cpp:254
 msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
-msgstr ""
+msgstr "A '%1' napló megnyitása sikertelen: %2"
 
+#: main.cpp:94
+#, fuzzy
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not "
+"another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+"Egy másik Vidalia már valószínûleg fut. Ha valóban nincs futó Vidalia a "
+"háttérben folytathatja. Kívánja folytatni a Vidalia indítását?"

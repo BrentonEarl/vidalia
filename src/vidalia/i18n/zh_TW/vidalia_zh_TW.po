@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
-"POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2009-04-11 03:21+0000\n"
+"PO-Revision-Date: 2009-03-14 02:23+0000\n"
+"Last-Translator: James Bond <jamesbond24601@yahoo.ca>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Vidalia ts2po 0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 1.1.0\n"
 
 #: aboutdialog.ui:25
 msgctxt "AboutDialog"
@@ -33,113 +33,85 @@ msgid "Qt"
 msgstr "Qt"
 
 #: aboutdialog.ui:166
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Qt Version"
-msgstr "Qt 版本"
+msgstr "版本"
 
 #: aboutdialog.ui:244
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Tor Version"
-msgstr "Tor 版本"
+msgstr "版本"
 
 #: aboutdialog.ui:88
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "Vidalia Version"
-msgstr "Vidalia 版本"
+msgstr "Vidalia 說明"
 
-#: aboutdialog.cpp:68
+#: aboutdialog.cpp:67
 msgctxt "AboutDialog"
 msgid "<Not Running>"
 msgstr "<未運行>"
 
-#: aboutdialog.cpp:64
+#: aboutdialog.cpp:63
+#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Unavailable>"
-msgstr "<不可用>"
+msgstr "沒有可用資訊"
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
 msgid "Control Port"
-msgstr "控制端口"
+msgstr "控制連接埠"
 
 #: advancedpage.ui:318
 msgctxt "AdvancedPage"
 msgid "Browse"
 msgstr "瀏覽"
 
-#: advancedpage.ui:337
-msgctxt "AdvancedPage"
-msgid "Permissions"
-msgstr "權限"
-
-#: advancedpage.ui:360
-msgctxt "AdvancedPage"
-msgid "Run as User:"
-msgstr "作為以下用戶運行:"
-
-#: advancedpage.ui:373
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this User's permissions"
-msgstr "Vidalia 將會使用該用戶的權限運行"
-
-#: advancedpage.ui:393
-msgctxt "AdvancedPage"
-msgid "Run as Group:"
-msgstr "作為以下用戶組運行:"
-
-#: advancedpage.ui:400
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this Group's permissions"
-msgstr "Vidalia 將會使用該用戶組的權限運行"
-
-#: advancedpage.cpp:221
+#: advancedpage.cpp:216
 msgctxt "AdvancedPage"
 msgid "Select Tor Configuration File"
 msgstr "請選擇 Tor 配置文件"
 
-#: advancedpage.cpp:234
+#: advancedpage.cpp:229
 msgctxt "AdvancedPage"
 msgid "File Not Found"
-msgstr "未找到該文件"
+msgstr "查無此檔"
 
-#: advancedpage.cpp:236
+#: advancedpage.cpp:231
 msgctxt "AdvancedPage"
 msgid "%1 does not exist. Would you like to create it?"
-msgstr "%1 不存在.請問是否要創建該文件?"
+msgstr "%1 不存在。請問是否要新增該文件?"
 
-#: advancedpage.cpp:247
+#: advancedpage.cpp:242
 msgctxt "AdvancedPage"
 msgid "Failed to Create File"
-msgstr "創建文件失敗"
+msgstr "新增檔案失敗"
 
-#: advancedpage.cpp:248
+#: advancedpage.cpp:243
 msgctxt "AdvancedPage"
 msgid "Unable to create %1 [%2]"
-msgstr "無法創建 %1 [%2]"
+msgstr "無法新增 %1 [%2]"
 
-#: advancedpage.cpp:285
+#: advancedpage.cpp:280
 msgctxt "AdvancedPage"
 msgid "Unable to remove Tor Service"
 msgstr "無法移除 Tor 服務"
 
-#: advancedpage.cpp:296
+#: advancedpage.cpp:291
 msgctxt "AdvancedPage"
 msgid "Unable to install Tor Service"
 msgstr "無法安裝 Tor 服務"
 
-#: advancedpage.cpp:297
+#: advancedpage.cpp:292
 msgctxt "AdvancedPage"
 msgid "Vidalia was unable to install the Tor service."
-msgstr "Vidalia 無法安裝 Tor 為系統服務."
+msgstr "Vidalia 無法安裝 Tor 服務。"
 
-#: advancedpage.cpp:287
-msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service."
-""
-"You may need to remove it manually."
-msgstr "Vidalia 無法移除 Tor 服務.請手動移除(或禁用該服務)."
-
-#: advancedpage.cpp:103
+#: advancedpage.cpp:102
 msgctxt "AdvancedPage"
 msgid "'%1' is not a valid IP address."
 msgstr "'%1' 並非有效 IP 地址."
@@ -149,15 +121,15 @@ msgctxt "AdvancedPage"
 msgid ":"
 msgstr ":"
 
-#: advancedpage.cpp:114
+#: advancedpage.cpp:113
 msgctxt "AdvancedPage"
 msgid "You selected 'Password' authentication, but did not specify a password."
-msgstr "你選擇了 '密碼' 驗證方式,而你並未指定密碼."
+msgstr "你選擇了 '密碼' 驗證方式,但是你並未指定密碼。"
 
-#: advancedpage.cpp:263
+#: advancedpage.cpp:258
 msgctxt "AdvancedPage"
 msgid "Select a Directory to Use for Tor Data"
-msgstr "請選擇一個用於保存 Tor 數據的文件夾"
+msgstr "請選擇一個用於保存 Tor 數據的檔案夾"
 
 #: advancedpage.ui:48
 msgctxt "AdvancedPage"
@@ -182,7 +154,7 @@ msgstr "密碼"
 #: advancedpage.ui:111
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
-msgstr "隨機生成"
+msgstr "隨機產生"
 
 #: advancedpage.ui:86
 msgctxt "AdvancedPage"
@@ -190,9 +162,10 @@ msgid "None"
 msgstr "無"
 
 #: advancedpage.cpp:34
+#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Advanced"
-msgstr "高級"
+msgstr "進階"
 
 #: advancedpage.ui:240
 msgctxt "AdvancedPage"
@@ -202,17 +175,17 @@ msgstr ""
 #: advancedpage.ui:259
 msgctxt "AdvancedPage"
 msgid "Select path to your configuration file"
-msgstr ""
+msgstr "請選擇您初始設定檔案的路徑"
 
 #: advancedpage.ui:275
 msgctxt "AdvancedPage"
 msgid "Data Directory"
-msgstr ""
+msgstr "資料目錄"
 
 #: advancedpage.ui:296
 msgctxt "AdvancedPage"
 msgid "Store data for the Tor software in the following directory"
-msgstr ""
+msgstr "將 Tor 軟體的資料存放於以下的檔案夾中。"
 
 #: advancedpage.ui:315
 msgctxt "AdvancedPage"
@@ -222,7 +195,16 @@ msgstr ""
 #: advancedpage.ui:219
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
-msgstr ""
+msgstr "Tor 初始設定檔"
+
+#: advancedpage.cpp:282
+#, fuzzy
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia 無法移除 Tor 服務.請手動解除安裝。"
 
 #: appearancepage.ui:31
 msgctxt "AppearancePage"
@@ -232,7 +214,7 @@ msgstr "語言"
 #: appearancepage.ui:52
 msgctxt "AppearancePage"
 msgid "Choose the language used in Vidalia"
-msgstr "請選擇用於 Vidalia 界面顯示的語言"
+msgstr "請選擇 Vidalia 的顯示語言。"
 
 #: appearancepage.ui:84
 msgctxt "AppearancePage"
@@ -250,6 +232,7 @@ msgid "Choose Vidalia's interface style"
 msgstr "請選擇 Vidalia 的界面風格"
 
 #: appearancepage.cpp:23
+#, fuzzy
 msgctxt "AppearancePage"
 msgid "Appearance"
 msgstr "外觀"
@@ -257,7 +240,7 @@ msgstr "外觀"
 #: bwgraph.ui:16
 msgctxt "BandwidthGraph"
 msgid "Tor Bandwidth Usage"
-msgstr "Tor 帶寬使用"
+msgstr "Tor 可使用的頻寬"
 
 #: bwgraph.ui:40
 msgctxt "BandwidthGraph"
@@ -267,34 +250,34 @@ msgstr "顯示設定"
 #: bwgraph.ui:63
 msgctxt "BandwidthGraph"
 msgid "Reset"
-msgstr "復位設定"
+msgstr "重設"
 
 #: bwgraph.ui:151
 msgctxt "BandwidthGraph"
 msgid "Receive Rate"
-msgstr "接收率"
+msgstr "接收速度"
 
 #: bwgraph.ui:170
 msgctxt "BandwidthGraph"
 msgid "Send Rate"
-msgstr "發送率"
+msgstr "傳送速度"
 
 #: bwgraph.ui:284
 msgctxt "BandwidthGraph"
 msgid "Changes the transparency of the Bandwidth Graph"
-msgstr "請選擇帶寬顯示圖形的透明度"
+msgstr "請選擇頻寬使用記錄圖表之透明度"
 
 #: bwgraph.ui:443
 msgctxt "BandwidthGraph"
 msgid "Save"
-msgstr "保存"
+msgstr "儲存"
 
 #: bwgraph.ui:450
 msgctxt "BandwidthGraph"
 msgid "Cancel"
 msgstr "取消"
 
-#: bwgraph.cpp:160
+#: bwgraph.cpp:159
 msgctxt "BandwidthGraph"
 msgid "Since:"
 msgstr "起始時間:"
@@ -309,7 +292,7 @@ msgctxt "BandwidthGraph"
 msgid "% Opaque"
 msgstr "% 不透明"
 
-#: bwgraph.cpp:226
+#: bwgraph.cpp:225
 msgctxt "BandwidthGraph"
 msgid "Hide Settings"
 msgstr "隱藏設定"
@@ -317,39 +300,39 @@ msgstr "隱藏設定"
 #: bwgraph.ui:183
 msgctxt "BandwidthGraph"
 msgid "Always on Top"
-msgstr "總在最上"
+msgstr "永遠顯示在最上層"
 
 #: bwgraph.ui:234
 msgctxt "BandwidthGraph"
 msgid "Style"
 msgstr "風格"
 
-#: circuit.cpp:89
+#: circuit.cpp:112
 msgctxt "Circuit"
 msgid "New"
 msgstr "新建"
 
-#: circuit.cpp:90
+#: circuit.cpp:113
 msgctxt "Circuit"
 msgid "Open"
-msgstr "打開"
+msgstr "開啟"
 
-#: circuit.cpp:91
+#: circuit.cpp:114
 msgctxt "Circuit"
 msgid "Building"
 msgstr "正在建立"
 
-#: circuit.cpp:92
+#: circuit.cpp:115
 msgctxt "Circuit"
 msgid "Failed"
 msgstr "失敗"
 
-#: circuit.cpp:93
+#: circuit.cpp:116
 msgctxt "Circuit"
 msgid "Closed"
 msgstr "已關閉"
 
-#: circuit.cpp:94
+#: circuit.cpp:117
 msgctxt "Circuit"
 msgid "Unknown"
 msgstr "未知"
@@ -357,7 +340,7 @@ msgstr "未知"
 #: circuititem.cpp:39
 msgctxt "CircuitItem"
 msgid "<Path Empty>"
-msgstr "<空路徑>"
+msgstr "<空白路徑>"
 
 #: circuitlistwidget.cpp:37
 msgctxt "CircuitListWidget"
@@ -384,102 +367,111 @@ msgctxt "CircuitListWidget"
 msgid "Close Stream (Del)"
 msgstr ""
 
-#: configdialog.cpp:72
+#: configdialog.cpp:76
 msgctxt "ConfigDialog"
 msgid "General"
-msgstr "常規"
+msgstr "一般"
 
-#: configdialog.cpp:92
+#: configdialog.cpp:96
 msgctxt "ConfigDialog"
 msgid "Advanced"
-msgstr "高級"
+msgstr "進階"
 
-#: configdialog.cpp:59
-msgctxt "ConfigDialog"
-msgid "Cancel"
-msgstr "取消"
-
-#: configdialog.cpp:88
+#: configdialog.cpp:92
 msgctxt "ConfigDialog"
 msgid "Appearance"
 msgstr "外觀"
 
-#: configdialog.cpp:106
+#: configdialog.cpp:110
 msgctxt "ConfigDialog"
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
 #: configdialog.ui:16
 msgctxt "ConfigDialog"
 msgid "Settings"
 msgstr "設定"
 
-#: configdialog.cpp:76
+#: configdialog.cpp:80
 msgctxt "ConfigDialog"
 msgid "Network"
-msgstr "網絡"
+msgstr "網路"
 
-#: configdialog.cpp:174
+#: configdialog.cpp:178
 msgctxt "ConfigDialog"
 msgid "Error Saving Settings"
-msgstr "保存設定時發生錯誤"
+msgstr "儲存設定時發生錯誤"
 
-#: configdialog.cpp:176
+#: configdialog.cpp:180
 msgctxt "ConfigDialog"
 msgid "Vidalia was unable to save your %1 settings."
 msgstr "Vidalia 無法保存你的 %1 設定."
 
-#: configdialog.cpp:203
+#: configdialog.cpp:207
 msgctxt "ConfigDialog"
 msgid "Error Applying Settings"
-msgstr "應用設定時發生錯誤"
+msgstr "套用設定時發生錯誤"
 
-#: configdialog.cpp:205
+#: configdialog.cpp:209
 msgctxt "ConfigDialog"
 msgid "Vidalia was unable to apply your %1 settings to Tor."
 msgstr "Vidalia 無法應用你的 %1 設定於 Tor."
 
-#: configdialog.cpp:56
-msgctxt "ConfigDialog"
-msgid "OK"
-msgstr "確定"
-
-#: configdialog.cpp:80
+#: configdialog.cpp:84
 msgctxt "ConfigDialog"
 msgid "Sharing"
 msgstr ""
 
-#: configdialog.cpp:84
+#: configdialog.cpp:88
 msgctxt "ConfigDialog"
 msgid "Services"
-msgstr ""
+msgstr "服務"
 
-#: controlconnection.cpp:319
+#: controlconnection.cpp:331
 msgctxt "ControlConnection"
 msgid "Control socket is not connected."
 msgstr "控制接口當前未連接."
 
-#: controlconnection.cpp:131
+#: controlconnection.cpp:134
 msgctxt "ControlConnection"
 msgid "Vidalia was unable to connect to Tor. (%1)"
 msgstr "Vidalia 無法連接至 Tor. (%1)"
 
-#: controlsocket.cpp:61
+#: controlpasswordinputdialog.ui:28
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "需要輸入密碼"
+
+#: controlpasswordinputdialog.ui:80
+#, fuzzy
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr ""
+"Vidalia 已經連接到正在運動之 Tor 程序，不過需要密碼驗證。請輸入控制密碼。"
+
+#: controlpasswordinputdialog.ui:99
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "記住我輸入的密碼"
+
+#: controlsocket.cpp:80
 msgctxt "ControlSocket"
 msgid "Error sending control command. [%1]"
 msgstr "發送控制命令時發生錯誤. [%1]"
 
-#: controlsocket.cpp:98
+#: controlsocket.cpp:117
 msgctxt "ControlSocket"
 msgid "Socket disconnected while attempting to read a line of data."
 msgstr "當嘗試讀取數據時意外斷開接口連接."
 
-#: controlsocket.cpp:136
+#: controlsocket.cpp:156
 msgctxt "ControlSocket"
 msgid "Invalid control reply. [%1]"
 msgstr "無效控制回應. [%1]"
 
-#: controlsocket.cpp:51
+#: controlsocket.cpp:70
 msgctxt "ControlSocket"
 msgid "Control socket is not connected."
 msgstr "控制接口當前未連接."
@@ -497,17 +489,18 @@ msgstr "請選擇 Tor 的路徑"
 #: generalpage.cpp:59
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
-msgstr "應用程序 (*.exe)"
+msgstr "執行檔 (*.exe)"
 
 #: generalpage.cpp:23
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "General"
-msgstr "常規"
+msgstr "一般"
 
 #: generalpage.cpp:95
 msgctxt "GeneralPage"
 msgid "You must specify the name of your Tor executable."
-msgstr ""
+msgstr "你必須為你的 Tor 執行檔命名"
 
 #: generalpage.cpp:82
 msgctxt "GeneralPage"
@@ -525,9 +518,10 @@ msgid "Start Vidalia when my system starts"
 msgstr ""
 
 #: generalpage.ui:75
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Vidalia starts"
-msgstr ""
+msgstr "在啟動 Tor 時一併啟動一個代理伺服器的應用程式"
 
 #: generalpage.ui:97
 msgctxt "GeneralPage"
@@ -542,39 +536,42 @@ msgstr ""
 #: generalpage.ui:63
 msgctxt "GeneralPage"
 msgid "Start the Tor software when Vidalia starts"
-msgstr ""
+msgstr "在 Vadalia 啟動時一併啟動 Tor 軟體"
 
 #: generalpage.ui:38
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Tor Executable"
-msgstr ""
+msgstr "執行檔 (*.exe)"
 
-#: graphframe.cpp:237
+#: graphframe.cpp:238
+#, fuzzy
 msgctxt "GraphFrame"
-msgid "Recv: "
+msgid "Recv:"
 msgstr "已接收: "
 
-#: graphframe.cpp:246
+#: graphframe.cpp:247
+#, fuzzy
 msgctxt "GraphFrame"
-msgid "Sent: "
-msgstr "已發送: "
+msgid "Sent:"
+msgstr "已傳送: "
 
-#: graphframe.cpp:258
+#: graphframe.cpp:259
 msgctxt "GraphFrame"
 msgid "%1 KB"
 msgstr "%1 KB"
 
-#: graphframe.cpp:261
+#: graphframe.cpp:262
 msgctxt "GraphFrame"
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: graphframe.cpp:264
+#: graphframe.cpp:265
 msgctxt "GraphFrame"
 msgid "%1 GB"
 msgstr "%1 GB"
 
-#: graphframe.cpp:285
+#: graphframe.cpp:298
 msgctxt "GraphFrame"
 msgid "%1 KB/s"
 msgstr "%1 KB/s"
@@ -582,17 +579,17 @@ msgstr "%1 KB/s"
 #: helpbrowser.ui:33
 msgctxt "HelpBrowser"
 msgid "Vidalia Help"
-msgstr "Vidalia 幫助"
+msgstr "Vidalia 說明"
 
 #: helpbrowser.ui:174
 msgctxt "HelpBrowser"
 msgid "Find Previous"
-msgstr "查找上一個"
+msgstr "向前搜尋"
 
 #: helpbrowser.ui:187
 msgctxt "HelpBrowser"
 msgid "Find Next"
-msgstr "查找下一個"
+msgstr "向後搜尋"
 
 #: helpbrowser.ui:221
 msgctxt "HelpBrowser"
@@ -607,7 +604,7 @@ msgstr "目錄"
 #: helpbrowser.ui:305
 msgctxt "HelpBrowser"
 msgid "Help Topics"
-msgstr "幫助主題"
+msgstr "說明主題"
 
 #: helpbrowser.ui:350
 msgctxt "HelpBrowser"
@@ -627,7 +624,7 @@ msgstr "返回"
 #: helpbrowser.ui:487
 msgctxt "HelpBrowser"
 msgid "Move to previous page (Backspace)"
-msgstr "移動至上一頁(Backspace)"
+msgstr "回到上一頁(Backspace)"
 
 #: helpbrowser.ui:490
 msgctxt "HelpBrowser"
@@ -637,7 +634,7 @@ msgstr "Backspace"
 #: helpbrowser.ui:498
 msgctxt "HelpBrowser"
 msgid "Forward"
-msgstr "前進"
+msgstr "往後"
 
 #: helpbrowser.ui:501
 msgctxt "HelpBrowser"
@@ -657,7 +654,7 @@ msgstr "主頁"
 #: helpbrowser.ui:515
 msgctxt "HelpBrowser"
 msgid "Move to the Home page (Ctrl+H)"
-msgstr "移動至主頁(Ctrl+H)"
+msgstr "回到主頁(Ctrl+H)"
 
 #: helpbrowser.ui:518
 msgctxt "HelpBrowser"
@@ -667,12 +664,12 @@ msgstr "Ctrl+H"
 #: helpbrowser.ui:535
 msgctxt "HelpBrowser"
 msgid "Find"
-msgstr "查找"
+msgstr "尋找"
 
 #: helpbrowser.ui:538
 msgctxt "HelpBrowser"
 msgid "Search for a word or phrase on current page (Ctrl+F)"
-msgstr "在當前頁搜索關鍵詞或語句(Ctrl+F)"
+msgstr "在目前的頁面搜索關鍵詞或語句(Ctrl+F)"
 
 #: helpbrowser.ui:541
 msgctxt "HelpBrowser"
@@ -687,7 +684,7 @@ msgstr "關閉"
 #: helpbrowser.ui:552
 msgctxt "HelpBrowser"
 msgid "Close Vidalia Help"
-msgstr "關閉 Vidalia 幫助"
+msgstr "關閉 Vidalia 說明"
 
 #: helpbrowser.ui:555
 msgctxt "HelpBrowser"
@@ -695,34 +692,35 @@ msgid "Esc"
 msgstr "Esc"
 
 #: helpbrowser.cpp:122
+#, fuzzy
 msgctxt "HelpBrowser"
-msgid "Error Loading Help Contents: "
-msgstr "讀取幫助出錯: "
+msgid "Error Loading Help Contents:"
+msgstr "讀取說明內容時發生錯誤: "
 
 #: helpbrowser.cpp:377
 msgctxt "HelpBrowser"
 msgid "Search reached end of document"
-msgstr "搜索已到達文檔底部"
+msgstr "搜索已到達檔案底部"
 
 #: helpbrowser.cpp:379
 msgctxt "HelpBrowser"
 msgid "Search reached start of document"
-msgstr "搜索已到達文檔頂部"
+msgstr "搜索已到達檔案頂部"
 
 #: helpbrowser.cpp:381
 msgctxt "HelpBrowser"
 msgid "Text not found in document"
-msgstr "搜索內容未找到"
+msgstr "找不到指定文字"
 
 #: helpbrowser.ui:152
 msgctxt "HelpBrowser"
 msgid "Find:"
-msgstr "查找:"
+msgstr "搜尋:"
 
 #: helpbrowser.ui:231
 msgctxt "HelpBrowser"
 msgid "Whole words only"
-msgstr "匹配全部"
+msgstr "必須完全匹配"
 
 #: helpbrowser.ui:362
 msgctxt "HelpBrowser"
@@ -732,52 +730,59 @@ msgstr "搜索:"
 #: helpbrowser.cpp:134
 msgctxt "HelpBrowser"
 msgid "Supplied XML file is not a valid Contents document."
-msgstr "所提供的 XML 文檔並非有效的目錄文檔."
+msgstr "所提供的 XML 檔案並非有效的目錄文件。"
 
 #: helpbrowser.cpp:426
+#, fuzzy
 msgctxt "HelpBrowser"
 msgid "Found %1 results"
-msgstr "發現 %1 個結果"
+msgstr "找到 %1 個結果"
 
 #: helptextbrowser.cpp:54
+#, fuzzy
 msgctxt "HelpTextBrowser"
-msgid "Error opening help file: "
-msgstr "打開幫助文件時發生錯誤:"
+msgid "Error opening help file:"
+msgstr "打開說明文件時發生錯誤:"
 
 #: helptextbrowser.cpp:72
 msgctxt "HelpTextBrowser"
 msgid "Opening External Link"
-msgstr ""
+msgstr "正在開啟外部連結"
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
 msgstr ""
 
 #: helptextbrowser.cpp:78
 msgctxt "HelpTextBrowser"
 msgid "Do you want Vidalia to open the link in your Web browser?"
-msgstr ""
+msgstr "你要 Vidalia 啟動你的瀏覽器以開啟連結嗎?"
 
 #: helptextbrowser.cpp:88
 msgctxt "HelpTextBrowser"
 msgid "Unable to Open Link"
-msgstr ""
+msgstr "無法開啟連結"
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
 msgstr ""
 
 #: logevent.cpp:57
 msgctxt "LogEvent"
 msgid "Debug"
-msgstr "調試"
+msgstr "除錯"
 
 #: logevent.cpp:58
 msgctxt "LogEvent"
 msgid "Info"
-msgstr "信息"
+msgstr "訊息"
 
 #: logevent.cpp:59
 msgctxt "LogEvent"
@@ -812,109 +817,114 @@ msgstr "退出"
 #: mainwindow.ui:304
 msgctxt "MainWindow"
 msgid "Bandwidth Graph"
-msgstr "性能圖形"
+msgstr "流量圖"
 
 #: mainwindow.ui:317
 msgctxt "MainWindow"
 msgid "Message Log"
-msgstr "消息日誌"
+msgstr "訊息記錄"
 
 #: mainwindow.ui:367
 msgctxt "MainWindow"
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
-#: mainwindow.cpp:394
+#: mainwindow.cpp:438
 msgctxt "MainWindow"
 msgid "Ctrl+T"
 msgstr "Ctrl+T"
 
-#: mainwindow.cpp:395
+#: mainwindow.cpp:439
 msgctxt "MainWindow"
 msgid "Ctrl+B"
 msgstr "Ctrl+B"
 
-#: mainwindow.cpp:396
+#: mainwindow.cpp:440
 msgctxt "MainWindow"
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: mainwindow.cpp:398
+#: mainwindow.cpp:442
 msgctxt "MainWindow"
 msgid "Ctrl+?"
 msgstr "Ctrl+?"
 
-#: mainwindow.cpp:411
+#: mainwindow.cpp:455
+#, fuzzy
 msgctxt "MainWindow"
 msgid "File"
-msgstr "文件"
+msgstr "失敗"
 
-#: mainwindow.cpp:414
+#: mainwindow.cpp:458
 msgctxt "MainWindow"
 msgid "Tor"
 msgstr "Tor"
 
-#: mainwindow.cpp:419
+#: mainwindow.cpp:463
 msgctxt "MainWindow"
 msgid "View"
 msgstr "查看"
 
-#: mainwindow.cpp:428
+#: mainwindow.cpp:472
 msgctxt "MainWindow"
 msgid "Vidalia Help"
-msgstr "Vidalia 幫助"
+msgstr "Vidalia 說明"
 
-#: mainwindow.cpp:831
+#: mainwindow.cpp:961
 msgctxt "MainWindow"
 msgid "Error Starting Tor"
 msgstr "啟動 Tor 時發生錯誤"
 
-#: mainwindow.cpp:397
+#: mainwindow.cpp:441
 msgctxt "MainWindow"
 msgid "Ctrl+N"
 msgstr "Ctrl+N"
 
-#: mainwindow.cpp:834
+#: mainwindow.cpp:964
 msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
 msgstr "Vidalia 無法啟動 Tor.請檢查 Tor 可執行程序的路徑以及設定是否正確."
 
-#: mainwindow.cpp:320
+#: mainwindow.cpp:349
 msgctxt "MainWindow"
 msgid "Network Map"
-msgstr "網絡地圖"
+msgstr "網路地圖"
 
 #: mainwindow.ui:380
 msgctxt "MainWindow"
 msgid "Settings"
 msgstr "設定"
 
-#: mainwindow.cpp:1331
+#: mainwindow.cpp:1495
 msgctxt "MainWindow"
 msgid "New Identity"
 msgstr "更換身份"
 
-#: mainwindow.cpp:399
+#: mainwindow.cpp:443
 msgctxt "MainWindow"
 msgid "Ctrl+I"
 msgstr "Ctrl+I"
 
-#: mainwindow.cpp:1334
+#: mainwindow.cpp:1498
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
-msgstr "所有新建連接將會不同於之前的連接."
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "所有接下來的連接將會不同於之前的連接."
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:1513
 msgctxt "MainWindow"
 msgid "Failed to Create New Identity"
-msgstr "創建新身份失敗"
+msgstr "無法更換新身份"
 
 #: mainwindow.ui:168
 msgctxt "MainWindow"
 msgid "Tor is not running"
-msgstr "Tor 未運行"
+msgstr "Tor 沒有運作"
 
-#: mainwindow.cpp:643
+#: mainwindow.cpp:787
 msgctxt "MainWindow"
 msgid "Tor is shutting down"
 msgstr "正在關閉 Tor"
@@ -984,165 +994,143 @@ msgctxt "MainWindow"
 msgid "Hide this window"
 msgstr "隱藏此窗口"
 
-#: mainwindow.cpp:327
+#: mainwindow.cpp:355
 msgctxt "MainWindow"
 msgid "Control Panel"
 msgstr "控制面板"
 
-#: mainwindow.cpp:400
+#: mainwindow.cpp:444
 msgctxt "MainWindow"
 msgid "Ctrl+P"
 msgstr "Ctrl+P"
 
-#: mainwindow.cpp:1047
+#: mainwindow.cpp:1177
 msgctxt "MainWindow"
 msgid "Cookie Authentication Required"
 msgstr "需要 Cookie 驗證"
 
-#: mainwindow.cpp:1052
+#: mainwindow.cpp:1182
 msgctxt "MainWindow"
 msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
 msgstr "你要自己瀏覽 'control_auth_cookie' 文件嗎?"
 
-#: mainwindow.cpp:1109
+#: mainwindow.cpp:1243
 msgctxt "MainWindow"
 msgid "Error Registering for Events"
 msgstr "事件記錄錯誤"
 
-#: mainwindow.cpp:1145
-msgctxt "MainWindow"
-msgid "Password Authentication Required"
-msgstr "需要密碼驗證"
-
-#: mainwindow.cpp:1164
+#: mainwindow.cpp:1328
 msgctxt "MainWindow"
 msgid "Please check your control port authentication settings."
 msgstr "請檢查控制端口驗證設定."
 
-#: mainwindow.cpp:1146
-msgctxt "MainWindow"
-msgid "Please enter your control password (not the hash):"
-msgstr "請輸入你的控制密碼(並非 Hash 數值):"
-
-#: mainwindow.cpp:910
+#: mainwindow.cpp:1040
 msgctxt "MainWindow"
 msgid "Relaying is Enabled"
 msgstr "中繼功能已啟用"
 
-#: mainwindow.cpp:482
+#: mainwindow.cpp:626
 msgctxt "MainWindow"
 msgid "Error starting web browser"
-msgstr ""
+msgstr "啟動網頁瀏覽器時發生錯誤"
 
-#: mainwindow.cpp:483
+#: mainwindow.cpp:627
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured web browser"
 msgstr ""
 
-#: mainwindow.cpp:1268
+#: mainwindow.cpp:1432
 msgctxt "MainWindow"
 msgid "Tor Update Available"
-msgstr ""
+msgstr "Tor 有新版本"
 
-#: mainwindow.cpp:1271
+#: mainwindow.cpp:1435
 msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
 msgstr ""
+"你目前安裝的版本已過期，或是官方不再建議你使用。請參訪 Tor 的官網，下載最新版"
+"本。"
 
-#: mainwindow.cpp:1271
+#: mainwindow.cpp:1435
 msgctxt "MainWindow"
 msgid "Tor website: %1"
 msgstr ""
 
-#: mainwindow.cpp:517
+#: mainwindow.cpp:661
 msgctxt "MainWindow"
 msgid "Error starting proxy server"
-msgstr ""
+msgstr "啟動代理伺服器時發生錯誤"
 
-#: mainwindow.cpp:518
+#: mainwindow.cpp:662
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured proxy server"
-msgstr ""
+msgstr "Vidalia 無法啟動已初始設定的代理伺服器"
 
-#: mainwindow.cpp:641
-msgctxt "MainWindow"
-msgid "Your relay is shutting down."
-"Click 'Stop' again to stop your relay now."
-msgstr ""
-
-#: mainwindow.cpp:878
+#: mainwindow.cpp:1008
 msgctxt "MainWindow"
 msgid "Connection Error"
-msgstr ""
+msgstr "連線錯誤"
 
-#: mainwindow.cpp:915
-msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
-""
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr ""
-
-#: mainwindow.cpp:937
+#: mainwindow.cpp:1067
 msgctxt "MainWindow"
 msgid "Error Shutting Down"
-msgstr ""
+msgstr "關閉時發生錯誤"
 
-#: mainwindow.cpp:938
+#: mainwindow.cpp:1068
 msgctxt "MainWindow"
 msgid "Vidalia was unable to stop the Tor software."
-msgstr ""
+msgstr "Vidalia 無法停止 Tor 軟體。"
 
-#: mainwindow.cpp:969
+#: mainwindow.cpp:1099
 msgctxt "MainWindow"
 msgid "Unexpected Error"
-msgstr ""
+msgstr "無可預期之錯誤"
 
-#: mainwindow.cpp:973
+#: mainwindow.cpp:1180
 msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly."
-""
-"Please check the message log for recent warning or error messages."
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
 msgstr ""
 
-#: mainwindow.cpp:1050
-msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
-msgstr ""
-
-#: mainwindow.cpp:1059
+#: mainwindow.cpp:1189
 msgctxt "MainWindow"
 msgid "Data Directory"
-msgstr ""
+msgstr "資料目錄"
 
-#: mainwindow.cpp:1061
+#: mainwindow.cpp:1191
 msgctxt "MainWindow"
 msgid "Control Cookie (control_auth_cookie)"
 msgstr ""
 
-#: mainwindow.cpp:1111
+#: mainwindow.cpp:1245
 msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
 msgstr ""
 
-#: mainwindow.cpp:1160
+#: mainwindow.cpp:1324
 msgctxt "MainWindow"
 msgid "Authentication Error"
-msgstr ""
+msgstr "驗證錯誤"
 
-#: mainwindow.cpp:1162
+#: mainwindow.cpp:1326
 msgctxt "MainWindow"
 msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
 msgstr ""
 
-#: mainwindow.cpp:1398
+#: mainwindow.cpp:1562
 msgctxt "MainWindow"
 msgid "Port Forwarding Failed"
-msgstr ""
+msgstr "轉送連接埠失敗"
 
-#: mainwindow.cpp:1399
+#: mainwindow.cpp:1563
 msgctxt "MainWindow"
 msgid "Vidalia was unable to configure automatic port forwarding."
-msgstr ""
+msgstr "Vidalia 無法設定自動連接埠轉送功能"
 
 #: mainwindow.ui:49
 msgctxt "MainWindow"
@@ -1152,7 +1140,7 @@ msgstr "狀態"
 #: mainwindow.ui:246
 msgctxt "MainWindow"
 msgid "Set up a relay and help the network grow"
-msgstr ""
+msgstr "讓自己的電腦成為中繼站，協助 Tor 網路成長!"
 
 #: mainwindow.ui:307
 msgctxt "MainWindow"
@@ -1167,161 +1155,199 @@ msgstr ""
 #: mainwindow.ui:383
 msgctxt "MainWindow"
 msgid "Configure Vidalia"
-msgstr ""
+msgstr "設定 Vidalia"
 
 #: mainwindow.ui:233
 msgctxt "MainWindow"
 msgid "Start Tor"
-msgstr ""
+msgstr "啟動 Tor"
 
-#: mainwindow.cpp:495
+#: mainwindow.cpp:639
 msgctxt "MainWindow"
 msgid "Error starting IM client"
-msgstr ""
+msgstr "啟動 IM 客戶端時發生錯誤"
 
-#: mainwindow.cpp:496
+#: mainwindow.cpp:640
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured IM client"
-msgstr ""
+msgstr "Vidalia 無法啟動已初始設定之 IM 客戶端"
 
-#: mainwindow.cpp:534
+#: mainwindow.cpp:678
 msgctxt "MainWindow"
 msgid "Connecting to a relay directory"
-msgstr ""
+msgstr "正在連線至中繼站目錄"
 
-#: mainwindow.cpp:538
+#: mainwindow.cpp:682
 msgctxt "MainWindow"
 msgid "Establishing an encrypted directory connection"
-msgstr ""
+msgstr "正在建立加密的目錄連線"
 
-#: mainwindow.cpp:541
+#: mainwindow.cpp:685
 msgctxt "MainWindow"
 msgid "Retrieving network status"
 msgstr ""
 
-#: mainwindow.cpp:544
+#: mainwindow.cpp:688
 msgctxt "MainWindow"
 msgid "Loading network status"
 msgstr ""
 
-#: mainwindow.cpp:547
+#: mainwindow.cpp:691
 msgctxt "MainWindow"
 msgid "Loading authority certificates"
 msgstr ""
 
-#: mainwindow.cpp:550
+#: mainwindow.cpp:694
 msgctxt "MainWindow"
 msgid "Requesting relay information"
-msgstr ""
+msgstr "正在要求中繼站資訊"
 
-#: mainwindow.cpp:553
+#: mainwindow.cpp:697
 msgctxt "MainWindow"
 msgid "Loading relay information"
 msgstr ""
 
-#: mainwindow.cpp:1100
+#: mainwindow.cpp:1234
 msgctxt "MainWindow"
 msgid "Connecting to the Tor network"
-msgstr ""
+msgstr "正在連線至 Tor 網路"
 
-#: mainwindow.cpp:560
+#: mainwindow.cpp:704
 msgctxt "MainWindow"
 msgid "Establishing a Tor circuit"
-msgstr ""
+msgstr "正在建立 Tor 迴路"
 
-#: mainwindow.cpp:1235
+#: mainwindow.cpp:1399
 msgctxt "MainWindow"
 msgid "Connected to the Tor network!"
-msgstr ""
+msgstr "已連線到 Tor 網路!"
 
-#: mainwindow.cpp:567
+#: mainwindow.cpp:711
 msgctxt "MainWindow"
 msgid "Unrecognized startup status"
 msgstr ""
 
-#: mainwindow.cpp:574
+#: mainwindow.cpp:718
 msgctxt "MainWindow"
 msgid "miscellaneous"
-msgstr ""
+msgstr "雜項"
 
-#: mainwindow.cpp:577
+#: mainwindow.cpp:721
 msgctxt "MainWindow"
 msgid "identity mismatch"
 msgstr ""
 
-#: mainwindow.cpp:580
+#: mainwindow.cpp:724
 msgctxt "MainWindow"
 msgid "done"
-msgstr ""
+msgstr "完成"
 
-#: mainwindow.cpp:583
+#: mainwindow.cpp:727
 msgctxt "MainWindow"
 msgid "connection refused"
 msgstr ""
 
-#: mainwindow.cpp:586
+#: mainwindow.cpp:730
 msgctxt "MainWindow"
 msgid "connection timeout"
-msgstr ""
+msgstr "連線逾時"
 
-#: mainwindow.cpp:589
+#: mainwindow.cpp:733
 msgctxt "MainWindow"
 msgid "read/write error"
-msgstr ""
+msgstr "讀寫錯誤"
 
-#: mainwindow.cpp:592
+#: mainwindow.cpp:736
 msgctxt "MainWindow"
 msgid "no route to host"
 msgstr ""
 
-#: mainwindow.cpp:595
+#: mainwindow.cpp:739
 msgctxt "MainWindow"
 msgid "insufficient resources"
-msgstr ""
+msgstr "資源不足"
 
-#: mainwindow.cpp:598
+#: mainwindow.cpp:742
 msgctxt "MainWindow"
 msgid "unknown"
-msgstr ""
+msgstr "未知"
 
-#: mainwindow.cpp:600
+#: mainwindow.cpp:744
 msgctxt "MainWindow"
-msgid " failed (%1)"
+msgid "failed (%1)"
 msgstr ""
 
-#: mainwindow.cpp:648
+#: mainwindow.cpp:792
 msgctxt "MainWindow"
 msgid "Stop Tor Now"
-msgstr ""
+msgstr "立刻停用 Tor"
 
-#: mainwindow.cpp:650
+#: mainwindow.cpp:794
 msgctxt "MainWindow"
 msgid "Stop Tor"
-msgstr ""
+msgstr "停用 Tor"
 
-#: mainwindow.cpp:666
+#: mainwindow.cpp:810
 msgctxt "MainWindow"
 msgid "Starting the Tor software"
-msgstr ""
+msgstr "正在啟動 Tor 軟體"
 
 #: mainwindow.ui:75
 msgctxt "MainWindow"
 msgid "Starting Tor"
-msgstr ""
+msgstr "正在啟動 Tor"
 
-#: mainwindow.cpp:677
-msgctxt "MainWindow"
-msgid "Tor is Running"
-msgstr ""
-
-#: mainwindow.cpp:868
+#: mainwindow.cpp:998
 msgctxt "MainWindow"
 msgid "Connecting to Tor"
-msgstr ""
+msgstr "正在連線至 Tor"
 
-#: mainwindow.cpp:1027
+#: mainwindow.cpp:1157
+#, fuzzy
 msgctxt "MainWindow"
 msgid "Authenticating to Tor"
+msgstr "正在登入 Tor"
+
+#: mainwindow.cpp:785
+#, fuzzy
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "你的中繼站正在關閉。再按『停止鈕』一次，中繼站會立即關閉。"
+
+#: mainwindow.cpp:1045
+#, fuzzy
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any "
+"open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new "
+"relay?"
+msgstr ""
+"你目前是一個運作中的中繼站。結束你的中繼站將會切斷任何來自於其他 open 連線的"
+"用戶端。你要稍待片刻，讓其他用戶端找到新的中繼站後再關閉嗎?"
+
+#: mainwindow.cpp:1103
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr ""
+
+#: mainwindow.cpp:1312
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "重設密碼失敗"
+
+#: mainwindow.cpp:1315
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
 msgstr ""
 
 #: messagelog.ui:19
@@ -1392,12 +1418,12 @@ msgstr "注意"
 #: messagelog.ui:265
 msgctxt "MessageLog"
 msgid "Info"
-msgstr "信息"
+msgstr "資訊"
 
 #: messagelog.ui:281
 msgctxt "MessageLog"
 msgid "Debug"
-msgstr "調試"
+msgstr "除錯"
 
 #: messagelog.ui:452
 msgctxt "MessageLog"
@@ -1514,79 +1540,47 @@ msgctxt "MessageLog"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: messagelog.cpp:137
-msgctxt "MessageLog"
-msgid "Messages that appear when something has "
-"gone very wrong and Tor cannot proceed."
-msgstr "Tor 發生嚴重錯誤或無法繼續運行的時候所顯示的信息."
-
-#: messagelog.cpp:139
-msgctxt "MessageLog"
-msgid "Messages that only appear when "
-"something has gone wrong with Tor."
-msgstr "Tor 發生錯誤時所顯示的信息."
-
-#: messagelog.cpp:143
-msgctxt "MessageLog"
-msgid "Messages that appear infrequently "
-"during normal Tor operation and are "
-"not considered errors, but you may "
-"care about."
-msgstr "Tor 在正常運行時所顯示的信息,該信息可能並非錯誤,有時可忽略."
-
-#: messagelog.cpp:145
-msgctxt "MessageLog"
-msgid "Messages that appear frequently "
-"during normal Tor operation."
-msgstr "Tor 在正常運行時所顯示的信息."
-
-#: messagelog.cpp:147
-msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of "
-"interest to Tor developers."
-msgstr "調試信息,適用於 Tor 開發者."
-
-#: messagelog.cpp:192
+#: messagelog.cpp:181
 msgctxt "MessageLog"
 msgid "Error Setting Filter"
 msgstr "設定過濾條件時發生錯誤"
 
-#: messagelog.cpp:208
+#: messagelog.cpp:197
 msgctxt "MessageLog"
 msgid "Error Opening Log File"
 msgstr "打開日誌文件時發生錯誤"
 
-#: messagelog.cpp:283
+#: messagelog.cpp:272
 msgctxt "MessageLog"
 msgid "Select Log File"
 msgstr "請選擇日誌文件"
 
-#: messagelog.cpp:300
+#: messagelog.cpp:289
 msgctxt "MessageLog"
 msgid "Save Log Messages"
 msgstr "保存日誌內容"
 
-#: messagelog.cpp:312
+#: messagelog.cpp:301
 msgctxt "MessageLog"
 msgid "Vidalia"
 msgstr "Vidalia"
 
-#: messagelog.cpp:363
+#: messagelog.cpp:352
 msgctxt "MessageLog"
 msgid "Find in Message Log"
 msgstr "查找於消息日誌"
 
-#: messagelog.cpp:364
+#: messagelog.cpp:353
 msgctxt "MessageLog"
 msgid "Find:"
 msgstr "查找:"
 
-#: messagelog.cpp:370
+#: messagelog.cpp:359
 msgctxt "MessageLog"
 msgid "Not Found"
 msgstr "未找到"
 
-#: messagelog.cpp:371
+#: messagelog.cpp:360
 msgctxt "MessageLog"
 msgid "Search found 0 matches."
 msgstr "找到 0 個匹配結果."
@@ -1616,39 +1610,32 @@ msgctxt "MessageLog"
 msgid "Show the help browser"
 msgstr "顯示幫助瀏覽器"
 
-#: messagelog.cpp:193
+#: messagelog.cpp:182
 msgctxt "MessageLog"
 msgid "Vidalia was unable to register for Tor's log events."
 msgstr "Vidalia 無法註冊 Tor 日誌事件."
 
-#: messagelog.cpp:313
-msgctxt "MessageLog"
-msgid "Cannot write file %1"
-""
-"%2."
-msgstr "無法寫入文件 %1 %2."
-
-#: messagelog.cpp:209
+#: messagelog.cpp:198
 msgctxt "MessageLog"
 msgid "Vidalia was unable to open the specified log file."
 msgstr "Vidalia 無法打開指定的日誌文件."
 
-#: messagelog.cpp:303
+#: messagelog.cpp:292
 msgctxt "MessageLog"
 msgid "Text Files (*.txt)"
-msgstr "文本文件 (*.txt)"
+msgstr "文字檔 (*.txt)"
 
 #: messagelog.ui:573
 msgctxt "MessageLog"
 msgid "F1"
 msgstr "F1"
 
-#: messagelog.cpp:230
+#: messagelog.cpp:219
 msgctxt "MessageLog"
 msgid "Log Filename Required"
 msgstr "必須指定日誌文件名"
 
-#: messagelog.cpp:232
+#: messagelog.cpp:221
 msgctxt "MessageLog"
 msgid "You must enter a filename to be able to save log messages to a file."
 msgstr "必須指定保存消息文件的文件名."
@@ -1666,7 +1653,7 @@ msgstr "在日誌窗口顯示的消息條數"
 #: messagelog.ui:337
 msgctxt "MessageLog"
 msgid "messages"
-msgstr "消息"
+msgstr "訊息"
 
 #: messagelog.ui:356
 msgctxt "MessageLog"
@@ -1683,6 +1670,57 @@ msgctxt "MessageLog"
 msgid "Automatically save new log messages to a file"
 msgstr "自動保存新的消息內容至文件"
 
+#: messagelog.cpp:126
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Tor 發生嚴重錯誤或無法繼續運行的時候所顯示的信息."
+
+#: messagelog.cpp:128
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Tor 發生錯誤時所顯示的信息."
+
+#: messagelog.cpp:132
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Tor 在正常運行時所顯示的信息,該信息可能並非錯誤,有時可忽略."
+
+#: messagelog.cpp:134
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Tor 在正常運行時所顯示的信息."
+
+#: messagelog.cpp:136
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "調試信息,適用於 Tor 開發者."
+
+#: messagelog.cpp:302
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "無法寫入文件 %1 %2."
+
 #: netviewer.ui:236
 msgctxt "NetViewer"
 msgid "Refresh"
@@ -1691,7 +1729,7 @@ msgstr "刷新"
 #: netviewer.ui:253
 msgctxt "NetViewer"
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
 #: netviewer.ui:270
 msgctxt "NetViewer"
@@ -1784,9 +1822,10 @@ msgid "Refresh the list of Tor relays and connections"
 msgstr "刷新 Tor 中繼服務器和連接信息"
 
 #: networkpage.cpp:34
+#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
-msgstr "網絡"
+msgstr "網路"
 
 #: networkpage.cpp:186
 msgctxt "NetworkPage"
@@ -1805,12 +1844,16 @@ msgstr "複製(Ctrl+C)"
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
 msgstr "你必須指定 Tor 用於訪問網絡的 IP 地址或主機名,以及端口."
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
 msgstr "你必須指定一個或多個端口用於連接防火牆."
 
 #: networkpage.cpp:307
@@ -1821,7 +1864,7 @@ msgstr "'%1' 不是一個有效的端口."
 #: networkpage.ui:28
 msgctxt "NetworkPage"
 msgid "I use a proxy to access the Internet"
-msgstr "我使用代理服務器連接到網絡"
+msgstr "我使用代理服務連線到網際網路"
 
 #: networkpage.ui:58
 msgctxt "NetworkPage"
@@ -1851,12 +1894,12 @@ msgstr "密碼:"
 #: networkpage.ui:135
 msgctxt "NetworkPage"
 msgid "Port:"
-msgstr "端口:"
+msgstr "連接埠:"
 
 #: networkpage.ui:179
 msgctxt "NetworkPage"
 msgid "My firewall only lets me connect to certain ports"
-msgstr "我的防火牆只允許我連接到指定端口"
+msgstr "我的防火牆只允許我連線至特定的連接埠"
 
 #: networkpage.ui:203
 msgctxt "NetworkPage"
@@ -1866,7 +1909,7 @@ msgstr "防火牆設定"
 #: networkpage.ui:215
 msgctxt "NetworkPage"
 msgid "Allowed Ports:"
-msgstr "允許端口:"
+msgstr "允許的連接埠 :"
 
 #: networkpage.ui:225
 msgctxt "NetworkPage"
@@ -1876,12 +1919,12 @@ msgstr "80, 443"
 #: networkpage.ui:238
 msgctxt "NetworkPage"
 msgid "My ISP blocks connections to the Tor network"
-msgstr "我的 ISP 阻擋了對 Tor 網絡的連接"
+msgstr "我的 ISP 不讓我連線至 Tor 網路"
 
 #: networkpage.ui:295
 msgctxt "NetworkPage"
 msgid "Add a Bridge:"
-msgstr "添加一個網橋:"
+msgstr "新增一個橋接器："
 
 #: networkpage.ui:383
 msgctxt "NetworkPage"
@@ -1891,17 +1934,17 @@ msgstr "從列表中移除選中的網橋"
 #: networkpage.ui:399
 msgctxt "NetworkPage"
 msgid "Copy the selected bridges to the clipboard"
-msgstr "複製選中的網橋至剪貼板"
+msgstr "複製選擇的橋接器到剪貼簿"
 
 #: networkpage.ui:318
 msgctxt "NetworkPage"
 msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
-msgstr ""
+msgstr "我要如何找到橋接?"
 
 #: networkpage.ui:25
 msgctxt "NetworkPage"
 msgid "Check if your local network requires a proxy to access the Internet"
-msgstr ""
+msgstr "請勾選本項，如果你的本地網路透過代理伺服器連線至網路。"
 
 #: networkpage.ui:176
 msgctxt "NetworkPage"
@@ -1910,17 +1953,21 @@ msgstr ""
 
 #: networkpage.ui:235
 msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
 msgstr ""
 
 #: networkpage.ui:262
 msgctxt "NetworkPage"
 msgid "Bridge Settings"
-msgstr ""
+msgstr "橋接設定"
 
 #: networkpage.ui:274
 msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
+msgid ""
+"The Tor software you are currently running does not support bridges. "
+"<br>Directory connections will still be encrypted."
 msgstr ""
 
 #: policy.cpp:167
@@ -1936,7 +1983,7 @@ msgstr "拒絕"
 #: routerdescriptor.cpp:76
 msgctxt "RouterDescriptor"
 msgid "Online"
-msgstr "聯機"
+msgstr "上線"
 
 #: routerdescriptor.cpp:78
 msgctxt "RouterDescriptor"
@@ -1946,57 +1993,65 @@ msgstr "休眠"
 #: routerdescriptor.cpp:80
 msgctxt "RouterDescriptor"
 msgid "Offline"
-msgstr "脫機"
+msgstr "離線"
 
-#: routerdescriptorview.cpp:103
+#: routerdescriptorview.cpp:143
 msgctxt "RouterDescriptorView"
 msgid "IP Address:"
 msgstr "IP 地址:"
 
-#: routerdescriptorview.cpp:104
+#: routerdescriptorview.cpp:144
 msgctxt "RouterDescriptorView"
 msgid "Platform:"
 msgstr "系統平台:"
 
-#: routerdescriptorview.cpp:108
+#: routerdescriptorview.cpp:148
 msgctxt "RouterDescriptorView"
 msgid "Bandwidth:"
-msgstr "帶寬:"
+msgstr "頻寬："
 
-#: routerdescriptorview.cpp:110
+#: routerdescriptorview.cpp:150
 msgctxt "RouterDescriptorView"
 msgid "Uptime:"
-msgstr "運行時間"
+msgstr "運行時間："
 
-#: routerdescriptorview.cpp:116
+#: routerdescriptorview.cpp:156
 msgctxt "RouterDescriptorView"
 msgid "Last Updated:"
 msgstr "最後更新:"
 
-#: routerdescriptorview.cpp:99
+#: routerdescriptorview.cpp:139
 msgctxt "RouterDescriptorView"
 msgid "Location:"
 msgstr "地理位置"
 
-#: routerdescriptorview.cpp:60
+#: routerdescriptorview.cpp:100
+#, fuzzy
 msgctxt "RouterDescriptorView"
-msgid "%1 days "
-msgstr ""
+msgid "%1 days"
+msgstr "%1 天"
 
-#: routerdescriptorview.cpp:63
+#: routerdescriptorview.cpp:103
+#, fuzzy
 msgctxt "RouterDescriptorView"
-msgid "%1 hours "
-msgstr ""
+msgid "%1 hours"
+msgstr "%1 小時"
 
-#: routerdescriptorview.cpp:66
+#: routerdescriptorview.cpp:106
+#, fuzzy
 msgctxt "RouterDescriptorView"
-msgid "%1 mins "
-msgstr ""
+msgid "%1 mins"
+msgstr "%1 分鐘"
 
-#: routerdescriptorview.cpp:69
+#: routerdescriptorview.cpp:109
 msgctxt "RouterDescriptorView"
 msgid "%1 secs"
-msgstr ""
+msgstr "%1 秒"
+
+#: routerdescriptorview.cpp:48
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "複製"
 
 #: routerlistitem.cpp:83
 msgctxt "RouterListItem"
@@ -2006,7 +2061,7 @@ msgstr "%1 KB/s"
 #: routerlistitem.cpp:67
 msgctxt "RouterListItem"
 msgid "Offline"
-msgstr "脫機"
+msgstr "離線"
 
 #: routerlistitem.cpp:71
 msgctxt "RouterListItem"
@@ -2026,9 +2081,10 @@ msgstr "移動至中繼"
 #: routerlistwidget.cpp:151
 msgctxt "RouterListWidget"
 msgid "%1 relays online"
-msgstr ""
+msgstr "%1 上線的中繼站"
 
 #: serverpage.ui:32
+#, fuzzy
 msgctxt "ServerPage"
 msgid "Relay traffic for the Tor network"
 msgstr "Tor 網絡中繼"
@@ -2105,38 +2161,42 @@ msgstr "帶寬限制"
 
 #: serverpage.ui:435
 msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
-msgstr "如網絡連接的下行速率較大,而上行速度較慢,請選擇適用的網絡連接類型(主要適用於 DSL 用戶)"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"如網絡連接的下行速率較大,而上行速度較慢,請選擇適用的網絡連接類型(主要適用於 "
+"DSL 用戶)"
 
 #: serverpage.ui:456
 msgctxt "ServerPage"
 msgid "Select the entry that most closely resembles your Internet connection"
-msgstr "請選擇適合或接近的網絡連接類型"
+msgstr "請選擇您的平均連線速度"
 
 #: serverpage.ui:466
 msgctxt "ServerPage"
 msgid "Cable/DSL 256 Kbps"
-msgstr "寬帶/DSL 256 Kbps"
+msgstr "寬頻/DSL 256 Kbps"
 
 #: serverpage.ui:471
 msgctxt "ServerPage"
 msgid "Cable/DSL 512 Kbps"
-msgstr "寬帶/DSL 512 Kbps"
+msgstr "寬頻/DSL 512 Kbps"
 
 #: serverpage.ui:476
 msgctxt "ServerPage"
 msgid "Cable/DSL 768 Kbps"
-msgstr "寬帶/DSL 768 Kbps"
+msgstr "寬頻/DSL 768 Kbps"
 
 #: serverpage.ui:481
 msgctxt "ServerPage"
 msgid "T1/Cable/DSL 1.5 Mbps"
-msgstr "T1/寬帶/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
 
 #: serverpage.ui:486
 msgctxt "ServerPage"
 msgid "> 1.5 Mbps"
-msgstr "帶寬大於 1.5 Mbps"
+msgstr "頻寬大於 1.5 Mbps"
 
 #: serverpage.ui:491
 msgctxt "ServerPage"
@@ -2146,7 +2206,7 @@ msgstr "自定義"
 #: serverpage.ui:802
 msgctxt "ServerPage"
 msgid "Ports 6660 - 6669 and 6697"
-msgstr "端口範圍: 6660-6669 和 6697"
+msgstr "連接埠範圍: 6660-6669 和 6697"
 
 #: serverpage.ui:805
 msgctxt "ServerPage"
@@ -2156,7 +2216,7 @@ msgstr "IRC 聊天服務"
 #: serverpage.ui:815
 msgctxt "ServerPage"
 msgid "Ports 110, 143, 993 and 995"
-msgstr "端口範圍: 110,143,993 和 995"
+msgstr "連接埠範圍: 110,143,993 和 995"
 
 #: serverpage.ui:818
 msgctxt "ServerPage"
@@ -2191,22 +2251,25 @@ msgstr "加密網站(SSL)"
 #: serverpage.ui:867
 msgctxt "ServerPage"
 msgid "Port 80"
-msgstr "端口: 80"
+msgstr "連接埠 80"
 
 #: serverpage.ui:870
 msgctxt "ServerPage"
 msgid "Websites"
-msgstr "普通網站"
+msgstr "未加密網站"
 
 #: serverpage.ui:737
 msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
 msgstr "你的最大帶寬速率必須大於或等於你的平均帶寬速率.兩個數值必須至少 20KB/s"
 
 #: serverpage.cpp:68
+#, fuzzy
 msgctxt "ServerPage"
 msgid "Server"
-msgstr "服務器"
+msgstr "服務"
 
 #: serverpage.cpp:133
 msgctxt "ServerPage"
@@ -2215,33 +2278,32 @@ msgstr "網橋功能不可用"
 
 #: serverpage.cpp:136
 msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
 msgstr "你已將 Tor 設定為網橋中繼服務器,然而你的 Tor 版本並不支持此功能."
 
 #: serverpage.cpp:138
 msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
 msgstr "請升級你的 Tor 軟件或者將 Tor 設定為普通中繼服務器."
 
 #: serverpage.cpp:256
 msgctxt "ServerPage"
 msgid "You must specify at least a relay nickname and port."
-msgstr "你必須指定至少一個中繼名稱和端口."
+msgstr "你必須指定至少一個中繼站名稱與連接埠。"
 
 #: serverpage.ui:91
 msgctxt "ServerPage"
 msgid "Relay Port:"
-msgstr "中繼端口:"
-
-#: serverpage.ui:204
-msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
-msgstr "電子信箱地址,用於你的中繼服務器出現故障時的聯絡.你可以包含 PGP 或 GPG 指紋信息."
+msgstr "中繼連接埠:"
 
 #: serverpage.ui:113
+#, fuzzy
 msgctxt "ServerPage"
-msgid "Mirror the Relay Directory "
+msgid "Mirror the Relay Directory"
 msgstr "中繼服務器目錄鏡像"
 
 #: serverpage.cpp:192
@@ -2249,32 +2311,28 @@ msgctxt "ServerPage"
 msgid "Your bridge relay is not running."
 msgstr ""
 
-#: serverpage.ui:39
-msgctxt "ServerPage"
-msgid "Help censored users reach the Tor network (Tor 0.2.0.8-alpha or newer)"
-msgstr "幫助用戶訪問 Tor 網絡(限於 Tor 0.2.0.3-alpha 或更高版本) {0.2.0.8-?}"
-
 #: serverpage.ui:337
 msgctxt "ServerPage"
 msgid "Name of your relay"
-msgstr ""
+msgstr "你的中繼站名稱"
 
 #: serverpage.ui:370
 msgctxt "ServerPage"
 msgid "Port on which users and other relays can communicate with your relay"
-msgstr ""
+msgstr "請輸入連接埠範圍以便其他使用者與中繼站能夠與你的中繼站通訊"
 
-#: serverpage.ui:1005
+#: serverpage.ui:1015
 msgctxt "ServerPage"
 msgid "Let others access your bridge by giving them this line:"
 msgstr ""
 
-#: serverpage.ui:1029
+#: serverpage.ui:1039
 msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
 msgstr ""
 
-#: serverpage.ui:1051
+#: serverpage.ui:1061
 msgctxt "ServerPage"
 msgid "Copy your bridge relay's identity to the clipboard"
 msgstr ""
@@ -2282,12 +2340,12 @@ msgstr ""
 #: serverpage.ui:841
 msgctxt "ServerPage"
 msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
-msgstr "端口範圍: 706,1863,5050,5190,5222,8300 和 8888 {706, 1863, 5050, 5190, 5222, 5223, 8300 ?}"
+msgstr "連接埠範圍: 706,1863,5050,5190,5222,8300 和 8888"
 
 #: serverpage.ui:25
 msgctxt "ServerPage"
 msgid "Run as a client only"
-msgstr ""
+msgstr "我只想當用戶端"
 
 #: serverpage.ui:110
 msgctxt "ServerPage"
@@ -2297,67 +2355,91 @@ msgstr ""
 #: serverpage.ui:139
 msgctxt "ServerPage"
 msgid "Attempt to automatically configure port forwarding"
-msgstr ""
+msgstr "正在嘗試自動設定連接埠轉送"
 
 #: serverpage.ui:154
 msgctxt "ServerPage"
 msgid "Test"
-msgstr ""
+msgstr "測試"
 
 #: serverpage.ui:969
 msgctxt "ServerPage"
 msgid "What Internet resources should users be able to access from your relay?"
-msgstr ""
+msgstr "你要讓其他使用者從你的 relay 使用何種網路資源?"
 
 #: serverpage.ui:164
 msgctxt "ServerPage"
 msgid "Show help topic on port forwarding"
+msgstr "顯示連接埠轉送的說明內容"
+
+#: serverpage.ui:39
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "幫助用戶訪問 Tor 網絡(限於 Tor 0.2.0.3-alpha 或更高版本) {0.2.0.8-?}"
+
+#: serverpage.ui:204
+#, fuzzy
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
 msgstr ""
+"電子信箱地址,用於你的中繼服務器出現故障時的聯絡.你可以包含 PGP 或 GPG 指紋信"
+"息."
+
+#: serverpage.ui:979
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "預設情況下，Tor 仍然會阻擋某些外送郵件與檔案分享軟體，以免遭到濫用。"
 
 #: servicepage.cpp:27
+#, fuzzy
 msgctxt "ServicePage"
 msgid "Services"
-msgstr ""
+msgstr "服務"
 
-#: servicepage.cpp:109
+#: servicepage.cpp:105
 msgctxt "ServicePage"
 msgid "Error while trying to unpublish all services"
 msgstr ""
 
-#: servicepage.cpp:590
+#: servicepage.cpp:589
 msgctxt "ServicePage"
 msgid "Error"
 msgstr "錯誤"
 
-#: servicepage.cpp:445
+#: servicepage.cpp:444
 msgctxt "ServicePage"
 msgid "Please select a Service."
-msgstr ""
+msgstr "請選擇一個服務。"
 
-#: servicepage.cpp:451
+#: servicepage.cpp:450
 msgctxt "ServicePage"
 msgid "Select Service Directory"
-msgstr ""
+msgstr "選擇服務目錄"
 
-#: servicepage.cpp:540
+#: servicepage.cpp:539
 msgctxt "ServicePage"
 msgid "Virtual Port may only contain valid port numbers [1..65535]."
-msgstr ""
+msgstr "虛擬連接埠只能使用有效的連接埠數值 [1...65535]。"
 
-#: servicepage.cpp:571
+#: servicepage.cpp:570
 msgctxt "ServicePage"
 msgid "Target may only contain address:port, address, or port."
 msgstr ""
 
-#: servicepage.cpp:591
+#: servicepage.cpp:590
 msgctxt "ServicePage"
 msgid "Directory already in use by another service."
-msgstr ""
+msgstr "另一個服務已經正在使用此目錄了。"
 
 #: servicepage.ui:19
 msgctxt "ServicePage"
 msgid "Form"
-msgstr ""
+msgstr "表格"
 
 #: servicepage.ui:31
 msgctxt "ServicePage"
@@ -2367,37 +2449,37 @@ msgstr ""
 #: servicepage.ui:56
 msgctxt "ServicePage"
 msgid "Onion Address"
-msgstr ""
+msgstr "Onion 位址"
 
 #: servicepage.ui:61
 msgctxt "ServicePage"
 msgid "Virtual Port"
-msgstr ""
+msgstr "虛擬連接埠"
 
 #: servicepage.ui:66
 msgctxt "ServicePage"
 msgid "Target"
-msgstr ""
+msgstr "目標"
 
 #: servicepage.ui:71
 msgctxt "ServicePage"
 msgid "Directory Path"
-msgstr ""
+msgstr "目錄路徑"
 
 #: servicepage.ui:76
 msgctxt "ServicePage"
 msgid "Enabled"
-msgstr ""
+msgstr "已啟用"
 
 #: servicepage.ui:84
 msgctxt "ServicePage"
 msgid "Add new service to list"
-msgstr ""
+msgstr "加入新的服務至清單"
 
 #: servicepage.ui:97
 msgctxt "ServicePage"
 msgid "Remove selected service from list"
-msgstr ""
+msgstr "從清單移除選擇的服務"
 
 #: servicepage.ui:110
 msgctxt "ServicePage"
@@ -2409,52 +2491,59 @@ msgctxt "ServicePage"
 msgid "Browse in local file system and choose directory for selected service"
 msgstr ""
 
-#: servicepage.cpp:116
+#: servicepage.cpp:112
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
 msgstr ""
 
-#: stream.cpp:118
+#: servicepage.cpp:376
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr ""
+
+#: stream.cpp:131
 msgctxt "Stream"
 msgid "New"
 msgstr "新建"
 
-#: stream.cpp:120
+#: stream.cpp:133
 msgctxt "Stream"
 msgid "Resolving"
 msgstr "正在解析"
 
-#: stream.cpp:121
+#: stream.cpp:134
 msgctxt "Stream"
 msgid "Connecting"
 msgstr "正在連接"
 
-#: stream.cpp:122
+#: stream.cpp:135
 msgctxt "Stream"
 msgid "Open"
-msgstr "打開"
+msgstr "開啟"
 
-#: stream.cpp:123
+#: stream.cpp:136
 msgctxt "Stream"
 msgid "Failed"
 msgstr "失敗"
 
-#: stream.cpp:124
+#: stream.cpp:137
 msgctxt "Stream"
 msgid "Closed"
 msgstr "關閉"
 
-#: stream.cpp:127
+#: stream.cpp:140
 msgctxt "Stream"
 msgid "Unknown"
 msgstr "未知"
 
-#: stream.cpp:125
+#: stream.cpp:138
 msgctxt "Stream"
 msgid "Retrying"
 msgstr "正在重試"
 
-#: stream.cpp:126
+#: stream.cpp:139
 msgctxt "Stream"
 msgid "Remapped"
 msgstr "重新映射"
@@ -2474,20 +2563,20 @@ msgctxt "TorService"
 msgid "Unable to start the Tor service."
 msgstr "無法啟動 Tor 服務."
 
-#: torsettings.cpp:107
+#: torsettings.cpp:103
 msgctxt "TorSettings"
 msgid "Failed to hash the control password."
-msgstr ""
+msgstr "無法切細主密碼。"
 
 #: upnpcontrol.cpp:139
 msgctxt "UPNPControl"
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: upnpcontrol.cpp:141
 msgctxt "UPNPControl"
 msgid "No UPnP-enabled devices found"
-msgstr ""
+msgstr "沒找到啟用 UPnP的裝置"
 
 #: upnpcontrol.cpp:143
 msgctxt "UPNPControl"
@@ -2497,57 +2586,57 @@ msgstr ""
 #: upnpcontrol.cpp:145
 msgctxt "UPNPControl"
 msgid "WSAStartup failed"
-msgstr ""
+msgstr "WSAStartup 失敗"
 
 #: upnpcontrol.cpp:147
 msgctxt "UPNPControl"
 msgid "Failed to add a port mapping"
-msgstr ""
+msgstr "無法新增連接埠映射"
 
 #: upnpcontrol.cpp:149
 msgctxt "UPNPControl"
 msgid "Failed to retrieve a port mapping"
-msgstr ""
+msgstr "無法取得連接埠映射"
 
 #: upnpcontrol.cpp:151
 msgctxt "UPNPControl"
 msgid "Failed to remove a port mapping"
-msgstr ""
+msgstr "無法移除連接埠映射"
 
 #: upnpcontrol.cpp:153
 msgctxt "UPNPControl"
 msgid "Unknown error"
-msgstr ""
+msgstr "未知的錯誤"
 
 #: upnptestdialog.cpp:112
 msgctxt "UPNPTestDialog"
 msgid "Discovering UPnP-enabled devices"
-msgstr ""
+msgstr "正在尋找啟用 UPnP的裝置"
 
 #: upnptestdialog.cpp:117
 msgctxt "UPNPTestDialog"
 msgid "Updating directory port mapping"
-msgstr ""
+msgstr "正在更新目錄連接埠映射"
 
 #: upnptestdialog.cpp:122
 msgctxt "UPNPTestDialog"
 msgid "Updating relay port mapping"
-msgstr ""
+msgstr "正在更新中繼站連接埠映射"
 
 #: upnptestdialog.cpp:127
 msgctxt "UPNPTestDialog"
 msgid "Test completed successfully!"
-msgstr ""
+msgstr "測試成功完成!"
 
 #: upnptestdialog.ui:13
 msgctxt "UPNPTestDialog"
 msgid "Testing UPnP Support"
-msgstr ""
+msgstr "正在測試 UPnP 是否支援"
 
 #: upnptestdialog.ui:92
 msgctxt "UPNPTestDialog"
 msgid "Testing Universal Plug & Play Support"
-msgstr ""
+msgstr "正在測試 UPnP 是否支援"
 
 #: vmessagebox.cpp:77
 msgctxt "VMessageBox"
@@ -2572,7 +2661,7 @@ msgstr "否"
 #: vmessagebox.cpp:81
 msgctxt "VMessageBox"
 msgid "Help"
-msgstr "幫助"
+msgstr "說明"
 
 #: vmessagebox.cpp:82
 msgctxt "VMessageBox"
@@ -2605,26 +2694,21 @@ msgid "Browse"
 msgstr "瀏覽"
 
 #: vidalia.cpp:235
+#, fuzzy
 msgctxt "Vidalia"
-msgid "Invalid language code specified: "
+msgid "Invalid language code specified:"
 msgstr "指定語言代碼無效: "
 
 #: vidalia.cpp:242
+#, fuzzy
 msgctxt "Vidalia"
-msgid "Invalid GUI style specified: "
+msgid "Invalid GUI style specified:"
 msgstr "指定界面風格無效: "
 
 #: main.cpp:88
 msgctxt "Vidalia"
 msgid "Vidalia is already running"
-msgstr "Vidalia 已經運行"
-
-#: main.cpp:94
-msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
-""
-"Would you like to continue starting Vidalia?"
-msgstr "另一個 Vidalia 進程已經運行.如果確定無其它 Vidalia 進程正在運行,可以選擇繼續.確定要繼續運行 Vidalia 嗎?"
+msgstr "Vidalia 已經在運作了"
 
 #: main.cpp:74
 msgctxt "Vidalia"
@@ -2677,8 +2761,9 @@ msgid "Vidalia Usage Information"
 msgstr "Vidalia 使用信息"
 
 #: vidalia.cpp:248
+#, fuzzy
 msgctxt "Vidalia"
-msgid "Invalid log level specified: "
+msgid "Invalid log level specified:"
 msgstr "指定日誌級別無效:"
 
 #: vidalia.cpp:254
@@ -2686,3 +2771,14 @@ msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
 msgstr "無法打開日誌文件 '%1': %2"
 
+#: main.cpp:94
+#, fuzzy
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not "
+"another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+"另一個 Vidalia 進程已經運行.如果確定無其它 Vidalia 進程正在運行,可以選擇繼續."
+"確定要繼續運行 Vidalia 嗎?"

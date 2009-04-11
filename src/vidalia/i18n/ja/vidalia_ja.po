@@ -2,15 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
-"POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: 2008-08-18 03:29+0000\n"
-"Last-Translator: unagiebi <unagiebi@gmail.com>\n"
+"POT-Creation-Date: 2009-04-11 03:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+#: aboutdialog.cpp:63
+#, fuzzy
+msgctxt "AboutDialog"
+msgid "<Unavailable>"
+msgstr "Tor の更新が利用可能です"
+
+#: aboutdialog.cpp:67
+msgctxt "AboutDialog"
+msgid "<Not Running>"
+msgstr "<起動していません>"
 
 #: aboutdialog.ui:25
 msgctxt "AboutDialog"
@@ -22,10 +33,11 @@ msgctxt "AboutDialog"
 msgid "Vidalia"
 msgstr "Vidalia"
 
-#: aboutdialog.ui:234
+#: aboutdialog.ui:88
+#, fuzzy
 msgctxt "AboutDialog"
-msgid "Tor"
-msgstr "Tor"
+msgid "Vidalia Version"
+msgstr "Vidalia のヘルプ"
 
 #: aboutdialog.ui:156
 msgctxt "AboutDialog"
@@ -37,129 +49,81 @@ msgctxt "AboutDialog"
 msgid "Qt Version"
 msgstr "Qt のバージョン"
 
+#: aboutdialog.ui:234
+msgctxt "AboutDialog"
+msgid "Tor"
+msgstr "Tor"
+
 #: aboutdialog.ui:244
 msgctxt "AboutDialog"
 msgid "Tor Version"
 msgstr "Tor のバージョン"
 
-#: aboutdialog.ui:88
-msgctxt "AboutDialog"
-msgid "Vidalia Version"
-msgstr "Vidalia のバージョン"
+#: advancedpage.cpp:34
+#, fuzzy
+msgctxt "AdvancedPage"
+msgid "Advanced"
+msgstr "詳細設定"
 
-#: aboutdialog.cpp:68
-msgctxt "AboutDialog"
-msgid "<Not Running>"
-msgstr "<起動していません>"
+#: advancedpage.cpp:102
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' は有効な IP アドレスではありません。"
 
-#: aboutdialog.cpp:64
-msgctxt "AboutDialog"
-msgid "<Unavailable>"
-msgstr "<利用不可>"
+#: advancedpage.cpp:113
+msgctxt "AdvancedPage"
+msgid "You selected 'Password' authentication, but did not specify a password."
+msgstr "'パスワード' 認証を選択しましたが、パスワードを指定しませんでした。"
+
+#: advancedpage.cpp:216
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Tor の構成ファイルの選択"
+
+#: advancedpage.cpp:229
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "ファイルが見つかりません"
+
+#: advancedpage.cpp:231
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 が存在しません。作成しますか?"
+
+#: advancedpage.cpp:242
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "ファイルの作成に失敗しました"
+
+#: advancedpage.cpp:243
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "%1 [%2] を作成することができません"
+
+#: advancedpage.cpp:258
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Tor のデータに使用するディレクトリの選択"
+
+#: advancedpage.cpp:280
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Tor サービスを削除することができません"
+
+#: advancedpage.cpp:291
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Tor サービスをインストールすることができません"
+
+#: advancedpage.cpp:292
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia は Tor サービスをインストールすることができませんでした。"
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
 msgid "Control Port"
 msgstr "コントロール ポート"
-
-#: advancedpage.ui:318
-msgctxt "AdvancedPage"
-msgid "Browse"
-msgstr "参照"
-
-#: advancedpage.ui:337
-msgctxt "AdvancedPage"
-msgid "Permissions"
-msgstr "権限"
-
-#: advancedpage.ui:360
-msgctxt "AdvancedPage"
-msgid "Run as User:"
-msgstr "次のユーザーとして起動する:"
-
-#: advancedpage.ui:373
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this User's permissions"
-msgstr "Vidalia はこのユーザーの権限で実行します"
-
-#: advancedpage.ui:393
-msgctxt "AdvancedPage"
-msgid "Run as Group:"
-msgstr "次のグループとして起動する:"
-
-#: advancedpage.ui:400
-msgctxt "AdvancedPage"
-msgid "Vidalia will run with this Group's permissions"
-msgstr "Vidalia はこのグループの権限で実行します"
-
-#: advancedpage.cpp:221
-msgctxt "AdvancedPage"
-msgid "Select Tor Configuration File"
-msgstr "Tor の構成ファイルの選択"
-
-#: advancedpage.cpp:234
-msgctxt "AdvancedPage"
-msgid "File Not Found"
-msgstr "ファイルが見つかりません"
-
-#: advancedpage.cpp:236
-msgctxt "AdvancedPage"
-msgid "%1 does not exist. Would you like to create it?"
-msgstr "%1 が存在しません。作成しますか?"
-
-#: advancedpage.cpp:247
-msgctxt "AdvancedPage"
-msgid "Failed to Create File"
-msgstr "ファイルの作成に失敗しました"
-
-#: advancedpage.cpp:248
-msgctxt "AdvancedPage"
-msgid "Unable to create %1 [%2]"
-msgstr "%1 [%2] を作成することができません"
-
-#: advancedpage.cpp:285
-msgctxt "AdvancedPage"
-msgid "Unable to remove Tor Service"
-msgstr "Tor サービスを削除することができません"
-
-#: advancedpage.cpp:296
-msgctxt "AdvancedPage"
-msgid "Unable to install Tor Service"
-msgstr "Tor サービスをインストールすることができません"
-
-#: advancedpage.cpp:297
-msgctxt "AdvancedPage"
-msgid "Vidalia was unable to install the Tor service."
-msgstr "Vidalia は Tor サービスをインストールすることができませんでした。"
-
-#: advancedpage.cpp:287
-msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service."
-""
-"You may need to remove it manually."
-msgstr "Vidalia は Tor サービスを削除することができませんでした。"
-""
-"手動で削除する必要がある可能性があります。"
-
-#: advancedpage.cpp:103
-msgctxt "AdvancedPage"
-msgid "'%1' is not a valid IP address."
-msgstr "'%1' は有効な IP アドレスではありません。"
-
-#: advancedpage.ui:157
-msgctxt "AdvancedPage"
-msgid ":"
-msgstr ":"
-
-#: advancedpage.cpp:114
-msgctxt "AdvancedPage"
-msgid "You selected 'Password' authentication, but did not specify a password."
-msgstr "'パスワード' 認証を選択しましたが、パスワードを指定しませんでした。"
-
-#: advancedpage.cpp:263
-msgctxt "AdvancedPage"
-msgid "Select a Directory to Use for Tor Data"
-msgstr "Tor のデータに使用するディレクトリの選択"
 
 #: advancedpage.ui:48
 msgctxt "AdvancedPage"
@@ -170,6 +134,11 @@ msgstr "認証:"
 msgctxt "AdvancedPage"
 msgid "Address:"
 msgstr "アドレス:"
+
+#: advancedpage.ui:86
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "なし"
 
 #: advancedpage.ui:91
 msgctxt "AdvancedPage"
@@ -186,15 +155,15 @@ msgctxt "AdvancedPage"
 msgid "Randomly Generate"
 msgstr "ランダムに生成する"
 
-#: advancedpage.ui:86
+#: advancedpage.ui:157
 msgctxt "AdvancedPage"
-msgid "None"
-msgstr "なし"
+msgid ":"
+msgstr ":"
 
-#: advancedpage.cpp:34
+#: advancedpage.ui:219
 msgctxt "AdvancedPage"
-msgid "Advanced"
-msgstr "詳細設定"
+msgid "Tor Configuration File"
+msgstr "Torの設定ファイル"
 
 #: advancedpage.ui:240
 msgctxt "AdvancedPage"
@@ -205,6 +174,11 @@ msgstr ""
 msgctxt "AdvancedPage"
 msgid "Select path to your configuration file"
 msgstr ""
+
+#: advancedpage.ui:318
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "参照"
 
 #: advancedpage.ui:275
 msgctxt "AdvancedPage"
@@ -221,10 +195,22 @@ msgctxt "AdvancedPage"
 msgid "Select the directory used to store data for the Tor software"
 msgstr ""
 
-#: advancedpage.ui:219
+#: advancedpage.cpp:282
+#, fuzzy
 msgctxt "AdvancedPage"
-msgid "Tor Configuration File"
-msgstr "Torの設定ファイル"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr ""
+"Vidalia は Tor サービスを削除することができませんでした。手動で削除する必要が"
+"ある可能性があります。"
+
+#: appearancepage.cpp:23
+#, fuzzy
+msgctxt "AppearancePage"
+msgid "Appearance"
+msgstr "外観"
 
 #: appearancepage.ui:31
 msgctxt "AppearancePage"
@@ -251,20 +237,25 @@ msgctxt "AppearancePage"
 msgid "Choose Vidalia's interface style"
 msgstr "Vidalia のインターフェイス スタイルを選択します"
 
-#: appearancepage.cpp:23
-msgctxt "AppearancePage"
-msgid "Appearance"
-msgstr "外観"
-
-#: bwgraph.ui:16
+#: bwgraph.cpp:159
 msgctxt "BandwidthGraph"
-msgid "Tor Bandwidth Usage"
-msgstr "Tor の帯域幅使用量"
+msgid "Since:"
+msgstr "起点:"
+
+#: bwgraph.cpp:225
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "設定を非表示にする"
 
 #: bwgraph.ui:40
 msgctxt "BandwidthGraph"
 msgid "Show Settings"
 msgstr "設定の表示"
+
+#: bwgraph.ui:16
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tor の帯域幅使用量"
 
 #: bwgraph.ui:63
 msgctxt "BandwidthGraph"
@@ -281,25 +272,20 @@ msgctxt "BandwidthGraph"
 msgid "Send Rate"
 msgstr "送信率"
 
+#: bwgraph.ui:183
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "常に手前に表示する"
+
+#: bwgraph.ui:234
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "スタイル"
+
 #: bwgraph.ui:284
 msgctxt "BandwidthGraph"
 msgid "Changes the transparency of the Bandwidth Graph"
 msgstr "帯域幅グラフの透過度を変更します"
-
-#: bwgraph.ui:443
-msgctxt "BandwidthGraph"
-msgid "Save"
-msgstr "保存"
-
-#: bwgraph.ui:450
-msgctxt "BandwidthGraph"
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: bwgraph.cpp:160
-msgctxt "BandwidthGraph"
-msgid "Since:"
-msgstr "起点:"
 
 #: bwgraph.ui:368
 msgctxt "BandwidthGraph"
@@ -311,47 +297,42 @@ msgctxt "BandwidthGraph"
 msgid "% Opaque"
 msgstr "% 不透過"
 
-#: bwgraph.cpp:226
+#: bwgraph.ui:443
 msgctxt "BandwidthGraph"
-msgid "Hide Settings"
-msgstr "設定を非表示にする"
+msgid "Save"
+msgstr "保存"
 
-#: bwgraph.ui:183
+#: bwgraph.ui:450
 msgctxt "BandwidthGraph"
-msgid "Always on Top"
-msgstr "常に手前に表示する"
+msgid "Cancel"
+msgstr "キャンセル"
 
-#: bwgraph.ui:234
-msgctxt "BandwidthGraph"
-msgid "Style"
-msgstr "スタイル"
-
-#: circuit.cpp:89
+#: circuit.cpp:112
 msgctxt "Circuit"
 msgid "New"
 msgstr "新規"
 
-#: circuit.cpp:90
+#: circuit.cpp:113
 msgctxt "Circuit"
 msgid "Open"
 msgstr "オープン"
 
-#: circuit.cpp:91
+#: circuit.cpp:114
 msgctxt "Circuit"
 msgid "Building"
 msgstr "構築しています"
 
-#: circuit.cpp:92
+#: circuit.cpp:115
 msgctxt "Circuit"
 msgid "Failed"
 msgstr "失敗しました"
 
-#: circuit.cpp:93
+#: circuit.cpp:116
 msgctxt "Circuit"
 msgid "Closed"
 msgstr "閉じました"
 
-#: circuit.cpp:94
+#: circuit.cpp:117
 msgctxt "Circuit"
 msgid "Unknown"
 msgstr "不明"
@@ -386,135 +367,138 @@ msgctxt "CircuitListWidget"
 msgid "Close Stream (Del)"
 msgstr "ストリームを閉じる (Del)"
 
-#: configdialog.cpp:72
+#: configdialog.cpp:76
 msgctxt "ConfigDialog"
 msgid "General"
 msgstr "全般"
 
-#: configdialog.cpp:92
+#: configdialog.cpp:80
 msgctxt "ConfigDialog"
-msgid "Advanced"
-msgstr "詳細設定"
+msgid "Network"
+msgstr "ネットワーク"
 
-#: configdialog.cpp:59
+#: configdialog.cpp:84
 msgctxt "ConfigDialog"
-msgid "Cancel"
-msgstr "キャンセル"
+msgid "Sharing"
+msgstr "共有"
 
 #: configdialog.cpp:88
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr ""
+
+#: configdialog.cpp:92
 msgctxt "ConfigDialog"
 msgid "Appearance"
 msgstr "外観"
 
-#: configdialog.cpp:106
+#: configdialog.cpp:96
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "詳細設定"
+
+#: configdialog.cpp:110
 msgctxt "ConfigDialog"
 msgid "Help"
 msgstr "ヘルプ"
+
+#: configdialog.cpp:178
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "設定の保存エラー"
+
+#: configdialog.cpp:180
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia は %1 の設定を保存することができませんでした。"
+
+#: configdialog.cpp:207
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "設定の適用エラー"
+
+#: configdialog.cpp:209
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia は Tor へ %1 の設定を適用することができませんでした。"
 
 #: configdialog.ui:16
 msgctxt "ConfigDialog"
 msgid "Settings"
 msgstr "設定"
 
-#: configdialog.cpp:76
-msgctxt "ConfigDialog"
-msgid "Network"
-msgstr "ネットワーク"
-
-#: configdialog.cpp:174
-msgctxt "ConfigDialog"
-msgid "Error Saving Settings"
-msgstr "設定の保存エラー"
-
-#: configdialog.cpp:176
-msgctxt "ConfigDialog"
-msgid "Vidalia was unable to save your %1 settings."
-msgstr "Vidalia は %1 の設定を保存することができませんでした。"
-
-#: configdialog.cpp:203
-msgctxt "ConfigDialog"
-msgid "Error Applying Settings"
-msgstr "設定の適用エラー"
-
-#: configdialog.cpp:205
-msgctxt "ConfigDialog"
-msgid "Vidalia was unable to apply your %1 settings to Tor."
-msgstr "Vidalia は Tor へ %1 の設定を適用することができませんでした。"
-
-#: configdialog.cpp:56
-msgctxt "ConfigDialog"
-msgid "OK"
-msgstr "OK"
-
-#: configdialog.cpp:80
-msgctxt "ConfigDialog"
-msgid "Sharing"
-msgstr "共有"
-
-#: configdialog.cpp:84
-msgctxt "ConfigDialog"
-msgid "Services"
-msgstr ""
-
-#: controlconnection.cpp:319
-msgctxt "ControlConnection"
-msgid "Control socket is not connected."
-msgstr "コントロール ソケットは接続されていません。"
-
-#: controlconnection.cpp:131
+#: controlconnection.cpp:134
 msgctxt "ControlConnection"
 msgid "Vidalia was unable to connect to Tor. (%1)"
 msgstr "Vidalia は Tor へ接続することができませんでした。(%1)"
 
-#: controlsocket.cpp:61
-msgctxt "ControlSocket"
-msgid "Error sending control command. [%1]"
-msgstr "コントロール コマンドの送信エラーです。[%1]"
+#: controlconnection.cpp:331
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "コントロール ソケットは接続されていません。"
 
-#: controlsocket.cpp:98
-msgctxt "ControlSocket"
-msgid "Socket disconnected while attempting to read a line of data."
-msgstr "ソケットがデータの行の読み取りを試みている間に切断されました。"
+#: controlpasswordinputdialog.ui:28
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr ""
 
-#: controlsocket.cpp:136
-msgctxt "ControlSocket"
-msgid "Invalid control reply. [%1]"
-msgstr "不正なコントロール返信です。[%1]"
+#: controlpasswordinputdialog.ui:80
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr ""
 
-#: controlsocket.cpp:51
+#: controlpasswordinputdialog.ui:99
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr ""
+
+#: controlsocket.cpp:70
 msgctxt "ControlSocket"
 msgid "Control socket is not connected."
 msgstr "コントロール ソケットは接続されていません。"
 
-#: generalpage.ui:115
-msgctxt "GeneralPage"
-msgid "Browse"
-msgstr "参照"
+#: controlsocket.cpp:80
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "コントロール コマンドの送信エラーです。[%1]"
 
-#: generalpage.cpp:72
+#: controlsocket.cpp:117
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "ソケットがデータの行の読み取りを試みている間に切断されました。"
+
+#: controlsocket.cpp:156
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "不正なコントロール返信です。[%1]"
+
+#: generalpage.cpp:23
+#, fuzzy
 msgctxt "GeneralPage"
-msgid "Select Path to Tor"
-msgstr "Tor へのパスの選択"
+msgid "General"
+msgstr "全般"
 
 #: generalpage.cpp:59
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
 msgstr "実行ファイル (*.exe)"
 
-#: generalpage.cpp:23
+#: generalpage.cpp:72
 msgctxt "GeneralPage"
-msgid "General"
-msgstr "全般"
-
-#: generalpage.cpp:95
-msgctxt "GeneralPage"
-msgid "You must specify the name of your Tor executable."
-msgstr "Tor の実行ファイルの名前を指定する必要があります。"
+msgid "Select Path to Tor"
+msgstr "Tor へのパスの選択"
 
 #: generalpage.cpp:82
 msgctxt "GeneralPage"
 msgid "Select Proxy Executable"
 msgstr ""
+
+#: generalpage.cpp:95
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Tor の実行ファイルの名前を指定する必要があります。"
 
 #: generalpage.cpp:103
 msgctxt "GeneralPage"
@@ -526,10 +510,27 @@ msgctxt "GeneralPage"
 msgid "Start Vidalia when my system starts"
 msgstr "システムの起動時にVidaliaを起動する"
 
+#: generalpage.ui:38
+#, fuzzy
+msgctxt "GeneralPage"
+msgid "Tor Executable"
+msgstr "実行ファイル (*.exe)"
+
+#: generalpage.ui:115
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "参照"
+
+#: generalpage.ui:63
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Vidaliaの起動時にTorソフトウェアを起動する"
+
 #: generalpage.ui:75
+#, fuzzy
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Vidalia starts"
-msgstr ""
+msgstr "Vidaliaの起動時にTorソフトウェアを起動する"
 
 #: generalpage.ui:97
 msgctxt "GeneralPage"
@@ -541,85 +542,73 @@ msgctxt "GeneralPage"
 msgid "Command Line Arguments:"
 msgstr ""
 
-#: generalpage.ui:63
-msgctxt "GeneralPage"
-msgid "Start the Tor software when Vidalia starts"
-msgstr "Vidaliaの起動時にTorソフトウェアを起動する"
-
-#: generalpage.ui:38
-msgctxt "GeneralPage"
-msgid "Tor Executable"
-msgstr "Torの実行ファイル"
-
-#: graphframe.cpp:237
+#: graphframe.cpp:238
+#, fuzzy
 msgctxt "GraphFrame"
-msgid "Recv: "
+msgid "Recv:"
 msgstr "受信: "
 
-#: graphframe.cpp:246
+#: graphframe.cpp:298
 msgctxt "GraphFrame"
-msgid "Sent: "
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+#: graphframe.cpp:247
+#, fuzzy
+msgctxt "GraphFrame"
+msgid "Sent:"
 msgstr "送信: "
 
-#: graphframe.cpp:258
+#: graphframe.cpp:259
 msgctxt "GraphFrame"
 msgid "%1 KB"
 msgstr "%1 KB"
 
-#: graphframe.cpp:261
+#: graphframe.cpp:262
 msgctxt "GraphFrame"
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: graphframe.cpp:264
+#: graphframe.cpp:265
 msgctxt "GraphFrame"
 msgid "%1 GB"
 msgstr "%1 GB"
 
-#: graphframe.cpp:285
-msgctxt "GraphFrame"
-msgid "%1 KB/s"
-msgstr "%1 KB/s"
+#: helpbrowser.cpp:122
+#, fuzzy
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "ヘルプの目次の読み込みエラー: "
+
+#: helpbrowser.cpp:134
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "供給された XML ファイルは有効な目次ドキュメントではありません。"
+
+#: helpbrowser.cpp:377
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "検索がドキュメントの最後に達しました"
+
+#: helpbrowser.cpp:379
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "検索がドキュメントの最初に達しました"
+
+#: helpbrowser.cpp:381
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "テキストがドキュメントに見つかりません"
+
+#: helpbrowser.cpp:426
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "%1 件の結果を見つけました"
 
 #: helpbrowser.ui:33
 msgctxt "HelpBrowser"
 msgid "Vidalia Help"
 msgstr "Vidalia のヘルプ"
-
-#: helpbrowser.ui:174
-msgctxt "HelpBrowser"
-msgid "Find Previous"
-msgstr "前を検索"
-
-#: helpbrowser.ui:187
-msgctxt "HelpBrowser"
-msgid "Find Next"
-msgstr "次を検索"
-
-#: helpbrowser.ui:221
-msgctxt "HelpBrowser"
-msgid "Case sensitive"
-msgstr "大文字と小文字を区別する"
-
-#: helpbrowser.ui:260
-msgctxt "HelpBrowser"
-msgid "Contents"
-msgstr "目次"
-
-#: helpbrowser.ui:305
-msgctxt "HelpBrowser"
-msgid "Help Topics"
-msgstr "ヘルプ トピック"
-
-#: helpbrowser.ui:350
-msgctxt "HelpBrowser"
-msgid "Search"
-msgstr "検索"
-
-#: helpbrowser.ui:405
-msgctxt "HelpBrowser"
-msgid "Found Documents"
-msgstr "見つかったドキュメント"
 
 #: helpbrowser.ui:484
 msgctxt "HelpBrowser"
@@ -696,54 +685,60 @@ msgctxt "HelpBrowser"
 msgid "Esc"
 msgstr "Esc"
 
-#: helpbrowser.cpp:122
-msgctxt "HelpBrowser"
-msgid "Error Loading Help Contents: "
-msgstr "ヘルプの目次の読み込みエラー: "
-
-#: helpbrowser.cpp:377
-msgctxt "HelpBrowser"
-msgid "Search reached end of document"
-msgstr "検索がドキュメントの最後に達しました"
-
-#: helpbrowser.cpp:379
-msgctxt "HelpBrowser"
-msgid "Search reached start of document"
-msgstr "検索がドキュメントの最初に達しました"
-
-#: helpbrowser.cpp:381
-msgctxt "HelpBrowser"
-msgid "Text not found in document"
-msgstr "テキストがドキュメントに見つかりません"
-
 #: helpbrowser.ui:152
 msgctxt "HelpBrowser"
 msgid "Find:"
 msgstr "検索:"
+
+#: helpbrowser.ui:174
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "前を検索"
+
+#: helpbrowser.ui:187
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "次を検索"
+
+#: helpbrowser.ui:221
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "大文字と小文字を区別する"
 
 #: helpbrowser.ui:231
 msgctxt "HelpBrowser"
 msgid "Whole words only"
 msgstr "単語の全体のみ"
 
+#: helpbrowser.ui:305
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "ヘルプ トピック"
+
+#: helpbrowser.ui:260
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "目次"
+
+#: helpbrowser.ui:350
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "検索"
+
 #: helpbrowser.ui:362
 msgctxt "HelpBrowser"
 msgid "Searching for:"
 msgstr "検索する文字列:"
 
-#: helpbrowser.cpp:134
+#: helpbrowser.ui:405
 msgctxt "HelpBrowser"
-msgid "Supplied XML file is not a valid Contents document."
-msgstr "供給された XML ファイルは有効な目次ドキュメントではありません。"
-
-#: helpbrowser.cpp:426
-msgctxt "HelpBrowser"
-msgid "Found %1 results"
-msgstr "%1 件の結果を見つけました"
+msgid "Found Documents"
+msgstr "見つかったドキュメント"
 
 #: helptextbrowser.cpp:54
+#, fuzzy
 msgctxt "HelpTextBrowser"
-msgid "Error opening help file: "
+msgid "Error opening help file:"
 msgstr "ヘルプ ファイルのオープン エラー: "
 
 #: helptextbrowser.cpp:72
@@ -753,7 +748,10 @@ msgstr ""
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
 msgstr ""
 
 #: helptextbrowser.cpp:78
@@ -768,7 +766,9 @@ msgstr ""
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
 msgstr ""
 
 #: logevent.cpp:57
@@ -801,10 +801,10 @@ msgctxt "LogEvent"
 msgid "Unknown"
 msgstr "不明"
 
-#: mainwindow.ui:430
+#: mainwindow.ui:233
 msgctxt "MainWindow"
-msgid "About"
-msgstr "バージョン情報"
+msgid "Start Tor"
+msgstr ""
 
 #: mainwindow.ui:443
 msgctxt "MainWindow"
@@ -821,110 +821,411 @@ msgctxt "MainWindow"
 msgid "Message Log"
 msgstr "メッセージ ログ"
 
-#: mainwindow.ui:367
-msgctxt "MainWindow"
-msgid "Help"
-msgstr "ヘルプ"
-
-#: mainwindow.cpp:394
-msgctxt "MainWindow"
-msgid "Ctrl+T"
-msgstr "Ctrl+T"
-
-#: mainwindow.cpp:395
-msgctxt "MainWindow"
-msgid "Ctrl+B"
-msgstr "Ctrl+B"
-
-#: mainwindow.cpp:396
-msgctxt "MainWindow"
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: mainwindow.cpp:398
-msgctxt "MainWindow"
-msgid "Ctrl+?"
-msgstr "Ctrl+?"
-
-#: mainwindow.cpp:411
-msgctxt "MainWindow"
-msgid "File"
-msgstr "ファイル"
-
-#: mainwindow.cpp:414
-msgctxt "MainWindow"
-msgid "Tor"
-msgstr "Tor"
-
-#: mainwindow.cpp:419
-msgctxt "MainWindow"
-msgid "View"
-msgstr "表示"
-
-#: mainwindow.cpp:428
-msgctxt "MainWindow"
-msgid "Vidalia Help"
-msgstr "Vidalia のヘルプ"
-
-#: mainwindow.cpp:831
-msgctxt "MainWindow"
-msgid "Error Starting Tor"
-msgstr "Tor の開始エラー"
-
-#: mainwindow.cpp:397
-msgctxt "MainWindow"
-msgid "Ctrl+N"
-msgstr "Ctrl+N"
-
-#: mainwindow.cpp:834
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
-msgstr "Vidalia は Tor を開始することができませんでした。Tor の実行ファイルの正しい名前と場所が指定されていることを確実にするには設定をチェックします。"
-
-#: mainwindow.cpp:320
+#: mainwindow.cpp:349
 msgctxt "MainWindow"
 msgid "Network Map"
 msgstr "ネットワーク マップ"
+
+#: mainwindow.cpp:355
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "コントロール パネル"
 
 #: mainwindow.ui:380
 msgctxt "MainWindow"
 msgid "Settings"
 msgstr "設定"
 
-#: mainwindow.cpp:1331
+#: mainwindow.ui:430
+msgctxt "MainWindow"
+msgid "About"
+msgstr "バージョン情報"
+
+#: mainwindow.ui:367
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "ヘルプ"
+
+#: mainwindow.cpp:1495
 msgctxt "MainWindow"
 msgid "New Identity"
 msgstr "新しい識別"
 
-#: mainwindow.cpp:399
+#: mainwindow.cpp:438
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+#: mainwindow.cpp:439
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: mainwindow.cpp:440
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: mainwindow.cpp:441
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: mainwindow.cpp:442
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+#: mainwindow.cpp:443
 msgctxt "MainWindow"
 msgid "Ctrl+I"
 msgstr "Ctrl+I"
 
-#: mainwindow.cpp:1334
+#: mainwindow.cpp:444
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
-msgstr "すべて順次接続は古い接続と異なっているようにみえます。"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:455
+#, fuzzy
 msgctxt "MainWindow"
-msgid "Failed to Create New Identity"
-msgstr "新しい識別の作成に失敗しました"
+msgid "File"
+msgstr "失敗しました"
+
+#: mainwindow.cpp:458
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+#: mainwindow.cpp:463
+msgctxt "MainWindow"
+msgid "View"
+msgstr "表示"
+
+#: mainwindow.cpp:472
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia のヘルプ"
+
+#: mainwindow.cpp:626
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "ウェブ ブラウザの起動エラー"
+
+#: mainwindow.cpp:627
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia は構成されたウェブ ブラウザを起動することができませんでした"
+
+#: mainwindow.cpp:639
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr ""
+
+#: mainwindow.cpp:640
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr ""
+
+#: mainwindow.cpp:661
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "プロキシ サーバーの起動エラー"
+
+#: mainwindow.cpp:662
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia は構成されたプロキシ サーバーを起動することができませんでした"
+
+#: mainwindow.cpp:678
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr ""
+
+#: mainwindow.cpp:682
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr ""
+
+#: mainwindow.cpp:685
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr ""
+
+#: mainwindow.cpp:688
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr ""
+
+#: mainwindow.cpp:691
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr ""
+
+#: mainwindow.cpp:694
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr ""
+
+#: mainwindow.cpp:697
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr ""
+
+#: mainwindow.cpp:1234
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr ""
+
+#: mainwindow.cpp:704
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr ""
+
+#: mainwindow.cpp:1399
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr ""
+
+#: mainwindow.cpp:711
+msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr ""
+
+#: mainwindow.cpp:718
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr ""
+
+#: mainwindow.cpp:721
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr ""
+
+#: mainwindow.cpp:724
+msgctxt "MainWindow"
+msgid "done"
+msgstr ""
+
+#: mainwindow.cpp:727
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr ""
+
+#: mainwindow.cpp:730
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr ""
+
+#: mainwindow.cpp:733
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr ""
+
+#: mainwindow.cpp:736
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr ""
+
+#: mainwindow.cpp:739
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr ""
+
+#: mainwindow.cpp:742
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr ""
+
+#: mainwindow.cpp:744
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr ""
 
 #: mainwindow.ui:168
 msgctxt "MainWindow"
 msgid "Tor is not running"
 msgstr "Tor は起動していません"
 
-#: mainwindow.cpp:643
+#: mainwindow.cpp:787
 msgctxt "MainWindow"
 msgid "Tor is shutting down"
 msgstr "Tor はシャットダウンしています"
+
+#: mainwindow.cpp:792
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr ""
+
+#: mainwindow.cpp:794
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr ""
+
+#: mainwindow.cpp:810
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr ""
+
+#: mainwindow.ui:75
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr ""
+
+#: mainwindow.cpp:961
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Tor の開始エラー"
+
+#: mainwindow.cpp:964
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr ""
+"Vidalia は Tor を開始することができませんでした。Tor の実行ファイルの正しい名"
+"前と場所が指定されていることを確実にするには設定をチェックします。"
+
+#: mainwindow.cpp:998
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr ""
+
+#: mainwindow.cpp:1008
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr ""
+
+#: mainwindow.cpp:1040
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "リレーは有効です"
+
+#: mainwindow.cpp:1067
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr ""
+
+#: mainwindow.cpp:1068
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr ""
+
+#: mainwindow.cpp:1099
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr ""
+
+#: mainwindow.cpp:1157
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr ""
+
+#: mainwindow.cpp:1177
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Cookie 認証が必要です"
+
+#: mainwindow.cpp:1180
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr ""
+
+#: mainwindow.cpp:1182
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "ご自身でファイル 'control_auth_cookie' を参照しますか?"
+
+#: mainwindow.cpp:1189
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr ""
+
+#: mainwindow.cpp:1191
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr ""
+
+#: mainwindow.cpp:1243
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "イベントの登録エラー"
+
+#: mainwindow.cpp:1245
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr ""
+
+#: mainwindow.cpp:1324
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr ""
+
+#: mainwindow.cpp:1326
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr ""
+
+#: mainwindow.cpp:1328
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "コントロール ポートの認証の設定をチェックしてください。"
+
+#: mainwindow.cpp:1432
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Tor の更新が利用可能です"
+
+#: mainwindow.cpp:1435
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr ""
+"Tor の現在インストールされているバージョンは期限切れであるかもう推奨されない"
+"可能性があります。最新のバージョンをダウンロードするには Tor のウェブサイトを"
+"訪問してください。"
+
+#: mainwindow.cpp:1435
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor のウェブサイト: %1"
+
+#: mainwindow.cpp:1498
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "すべて順次接続は古い接続と異なっているようにみえます。"
+
+#: mainwindow.cpp:1513
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "新しい識別の作成に失敗しました"
+
+#: mainwindow.cpp:1562
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr ""
+
+#: mainwindow.cpp:1563
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr ""
 
 #: mainwindow.ui:19
 msgctxt "MainWindow"
 msgid "Vidalia Control Panel"
 msgstr "Vidalia のコントロール パネル"
+
+#: mainwindow.ui:49
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "状態"
 
 #: mainwindow.ui:218
 msgctxt "MainWindow"
@@ -935,6 +1236,11 @@ msgstr "Vidalia のショートカット"
 msgctxt "MainWindow"
 msgid "Setup Relaying"
 msgstr "リレーのセットアップ"
+
+#: mainwindow.ui:246
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr ""
 
 #: mainwindow.ui:256
 msgctxt "MainWindow"
@@ -956,10 +1262,25 @@ msgctxt "MainWindow"
 msgid "Make subsequent connections appear new"
 msgstr "順次接続を新しくみせる"
 
+#: mainwindow.ui:307
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr ""
+
+#: mainwindow.ui:320
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr ""
+
 #: mainwindow.ui:370
 msgctxt "MainWindow"
 msgid "View help documentation"
 msgstr "ヘルプ資料を表示します"
+
+#: mainwindow.ui:383
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr ""
 
 #: mainwindow.ui:433
 msgctxt "MainWindow"
@@ -986,420 +1307,120 @@ msgctxt "MainWindow"
 msgid "Hide this window"
 msgstr "このウィンドウを非表示にします"
 
-#: mainwindow.cpp:327
+#: mainwindow.cpp:785
 msgctxt "MainWindow"
-msgid "Control Panel"
-msgstr "コントロール パネル"
-
-#: mainwindow.cpp:400
-msgctxt "MainWindow"
-msgid "Ctrl+P"
-msgstr "Ctrl+P"
-
-#: mainwindow.cpp:1047
-msgctxt "MainWindow"
-msgid "Cookie Authentication Required"
-msgstr "Cookie 認証が必要です"
-
-#: mainwindow.cpp:1052
-msgctxt "MainWindow"
-msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
-msgstr "ご自身でファイル 'control_auth_cookie' を参照しますか?"
-
-#: mainwindow.cpp:1109
-msgctxt "MainWindow"
-msgid "Error Registering for Events"
-msgstr "イベントの登録エラー"
-
-#: mainwindow.cpp:1145
-msgctxt "MainWindow"
-msgid "Password Authentication Required"
-msgstr "パスワード認証が必要です"
-
-#: mainwindow.cpp:1164
-msgctxt "MainWindow"
-msgid "Please check your control port authentication settings."
-msgstr "コントロール ポートの認証の設定をチェックしてください。"
-
-#: mainwindow.cpp:1146
-msgctxt "MainWindow"
-msgid "Please enter your control password (not the hash):"
-msgstr "コントロール パスワード (ハッシュではありません) を入力してください:"
-
-#: mainwindow.cpp:910
-msgctxt "MainWindow"
-msgid "Relaying is Enabled"
-msgstr "リレーは有効です"
-
-#: mainwindow.cpp:482
-msgctxt "MainWindow"
-msgid "Error starting web browser"
-msgstr "ウェブ ブラウザの起動エラー"
-
-#: mainwindow.cpp:483
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured web browser"
-msgstr "Vidalia は構成されたウェブ ブラウザを起動することができませんでした"
-
-#: mainwindow.cpp:1268
-msgctxt "MainWindow"
-msgid "Tor Update Available"
-msgstr "Tor の更新が利用可能です"
-
-#: mainwindow.cpp:1271
-msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
-msgstr "Tor の現在インストールされているバージョンは期限切れであるかもう推奨されない可能性があります。最新のバージョンをダウンロードするには Tor のウェブサイトを訪問してください。"
-
-#: mainwindow.cpp:1271
-msgctxt "MainWindow"
-msgid "Tor website: %1"
-msgstr "Tor のウェブサイト: %1"
-
-#: mainwindow.cpp:517
-msgctxt "MainWindow"
-msgid "Error starting proxy server"
-msgstr "プロキシ サーバーの起動エラー"
-
-#: mainwindow.cpp:518
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured proxy server"
-msgstr "Vidalia は構成されたプロキシ サーバーを起動することができませんでした"
-
-#: mainwindow.cpp:641
-msgctxt "MainWindow"
-msgid "Your relay is shutting down."
+msgid ""
+"Your relay is shutting down.\n"
 "Click 'Stop' again to stop your relay now."
 msgstr ""
 
-#: mainwindow.cpp:878
+#: mainwindow.cpp:1045
 msgctxt "MainWindow"
-msgid "Connection Error"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any "
+"open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new "
+"relay?"
 msgstr ""
 
-#: mainwindow.cpp:915
+#: mainwindow.cpp:1103
 msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
-""
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr ""
-
-#: mainwindow.cpp:937
-msgctxt "MainWindow"
-msgid "Error Shutting Down"
-msgstr ""
-
-#: mainwindow.cpp:938
-msgctxt "MainWindow"
-msgid "Vidalia was unable to stop the Tor software."
-msgstr ""
-
-#: mainwindow.cpp:969
-msgctxt "MainWindow"
-msgid "Unexpected Error"
-msgstr ""
-
-#: mainwindow.cpp:973
-msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly."
-""
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
 "Please check the message log for recent warning or error messages."
 msgstr ""
 
-#: mainwindow.cpp:1050
+#: mainwindow.cpp:1312
 msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
+msgid "Password Reset Failed"
 msgstr ""
 
-#: mainwindow.cpp:1059
+#: mainwindow.cpp:1315
 msgctxt "MainWindow"
-msgid "Data Directory"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
 msgstr ""
 
-#: mainwindow.cpp:1061
-msgctxt "MainWindow"
-msgid "Control Cookie (control_auth_cookie)"
-msgstr ""
+#: messagelog.cpp:181
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "フィルタの設定エラー"
 
-#: mainwindow.cpp:1111
-msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
-msgstr ""
+#: messagelog.cpp:182
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia は Tor のログ イベントを登録することができませんでした。"
 
-#: mainwindow.cpp:1160
-msgctxt "MainWindow"
-msgid "Authentication Error"
-msgstr ""
+#: messagelog.cpp:197
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "ログ ファイルのオープン エラー"
 
-#: mainwindow.cpp:1162
-msgctxt "MainWindow"
-msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
-msgstr ""
+#: messagelog.cpp:198
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia は指定されたログ ファイルを開くことができませんでした。"
 
-#: mainwindow.cpp:1398
-msgctxt "MainWindow"
-msgid "Port Forwarding Failed"
-msgstr ""
+#: messagelog.cpp:219
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "ログのファイル名が必要です"
 
-#: mainwindow.cpp:1399
-msgctxt "MainWindow"
-msgid "Vidalia was unable to configure automatic port forwarding."
+#: messagelog.cpp:221
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
 msgstr ""
+"ファイルへログ メッセージを保存することができるファイル名を入力する必要があり"
+"ます。"
 
-#: mainwindow.ui:49
-msgctxt "MainWindow"
-msgid "Status"
-msgstr "状態"
+#: messagelog.cpp:272
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "ログ ファイルの選択"
 
-#: mainwindow.ui:246
-msgctxt "MainWindow"
-msgid "Set up a relay and help the network grow"
-msgstr ""
+#: messagelog.cpp:289
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "ログ メッセージの保存"
 
-#: mainwindow.ui:307
-msgctxt "MainWindow"
-msgid "View recent bandwidth usage"
-msgstr ""
+#: messagelog.cpp:292
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "テキスト ファイル (*.txt)"
 
-#: mainwindow.ui:320
-msgctxt "MainWindow"
-msgid "View log message history"
-msgstr ""
+#: messagelog.cpp:301
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
 
-#: mainwindow.ui:383
-msgctxt "MainWindow"
-msgid "Configure Vidalia"
-msgstr ""
+#: messagelog.cpp:352
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "メッセージ ログから検索"
 
-#: mainwindow.ui:233
-msgctxt "MainWindow"
-msgid "Start Tor"
-msgstr ""
+#: messagelog.cpp:353
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "検索:"
 
-#: mainwindow.cpp:495
-msgctxt "MainWindow"
-msgid "Error starting IM client"
-msgstr ""
+#: messagelog.cpp:359
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "見つかりません"
 
-#: mainwindow.cpp:496
-msgctxt "MainWindow"
-msgid "Vidalia was unable to start the configured IM client"
-msgstr ""
-
-#: mainwindow.cpp:534
-msgctxt "MainWindow"
-msgid "Connecting to a relay directory"
-msgstr ""
-
-#: mainwindow.cpp:538
-msgctxt "MainWindow"
-msgid "Establishing an encrypted directory connection"
-msgstr ""
-
-#: mainwindow.cpp:541
-msgctxt "MainWindow"
-msgid "Retrieving network status"
-msgstr ""
-
-#: mainwindow.cpp:544
-msgctxt "MainWindow"
-msgid "Loading network status"
-msgstr ""
-
-#: mainwindow.cpp:547
-msgctxt "MainWindow"
-msgid "Loading authority certificates"
-msgstr ""
-
-#: mainwindow.cpp:550
-msgctxt "MainWindow"
-msgid "Requesting relay information"
-msgstr ""
-
-#: mainwindow.cpp:553
-msgctxt "MainWindow"
-msgid "Loading relay information"
-msgstr ""
-
-#: mainwindow.cpp:1100
-msgctxt "MainWindow"
-msgid "Connecting to the Tor network"
-msgstr ""
-
-#: mainwindow.cpp:560
-msgctxt "MainWindow"
-msgid "Establishing a Tor circuit"
-msgstr ""
-
-#: mainwindow.cpp:1235
-msgctxt "MainWindow"
-msgid "Connected to the Tor network!"
-msgstr ""
-
-#: mainwindow.cpp:567
-msgctxt "MainWindow"
-msgid "Unrecognized startup status"
-msgstr ""
-
-#: mainwindow.cpp:574
-msgctxt "MainWindow"
-msgid "miscellaneous"
-msgstr ""
-
-#: mainwindow.cpp:577
-msgctxt "MainWindow"
-msgid "identity mismatch"
-msgstr ""
-
-#: mainwindow.cpp:580
-msgctxt "MainWindow"
-msgid "done"
-msgstr ""
-
-#: mainwindow.cpp:583
-msgctxt "MainWindow"
-msgid "connection refused"
-msgstr ""
-
-#: mainwindow.cpp:586
-msgctxt "MainWindow"
-msgid "connection timeout"
-msgstr ""
-
-#: mainwindow.cpp:589
-msgctxt "MainWindow"
-msgid "read/write error"
-msgstr ""
-
-#: mainwindow.cpp:592
-msgctxt "MainWindow"
-msgid "no route to host"
-msgstr ""
-
-#: mainwindow.cpp:595
-msgctxt "MainWindow"
-msgid "insufficient resources"
-msgstr ""
-
-#: mainwindow.cpp:598
-msgctxt "MainWindow"
-msgid "unknown"
-msgstr ""
-
-#: mainwindow.cpp:600
-msgctxt "MainWindow"
-msgid " failed (%1)"
-msgstr ""
-
-#: mainwindow.cpp:648
-msgctxt "MainWindow"
-msgid "Stop Tor Now"
-msgstr ""
-
-#: mainwindow.cpp:650
-msgctxt "MainWindow"
-msgid "Stop Tor"
-msgstr ""
-
-#: mainwindow.cpp:666
-msgctxt "MainWindow"
-msgid "Starting the Tor software"
-msgstr ""
-
-#: mainwindow.ui:75
-msgctxt "MainWindow"
-msgid "Starting Tor"
-msgstr ""
-
-#: mainwindow.cpp:677
-msgctxt "MainWindow"
-msgid "Tor is Running"
-msgstr ""
-
-#: mainwindow.cpp:868
-msgctxt "MainWindow"
-msgid "Connecting to Tor"
-msgstr ""
-
-#: mainwindow.cpp:1027
-msgctxt "MainWindow"
-msgid "Authenticating to Tor"
-msgstr ""
+#: messagelog.cpp:360
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "検索が 0 件の一致を見つけました。"
 
 #: messagelog.ui:19
 msgctxt "MessageLog"
 msgid "Message Log"
 msgstr "メッセージ ログ"
-
-#: messagelog.ui:66
-msgctxt "MessageLog"
-msgid "Time"
-msgstr "時間"
-
-#: messagelog.ui:71
-msgctxt "MessageLog"
-msgid "Type"
-msgstr "種類"
-
-#: messagelog.ui:76
-msgctxt "MessageLog"
-msgid "Message"
-msgstr "メッセージ"
-
-#: messagelog.ui:371
-msgctxt "MessageLog"
-msgid "Browse"
-msgstr "参照"
-
-#: messagelog.ui:160
-msgctxt "MessageLog"
-msgid "Saves the current Message Log settings"
-msgstr "現在のメッセージ ログの設定を保存します"
-
-#: messagelog.ui:163
-msgctxt "MessageLog"
-msgid "Save Settings"
-msgstr "設定の保存"
-
-#: messagelog.ui:179
-msgctxt "MessageLog"
-msgid "Cancels changes made to settings"
-msgstr "設定への変更を取り消します"
-
-#: messagelog.ui:182
-msgctxt "MessageLog"
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: messagelog.ui:196
-msgctxt "MessageLog"
-msgid "Message Filter"
-msgstr "メッセージ フィルタ"
-
-#: messagelog.ui:217
-msgctxt "MessageLog"
-msgid "Error"
-msgstr "エラー"
-
-#: messagelog.ui:233
-msgctxt "MessageLog"
-msgid "Warning"
-msgstr "警告"
-
-#: messagelog.ui:249
-msgctxt "MessageLog"
-msgid "Notice"
-msgstr "通知"
-
-#: messagelog.ui:265
-msgctxt "MessageLog"
-msgid "Info"
-msgstr "情報"
-
-#: messagelog.ui:281
-msgctxt "MessageLog"
-msgid "Debug"
-msgstr "デバッグ"
 
 #: messagelog.ui:452
 msgctxt "MessageLog"
@@ -1486,6 +1507,36 @@ msgctxt "MessageLog"
 msgid "Save selected messages to a file"
 msgstr "ファイルへ選択されたメッセージを保存します"
 
+#: messagelog.ui:553
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "設定"
+
+#: messagelog.ui:556
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "メッセージ ログの設定を調整します"
+
+#: messagelog.ui:559
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+#: messagelog.ui:567
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "ヘルプ"
+
+#: messagelog.ui:570
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "ヘルプ ブラウザを表示します"
+
+#: messagelog.ui:573
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
 #: messagelog.ui:581
 msgctxt "MessageLog"
 msgid "Close"
@@ -1516,152 +1567,70 @@ msgctxt "MessageLog"
 msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
-#: messagelog.cpp:137
+#: messagelog.ui:66
 msgctxt "MessageLog"
-msgid "Messages that appear when something has "
-"gone very wrong and Tor cannot proceed."
-msgstr "何かが非常にうまくいかなくて Tor が"
-"進行できないときに現れるメッセージです。"
+msgid "Time"
+msgstr "時間"
 
-#: messagelog.cpp:139
+#: messagelog.ui:71
 msgctxt "MessageLog"
-msgid "Messages that only appear when "
-"something has gone wrong with Tor."
-msgstr "何かが Tor でうまくいかないときのみ"
-"現れるメッセージです。"
+msgid "Type"
+msgstr "種類"
 
-#: messagelog.cpp:143
+#: messagelog.ui:76
 msgctxt "MessageLog"
-msgid "Messages that appear infrequently "
-"during normal Tor operation and are "
-"not considered errors, but you may "
-"care about."
-msgstr "通常の Tor の操作中にまれに現れ"
-"考慮されたエラーではないが、"
-"注意する可能性があるメッセージです。"
+msgid "Message"
+msgstr "メッセージ"
 
-#: messagelog.cpp:145
+#: messagelog.ui:160
 msgctxt "MessageLog"
-msgid "Messages that appear frequently "
-"during normal Tor operation."
-msgstr "通常の Tor の操作中に"
-"頻繁に現れるメッセージです。"
+msgid "Saves the current Message Log settings"
+msgstr "現在のメッセージ ログの設定を保存します"
 
-#: messagelog.cpp:147
+#: messagelog.ui:163
 msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of "
-"interest to Tor developers."
-msgstr "Tor の開発者の興味が第一の"
-"超冗長なメッセージです。"
+msgid "Save Settings"
+msgstr "設定の保存"
 
-#: messagelog.cpp:192
+#: messagelog.ui:179
 msgctxt "MessageLog"
-msgid "Error Setting Filter"
-msgstr "フィルタの設定エラー"
+msgid "Cancels changes made to settings"
+msgstr "設定への変更を取り消します"
 
-#: messagelog.cpp:208
+#: messagelog.ui:182
 msgctxt "MessageLog"
-msgid "Error Opening Log File"
-msgstr "ログ ファイルのオープン エラー"
+msgid "Cancel"
+msgstr "キャンセル"
 
-#: messagelog.cpp:283
+#: messagelog.ui:196
 msgctxt "MessageLog"
-msgid "Select Log File"
-msgstr "ログ ファイルの選択"
+msgid "Message Filter"
+msgstr "メッセージ フィルタ"
 
-#: messagelog.cpp:300
+#: messagelog.ui:217
 msgctxt "MessageLog"
-msgid "Save Log Messages"
-msgstr "ログ メッセージの保存"
+msgid "Error"
+msgstr "エラー"
 
-#: messagelog.cpp:312
+#: messagelog.ui:233
 msgctxt "MessageLog"
-msgid "Vidalia"
-msgstr "Vidalia"
+msgid "Warning"
+msgstr "警告"
 
-#: messagelog.cpp:363
+#: messagelog.ui:249
 msgctxt "MessageLog"
-msgid "Find in Message Log"
-msgstr "メッセージ ログから検索"
+msgid "Notice"
+msgstr "通知"
 
-#: messagelog.cpp:364
+#: messagelog.ui:265
 msgctxt "MessageLog"
-msgid "Find:"
-msgstr "検索:"
+msgid "Info"
+msgstr "情報"
 
-#: messagelog.cpp:370
+#: messagelog.ui:281
 msgctxt "MessageLog"
-msgid "Not Found"
-msgstr "見つかりません"
-
-#: messagelog.cpp:371
-msgctxt "MessageLog"
-msgid "Search found 0 matches."
-msgstr "検索が 0 件の一致を見つけました。"
-
-#: messagelog.ui:553
-msgctxt "MessageLog"
-msgid "Settings"
-msgstr "設定"
-
-#: messagelog.ui:556
-msgctxt "MessageLog"
-msgid "Adjust Message Log Settings"
-msgstr "メッセージ ログの設定を調整します"
-
-#: messagelog.ui:559
-msgctxt "MessageLog"
-msgid "Ctrl+T"
-msgstr "Ctrl+T"
-
-#: messagelog.ui:567
-msgctxt "MessageLog"
-msgid "Help"
-msgstr "ヘルプ"
-
-#: messagelog.ui:570
-msgctxt "MessageLog"
-msgid "Show the help browser"
-msgstr "ヘルプ ブラウザを表示します"
-
-#: messagelog.cpp:193
-msgctxt "MessageLog"
-msgid "Vidalia was unable to register for Tor's log events."
-msgstr "Vidalia は Tor のログ イベントを登録することができませんでした。"
-
-#: messagelog.cpp:313
-msgctxt "MessageLog"
-msgid "Cannot write file %1"
-""
-"%2."
-msgstr "ファイル %1 を書き込めません"
-""
-"%2。"
-
-#: messagelog.cpp:209
-msgctxt "MessageLog"
-msgid "Vidalia was unable to open the specified log file."
-msgstr "Vidalia は指定されたログ ファイルを開くことができませんでした。"
-
-#: messagelog.cpp:303
-msgctxt "MessageLog"
-msgid "Text Files (*.txt)"
-msgstr "テキスト ファイル (*.txt)"
-
-#: messagelog.ui:573
-msgctxt "MessageLog"
-msgid "F1"
-msgstr "F1"
-
-#: messagelog.cpp:230
-msgctxt "MessageLog"
-msgid "Log Filename Required"
-msgstr "ログのファイル名が必要です"
-
-#: messagelog.cpp:232
-msgctxt "MessageLog"
-msgid "You must enter a filename to be able to save log messages to a file."
-msgstr "ファイルへログ メッセージを保存することができるファイル名を入力する必要があります。"
+msgid "Debug"
+msgstr "デバッグ"
 
 #: messagelog.ui:297
 msgctxt "MessageLog"
@@ -1683,6 +1652,11 @@ msgctxt "MessageLog"
 msgid "Always Save New Log Messages"
 msgstr "常に新しいログ メッセージを保存"
 
+#: messagelog.ui:371
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "参照"
+
 #: messagelog.ui:394
 msgctxt "MessageLog"
 msgid "Enable automatically saving all new log messages to a file"
@@ -1693,107 +1667,162 @@ msgctxt "MessageLog"
 msgid "Automatically save new log messages to a file"
 msgstr "自動的にファイルへ新しいログ メッセージを保存します"
 
-#: netviewer.ui:236
-msgctxt "NetViewer"
-msgid "Refresh"
-msgstr "更新"
+#: messagelog.cpp:126
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr ""
+"何かが非常にうまくいかなくて Tor が進行できないときに現れるメッセージです。"
 
-#: netviewer.ui:253
-msgctxt "NetViewer"
-msgid "Help"
-msgstr "ヘルプ"
+#: messagelog.cpp:128
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "何かが Tor でうまくいかないときのみ現れるメッセージです。"
 
-#: netviewer.ui:270
-msgctxt "NetViewer"
-msgid "Close"
-msgstr "閉じる"
+#: messagelog.cpp:132
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr ""
+"通常の Tor の操作中にまれに現れ考慮されたエラーではないが、注意する可能性があ"
+"るメッセージです。"
 
-#: netviewer.ui:287
-msgctxt "NetViewer"
-msgid "Zoom In"
-msgstr "拡大"
+#: messagelog.cpp:134
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "通常の Tor の操作中に頻繁に現れるメッセージです。"
 
-#: netviewer.ui:304
-msgctxt "NetViewer"
-msgid "Zoom Out"
-msgstr "縮小"
+#: messagelog.cpp:136
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Tor の開発者の興味が第一の超冗長なメッセージです。"
 
-#: netviewer.ui:321
-msgctxt "NetViewer"
-msgid "Zoom To Fit"
-msgstr "合わせて拡大"
-
-#: netviewer.ui:245
-msgctxt "NetViewer"
-msgid "Ctrl+R"
-msgstr "Ctrl+R"
-
-#: netviewer.ui:262
-msgctxt "NetViewer"
-msgid "F1"
-msgstr "F1"
-
-#: netviewer.ui:279
-msgctxt "NetViewer"
-msgid "Esc"
-msgstr "Esc"
-
-#: netviewer.ui:296
-msgctxt "NetViewer"
-msgid "+"
-msgstr "+"
-
-#: netviewer.ui:313
-msgctxt "NetViewer"
-msgid "-"
-msgstr "-"
-
-#: netviewer.ui:330
-msgctxt "NetViewer"
-msgid "Ctrl+Z"
-msgstr "Ctrl+Z"
-
-#: netviewer.ui:259
-msgctxt "NetViewer"
-msgid "Show network map help"
-msgstr "ネットワーク マップのヘルプを表示します"
-
-#: netviewer.ui:256
-msgctxt "NetViewer"
-msgid "Show the network map help"
-msgstr "ネットワーク マップのヘルプを表示します"
-
-#: netviewer.ui:276
-msgctxt "NetViewer"
-msgid "Close the network map"
-msgstr "ネットワーク マップを閉じます"
-
-#: netviewer.ui:293
-msgctxt "NetViewer"
-msgid "Zoom in on the network map"
-msgstr "ネットワーク マップを拡大します"
-
-#: netviewer.ui:310
-msgctxt "NetViewer"
-msgid "Zoom out on the network map"
-msgstr "ネットワーク マップを縮小します"
-
-#: netviewer.ui:327
-msgctxt "NetViewer"
-msgid "Zooms to fit all currently displayed circuits"
-msgstr "すべての現在表示されている回路に合わせて拡大します"
+#: messagelog.cpp:302
+#, fuzzy
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "ファイル %1 を書き込めません%2。"
 
 #: netviewer.ui:24
 msgctxt "NetViewer"
 msgid "Tor Network Map"
 msgstr "Tor のネットワーク マップ"
 
+#: netviewer.ui:236
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "更新"
+
 #: netviewer.ui:242
 msgctxt "NetViewer"
 msgid "Refresh the list of Tor relays and connections"
 msgstr "Tor リレーと接続の一覧を更新します"
 
+#: netviewer.ui:245
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#: netviewer.ui:253
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "ヘルプ"
+
+#: netviewer.ui:256
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "ネットワーク マップのヘルプを表示します"
+
+#: netviewer.ui:259
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "ネットワーク マップのヘルプを表示します"
+
+#: netviewer.ui:262
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+#: netviewer.ui:270
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "閉じる"
+
+#: netviewer.ui:276
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "ネットワーク マップを閉じます"
+
+#: netviewer.ui:279
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+#: netviewer.ui:287
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "拡大"
+
+#: netviewer.ui:293
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "ネットワーク マップを拡大します"
+
+#: netviewer.ui:296
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+#: netviewer.ui:304
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: netviewer.ui:310
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "ネットワーク マップを縮小します"
+
+#: netviewer.ui:313
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+#: netviewer.ui:321
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "合わせて拡大"
+
+#: netviewer.ui:327
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "すべての現在表示されている回路に合わせて拡大します"
+
+#: netviewer.ui:330
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
 #: networkpage.cpp:34
+#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
 msgstr "ネットワーク"
@@ -1815,18 +1844,31 @@ msgstr "コピー (Ctrl+C)"
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
-msgstr "インターネットのアクセスにプロキシを使用するには Tor の構成へ IP アドレスまたはホスト名とポート番号を両方指定する必要があります。"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr ""
+"インターネットのアクセスにプロキシを使用するには Tor の構成へ IP アドレスまた"
+"はホスト名とポート番号を両方指定する必要があります。"
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
-msgstr "ファイアウォールが接続を許可する 1 つより多くのポートを指定する必要があります。"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr ""
+"ファイアウォールが接続を許可する 1 つより多くのポートを指定する必要がありま"
+"す。"
 
 #: networkpage.cpp:307
 msgctxt "NetworkPage"
 msgid "'%1' is not a valid port number."
 msgstr "'%1' は有効なポート番号ではありません。"
+
+#: networkpage.ui:25
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr ""
 
 #: networkpage.ui:28
 msgctxt "NetworkPage"
@@ -1863,6 +1905,11 @@ msgctxt "NetworkPage"
 msgid "Port:"
 msgstr "ポート:"
 
+#: networkpage.ui:176
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr ""
+
 #: networkpage.ui:179
 msgctxt "NetworkPage"
 msgid "My firewall only lets me connect to certain ports"
@@ -1883,15 +1930,39 @@ msgctxt "NetworkPage"
 msgid "80, 443"
 msgstr "80, 443"
 
+#: networkpage.ui:235
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr ""
+
 #: networkpage.ui:238
 msgctxt "NetworkPage"
 msgid "My ISP blocks connections to the Tor network"
 msgstr "ISP は Tor ネットワークへの接続をブロックする"
 
+#: networkpage.ui:262
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr ""
+
+#: networkpage.ui:274
+msgctxt "NetworkPage"
+msgid ""
+"The Tor software you are currently running does not support bridges. "
+"<br>Directory connections will still be encrypted."
+msgstr ""
+
 #: networkpage.ui:295
 msgctxt "NetworkPage"
 msgid "Add a Bridge:"
 msgstr "ブリッジの追加:"
+
+#: networkpage.ui:318
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
+msgstr "<a href=\"bridges.finding\">ブリッジを見つけるには?</a>"
 
 #: networkpage.ui:383
 msgctxt "NetworkPage"
@@ -1902,36 +1973,6 @@ msgstr "一覧から選択されたブリッジを削除します"
 msgctxt "NetworkPage"
 msgid "Copy the selected bridges to the clipboard"
 msgstr "クリップボードへ選択されたブリッジをコピーします"
-
-#: networkpage.ui:318
-msgctxt "NetworkPage"
-msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
-msgstr "<a href=\"bridges.finding\">ブリッジを見つけるには?</a>"
-
-#: networkpage.ui:25
-msgctxt "NetworkPage"
-msgid "Check if your local network requires a proxy to access the Internet"
-msgstr ""
-
-#: networkpage.ui:176
-msgctxt "NetworkPage"
-msgid "Check to only connect to relays using ports allowed by your firewall"
-msgstr ""
-
-#: networkpage.ui:235
-msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
-msgstr ""
-
-#: networkpage.ui:262
-msgctxt "NetworkPage"
-msgid "Bridge Settings"
-msgstr ""
-
-#: networkpage.ui:274
-msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
-msgstr ""
 
 #: policy.cpp:167
 msgctxt "Policy"
@@ -1958,60 +1999,60 @@ msgctxt "RouterDescriptor"
 msgid "Offline"
 msgstr "オフライン"
 
-#: routerdescriptorview.cpp:103
-msgctxt "RouterDescriptorView"
-msgid "IP Address:"
-msgstr "IP アドレス:"
-
-#: routerdescriptorview.cpp:104
-msgctxt "RouterDescriptorView"
-msgid "Platform:"
-msgstr "プラットフォーム:"
-
-#: routerdescriptorview.cpp:108
-msgctxt "RouterDescriptorView"
-msgid "Bandwidth:"
-msgstr "帯域幅:"
-
-#: routerdescriptorview.cpp:110
-msgctxt "RouterDescriptorView"
-msgid "Uptime:"
-msgstr "アップ時間:"
-
-#: routerdescriptorview.cpp:116
-msgctxt "RouterDescriptorView"
-msgid "Last Updated:"
-msgstr "最終更新:"
-
-#: routerdescriptorview.cpp:99
+#: routerdescriptorview.cpp:139
 msgctxt "RouterDescriptorView"
 msgid "Location:"
 msgstr "場所:"
 
-#: routerdescriptorview.cpp:60
+#: routerdescriptorview.cpp:143
 msgctxt "RouterDescriptorView"
-msgid "%1 days "
+msgid "IP Address:"
+msgstr "IP アドレス:"
+
+#: routerdescriptorview.cpp:144
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "プラットフォーム:"
+
+#: routerdescriptorview.cpp:148
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "帯域幅:"
+
+#: routerdescriptorview.cpp:150
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "アップ時間:"
+
+#: routerdescriptorview.cpp:156
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "最終更新:"
+
+#: routerdescriptorview.cpp:100
+msgctxt "RouterDescriptorView"
+msgid "%1 days"
 msgstr ""
 
-#: routerdescriptorview.cpp:63
+#: routerdescriptorview.cpp:103
 msgctxt "RouterDescriptorView"
-msgid "%1 hours "
+msgid "%1 hours"
 msgstr ""
 
-#: routerdescriptorview.cpp:66
+#: routerdescriptorview.cpp:106
 msgctxt "RouterDescriptorView"
-msgid "%1 mins "
+msgid "%1 mins"
 msgstr ""
 
-#: routerdescriptorview.cpp:69
+#: routerdescriptorview.cpp:109
 msgctxt "RouterDescriptorView"
 msgid "%1 secs"
 msgstr ""
 
-#: routerlistitem.cpp:83
-msgctxt "RouterListItem"
-msgid "%1 KB/s"
-msgstr "%1 KB/s"
+#: routerdescriptorview.cpp:48
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "コピー"
 
 #: routerlistitem.cpp:67
 msgctxt "RouterListItem"
@@ -2022,6 +2063,11 @@ msgstr "オフライン"
 msgctxt "RouterListItem"
 msgid "Hibernating"
 msgstr "休止状態"
+
+#: routerlistitem.cpp:83
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
 
 #: routerlistwidget.cpp:31
 msgctxt "RouterListWidget"
@@ -2038,10 +2084,84 @@ msgctxt "RouterListWidget"
 msgid "%1 relays online"
 msgstr ""
 
+#: serverpage.cpp:68
+msgctxt "ServerPage"
+msgid "Server"
+msgstr "サーバー"
+
+#: serverpage.cpp:133
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "ブリッジ サポートが利用できません"
+
+#: serverpage.cpp:136
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr ""
+"検閲されたユーザーのブリッジ リレーとなるよう Tor を構成していますが、Tor の"
+"バージョンがブリッジをサポートしません。"
+
+#: serverpage.cpp:138
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr ""
+"Tor ソフトウェアをアップグレードするか通常の Tor リレーとなるよう Tor を構成"
+"してください。"
+
+#: serverpage.cpp:192
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "ブリッジ リレーは起動されていません。"
+
+#: serverpage.cpp:256
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "少なくともリレーのニックネームとポートを指定する必要があります。"
+
+#: serverpage.ui:25
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr ""
+
 #: serverpage.ui:32
 msgctxt "ServerPage"
 msgid "Relay traffic for the Tor network"
 msgstr "Tor ネットワークのトラフィックをリレーする"
+
+#: serverpage.ui:91
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "リレーのポート:"
+
+#: serverpage.ui:110
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr ""
+
+#: serverpage.ui:113
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "リレーのディレクトリをミラーする "
+
+#: serverpage.ui:139
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr ""
+
+#: serverpage.ui:154
+msgctxt "ServerPage"
+msgid "Test"
+msgstr ""
+
+#: serverpage.ui:164
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr ""
 
 #: serverpage.ui:234
 msgctxt "ServerPage"
@@ -2053,75 +2173,39 @@ msgctxt "ServerPage"
 msgid "Directory Port Number"
 msgstr "ディレクトリのポート番号です"
 
-#: serverpage.ui:380
-msgctxt "ServerPage"
-msgid "Nickname:"
-msgstr "ニックネーム:"
-
 #: serverpage.ui:279
 msgctxt "ServerPage"
 msgid "Contact Info:"
 msgstr "連絡先情報:"
 
-#: serverpage.ui:764
+#: serverpage.ui:337
 msgctxt "ServerPage"
-msgid "Exit Policies"
-msgstr "終了ポリシー"
+msgid "Name of your relay"
+msgstr "リレーの名前です"
 
-#: serverpage.ui:896
+#: serverpage.ui:370
 msgctxt "ServerPage"
-msgid "Show help topic on exit policies"
-msgstr "終了ポリシーのヘルプ トピックを表示します"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "ユーザーおよびその他のリレーがリレーに接触できるポートです"
 
-#: serverpage.ui:620
+#: serverpage.ui:380
 msgctxt "ServerPage"
-msgid "Long-term average bandwidth limit"
-msgstr "長期間の平均帯域幅の制限です"
-
-#: serverpage.ui:591
-msgctxt "ServerPage"
-msgid "Average Rate"
-msgstr "平均レート"
-
-#: serverpage.ui:708
-msgctxt "ServerPage"
-msgid "KB/s"
-msgstr "KB/s"
-
-#: serverpage.ui:695
-msgctxt "ServerPage"
-msgid "Peak bandwidth rate limit"
-msgstr "ピーク帯域幅レートの制限です"
-
-#: serverpage.ui:666
-msgctxt "ServerPage"
-msgid "Maximum Rate"
-msgstr "最大レート"
-
-#: serverpage.ui:502
-msgctxt "ServerPage"
-msgid "Show help topic on bandwidth rate limits"
-msgstr "帯域幅レートの制限のヘルプ トピックを表示します"
+msgid "Nickname:"
+msgstr "ニックネーム:"
 
 #: serverpage.ui:76
 msgctxt "ServerPage"
 msgid "Basic Settings"
 msgstr "基本設定"
 
-#: serverpage.ui:400
-msgctxt "ServerPage"
-msgid "Bandwidth Limits"
-msgstr "帯域幅の制限"
-
 #: serverpage.ui:435
 msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
-msgstr "高速なダウンロードの速度だが低速なアップロードのインターネット接続は、ここでアップロードの速度を記載してください。"
-
-#: serverpage.ui:456
-msgctxt "ServerPage"
-msgid "Select the entry that most closely resembles your Internet connection"
-msgstr "もっともインターネット接続に酷似したエントリを選択します"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr ""
+"高速なダウンロードの速度だが低速なアップロードのインターネット接続は、ここで"
+"アップロードの速度を記載してください。"
 
 #: serverpage.ui:466
 msgctxt "ServerPage"
@@ -2153,6 +2237,55 @@ msgctxt "ServerPage"
 msgid "Custom"
 msgstr "カスタム"
 
+#: serverpage.ui:456
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "もっともインターネット接続に酷似したエントリを選択します"
+
+#: serverpage.ui:502
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "帯域幅レートの制限のヘルプ トピックを表示します"
+
+#: serverpage.ui:591
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "平均レート"
+
+#: serverpage.ui:620
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "長期間の平均帯域幅の制限です"
+
+#: serverpage.ui:708
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+#: serverpage.ui:666
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "最大レート"
+
+#: serverpage.ui:695
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "ピーク帯域幅レートの制限です"
+
+#: serverpage.ui:737
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr ""
+"帯域幅の最大レートは帯域幅の平均レート以上である必要があります。両方の値は少"
+"なくとも 20 KB/s である必要があります。"
+
+#: serverpage.ui:400
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "帯域幅の制限"
+
 #: serverpage.ui:802
 msgctxt "ServerPage"
 msgid "Ports 6660 - 6669 and 6697"
@@ -2183,6 +2316,13 @@ msgctxt "ServerPage"
 msgid "Misc Other Services"
 msgstr "その他のサービス"
 
+#: serverpage.ui:841
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr ""
+"ポート 706、1863、5050、5190、5222、8300 および 8888 です {706, 1863, 5050, "
+"5190, 5222, 5223, 8300 ?}"
+
 #: serverpage.ui:844
 msgctxt "ServerPage"
 msgid "Instant Messaging (IM)"
@@ -2208,159 +2348,105 @@ msgctxt "ServerPage"
 msgid "Websites"
 msgstr "ウェブサイト"
 
-#: serverpage.ui:737
+#: serverpage.ui:896
 msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
-msgstr "帯域幅の最大レートは帯域幅の平均レート以上である必要があります。両方の値は少なくとも 20 KB/s である必要があります。"
-
-#: serverpage.cpp:68
-msgctxt "ServerPage"
-msgid "Server"
-msgstr "サーバー"
-
-#: serverpage.cpp:133
-msgctxt "ServerPage"
-msgid "Bridge Support Unavailable"
-msgstr "ブリッジ サポートが利用できません"
-
-#: serverpage.cpp:136
-msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
-msgstr "検閲されたユーザーのブリッジ リレーとなるよう Tor を構成していますが、Tor のバージョンがブリッジをサポートしません。"
-
-#: serverpage.cpp:138
-msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
-msgstr "Tor ソフトウェアをアップグレードするか通常の Tor リレーとなるよう Tor を構成してください。"
-
-#: serverpage.cpp:256
-msgctxt "ServerPage"
-msgid "You must specify at least a relay nickname and port."
-msgstr "少なくともリレーのニックネームとポートを指定する必要があります。"
-
-#: serverpage.ui:91
-msgctxt "ServerPage"
-msgid "Relay Port:"
-msgstr "リレーのポート:"
-
-#: serverpage.ui:204
-msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
-msgstr "リレーに問題がある場合に達することがある"
-"電子メール アドレスです。PGP または GPG フィンガープリントを含めることもできます。"
-
-#: serverpage.ui:113
-msgctxt "ServerPage"
-msgid "Mirror the Relay Directory "
-msgstr "リレーのディレクトリをミラーする "
-
-#: serverpage.cpp:192
-msgctxt "ServerPage"
-msgid "Your bridge relay is not running."
-msgstr "ブリッジ リレーは起動されていません。"
-
-#: serverpage.ui:39
-msgctxt "ServerPage"
-msgid "Help censored users reach the Tor network (Tor 0.2.0.8-alpha or newer)"
-msgstr "検閲された Tor ネットワークに達するユーザーを支援する (Tor 0.2.0.8-alpha 以上)"
-
-#: serverpage.ui:337
-msgctxt "ServerPage"
-msgid "Name of your relay"
-msgstr "リレーの名前です"
-
-#: serverpage.ui:370
-msgctxt "ServerPage"
-msgid "Port on which users and other relays can communicate with your relay"
-msgstr "ユーザーおよびその他のリレーがリレーに接触できるポートです"
-
-#: serverpage.ui:1005
-msgctxt "ServerPage"
-msgid "Let others access your bridge by giving them this line:"
-msgstr "その他をこの行で与えてブリッジをアクセスさせる:"
-
-#: serverpage.ui:1029
-msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
-msgstr "これはその他の人々へ与えられるブリッジ リレーの識別です"
-
-#: serverpage.ui:1051
-msgctxt "ServerPage"
-msgid "Copy your bridge relay's identity to the clipboard"
-msgstr "クリップボードへブリッジ リレーの識別をコピーします"
-
-#: serverpage.ui:841
-msgctxt "ServerPage"
-msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
-msgstr "ポート 706、1863、5050、5190、5222、8300 および 8888 です {706, 1863, 5050, 5190, 5222, 5223, 8300 ?}"
-
-#: serverpage.ui:25
-msgctxt "ServerPage"
-msgid "Run as a client only"
-msgstr ""
-
-#: serverpage.ui:110
-msgctxt "ServerPage"
-msgid "Enable to mirror the relay directory"
-msgstr ""
-
-#: serverpage.ui:139
-msgctxt "ServerPage"
-msgid "Attempt to automatically configure port forwarding"
-msgstr ""
-
-#: serverpage.ui:154
-msgctxt "ServerPage"
-msgid "Test"
-msgstr ""
+msgid "Show help topic on exit policies"
+msgstr "終了ポリシーのヘルプ トピックを表示します"
 
 #: serverpage.ui:969
 msgctxt "ServerPage"
 msgid "What Internet resources should users be able to access from your relay?"
 msgstr ""
 
-#: serverpage.ui:164
+#: serverpage.ui:979
 msgctxt "ServerPage"
-msgid "Show help topic on port forwarding"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
 msgstr ""
+
+#: serverpage.ui:764
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "終了ポリシー"
+
+#: serverpage.ui:1015
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "その他をこの行で与えてブリッジをアクセスさせる:"
+
+#: serverpage.ui:1039
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "これはその他の人々へ与えられるブリッジ リレーの識別です"
+
+#: serverpage.ui:1061
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "クリップボードへブリッジ リレーの識別をコピーします"
+
+#: serverpage.ui:39
+#, fuzzy
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr ""
+"検閲された Tor ネットワークに達するユーザーを支援する (Tor 0.2.0.8-alpha 以"
+"上)"
+
+#: serverpage.ui:204
+#, fuzzy
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr ""
+"リレーに問題がある場合に達することがある電子メール アドレスです。PGP または "
+"GPG フィンガープリントを含めることもできます。"
 
 #: servicepage.cpp:27
 msgctxt "ServicePage"
 msgid "Services"
 msgstr ""
 
-#: servicepage.cpp:109
+#: servicepage.cpp:105
 msgctxt "ServicePage"
 msgid "Error while trying to unpublish all services"
 msgstr ""
 
-#: servicepage.cpp:590
+#: servicepage.cpp:112
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr ""
+
+#: servicepage.cpp:589
 msgctxt "ServicePage"
 msgid "Error"
 msgstr "エラー"
 
-#: servicepage.cpp:445
+#: servicepage.cpp:444
 msgctxt "ServicePage"
 msgid "Please select a Service."
 msgstr ""
 
-#: servicepage.cpp:451
+#: servicepage.cpp:450
 msgctxt "ServicePage"
 msgid "Select Service Directory"
 msgstr ""
 
-#: servicepage.cpp:540
+#: servicepage.cpp:539
 msgctxt "ServicePage"
 msgid "Virtual Port may only contain valid port numbers [1..65535]."
 msgstr ""
 
-#: servicepage.cpp:571
+#: servicepage.cpp:570
 msgctxt "ServicePage"
 msgid "Target may only contain address:port, address, or port."
 msgstr ""
 
-#: servicepage.cpp:591
+#: servicepage.cpp:590
 msgctxt "ServicePage"
 msgid "Directory already in use by another service."
 msgstr ""
@@ -2420,55 +2506,55 @@ msgctxt "ServicePage"
 msgid "Browse in local file system and choose directory for selected service"
 msgstr ""
 
-#: servicepage.cpp:116
+#: servicepage.cpp:376
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
+msgid "Created by Tor"
 msgstr ""
 
-#: stream.cpp:118
+#: stream.cpp:131
 msgctxt "Stream"
 msgid "New"
 msgstr "新規"
 
-#: stream.cpp:120
+#: stream.cpp:133
 msgctxt "Stream"
 msgid "Resolving"
 msgstr "解決しています"
 
-#: stream.cpp:121
+#: stream.cpp:134
 msgctxt "Stream"
 msgid "Connecting"
 msgstr "接続しています"
 
-#: stream.cpp:122
+#: stream.cpp:135
 msgctxt "Stream"
 msgid "Open"
 msgstr "オープン"
 
-#: stream.cpp:123
+#: stream.cpp:136
 msgctxt "Stream"
 msgid "Failed"
 msgstr "失敗しました"
 
-#: stream.cpp:124
+#: stream.cpp:137
 msgctxt "Stream"
 msgid "Closed"
 msgstr "閉じました"
 
-#: stream.cpp:127
-msgctxt "Stream"
-msgid "Unknown"
-msgstr "不明"
-
-#: stream.cpp:125
+#: stream.cpp:138
 msgctxt "Stream"
 msgid "Retrying"
 msgstr "再試行しています"
 
-#: stream.cpp:126
+#: stream.cpp:139
 msgctxt "Stream"
 msgid "Remapped"
 msgstr "再マップしました"
+
+#: stream.cpp:140
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "不明"
 
 #: torprocess.cpp:107
 msgctxt "TorProcess"
@@ -2485,7 +2571,7 @@ msgctxt "TorService"
 msgid "Unable to start the Tor service."
 msgstr "Tor サービスを開始することができません。"
 
-#: torsettings.cpp:107
+#: torsettings.cpp:103
 msgctxt "TorSettings"
 msgid "Failed to hash the control password."
 msgstr "コントロール パスワードのハッシュに失敗しました。"
@@ -2615,34 +2701,15 @@ msgctxt "VMessageBox"
 msgid "Browse"
 msgstr "参照"
 
-#: vidalia.cpp:235
+#: main.cpp:74
 msgctxt "Vidalia"
-msgid "Invalid language code specified: "
-msgstr "不正な言語コードが指定されています: "
-
-#: vidalia.cpp:242
-msgctxt "Vidalia"
-msgid "Invalid GUI style specified: "
-msgstr "不正な GUI スタイルが指定されています: "
+msgid "Invalid Argument"
+msgstr "不正な引数"
 
 #: main.cpp:88
 msgctxt "Vidalia"
 msgid "Vidalia is already running"
 msgstr "Vidalia はすでに起動しています"
-
-#: main.cpp:94
-msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
-""
-"Would you like to continue starting Vidalia?"
-msgstr "別の Vidalia プロセスはおそらくすでに起動しています。本当に別の Vidalia プロセスが起動している場合、このまま続行するのを選択できます。"
-""
-"Vidalia の起動を続行しますか?"
-
-#: main.cpp:74
-msgctxt "Vidalia"
-msgid "Invalid Argument"
-msgstr "不正な引数"
 
 #: vidalia.cpp:166
 msgctxt "Vidalia"
@@ -2689,12 +2756,38 @@ msgctxt "Vidalia"
 msgid "Vidalia Usage Information"
 msgstr "Vidalia の使用情報"
 
-#: vidalia.cpp:248
+#: vidalia.cpp:235
+#, fuzzy
 msgctxt "Vidalia"
-msgid "Invalid log level specified: "
+msgid "Invalid language code specified:"
+msgstr "不正な言語コードが指定されています: "
+
+#: vidalia.cpp:242
+#, fuzzy
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "不正な GUI スタイルが指定されています: "
+
+#: vidalia.cpp:248
+#, fuzzy
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
 msgstr "不正なログ レベルが指定されています: "
 
 #: vidalia.cpp:254
 msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
 msgstr "ログ ファイル '%1' を開くことができません: %2"
+
+#: main.cpp:94
+#, fuzzy
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not "
+"another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr ""
+"別の Vidalia プロセスはおそらくすでに起動しています。本当に別の Vidalia プロ"
+"セスが起動している場合、このまま続行するのを選択できます。Vidalia の起動を続"
+"行しますか?"
