@@ -194,13 +194,19 @@ msgstr "開啟"
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
-msgid "%1 already exists.Do you want to replace it?"
-msgstr "%1 已存在您要取代它嗎？"
+msgid "%1 already exists."
+"Do you want to replace it?"
+msgstr "%1 已存在"
+"您要取代它嗎？"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
-msgid "%1File not found.Please verify the correct file name was given."
-msgstr "%1找不到檔案。請檢查檔名是否正確。"
+msgid "%1"
+"File not found."
+"Please verify the correct file name was given."
+msgstr "%1"
+"找不到檔案。"
+"請檢查檔名是否正確。"
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -254,19 +260,28 @@ msgstr "目錄："
 
 #: qfiledialog.cpp:1518
 msgctxt "QFileDialog"
-msgid "File not found.Please verify the correct file name was given"
-msgstr "檔案找不到。請檢查檔名是否正確。"
+msgid ""
+"File not found."
+"Please verify the correct file name was given"
+msgstr ""
+"檔案找不到。"
+"請檢查檔名是否正確。"
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
-msgid ""
-"%1Directory not found.Please verify the correct directory name was given."
-msgstr "%1找不到目錄。請檢查目錄名稱是否正確。"
+msgid "%1"
+"Directory not found."
+"Please verify the correct directory name was given."
+msgstr "%1"
+"找不到目錄。"
+"請檢查目錄名稱是否正確。"
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
-msgid "'%1' is write protected.Do you want to delete it anyway?"
-msgstr "%1 有寫入保護。您確定要刪除它嗎？"
+msgid "'%1' is write protected."
+"Do you want to delete it anyway?"
+msgstr "%1 有寫入保護。"
+"您確定要刪除它嗎？"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -360,12 +375,8 @@ msgstr "不合法的檔名"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
-msgid ""
-"<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
-"characters or no punctuations marks."
-msgstr ""
-"<b>無法使用名稱 \"%1\"。</b><p>請使用其它名稱，字元數少一點，或是不要有標點符"
-"號。"
+msgid "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer characters or no punctuations marks."
+msgstr "<b>無法使用名稱 \"%1\"。</b><p>請使用其它名稱，字元數少一點，或是不要有標點符號。"
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -426,3 +437,4 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 位元組"
+

@@ -3,360 +3,356 @@ msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2008-11-01 14:34+0000\n"
-"Last-Translator: Matt <edmanm@vidalia-project.net>\n"
+"PO-Revision-Date: 2008-08-20 03:25+0000\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Vidalia ts2po 0.2\n"
 
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr "Activează"
+msgstr ""
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
 msgid "Executable '%1' requires Qt %2, found Qt %3."
-msgstr "Executabilul '%1' are nevoie de Qt %2, a fost găsit Qt %3."
+msgstr ""
 
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Eroare, biblioteca Qt este incompatibilă"
+msgstr ""
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
 msgid "QT_LAYOUT_DIRECTION"
-msgstr "LTR"
+msgstr ""
 
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr "Activează fereastra principală a programului"
+msgstr ""
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:528
 msgctxt "QDialogButtonBox"
 msgid "Save"
-msgstr "Salvează"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:531
 msgctxt "QDialogButtonBox"
 msgid "Open"
-msgstr "Deschide"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:534
 msgctxt "QDialogButtonBox"
 msgid "Cancel"
-msgstr "Revocare"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:537
 msgctxt "QDialogButtonBox"
 msgid "Close"
-msgstr "Închide"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:540
 msgctxt "QDialogButtonBox"
 msgid "Apply"
-msgstr "Aplică"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr "Reiniţializează"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
 msgid "Help"
-msgstr "Ajutor"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr "Nu salva"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
 msgid "Discard"
-msgstr "Renunţă"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:557
 msgctxt "QDialogButtonBox"
 msgid "&Yes"
-msgstr "&Da"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:560
 msgctxt "QDialogButtonBox"
 msgid "Yes to &All"
-msgstr "Da la &toate"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:563
 msgctxt "QDialogButtonBox"
 msgid "&No"
-msgstr "&Nu"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:566
 msgctxt "QDialogButtonBox"
 msgid "N&o to All"
-msgstr "N&u la toate"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"
 msgid "Save All"
-msgstr "Salvează pe toate"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:572
 msgctxt "QDialogButtonBox"
 msgid "Abort"
-msgstr "Renunţă"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:575
 msgctxt "QDialogButtonBox"
 msgid "Retry"
-msgstr "Încearcă din nou"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:578
 msgctxt "QDialogButtonBox"
 msgid "Ignore"
-msgstr "Ignoră"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:581
 msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
-msgstr "Setări implicite"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:552
 msgctxt "QDialogButtonBox"
 msgid "Close without Saving"
-msgstr "Închide fără a salva"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:525
 msgctxt "QDialogButtonBox"
 msgid "&OK"
-msgstr "&OK"
+msgstr ""
 
 #: qdirmodel.cpp:423
 msgctxt "QDirModel"
 msgid "Name"
-msgstr "Nume"
+msgstr ""
 
 #: qdirmodel.cpp:424
 msgctxt "QDirModel"
 msgid "Size"
-msgstr "Mărime"
+msgstr ""
 
 #: qdirmodel.cpp:427
 msgctxt "QDirModel"
 msgid "Kind"
-msgstr "Categorie"
+msgstr ""
 
 #: qdirmodel.cpp:429
 msgctxt "QDirModel"
 msgid "Type"
-msgstr "Tip"
+msgstr ""
 
 #: qdirmodel.cpp:435
 msgctxt "QDirModel"
 msgid "Date Modified"
-msgstr "Data ultimei modificări"
+msgstr ""
 
 #: qfiledialog_win.cpp:126
 msgctxt "QFileDialog"
 msgid "All Files (*)"
-msgstr "Toate fişierele (*)"
+msgstr ""
 
 #: qfiledialog.cpp:881
 msgctxt "QFileDialog"
 msgid "Directories"
-msgstr "Directoare"
+msgstr ""
 
 #: qfiledialog.cpp:2408
 msgctxt "QFileDialog"
 msgid "&Open"
-msgstr "&Deschide"
+msgstr ""
 
 #: qfiledialog.cpp:919
 msgctxt "QFileDialog"
 msgid "&Save"
-msgstr "&Salvează"
+msgstr ""
 
 #: qfiledialog.cpp:435
 msgctxt "QFileDialog"
 msgid "Open"
-msgstr "Deschide"
+msgstr ""
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
 msgid "%1 already exists.Do you want to replace it?"
-msgstr "%1 există deja. Doriţi să-l înlocuiţi?"
+msgstr ""
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
 msgid "%1File not found.Please verify the correct file name was given."
 msgstr ""
-"%1Fişierul nu a fost găsit. Verificaţi numele fişierului şi încercaţi din "
-"nou."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Computerul meu"
+msgstr ""
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
 msgid "&Rename"
-msgstr "&Redenumeşte"
+msgstr ""
 
 #: qfiledialog.cpp:463
 msgctxt "QFileDialog"
 msgid "&Delete"
-msgstr "&Şterge"
+msgstr ""
 
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"
 msgid "Show &hidden files"
-msgstr "Arată &fişierele ascunse"
+msgstr ""
 
 #: ui_qfiledialog.h:264
 msgctxt "QFileDialog"
 msgid "Back"
-msgstr "Înapoi"
+msgstr ""
 
 #: ui_qfiledialog.h:274
 msgctxt "QFileDialog"
 msgid "Parent Directory"
-msgstr "Directorul superior"
+msgstr ""
 
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
 msgid "List View"
-msgstr "Vizualizare listă"
+msgstr ""
 
 #: ui_qfiledialog.h:289
 msgctxt "QFileDialog"
 msgid "Detail View"
-msgstr "Vizualizare detaliată"
+msgstr ""
 
 #: ui_qfiledialog.h:292
 msgctxt "QFileDialog"
 msgid "Files of type:"
-msgstr "Fişiere de tipul:"
+msgstr ""
 
 #: qfiledialog.cpp:883
 msgctxt "QFileDialog"
 msgid "Directory:"
-msgstr "Director:"
+msgstr ""
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
 msgid ""
 "%1Directory not found.Please verify the correct directory name was given."
 msgstr ""
-"%1Directorul nu a fost găsit. Verificaţi numele directorului şi încercaţi "
-"din nou."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid "'%1' is write protected.Do you want to delete it anyway?"
-msgstr "'%1' e protejat la scriere. Doriţi să-l ştergeţi oricum?"
+msgstr ""
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
 msgid "Are sure you want to delete '%1'?"
-msgstr "Sunteţi sigur că doriţi să ştergeţi '%1'?"
+msgstr ""
 
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "Directorul nu a putut fi şters."
+msgstr ""
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
 msgid "All Files (*.*)"
-msgstr "Toate fişierele (*.*)"
+msgstr ""
 
 #: qfiledialog.cpp:437
 msgctxt "QFileDialog"
 msgid "Save As"
-msgstr "Salvează ca"
+msgstr ""
 
 #: qfileiconprovider.cpp:379
 msgctxt "QFileDialog"
 msgid "Drive"
-msgstr "Drive"
+msgstr ""
 
 #: qfileiconprovider.cpp:383
 msgctxt "QFileDialog"
 msgid "File"
-msgstr "Fişier"
+msgstr ""
 
 #: qfileiconprovider.cpp:412
 msgctxt "QFileDialog"
 msgid "Unknown"
-msgstr "Necunoscut"
+msgstr ""
 
 #: qfiledialog.cpp:439
 msgctxt "QFileDialog"
 msgid "Find Directory"
-msgstr "Găseşte director"
+msgstr ""
 
 #: qfiledialog.cpp:458
 msgctxt "QFileDialog"
 msgid "Show "
-msgstr "Arată "
+msgstr ""
 
 #: ui_qfiledialog.h:269
 msgctxt "QFileDialog"
 msgid "Forward"
-msgstr "Înainte"
+msgstr ""
 
 #: qfiledialog.cpp:2137
 msgctxt "QFileDialog"
 msgid "New Folder"
-msgstr "Director nou"
+msgstr ""
 
 #: qfiledialog.cpp:465
 msgctxt "QFileDialog"
 msgid "&New Folder"
-msgstr "&Director nou"
+msgstr ""
 
 #: qfiledialog.cpp:917
 msgctxt "QFileDialog"
 msgid "&Choose"
-msgstr "&Alege"
+msgstr ""
 
 #: qsidebar.cpp:388
 msgctxt "QFileDialog"
 msgid "Remove"
-msgstr "Şterge"
+msgstr ""
 
 #: qfiledialog.cpp:886
 msgctxt "QFileDialog"
 msgid "File &name:"
-msgstr "Nume &fişier:"
+msgstr ""
 
 #: ui_qfiledialog.h:261
 msgctxt "QFileDialog"
 msgid "Look in:"
-msgstr "Vezi în:"
+msgstr ""
 
 #: ui_qfiledialog.h:279
 msgctxt "QFileDialog"
 msgid "Create New Folder"
-msgstr "Creează director nou"
+msgstr ""
 
 #: qfilesystemmodel.cpp:761
 msgctxt "QFileSystemModel"
 msgid "Invalid filename"
-msgstr "Nume de fişier invalid"
+msgstr ""
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
@@ -364,65 +360,63 @@ msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
 "characters or no punctuations marks."
 msgstr ""
-"<b>Numele \"%1\" nu poate fi folosit.</b><p>Folosiţi alt nume, cu mai puţine "
-"litere or sau fără semne de punctuaţie."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
 msgid "Name"
-msgstr "Nume"
+msgstr ""
 
 #: qfilesystemmodel.cpp:834
 msgctxt "QFileSystemModel"
 msgid "Size"
-msgstr "Mărime"
+msgstr ""
 
 #: qfilesystemmodel.cpp:838
 msgctxt "QFileSystemModel"
 msgid "Kind"
-msgstr "Categorie"
+msgstr ""
 
 #: qfilesystemmodel.cpp:840
 msgctxt "QFileSystemModel"
 msgid "Type"
-msgstr "Tip"
+msgstr ""
 
 #: qfilesystemmodel.cpp:847
 msgctxt "QFileSystemModel"
 msgid "Date Modified"
-msgstr "Data ultimei modificări"
+msgstr ""
 
 #: qfilesystemmodel_p.h:198
 msgctxt "QFileSystemModel"
 msgid "My Computer"
-msgstr "Computerul meu"
+msgstr ""
 
 #: qfilesystemmodel_p.h:200
 msgctxt "QFileSystemModel"
 msgid "Computer"
-msgstr "Computer"
+msgstr ""
 
 #: qfilesystemmodel.cpp:677
 msgctxt "QFileSystemModel"
 msgid "%1 TB"
-msgstr "%1 TO"
+msgstr ""
 
 #: qfilesystemmodel.cpp:679
 msgctxt "QFileSystemModel"
 msgid "%1 GB"
-msgstr "%1 GO"
+msgstr ""
 
 #: qfilesystemmodel.cpp:681
 msgctxt "QFileSystemModel"
 msgid "%1 MB"
-msgstr "%1 MO"
+msgstr ""
 
 #: qfilesystemmodel.cpp:683
 msgctxt "QFileSystemModel"
 msgid "%1 KB"
-msgstr "%1 KO"
+msgstr ""
 
 #: qfilesystemmodel.cpp:684
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
-msgstr "%1 octeţi"
+msgstr ""

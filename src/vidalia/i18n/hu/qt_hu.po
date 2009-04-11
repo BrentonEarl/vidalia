@@ -3,355 +3,355 @@ msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2008-11-12 19:51+0000\n"
-"Last-Translator: kabbe agoston <kabbe@pofa.be>\n"
+"PO-Revision-Date: 2008-08-20 03:25+0000\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Vidalia ts2po 0.2\n"
 
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr "Aktíválás"
+msgstr ""
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
 msgid "Executable '%1' requires Qt %2, found Qt %3."
-msgstr "A '%1' állomány a Qt %2 -t igényli. Jelenleg Qt %3 van a gépen."
+msgstr ""
 
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Qt könyvtár hiba"
+msgstr ""
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
 msgid "QT_LAYOUT_DIRECTION"
-msgstr "QT_LAYOUT_DIRECTION"
+msgstr ""
 
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr "Aktíválja a progam fõ ablakát"
+msgstr ""
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:528
 msgctxt "QDialogButtonBox"
 msgid "Save"
-msgstr "Mentés"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:531
 msgctxt "QDialogButtonBox"
 msgid "Open"
-msgstr "Megnyitás"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:534
 msgctxt "QDialogButtonBox"
 msgid "Cancel"
-msgstr "Mégse"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:537
 msgctxt "QDialogButtonBox"
 msgid "Close"
-msgstr "Bezár"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:540
 msgctxt "QDialogButtonBox"
 msgid "Apply"
-msgstr "Alkalmaz"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr "Visszaállít"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
 msgid "Help"
-msgstr "Súgó"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr "Ne mentse"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
 msgid "Discard"
-msgstr "Elvetés"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:557
 msgctxt "QDialogButtonBox"
 msgid "&Yes"
-msgstr "&Igen"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:560
 msgctxt "QDialogButtonBox"
 msgid "Yes to &All"
-msgstr "Igen &Mindet"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:563
 msgctxt "QDialogButtonBox"
 msgid "&No"
-msgstr "&Nem"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:566
 msgctxt "QDialogButtonBox"
 msgid "N&o to All"
-msgstr "Egyiket &Sem"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"
 msgid "Save All"
-msgstr "Minden mentése"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:572
 msgctxt "QDialogButtonBox"
 msgid "Abort"
-msgstr "Elvetés"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:575
 msgctxt "QDialogButtonBox"
 msgid "Retry"
-msgstr "Újra"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:578
 msgctxt "QDialogButtonBox"
 msgid "Ignore"
-msgstr "Kihagyás"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:581
 msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
-msgstr "Alapértékek visszaállítása"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:552
 msgctxt "QDialogButtonBox"
 msgid "Close without Saving"
-msgstr "Bezárás mentés nélkül"
+msgstr ""
 
 #: qdialogbuttonbox.cpp:525
 msgctxt "QDialogButtonBox"
 msgid "&OK"
-msgstr "&OK"
+msgstr ""
 
 #: qdirmodel.cpp:423
 msgctxt "QDirModel"
 msgid "Name"
-msgstr "Név"
+msgstr ""
 
 #: qdirmodel.cpp:424
 msgctxt "QDirModel"
 msgid "Size"
-msgstr "Méret"
+msgstr ""
 
 #: qdirmodel.cpp:427
 msgctxt "QDirModel"
 msgid "Kind"
-msgstr "Fajta"
+msgstr ""
 
 #: qdirmodel.cpp:429
 msgctxt "QDirModel"
 msgid "Type"
-msgstr "Típus"
+msgstr ""
 
 #: qdirmodel.cpp:435
 msgctxt "QDirModel"
 msgid "Date Modified"
-msgstr "Módosítás ideje"
+msgstr ""
 
 #: qfiledialog_win.cpp:126
 msgctxt "QFileDialog"
 msgid "All Files (*)"
-msgstr "Minden Fájl (*)"
+msgstr ""
 
 #: qfiledialog.cpp:881
 msgctxt "QFileDialog"
 msgid "Directories"
-msgstr "Könyvtárak"
+msgstr ""
 
 #: qfiledialog.cpp:2408
 msgctxt "QFileDialog"
 msgid "&Open"
-msgstr "&Megnyitás"
+msgstr ""
 
 #: qfiledialog.cpp:919
 msgctxt "QFileDialog"
 msgid "&Save"
-msgstr "M&entés"
+msgstr ""
 
 #: qfiledialog.cpp:435
 msgctxt "QFileDialog"
 msgid "Open"
-msgstr "Megnyitás"
+msgstr ""
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
 msgid "%1 already exists.Do you want to replace it?"
-msgstr "%1 már létezik. Kívánja felülírni?"
+msgstr ""
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
 msgid "%1File not found.Please verify the correct file name was given."
-msgstr "%1 nem létezik. Ellenõrizze, hogy pontosan adta meg a nevet."
+msgstr ""
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Sajátgép"
+msgstr ""
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
 msgid "&Rename"
-msgstr "&Átnevezés"
+msgstr ""
 
 #: qfiledialog.cpp:463
 msgctxt "QFileDialog"
 msgid "&Delete"
-msgstr "&Törlés"
+msgstr ""
 
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"
 msgid "Show &hidden files"
-msgstr "&Rejtett fájlok mutatása"
+msgstr ""
 
 #: ui_qfiledialog.h:264
 msgctxt "QFileDialog"
 msgid "Back"
-msgstr "Vissza"
+msgstr ""
 
 #: ui_qfiledialog.h:274
 msgctxt "QFileDialog"
 msgid "Parent Directory"
-msgstr "Fel"
+msgstr ""
 
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
 msgid "List View"
-msgstr "Lista nézet"
+msgstr ""
 
 #: ui_qfiledialog.h:289
 msgctxt "QFileDialog"
 msgid "Detail View"
-msgstr "Részletes nézet"
+msgstr ""
 
 #: ui_qfiledialog.h:292
 msgctxt "QFileDialog"
 msgid "Files of type:"
-msgstr "Típus fájljai:"
+msgstr ""
 
 #: qfiledialog.cpp:883
 msgctxt "QFileDialog"
 msgid "Directory:"
-msgstr "Könyvtár:"
+msgstr ""
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
 msgid ""
 "%1Directory not found.Please verify the correct directory name was given."
-msgstr "%1 könyvtár nem létezik. Ellenõrizze, hogy jól adta-e meg a nevet."
+msgstr ""
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid "'%1' is write protected.Do you want to delete it anyway?"
-msgstr "'%1' írásvédett. Mégis kívánja törölni?"
+msgstr ""
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
 msgid "Are sure you want to delete '%1'?"
-msgstr "Biztos hogy kívánja törölni ezt: '%1' ?"
+msgstr ""
 
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "A könyvtár törlése sikertelen."
+msgstr ""
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
 msgid "All Files (*.*)"
-msgstr "Minden fájl (*.*)"
+msgstr ""
 
 #: qfiledialog.cpp:437
 msgctxt "QFileDialog"
 msgid "Save As"
-msgstr "Mentés másként"
+msgstr ""
 
 #: qfileiconprovider.cpp:379
 msgctxt "QFileDialog"
 msgid "Drive"
-msgstr "Meghajtó"
+msgstr ""
 
 #: qfileiconprovider.cpp:383
 msgctxt "QFileDialog"
 msgid "File"
-msgstr "Fájl"
+msgstr ""
 
 #: qfileiconprovider.cpp:412
 msgctxt "QFileDialog"
 msgid "Unknown"
-msgstr "Ismeretlen"
+msgstr ""
 
 #: qfiledialog.cpp:439
 msgctxt "QFileDialog"
 msgid "Find Directory"
-msgstr "Könyvtár keresése"
+msgstr ""
 
 #: qfiledialog.cpp:458
 msgctxt "QFileDialog"
 msgid "Show "
-msgstr "Mutasd"
+msgstr ""
 
 #: ui_qfiledialog.h:269
 msgctxt "QFileDialog"
 msgid "Forward"
-msgstr "Elõre"
+msgstr ""
 
 #: qfiledialog.cpp:2137
 msgctxt "QFileDialog"
 msgid "New Folder"
-msgstr "Új könyvtár"
+msgstr ""
 
 #: qfiledialog.cpp:465
 msgctxt "QFileDialog"
 msgid "&New Folder"
-msgstr "&Új könyvtár"
+msgstr ""
 
 #: qfiledialog.cpp:917
 msgctxt "QFileDialog"
 msgid "&Choose"
-msgstr "&Kiválaszt"
+msgstr ""
 
 #: qsidebar.cpp:388
 msgctxt "QFileDialog"
 msgid "Remove"
-msgstr "Töröl"
+msgstr ""
 
 #: qfiledialog.cpp:886
 msgctxt "QFileDialog"
 msgid "File &name:"
-msgstr "Fájl &név: "
+msgstr ""
 
 #: ui_qfiledialog.h:261
 msgctxt "QFileDialog"
 msgid "Look in:"
-msgstr "Nézzen a: "
+msgstr ""
 
 #: ui_qfiledialog.h:279
 msgctxt "QFileDialog"
 msgid "Create New Folder"
-msgstr "Új könyvtár létrehozása"
+msgstr ""
 
 #: qfilesystemmodel.cpp:761
 msgctxt "QFileSystemModel"
 msgid "Invalid filename"
-msgstr "Érvénytelen fájlnév"
+msgstr ""
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
@@ -359,65 +359,63 @@ msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer "
 "characters or no punctuations marks."
 msgstr ""
-"<b>A \"%1\" név nem használható.</b><p>Próbálja kevesebb karakterrel, vagy "
-"speciális karakterek nélkül."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
 msgid "Name"
-msgstr "Név"
+msgstr ""
 
 #: qfilesystemmodel.cpp:834
 msgctxt "QFileSystemModel"
 msgid "Size"
-msgstr "Méret"
+msgstr ""
 
 #: qfilesystemmodel.cpp:838
 msgctxt "QFileSystemModel"
 msgid "Kind"
-msgstr "Fajta"
+msgstr ""
 
 #: qfilesystemmodel.cpp:840
 msgctxt "QFileSystemModel"
 msgid "Type"
-msgstr "Típus"
+msgstr ""
 
 #: qfilesystemmodel.cpp:847
 msgctxt "QFileSystemModel"
 msgid "Date Modified"
-msgstr "Módosítás ideje"
+msgstr ""
 
 #: qfilesystemmodel_p.h:198
 msgctxt "QFileSystemModel"
 msgid "My Computer"
-msgstr "Sajátgép"
+msgstr ""
 
 #: qfilesystemmodel_p.h:200
 msgctxt "QFileSystemModel"
 msgid "Computer"
-msgstr "Számítógép"
+msgstr ""
 
 #: qfilesystemmodel.cpp:677
 msgctxt "QFileSystemModel"
 msgid "%1 TB"
-msgstr "%1 TB"
+msgstr ""
 
 #: qfilesystemmodel.cpp:679
 msgctxt "QFileSystemModel"
 msgid "%1 GB"
-msgstr "%1 GB"
+msgstr ""
 
 #: qfilesystemmodel.cpp:681
 msgctxt "QFileSystemModel"
 msgid "%1 MB"
-msgstr "%1 MB"
+msgstr ""
 
 #: qfilesystemmodel.cpp:683
 msgctxt "QFileSystemModel"
 msgid "%1 KB"
-msgstr "%1 KB"
+msgstr ""
 
 #: qfilesystemmodel.cpp:684
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
-msgstr "%1 bájt"
+msgstr ""

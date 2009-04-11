@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: Vidalia\n"
 "Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
 "POT-Creation-Date: 2008-07-02 05:29+0000\n"
-"PO-Revision-Date: 2009-02-24 04:26+0000\n"
-"Last-Translator: phobos <phobos@rootme.org>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.1.0\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Vidalia ts2po 0.2\n"
 
 #: aboutdialog.ui:25
 msgctxt "AboutDialog"
@@ -33,34 +33,29 @@ msgid "Qt"
 msgstr "Qt"
 
 #: aboutdialog.ui:166
-#, fuzzy
 msgctxt "AboutDialog"
 msgid "Qt Version"
-msgstr "versão"
+msgstr "Versão do Qt"
 
 #: aboutdialog.ui:244
-#, fuzzy
 msgctxt "AboutDialog"
 msgid "Tor Version"
-msgstr "versão"
+msgstr "Versão do Tor"
 
 #: aboutdialog.ui:88
-#, fuzzy
 msgctxt "AboutDialog"
 msgid "Vidalia Version"
-msgstr "Ajuda do Vidalia"
+msgstr "Versão do Vidalia"
 
 #: aboutdialog.cpp:68
-#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Not Running>"
-msgstr "Não Rodando"
+msgstr "<Não executando>"
 
 #: aboutdialog.cpp:64
-#, fuzzy
 msgctxt "AboutDialog"
 msgid "<Unavailable>"
-msgstr "Indisponível"
+msgstr "<Indisponível>"
 
 #: advancedpage.ui:28
 msgctxt "AdvancedPage"
@@ -73,10 +68,9 @@ msgid "Browse"
 msgstr "Navegar"
 
 #: advancedpage.ui:337
-#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Permissions"
-msgstr "versão"
+msgstr "Permissões"
 
 #: advancedpage.ui:360
 msgctxt "AdvancedPage"
@@ -140,38 +134,37 @@ msgstr "O Vidalia não conseguiu instalar o serviço do Tor."
 
 #: advancedpage.cpp:287
 msgctxt "AdvancedPage"
-msgid ""
-"Vidalia was unable to remove the Tor service.You may need to remove it "
-"manually."
-msgstr ""
-"O Vidalia não conseguiu remover o serviço do Tor.Você deverá removê-lo "
-"manualmente."
+msgid "Vidalia was unable to remove the Tor service."
+""
+"You may need to remove it manually."
+msgstr "O Vidalia não conseguiu remover o serviço do Tor."
+""
+"Você deverá removê-lo manualmente."
 
 #: advancedpage.cpp:103
 msgctxt "AdvancedPage"
 msgid "'%1' is not a valid IP address."
-msgstr "'%1' não é um endereço de IP válido."
+msgstr ""
 
 #: advancedpage.ui:157
 msgctxt "AdvancedPage"
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #: advancedpage.cpp:114
 msgctxt "AdvancedPage"
 msgid "You selected 'Password' authentication, but did not specify a password."
 msgstr ""
-"Você selecionou 'Password' para autenticação, mas não especificou uma senha."
 
 #: advancedpage.cpp:263
 msgctxt "AdvancedPage"
 msgid "Select a Directory to Use for Tor Data"
-msgstr "Selecione um Diretório de Uso para os Dados do Tor"
+msgstr ""
 
 #: advancedpage.ui:48
 msgctxt "AdvancedPage"
 msgid "Authentication:"
-msgstr "Autenticação:"
+msgstr ""
 
 #: advancedpage.ui:58
 msgctxt "AdvancedPage"
@@ -181,25 +174,24 @@ msgstr "Endereço:"
 #: advancedpage.ui:91
 msgctxt "AdvancedPage"
 msgid "Cookie"
-msgstr "Cookie"
+msgstr ""
 
 #: advancedpage.ui:96
 msgctxt "AdvancedPage"
 msgid "Password"
-msgstr "Senha"
+msgstr ""
 
 #: advancedpage.ui:111
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
-msgstr "Gerar Randômicamente"
+msgstr ""
 
 #: advancedpage.ui:86
 msgctxt "AdvancedPage"
 msgid "None"
-msgstr "Nenhum"
+msgstr ""
 
 #: advancedpage.cpp:34
-#, fuzzy
 msgctxt "AdvancedPage"
 msgid "Advanced"
 msgstr "Avançado"
@@ -208,32 +200,31 @@ msgstr "Avançado"
 msgctxt "AdvancedPage"
 msgid "Start the Tor software with the specified configuration file (torrc)"
 msgstr ""
-"Iniciar o software Tor com o arquivo de configuração especificado(torrc)"
 
 #: advancedpage.ui:259
 msgctxt "AdvancedPage"
 msgid "Select path to your configuration file"
-msgstr "Selecione o caminho para o seu arquivo de configuração"
+msgstr ""
 
 #: advancedpage.ui:275
 msgctxt "AdvancedPage"
 msgid "Data Directory"
-msgstr "Diretório de Dados"
+msgstr ""
 
 #: advancedpage.ui:296
 msgctxt "AdvancedPage"
 msgid "Store data for the Tor software in the following directory"
-msgstr "Guardar dados do software Tor no seguinte diretório"
+msgstr ""
 
 #: advancedpage.ui:315
 msgctxt "AdvancedPage"
 msgid "Select the directory used to store data for the Tor software"
-msgstr "Selecione o diretório usado para guardar dados para o software Tor"
+msgstr ""
 
 #: advancedpage.ui:219
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
-msgstr "Arquivo de Configuração do Tor"
+msgstr ""
 
 #: appearancepage.ui:31
 msgctxt "AppearancePage"
@@ -248,8 +239,7 @@ msgstr "Escolha o idioma utilizado no Vidalia"
 #: appearancepage.ui:84
 msgctxt "AppearancePage"
 msgid "Changes to language will only take effect after restarting Vidalia!"
-msgstr ""
-"A modificação de idioma somente terá efeito após o Vidalia ser reiniciado!"
+msgstr "A modificação de idioma somente terá efeito após o Vidalia ser reiniciado!"
 
 #: appearancepage.ui:100
 msgctxt "AppearancePage"
@@ -262,7 +252,6 @@ msgid "Choose Vidalia's interface style"
 msgstr "Escolha o estilo de interface do Vidalia"
 
 #: appearancepage.cpp:23
-#, fuzzy
 msgctxt "AppearancePage"
 msgid "Appearance"
 msgstr "Aparência"
@@ -385,12 +374,12 @@ msgstr "Estado"
 #: circuitlistwidget.cpp:72
 msgctxt "CircuitListWidget"
 msgid "Zoom to Circuit"
-msgstr "Zoom no Circuito"
+msgstr ""
 
 #: circuitlistwidget.cpp:74
 msgctxt "CircuitListWidget"
 msgid "Close Circuit (Del)"
-msgstr "Fechar Ciruito (Del)"
+msgstr ""
 
 #: circuitlistwidget.cpp:95
 msgctxt "CircuitListWidget"
@@ -408,7 +397,6 @@ msgid "Advanced"
 msgstr "Avançado"
 
 #: configdialog.cpp:59
-#, fuzzy
 msgctxt "ConfigDialog"
 msgid "Cancel"
 msgstr "Cancelar"
@@ -454,7 +442,6 @@ msgid "Vidalia was unable to apply your %1 settings to Tor."
 msgstr ""
 
 #: configdialog.cpp:56
-#, fuzzy
 msgctxt "ConfigDialog"
 msgid "OK"
 msgstr "OK"
@@ -515,7 +502,6 @@ msgid "Executables (*.exe)"
 msgstr "Executáveis (*.exe)"
 
 #: generalpage.cpp:23
-#, fuzzy
 msgctxt "GeneralPage"
 msgid "General"
 msgstr "Geral"
@@ -561,10 +547,9 @@ msgid "Start the Tor software when Vidalia starts"
 msgstr ""
 
 #: generalpage.ui:38
-#, fuzzy
 msgctxt "GeneralPage"
 msgid "Tor Executable"
-msgstr "Executáveis (*.exe)"
+msgstr ""
 
 #: graphframe.cpp:237
 msgctxt "GraphFrame"
@@ -768,10 +753,7 @@ msgstr ""
 
 #: helptextbrowser.cpp:76
 msgctxt "HelpTextBrowser"
-msgid ""
-"Vidalia can open the link you selected in your default Web browser. If your "
-"browser is not currently configured to use Tor then the request will not be "
-"anonymous."
+msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
 msgstr ""
 
 #: helptextbrowser.cpp:78
@@ -786,9 +768,7 @@ msgstr ""
 
 #: helptextbrowser.cpp:90
 msgctxt "HelpTextBrowser"
-msgid ""
-"Vidalia was unable to open the selected link in your Web browser. You can "
-"still copy the URL and paste it into your browser."
+msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
 msgstr ""
 
 #: logevent.cpp:57
@@ -867,10 +847,9 @@ msgid "Ctrl+?"
 msgstr "Ctrl+?"
 
 #: mainwindow.cpp:411
-#, fuzzy
 msgctxt "MainWindow"
 msgid "File"
-msgstr "Falhou"
+msgstr "Arquivo"
 
 #: mainwindow.cpp:414
 msgctxt "MainWindow"
@@ -899,12 +878,8 @@ msgstr "Ctrl+N"
 
 #: mainwindow.cpp:834
 msgctxt "MainWindow"
-msgid ""
-"Vidalia was unable to start Tor. Check your settings to ensure the correct "
-"name and location of your Tor executable is specified."
-msgstr ""
-"O Vidalia foi incapaz de iniciar o Tor. Verifique suas configurações para "
-"garantir o nome e a localização correta do executável do Tor especificado."
+msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
+msgstr "O Vidalia foi incapaz de iniciar o Tor. Verifique suas configurações para garantir o nome e a localização correta do executável do Tor especificado."
 
 #: mainwindow.cpp:320
 msgctxt "MainWindow"
@@ -928,9 +903,7 @@ msgstr "Ctrl+I"
 
 #: mainwindow.cpp:1334
 msgctxt "MainWindow"
-msgid ""
-"All subsequent connections will appear to be different than your old "
-"connections."
+msgid "All subsequent connections will appear to be different than your old connections."
 msgstr "As novas conexões irão parecer diferentes das conexões antigas."
 
 #: mainwindow.cpp:1349
@@ -1075,9 +1048,7 @@ msgstr ""
 
 #: mainwindow.cpp:1271
 msgctxt "MainWindow"
-msgid ""
-"The currently installed version of Tor is out of date or no longer "
-"recommended. Please visit the Tor website to download the latest version."
+msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
 msgstr ""
 
 #: mainwindow.cpp:1271
@@ -1097,7 +1068,8 @@ msgstr ""
 
 #: mainwindow.cpp:641
 msgctxt "MainWindow"
-msgid "Your relay is shutting down.Click 'Stop' again to stop your relay now."
+msgid "Your relay is shutting down."
+"Click 'Stop' again to stop your relay now."
 msgstr ""
 
 #: mainwindow.cpp:878
@@ -1107,10 +1079,9 @@ msgstr ""
 
 #: mainwindow.cpp:915
 msgctxt "MainWindow"
-msgid ""
-"You are currently running a relay. Terminating your relay will interrupt any "
-"open connections from clients.Would you like to shutdown gracefully and give "
-"clients time to find a new relay?"
+msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients."
+""
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
 msgstr ""
 
 #: mainwindow.cpp:937
@@ -1130,16 +1101,14 @@ msgstr ""
 
 #: mainwindow.cpp:973
 msgctxt "MainWindow"
-msgid ""
-"Vidalia detected that the Tor software exited unexpectedly.Please check the "
-"message log for recent warning or error messages."
+msgid "Vidalia detected that the Tor software exited unexpectedly."
+""
+"Please check the message log for recent warning or error messages."
 msgstr ""
 
 #: mainwindow.cpp:1050
 msgctxt "MainWindow"
-msgid ""
-"The Tor software requires Vidalia to send the contents of an authentication "
-"cookie, but Vidalia was unable to find one."
+msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
 msgstr ""
 
 #: mainwindow.cpp:1059
@@ -1154,9 +1123,7 @@ msgstr ""
 
 #: mainwindow.cpp:1111
 msgctxt "MainWindow"
-msgid ""
-"Vidalia was unable to register for some events. Many of Vidalia's features "
-"may be unavailable."
+msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
 msgstr ""
 
 #: mainwindow.cpp:1160
@@ -1345,10 +1312,9 @@ msgid "Starting Tor"
 msgstr ""
 
 #: mainwindow.cpp:677
-#, fuzzy
 msgctxt "MainWindow"
 msgid "Tor is Running"
-msgstr "Não Rodando"
+msgstr ""
 
 #: mainwindow.cpp:868
 msgctxt "MainWindow"
@@ -1552,39 +1518,42 @@ msgstr "Ctrl+F"
 
 #: messagelog.cpp:137
 msgctxt "MessageLog"
-msgid ""
-"Messages that appear when something has gone very wrong and Tor cannot "
-"proceed."
-msgstr ""
-"Mensagens que aparecem quando algo muito errado ocorreu e que o Tor não pôde "
-"prosseguir."
+msgid "Messages that appear when something has "
+"gone very wrong and Tor cannot proceed."
+msgstr "Mensagens que aparecem quando algo "
+"muito errado ocorreu e que o Tor não pôde prosseguir."
 
 #: messagelog.cpp:139
 msgctxt "MessageLog"
-msgid "Messages that only appear when something has gone wrong with Tor."
-msgstr ""
-"Mensagens que somente aparecem quando algo ocorreu de errado com o Tor."
+msgid "Messages that only appear when "
+"something has gone wrong with Tor."
+msgstr "Mensagens que somente aparecem "
+"quando algo ocorreu de errado com o Tor."
 
 #: messagelog.cpp:143
 msgctxt "MessageLog"
-msgid ""
-"Messages that appear infrequently during normal Tor operation and are not "
-"considered errors, but you may care about."
-msgstr ""
-"Mensangens que aparecem ocasionalmente durante a operação normal do Tor e "
-"que não são consideradas erros, mas que você pode se interessar."
+msgid "Messages that appear infrequently "
+"during normal Tor operation and are "
+"not considered errors, but you may "
+"care about."
+msgstr "Mensangens que aparecem ocasionalmente "
+"durante a operação normal do Tor e que "
+"não são consideradas erros, mas que você "
+"pode se interessar."
 
 #: messagelog.cpp:145
 msgctxt "MessageLog"
-msgid "Messages that appear frequently during normal Tor operation."
-msgstr ""
-"Mensagens que aparecem frequentemente durante a operação normal do Tor."
+msgid "Messages that appear frequently "
+"during normal Tor operation."
+msgstr "Mensagens que aparecem frequentemente "
+"durante a operação normal do Tor."
 
 #: messagelog.cpp:147
 msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of interest to Tor developers."
-msgstr ""
-"Mensagens hiper detalhadas principalmente para os desenvolvedores do Tor."
+msgid "Hyper-verbose messages primarily of "
+"interest to Tor developers."
+msgstr "Mensagens hiper detalhadas principalmente "
+"para os desenvolvedores do Tor."
 
 #: messagelog.cpp:192
 msgctxt "MessageLog"
@@ -1663,8 +1632,12 @@ msgstr "O Vidalia foi incapaz de registrar os eventos de log do Tor."
 
 #: messagelog.cpp:313
 msgctxt "MessageLog"
-msgid "Cannot write file %1%2."
-msgstr "Não foi possível gravar o arquivo %1%2."
+msgid "Cannot write file %1"
+""
+"%2."
+msgstr "Não foi possível gravar o arquivo %1"
+""
+"%2."
 
 #: messagelog.cpp:209
 msgctxt "MessageLog"
@@ -1689,9 +1662,7 @@ msgstr "O Nome do Arquivo de Log é Requerido"
 #: messagelog.cpp:232
 msgctxt "MessageLog"
 msgid "You must enter a filename to be able to save log messages to a file."
-msgstr ""
-"Você deve entrar com um nome de arquivo para ser capaz de salvar o log de "
-"mensagens para um arquivo."
+msgstr "Você deve entrar com um nome de arquivo para ser capaz de salvar o log de mensagens para um arquivo."
 
 #: messagelog.ui:297
 msgctxt "MessageLog"
@@ -1716,8 +1687,7 @@ msgstr "Sempre Salvar Novas Mensagens de Log"
 #: messagelog.ui:394
 msgctxt "MessageLog"
 msgid "Enable automatically saving all new log messages to a file"
-msgstr ""
-"Habilitar o salvamento automatico de todas as mensagens de log para arquivo"
+msgstr "Habilitar o salvamento automatico de todas as mensagens de log para arquivo"
 
 #: messagelog.ui:397
 msgctxt "MessageLog"
@@ -1825,10 +1795,9 @@ msgid "Refresh the list of Tor relays and connections"
 msgstr ""
 
 #: networkpage.cpp:34
-#, fuzzy
 msgctxt "NetworkPage"
 msgid "Network"
-msgstr "Mapa da Rede"
+msgstr ""
 
 #: networkpage.cpp:186
 msgctxt "NetworkPage"
@@ -1847,16 +1816,12 @@ msgstr ""
 
 #: networkpage.cpp:265
 msgctxt "NetworkPage"
-msgid ""
-"You must specify both an IP address or hostname and a port number to "
-"configure Tor to use a proxy to access the Internet."
+msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
 msgstr ""
 
 #: networkpage.cpp:271
 msgctxt "NetworkPage"
-msgid ""
-"You must specify one or more ports to which your firewall allows you to "
-"connect."
+msgid "You must specify one or more ports to which your firewall allows you to connect."
 msgstr ""
 
 #: networkpage.cpp:307
@@ -1956,9 +1921,7 @@ msgstr ""
 
 #: networkpage.ui:235
 msgctxt "NetworkPage"
-msgid ""
-"Check to encrypt directory requests and, optionally, use bridge relays to "
-"access the Tor network"
+msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
 msgstr ""
 
 #: networkpage.ui:262
@@ -1968,9 +1931,7 @@ msgstr ""
 
 #: networkpage.ui:274
 msgctxt "NetworkPage"
-msgid ""
-"The Tor software you are currently running does not support bridges. "
-"<br>Directory connections will still be encrypted."
+msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
 msgstr ""
 
 #: policy.cpp:167
@@ -2155,12 +2116,8 @@ msgstr "Limites de Largura de Banda"
 
 #: serverpage.ui:435
 msgctxt "ServerPage"
-msgid ""
-"For Internet connections with fast download speed but slow upload, please "
-"list your upload speed here."
-msgstr ""
-"Para conexões de internet de alta velocidade de download mas baixa de "
-"upload, por favor liste sua velocidade de upload aqui."
+msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
+msgstr "Para conexões de internet de alta velocidade de download mas baixa de upload, por favor liste sua velocidade de upload aqui."
 
 #: serverpage.ui:456
 msgctxt "ServerPage"
@@ -2254,9 +2211,7 @@ msgstr "Sítios Web"
 
 #: serverpage.ui:737
 msgctxt "ServerPage"
-msgid ""
-"Your maximum bandwidth rate must be greater than or equal to your average "
-"bandwidth rate. Both values must be at least 20 KB/s."
+msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
 msgstr ""
 
 #: serverpage.cpp:68
@@ -2271,16 +2226,12 @@ msgstr ""
 
 #: serverpage.cpp:136
 msgctxt "ServerPage"
-msgid ""
-"You have configured Tor to act as a bridge relay for censored users, but "
-"your version of Tor does not support bridges."
+msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
 msgstr ""
 
 #: serverpage.cpp:138
 msgctxt "ServerPage"
-msgid ""
-"Please upgrade your Tor software or configure Tor to act as a normal Tor "
-"relay."
+msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
 msgstr ""
 
 #: serverpage.cpp:256
@@ -2295,9 +2246,8 @@ msgstr ""
 
 #: serverpage.ui:204
 msgctxt "ServerPage"
-msgid ""
-"Email address at which you may be reached if there is aproblem with your "
-"relay. You might also include your PGP or GPG fingerprint."
+msgid "Email address at which you may be reached if there is a"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
 msgstr ""
 
 #: serverpage.ui:113
@@ -2332,8 +2282,7 @@ msgstr ""
 
 #: serverpage.ui:1029
 msgctxt "ServerPage"
-msgid ""
-"This is the identity of your bridge relay that you can give to other people"
+msgid "This is the identity of your bridge relay that you can give to other people"
 msgstr ""
 
 #: serverpage.ui:1051
@@ -2344,9 +2293,7 @@ msgstr ""
 #: serverpage.ui:841
 msgctxt "ServerPage"
 msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
-msgstr ""
-"Portas 706, 1863, 5050, 5190, 5222, 8300 e 8888 {706, 1863, 5050, 5190, "
-"5222, 5223, 8300 ?}"
+msgstr "Portas 706, 1863, 5050, 5190, 5222, 8300 e 8888 {706, 1863, 5050, 5190, 5222, 5223, 8300 ?}"
 
 #: serverpage.ui:25
 msgctxt "ServerPage"
@@ -2475,9 +2422,7 @@ msgstr ""
 
 #: servicepage.cpp:116
 msgctxt "ServicePage"
-msgid ""
-"Please configure at least a service directory and a virtual port for each "
-"service you want to save. Remove the other ones."
+msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
 msgstr ""
 
 #: stream.cpp:118
@@ -2653,7 +2598,7 @@ msgstr "Mostrar o Log"
 #: vmessagebox.cpp:84
 msgctxt "VMessageBox"
 msgid "Show Settings"
-msgstr "Mostrar Configurações"
+msgstr "Mostrar as Configurações"
 
 #: vmessagebox.cpp:85
 msgctxt "VMessageBox"
@@ -2687,10 +2632,9 @@ msgstr "O Vidalia já se encontra em execução"
 
 #: main.cpp:94
 msgctxt "Vidalia"
-msgid ""
-"Another Vidalia process is possibly already running. If there really is not "
-"another Vidalia process running, you can choose to continue anyway.Would you "
-"like to continue starting Vidalia?"
+msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway."
+""
+"Would you like to continue starting Vidalia?"
 msgstr ""
 
 #: main.cpp:74
@@ -2721,34 +2665,35 @@ msgstr ""
 #: vidalia.cpp:174
 msgctxt "Vidalia"
 msgid "Sets the name and location of Vidalia's logfile."
-msgstr "Indicar o nome e caminho do arquivo de log do Vidalia."
+msgstr ""
 
 #: vidalia.cpp:177
 msgctxt "Vidalia"
 msgid "Sets the verbosity of Vidalia's logging."
-msgstr "Indicar a verbosidade dos logs do Vidalia."
+msgstr ""
 
 #: vidalia.cpp:180
 msgctxt "Vidalia"
 msgid "Sets Vidalia's interface style."
-msgstr "Selecionar estilo da interface do Vidalia."
+msgstr ""
 
 #: vidalia.cpp:183
 msgctxt "Vidalia"
 msgid "Sets Vidalia's language."
-msgstr "Selecionar Idioma do Vidalia."
+msgstr ""
 
 #: vidalia.cpp:187
 msgctxt "Vidalia"
 msgid "Vidalia Usage Information"
-msgstr "Informação de Uso do Vidalia"
+msgstr ""
 
 #: vidalia.cpp:248
 msgctxt "Vidalia"
 msgid "Invalid log level specified: "
-msgstr "O nível de log especificado é inválido:"
+msgstr ""
 
 #: vidalia.cpp:254
 msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
-msgstr "Não foi possível abrir o arquivo de log '%1': %2"
+msgstr ""
+
