@@ -39,6 +39,7 @@ Privoxy
    to specify it in Step 8.
 
 
+
 Tor
 8. Download and extract the latest Tor source from
    https://www.torproject.org/download
@@ -49,9 +50,12 @@ Tor
 9. Configure Tor with the following:
    ./configure --prefix=/Library/Tor --bindir=/Library/Tor --sysconfdir=/Library
 
+
 Vidalia
 10. Configure Vidalia with the following:
-      cmake -DOSX_FAT_BINARY=1 . 
+
+      export MACOSX_DEPLOYMENT_TARGET=10.4
+      cmake -DOSX_FAT_BINARY=1 -DCMAKE_OSX_SYSROOT=/Developer/SDKs/MacOSX10.4u.sdk  . 
 
    The Vidalia binary on OS X links to Qt statically, so you will need to have
    your Qt installation configured appropriately.
