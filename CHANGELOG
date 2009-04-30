@@ -6,6 +6,10 @@
     run on system startup. Patch by Steve Tyree. (Ticket #247)
   o Fix a bug that prevented the control panel from displaying when
     running on the Enlightenment window manager. Patch by Steve Tyree.
+  o Rename the CMake variables used to store the location of Qt's lupdate
+    and lrelease executables. Recent versions of CMake decided to use the
+    same variable name, which was stomping on mine, resulting in the wrong
+    lupdate and lrelease executables being used.
 
 
 0.1.12  16-Mar-2009
