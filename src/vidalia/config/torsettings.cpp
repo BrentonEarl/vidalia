@@ -16,6 +16,7 @@
 
 #include <QDir>
 #include <QProcess>
+#include <torprocess.h>
 #include <crypto.h>
 #include <vidalia.h>
 
@@ -299,7 +300,7 @@ QString
 TorSettings::hashPassword(const QString &password)
 {
   TorSettings settings;
-  QProcess tor;
+  TorProcess tor;
   QString dataDirectory, line;
   QStringList args;
 

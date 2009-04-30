@@ -10,6 +10,9 @@
     and lrelease executables. Recent versions of CMake decided to use the
     same variable name, which was stomping on mine, resulting in the wrong
     lupdate and lrelease executables being used.
+  o Use the TorProcess subclass of QProcess for launching Tor when hashing
+    a control password so we can take advantage of its PATH+=:/usr/sbin
+    trick on Debian there too.
 
 
 0.1.12  16-Mar-2009
