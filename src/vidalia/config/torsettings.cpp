@@ -16,7 +16,6 @@
 
 #include <QDir>
 #include <QProcess>
-#include <torprocess.h>
 #include <crypto.h>
 #include <vidalia.h>
 
@@ -300,9 +299,20 @@ QString
 TorSettings::hashPassword(const QString &password)
 {
   TorSettings settings;
-  TorProcess tor;
+  QProcess tor;
   QString dataDirectory, line;
   QStringList args;
+
+  QStringList env = QProcess::systemEnvironment();
+#if !defined(Q_OS_WIN32)
+  /* Add "/usr/sbin" to an existing $PATH, so this works on Debian too. */
+  for (int i = 0; i < env.size(); i++) {
+    QString envVar = env.at(i);
+    if (envVar.startsWith("PATH="))
+      env.replace(i, envVar += ":/usr/sbin");
+  }
+#endif
+  tor.setEnvironment(env);
 
   /* Tor writes its state file even if all we're doing is --hash-password. So
    * if the user has configured a non-default data directory, then include
