@@ -2,7 +2,7 @@
   o Remove an old warning on the relay settings page that running a bridge
     relay requires Tor 0.2.0.8-alpha or newer.
   o Add a workaround for a bug that prevented Vidalia's tray icon from
-    getting adding to the system notification area on Gnome when Vidalia was
+    getting added to the system notification area on Gnome when Vidalia was
     run on system startup. Patch by Steve Tyree. (Ticket #247)
   o Fix a bug that prevented the control panel from displaying when
     running on the Enlightenment window manager. Patch by Steve Tyree.
@@ -13,6 +13,8 @@
   o Use the TorProcess subclass of QProcess for launching Tor when hashing
     a control password so we can take advantage of its PATH+=:/usr/sbin
     trick on Debian there too.
+  o If a RouterDescriptor object is empty, don't try to display it in the
+    router descriptor details viewer. (Ticket #479)
 
 
 0.1.12  16-Mar-2009
