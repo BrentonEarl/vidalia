@@ -15,6 +15,11 @@
     trick on Debian there too.
   o If a RouterDescriptor object is empty, don't try to display it in the
     router descriptor details viewer. (Ticket #479)
+  o Wait until Vidalia has registered for log events via the control port
+    before ignoring Tor's output on stdout. Previously we would start
+    ignoring Tor's stdout after successfully authenticating, but before
+    registering for log events which, in some cases, could lead to
+    messages not appearing in the message log.
 
 
 0.1.12  16-Mar-2009
