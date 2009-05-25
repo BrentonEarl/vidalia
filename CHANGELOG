@@ -1,4 +1,4 @@
-0.1.13  xx-xxx-2009
+0.1.13  25-May-2009
   o Remove an old warning on the relay settings page that running a bridge
     relay requires Tor 0.2.0.8-alpha or newer.
   o Add a workaround for a bug that prevented Vidalia's tray icon from
@@ -20,6 +20,8 @@
     ignoring Tor's stdout after successfully authenticating, but before
     registering for log events which, in some cases, could lead to
     messages not appearing in the message log.
+  o Update many translations and remove others than are no longer
+    up-to-date enough to be useful.
 
 
 0.1.12  16-Mar-2009
