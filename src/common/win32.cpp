@@ -153,7 +153,8 @@ win32_registry_remove_key(QString keyLocation, QString keyName)
 /**
  * Callback for EnumThreadWindows which sends the WM_QUIT message
  */
-BOOL CALLBACK quitWindowCallback(HWND hwnd, LPARAM targetPID)
+BOOL CALLBACK 
+quitWindowCallback(HWND hwnd, LPARAM targetPID)
 {
   DWORD hwndPID = 0;
 
@@ -162,6 +163,7 @@ BOOL CALLBACK quitWindowCallback(HWND hwnd, LPARAM targetPID)
   GetWindowThreadProcessId(hwnd, &hwndPID);
   if (hwndPID == (DWORD)targetPID)
     PostMessage(hwnd, WM_QUIT, 0, (LPARAM)NULL);
+  return TRUE;
 }
 
 /**
