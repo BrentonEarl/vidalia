@@ -7,7 +7,7 @@
 TARGET=$2/Library/Tor
 TORDIR=$TARGET/var/lib/tor
 LOGFILE=/var/log/tor.log
-TORBUTTON_VERSION="1.2.0-fx"
+TORBUTTON_VERSION="1.2.1-fx"
 
 # Check defaults for TARGET
 if [ "$TARGET" == "//Library/Tor" ]; then
@@ -72,6 +72,6 @@ fi
 
 if [ -f /Applications/Firefox.app/Contents/MacOS/firefox ]; then
   if [ -f /Library/Torbutton/torbutton-$TORBUTTON_VERSION.xpi ]; then
-      su $USER /Applications/Firefox.app/Contents/MacOS/firefox /Library/Torbutton/torbutton-$TORBUTTON_VERSION.xpi
+      su $USER /Applications/Firefox.app/Contents/MacOS/firefox-bin /Library/Torbutton/torbutton-$TORBUTTON_VERSION.xpi
   fi
 fi
