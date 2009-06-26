@@ -1,3 +1,11 @@
+0.1.14  xx-xxx-2009
+  o Close the TorProcess more quickly after registering for log events, so
+    we avoid displaying duplicate log messages received over Tor's control
+    port and Tor's stdout log. (Ticket #484)
+  o Explicitly set CMAKE_OSX_SYSROOT to the 10.4 SDK rather than expecting
+    the packager to do so when building a Universal binary.
+
+
 0.1.13  25-May-2009
   o Remove an old warning on the relay settings page that running a bridge
     relay requires Tor 0.2.0.8-alpha or newer.
