@@ -4,6 +4,7 @@
     port and Tor's stdout log. (Ticket #484)
   o Explicitly set CMAKE_OSX_SYSROOT to the 10.4 SDK rather than expecting
     the packager to do so when building a Universal binary.
+  o Include Tor's geoip file in the Windows bundles.
 
 
 0.1.13  25-May-2009
