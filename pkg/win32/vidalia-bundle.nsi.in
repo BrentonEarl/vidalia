@@ -147,7 +147,6 @@ Page custom FirefoxWarningPage
 ;--------------------------------
 ; Vidalia
 Var configfile
-Var torgeoipfile
 var bInstallVidalia
 SectionGroup "${VIDALIA_DESC}" VidaliaGroup
     ;--------------------------------
@@ -179,10 +178,6 @@ SectionGroup "${VIDALIA_DESC}" VidaliaGroup
       SetOutPath "$APPDATA\Vidalia"
       File "@Vidalia_SOURCE_DIR@\pkg\geoip-cache"
 
-      ; Include tor's geoip file, too
-      StrCpy $torgeoipfile "geoip"
-      File /oname=$torgeoipfile "@TOR_PACKAGE_DIR@\geoip"
-      
       ;If there's already a torrc config file, ask if they want to
       ;overwrite it with the new one.
       StrCpy $configfile "torrc"
@@ -260,12 +255,11 @@ SectionGroup "${TOR_DESC}" TorGroup
        IntOp $0 $0 & ${SF_SELECTED}
        IntCmp $0 ${SF_SELECTED} skiptorrc
 
-       ; Include tor's geoip file, too
-       StrCpy $torgeoipfile "geoip"
-       File /oname=$torgeoipfile "@TOR_PACKAGE_DIR@\geoip"
-
        StrCpy $configfile "torrc"
        SetOutPath "$APPDATA\Tor"
+
+       ; Include tor's geoip file, too
+       File "@TOR_PACKAGE_DIR@\geoip"
 
        ; If there's already a torrc config file, ask if they want to
        ; overwrite it with the new one.
@@ -328,7 +322,6 @@ SectionGroup "${TOR_DESC}" TorGroup
           goto torrc_shortcut
         use_tor_torrc:
           StrCpy $configfile "$APPDATA\Tor\torrc"
-          StrCpy $torgeoipfile "$APPDATA\Tor\geoip"
         torrc_shortcut:
           SetShellVarContext all
           CreateShortCut  "${SHORTCUTS}\Tor\Torrc.lnk" "Notepad.exe" $configfile
