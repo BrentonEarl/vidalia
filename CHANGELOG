@@ -1,4 +1,4 @@
-0.1.14  xx-xxx-2009
+0.1.14  29-Jun-2009
   o Close the TorProcess more quickly after registering for log events, so
     we avoid displaying duplicate log messages received over Tor's control
     port and Tor's stdout log. (Ticket #484)
