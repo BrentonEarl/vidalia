@@ -1,3 +1,7 @@
+0.1.15  09-Jul-2009
+  o Include libeay32.dll in the Windows installers.
+
+
 0.1.14  29-Jun-2009
   o Close the TorProcess more quickly after registering for log events, so
     we avoid displaying duplicate log messages received over Tor's control
