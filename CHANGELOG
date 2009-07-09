@@ -1,5 +1,7 @@
 0.1.15  09-Jul-2009
   o Include libeay32.dll in the Windows installers.
+  o Remove USE_QSSLSOCKET as a build option. If your Qt doesn't support
+    OpenSSL, then you don't get GeoIP lookups.
 
 
 0.1.14  29-Jun-2009

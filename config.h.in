@@ -1,5 +1,5 @@
 /*
-**  $Id: $
+**  $Id$
 ** 
 **  This file is part of Vidalia, and is subject to the license terms in the 
 **  LICENSE file, found in the top level directory of this distribution. If  
@@ -15,10 +15,6 @@
 #define _CONFIG_H
 
 #define VIDALIA_VERSION    "@VERSION@"
-
-#cmakedefine HAVE_QSSLSOCKET_H
-
-#cmakedefine USE_QSSLSOCKET
 
 #cmakedefine HAVE_LIMITS_H
 

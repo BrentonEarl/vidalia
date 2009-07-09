@@ -19,16 +19,12 @@
 #include "geoipresolver.h"
 #include "config.h"
 
-#if defined(USE_QSSLSOCKET)
 #include <torsslsocket.h>
-#endif
 
 /** Host for the geo ip information. */ 
 #define GEOIP_HOST    "geoip.vidalia-project.net"
-/** The non-encrypted GeoIP service lives on port 80. */
-#define GEOIP_PORT      80
-/** The SSL GeoIP service runs on port 1443 (443 was taken). */
-#define GEOIP_SSL_PORT  1443
+/** The SSL GeoIP service lives on port 1443. */
+#define GEOIP_SSL_PORT      1443
 /** Page that we request the geo ip information from. */
 #define GEOIP_PAGE    "/cgi-bin/geoip"
 
@@ -39,11 +35,9 @@ GeoIpResolver::GeoIpResolver()
   _socksAddr = QHostAddress::LocalHost;
   _socksPort = 9050;
 
-#if defined(USE_QSSLSOCKET)
   if (! QSslSocket::addDefaultCaCertificates(":/geoip/cacert_root.crt"))
     vWarn("Failed to add the GeoIP CA certificate to the default CA "
           "certificate database.");
-#endif
 }
 
 /** Sets the address and port of Tor, through which GeoIP requests will be
@@ -226,11 +220,7 @@ GeoIpResolver::resolve(QList<QHostAddress> ips)
   }
 
   /* Create a socket used to request the geo ip information. */
-#if defined(USE_QSSLSOCKET)
   TorSslSocket *socket = new TorSslSocket(_socksAddr, _socksPort);
-#else
-  TorSocket *socket = new TorSocket(_socksAddr, _socksPort);
-#endif
 
   connect(socket, SIGNAL(connectedToRemoteHost()), this, SLOT(connected()),
           Qt::QueuedConnection);
@@ -243,21 +233,10 @@ GeoIpResolver::resolve(QList<QHostAddress> ips)
   _requestList.insert(socket, request);
   
   /* Connect so we can send our request and return the request ID. */
-#if defined(USE_QSSLSOCKET)
-  if (TorSslSocket::supportsSsl()) {
-    vInfo("Opening an SSL connection to the GeoIP host at %1:%2 (request id %3)")
-                          .arg(GEOIP_HOST).arg(GEOIP_SSL_PORT).arg(request->id());
-    socket->connectToRemoteHost(GEOIP_HOST, GEOIP_SSL_PORT, true);
-  } else {
-    vInfo("Opening an unencrypted connection to the GeoIP host at %1:%2 "
-          "(request id %3)").arg(GEOIP_HOST).arg(GEOIP_PORT).arg(request->id());
-    socket->connectToRemoteHost(GEOIP_HOST, GEOIP_PORT, false);
-  }
-#else
-  vInfo("Opening an unencrypted connection to the GeoIP host at %1:%2 "
-        "(request id %3)").arg(GEOIP_HOST).arg(GEOIP_PORT).arg(request->id());
-  socket->connectToRemoteHost(GEOIP_HOST, GEOIP_PORT);
-#endif
+  vInfo("Opening an SSL connection to the GeoIP host at %1:%2 (request id %3)")
+                        .arg(GEOIP_HOST).arg(GEOIP_SSL_PORT).arg(request->id());
+  socket->connectToRemoteHost(GEOIP_HOST, GEOIP_SSL_PORT, true);
+
   return request->id();
 }
 

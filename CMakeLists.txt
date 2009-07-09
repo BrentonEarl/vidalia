@@ -13,8 +13,8 @@
 
 set(VER_MAJOR   "0")
 set(VER_MINOR   "1")
-set(VER_PATCH   "14")
-set(VERSION     "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}")
+set(VER_PATCH   "15")
+set(VERSION     "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}-svn")
 message(STATUS  "Configuring Vidalia ${VERSION}")
 project(Vidalia)
 
@@ -25,8 +25,8 @@ if (COMMAND cmake_policy)
   cmake_policy(SET CMP0003 OLD)
 endif(COMMAND cmake_policy)
 
-## Require Qt >= 4.2.0
-set(QT_MIN_VERSION    "4.2.0")
+## Require Qt >= 4.3.0
+set(QT_MIN_VERSION    "4.3.0")
 
 ## Specify the Qt libraries used
 include(FindQt4)
@@ -39,6 +39,9 @@ include(CheckIncludeFile)
 include(CheckIncludeFileCXX)
 include(CheckTypeSize)
 include(CPack)
+if (MSVC OR UNIX)
+  include(${CMAKE_SOURCE_DIR}/cmake/FindOpenSSL.cmake)
+endif(MSVC OR UNIX)
 
 if(MSVC_IDE)
     set(CMAKE_SUPPRESS_REGENERATION TRUE)
@@ -58,21 +61,6 @@ if (APPLE)
         CACHE STRING "isysroot used for universal binary support" FORCE)
   endif(OSX_FAT_BINARY)
 endif(APPLE)
-
-## Check for QSslSocket
-set(CMAKE_REQUIRED_INCLUDES ${CMAKE_REQUIRED_INCLUDES} ${QT_INCLUDES})
-check_include_file_cxx("qsslsocket.h" HAVE_QSSLSOCKET_H)
-if (HAVE_QSSLSOCKET_H)
-  check_symbol_exists(QT_NO_OPENSSL "QtGlobal" QT_NO_SSL_SUPPORT)
-  if (NOT QT_NO_SSL_SUPPORT)
-    option(USE_QSSLSOCKET "Use Qt's QSslSocket for GeoIP lookups." ON)
-  endif(NOT QT_NO_SSL_SUPPORT)
-endif(HAVE_QSSLSOCKET_H)
-if (USE_QSSLSOCKET)
-  if (MSVC OR UNIX)
-    include(${CMAKE_SOURCE_DIR}/cmake/FindOpenSSL.cmake)
-  endif(MSVC OR UNIX)
-endif(USE_QSSLSOCKET)
 
 ## UPnP support is currently optional (enabled by default)
 option(USE_MINIUPNPC "Enable UPnP support using the MiniUPnPc library." ON)
