@@ -29,7 +29,7 @@
 
 /** Constructor. Parses the response data for an HTTP header and Geo IP
  * information. */
-GeoIpResponse::GeoIpResponse(QByteArray response)
+GeoIpResponse::GeoIpResponse(const QByteArray &response)
 {
   QString errmsg;
   
@@ -94,7 +94,7 @@ GeoIpResponse::GeoIpResponse(QByteArray response)
 /** Decodes a <b>chunked</b> transfer encoding. Returns the unchunked 
  * result on success, or an empty QByteArray if decoding fails. */
 QByteArray
-GeoIpResponse::decodeChunked(QByteArray chunked)
+GeoIpResponse::decodeChunked(const QByteArray &chunked)
 {
   QByteArray unchunked;
   QString sizeString;

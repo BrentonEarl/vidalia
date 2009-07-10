@@ -29,19 +29,19 @@ class GeoIpResponse
 public:
   /** Constructor. Parses the response data for an HTTP header and Geo IP
    * information.  */
-  GeoIpResponse(QByteArray response);
+  GeoIpResponse(const QByteArray &response);
 
   /** Returns the HTTP status code for this response. */
-  int statusCode() { return _header.statusCode(); }
+  int statusCode() const { return _header.statusCode(); }
   /** Returns the HTTP status message for this response. */
-  QString statusMessage() { return _header.reasonPhrase(); }
+  QString statusMessage() const { return _header.reasonPhrase(); }
   /** Returns the Geo IP information contained in this response. */
-  QList<GeoIp> geoIps() { return _geoips; }
+  QList<GeoIp> geoIps() const { return _geoips; }
   
 private:
   /** Decodes a <b>chunked</b> transfer encoding. Returns the unchunked 
    * result on success, or an empty QByteArray if decoding fails. */
-  QByteArray decodeChunked(QByteArray chunked);
+  static QByteArray decodeChunked(const QByteArray &chunked);
   
   QHttpResponseHeader _header; /**< HTTP response header. */
   QList<GeoIp> _geoips;        /**< Geo IP information in this response. */
