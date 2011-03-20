@@ -14,7 +14,7 @@
 set(VER_MAJOR   "0")
 set(VER_MINOR   "2")
 set(VER_PATCH   "11")
-set(VERSION     "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}-svn")
+set(VERSION     "${VER_MAJOR}.${VER_MINOR}.${VER_PATCH}")
 message(STATUS  "Configuring Vidalia ${VERSION}")
 project(Vidalia)
 
@@ -52,9 +52,9 @@ include(CheckFunctionExists)
 if (WIN32)
   include(${CMAKE_SOURCE_DIR}/cmake/FindWiX.cmake)
 endif(WIN32)
-if (MSVC OR UNIX)
+if (MSVC)
   include(${CMAKE_SOURCE_DIR}/cmake/FindOpenSSL.cmake)
-endif(MSVC OR UNIX)
+endif(MSVC)
 
 if(MSVC_IDE)
     set(CMAKE_SUPPRESS_REGENERATION TRUE)
@@ -89,6 +89,9 @@ if (APPLE)
         CACHE STRING "Flags used by the linker." FORCE)
   endif(OSX_FORCE_32BIT)
 endif(APPLE)
+
+## Define if compiled with Windows 2k support
+option(WIN2K "Enable Windows 2k support." OFF)
 
 ## UPnP support is currently optional (enabled by default)
 option(USE_MINIUPNPC "Enable UPnP support using the MiniUPnPc library." ON)
