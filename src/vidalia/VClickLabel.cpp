@@ -24,6 +24,7 @@ VClickLabel::VClickLabel(QWidget *parent)
  : QWidget(parent)
 {
   setCursor(Qt::PointingHandCursor);
+  _flashToggle = false;
 }
 
 /** Returns the current size hint for this widget's current contents. */
@@ -48,6 +49,17 @@ VClickLabel::paintEvent(QPaintEvent *e)
 {
   QPainter p(this);
   QRect rect = this->rect();
+
+  if(_flashToggle) {
+    p.setBrush(QColor(150,150,150));
+    rect.setX(rect.x()+1);
+    rect.setY(rect.y()+1);
+    rect.setWidth(rect.width());
+    rect.setHeight(rect.height());
+    p.drawRect(rect);
+  }
+
+  rect = this->rect();
 
   if (vApp->isLeftToRight()) {
     if (!_pixmap.isNull())
@@ -93,3 +105,16 @@ VClickLabel::setPixmap(const QPixmap &pixmap)
   update();
 }
 
+void
+VClickLabel::enableFlashing()
+{
+  _flashToggle = true;
+  repaint();
+}
+
+void
+VClickLabel::disableFlashing()
+{
+  _flashToggle = false;
+  repaint();
+}

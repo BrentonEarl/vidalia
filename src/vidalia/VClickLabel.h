@@ -46,6 +46,12 @@ public:
   Q_PROPERTY(QString text READ text WRITE setText USER true);
   Q_PROPERTY(QPixmap pixmap READ pixmap WRITE setPixmap USER true);
 
+public slots:
+  /** Enables painting a different background color for this label */
+  void enableFlashing();
+  /** Disables the background color modification */
+  void disableFlashing();
+
 signals:
   /** Emitted when the widget is left-clicked. */
   void clicked();
@@ -59,6 +65,7 @@ protected:
 private:
   QString _text;    /**< Text label to display in the widget. */
   QPixmap _pixmap;  /**< Image to display in the widget. */
+  bool _flashToggle;/**< Bool toggle for flashing the button. */
 };
 
 #endif

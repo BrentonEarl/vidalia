@@ -105,6 +105,8 @@ MainWindow::MainWindow()
 
   ui.setupUi(this);
 
+  _warnTimer = new QTimer();
+
   /* Pressing 'Esc' or 'Ctrl+W' will close the window */
   Vidalia::createShortcut("Ctrl+W", this, ui.btnHide, SLOT(click()));
   Vidalia::createShortcut("Esc", this, ui.btnHide, SLOT(click()));
@@ -162,6 +164,8 @@ MainWindow::MainWindow()
           this, SLOT(circuitEstablished()));
   connect(_torControl, SIGNAL(dangerousPort(quint16, bool)),
           this, SLOT(warnDangerousPort(quint16, bool)));
+  connect(_torControl, SIGNAL(logMessage(tc::Severity, QString)),
+          this, SLOT(log(tc::Severity, QString)));
 
   /* Create a new HelperProcess object, used to start the web browser */
   _browserProcess = new HelperProcess(this);
@@ -185,6 +189,8 @@ MainWindow::MainWindow()
   /* Catch signals when the application is running or shutting down */
   connect(vApp, SIGNAL(running()), this, SLOT(running()));
   connect(vApp, SIGNAL(aboutToQuit()), this, SLOT(aboutToQuit()));
+
+  connect(_warnTimer, SIGNAL(timeout()), this, SLOT(warnButton()));
 
 #if defined(USE_AUTOUPDATE)
   /* Create a timer used to remind us to check for software updates */
@@ -229,6 +235,8 @@ MainWindow::MainWindow()
   /* Vidalia launched in background (LSUIElement=true). Bring to foreground. */
   VidaliaWindow::setVisible(true);
 #endif
+
+  _flashToggle = false;
 }
 
 /** Destructor. */
@@ -439,6 +447,10 @@ MainWindow::createActions()
           _messageLog, SLOT(showWindow()));
   connect(ui.lblMessageLog, SIGNAL(clicked()),
           _messageLog, SLOT(showWindow()));
+  connect(ui.lblMessageLog, SIGNAL(clicked()),
+          _warnTimer, SLOT(stop()));
+  connect(ui.lblMessageLog, SIGNAL(clicked()),
+          ui.lblMessageLog, SLOT(disableFlashing()));
 
   _actionShowNetworkMap = new QAction(tr("Network Map"), this);
   connect(_actionShowNetworkMap, SIGNAL(triggered()), 
@@ -2121,4 +2133,23 @@ MainWindow::updateBrowserEnv() {
   }
 
   return env;
+}
+
+void
+MainWindow::log(tc::Severity type, const QString &message)
+{
+  if(type == tc::WarnSeverity)
+    _warnTimer->start(1000);
+}
+
+void
+MainWindow::warnButton()
+{
+  if(_flashToggle) {
+    ui.lblMessageLog->enableFlashing();
+  } else {
+    ui.lblMessageLog->disableFlashing();
+  }
+
+  _flashToggle = !_flashToggle;
 }

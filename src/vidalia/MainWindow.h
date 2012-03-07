@@ -143,6 +143,11 @@ private slots:
                            const QString &version,
                            const QStringList &recommended);
 
+  /** Called when torControl emits logMessage() */
+  void log(tc::Severity type, const QString &message);
+  /** Toggles the color for the Message Log button */
+  void warnButton();
+
 #if defined(USE_AUTOUPDATE)
   /** Called when the user clicks the 'Check Now' button in the General
    * settings page. */
@@ -289,6 +294,10 @@ private:
   QAction* _actionNewIdentity;
 
   quint16 _autoControlPort;
+
+  /** Timer and bool used to flash buttons with a different color */
+  QTimer *_warnTimer;
+  bool _flashToggle;
 
   Ui::MainWindow ui; /**< Qt Designer generated object. */
 };
