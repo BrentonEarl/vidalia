@@ -312,7 +312,8 @@ void
 NetViewer::loadNetworkStatus()
 {
   NetworkStatus networkStatus = _torControl->getNetworkStatus();
-  foreach (RouterStatus rs, networkStatus) {
+  
+  foreach(RouterStatus rs, networkStatus) {
     if (!rs.isRunning())
       continue;
 
