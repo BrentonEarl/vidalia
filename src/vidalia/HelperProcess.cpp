@@ -137,14 +137,19 @@ HelperProcess::isDone() const
 void
 HelperProcess::toForeground()
 {
-#if defined(Q_WS_MAC) 
+#if defined(Q_WS_MAC)
+  if(state() != QProcess::Running)
+    return;
+
   ProcessSerialNumber psn;
   OSStatus st;
 
   do {
     st = GetProcessForPID(pid(), &psn);
-  } while(st == -600);
+    QCoreApplication::processEvents();
+  } while(st == procNotFound and state() == QProcess::Running);
 
-  SetFrontProcess(&psn);
-#endif 
+  if(st != procNotFound)
+    SetFrontProcess(&psn);
+#endif
 }
