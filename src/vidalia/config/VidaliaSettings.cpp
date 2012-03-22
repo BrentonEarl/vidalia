@@ -29,8 +29,12 @@
 #define SETTING_RUN_TOR_AT_START    "RunTorAtStart"
 #define SETTING_DATA_DIRECTORY      "DataDirectory"
 #define SETTING_SHOW_MAINWINDOW_AT_START  "ShowMainWindowAtStart"
-#define SETTING_BROWSER_EXECUTABLE  "BrowserExecutable"
-#define SETTING_BROWSER_DIRECTORY   "BrowserDirectory"
+#define SETTING_BROWSER_EXECUTABLE        "BrowserExecutable"
+#define SETTING_BROWSER_DIRECTORY         "BrowserDirectory"
+#define SETTING_PROFILE_DIRECTORY          "ProfileDirectory"
+#define SETTING_DEFAULT_PROFILE_DIRECTORY  "DefaultProfileDirectory"
+#define SETTING_PLUGINS_DIRECTORY          "PluginsDirectory"
+#define SETTING_DEFAULT_PLUGINS_DIRECTORY  "DefaultPluginsDirectory"
 #define SETTING_IM_EXECUTABLE       "IMExecutable"
 #define SETTING_RUN_PROXY_AT_START  "RunProxyAtStart"
 #define SETTING_PROXY_EXECUTABLE    "ProxyExecutable"
@@ -86,6 +90,11 @@ VidaliaSettings::VidaliaSettings()
   setDefault(SETTING_LOCAL_GEOIP_DATABASE, "");
   setDefault(SETTING_ICON_PREF, Both);
   setDefault(SETTING_SKIP_VERSION_CHECK, false);
+
+  setDefault(SETTING_PROFILE_DIRECTORY, "");
+  setDefault(SETTING_DEFAULT_PROFILE_DIRECTORY, "");
+  setDefault(SETTING_PLUGINS_DIRECTORY, "");
+  setDefault(SETTING_DEFAULT_PLUGINS_DIRECTORY, "");
 }
 
 /** Gets the currently preferred language code for Vidalia. */
@@ -362,4 +371,52 @@ bool
 VidaliaSettings::skipVersionCheck() const
 {
   return value(SETTING_SKIP_VERSION_CHECK).toBool();
+}
+
+QString
+VidaliaSettings::getDefaultProfileDirectory() const
+{
+  return QDir::convertSeparators(value(SETTING_DEFAULT_PROFILE_DIRECTORY).toString());
+}
+
+void
+VidaliaSettings::setDefaultProfileDirectory(const QString &dir)
+{
+  setValue(SETTING_DEFAULT_PROFILE_DIRECTORY, dir);
+}
+
+QString
+VidaliaSettings::getProfileDirectory() const
+{
+  return QDir::convertSeparators(value(SETTING_PROFILE_DIRECTORY).toString());
+}
+
+void
+VidaliaSettings::setProfileDirectory(const QString &dir)
+{
+  setValue(SETTING_PROFILE_DIRECTORY, dir);
+}
+
+QString
+VidaliaSettings::getPluginsDirectory() const
+{
+  return QDir::convertSeparators(value(SETTING_PLUGINS_DIRECTORY).toString());
+}
+
+void
+VidaliaSettings::setPluginsDirectory(const QString &dir)
+{
+  setValue(SETTING_PLUGINS_DIRECTORY, dir);
+}
+
+QString
+VidaliaSettings::getDefaultPluginsDirectory() const
+{
+  return QDir::convertSeparators(value(SETTING_DEFAULT_PLUGINS_DIRECTORY).toString());
+}
+
+void
+VidaliaSettings::setDefaultPluginsDirectory(const QString &dir)
+{
+  setValue(SETTING_DEFAULT_PLUGINS_DIRECTORY, dir);
 }

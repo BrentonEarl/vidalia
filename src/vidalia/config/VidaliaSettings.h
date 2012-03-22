@@ -82,6 +82,16 @@ public:
    * If set to the empty string, the browser will not be started. */
   void setBrowserDirectory(const QString &browserDirectory);
 
+  /** Browser directories */
+  QString getDefaultProfileDirectory() const;
+  void setDefaultProfileDirectory(const QString &dir);
+  QString getProfileDirectory() const;
+  void setProfileDirectory(const QString &dir);
+  QString getPluginsDirectory() const;
+  void setPluginsDirectory(const QString &dir);
+  QString getDefaultPluginsDirectory() const;
+  void setDefaultPluginsDirectory(const QString &dir);
+
   /** Returns a fully-qualified path to the IM client, including the
    * executable name. */
   QString getIMExecutable() const;

@@ -624,31 +624,43 @@ MainWindow::launchBrowserFromDirectory()
 {
   VidaliaSettings settings;
 
+  /** Directory for the browser */
   QString browserDirectory = settings.getBrowserDirectory();
-  QString browserDirectoryFilename = settings.getBrowserExecutable();
+  if(QDir(browserDirectory).isRelative())
+    browserDirectory = QDir::toNativeSeparators(QCoreApplication::applicationDirPath()
+                                                + "/" + browserDirectory);
+
+  /** Relative path to the browser executable from the browserDirectory */
+  QString browserExecutable = QDir::toNativeSeparators(browserDirectory + "/" + settings.getBrowserExecutable());
+
+  /** Relative path to profile from the browserDirectory */
+  QString profileDirectory = QDir::toNativeSeparators(settings.getProfileDirectory());
+  /** Default profile to copy from */
+  QString defaultProfileDirectory = QDir::toNativeSeparators(settings.getDefaultProfileDirectory());
+
+  /** Relative path to the plugins directory from the browserDirectory */
+  QString pluginsDirectory = QDir::toNativeSeparators(settings.getPluginsDirectory());
+  /** Relative path to the default plugins directory from the browserDirectory */
+  QString defaultPluginsDirectory = QDir::toNativeSeparators(settings.getDefaultPluginsDirectory());
+
+  QString profileDir = browserDirectory + "/" + profileDirectory;
 
   _browserProcess->setEnvironment(updateBrowserEnv());
 
-  /* The browser is in <browserDirectory>/App/Firefox/<browserDirectoryFilename> */
-  QString browserExecutable =
-    QDir::toNativeSeparators(browserDirectory + "/App/Firefox/" + browserDirectoryFilename);
-  /* The profile is in <browserDirectory>/Data/profile */
-  QString profileDir =
-    QDir::toNativeSeparators(browserDirectory + "/Data/profile");
-
-  /* Copy the profile directory if it's not already there */
   QDir browserDirObj = QDir(browserDirectory);
 
   /* Copy the profile directory if it's not already there */
-  if (!browserDirObj.exists("Data/profile")) {
-    browserDirObj.mkdir("Data/profile");
-    copy_dir(browserDirectory + "/App/DefaultData/profile", browserDirectory + "/Data/profile");
+  if (!browserDirObj.exists(profileDirectory)) {
+    browserDirObj.mkdir(profileDirectory);
+    copy_dir(browserDirectory + "/" + defaultProfileDirectory,
+             browserDirectory + "/" + profileDirectory);
   }
 
-  /* Copy the plugins directory if it's not already there */
-  if (!browserDirObj.exists("Data/plugins")) {
-    browserDirObj.mkdir("Data/plugins");
-    copy_dir(browserDirectory + "/App/DefaultData/plugins", browserDirectory + "/Data/plugins");
+  /* Copy the pluginss directory if it's not already there */
+  if (!browserDirObj.exists(pluginsDirectory)) {
+    browserDirObj.mkdir(pluginsDirectory);
+    copy_dir(browserDirectory + "/" + defaultPluginsDirectory,
+             browserDirectory + "/" + pluginsDirectory);
   }
 
   /* Build the command line arguments */
@@ -1054,6 +1066,8 @@ MainWindow::start()
   }
 
   QString torrc = settings.getTorrc();
+  if(QDir(QFileInfo(torrc).filePath()).isRelative())
+    torrc = QCoreApplication::applicationDirPath() + "/" + torrc;
 
   if(settings.bootstrap()) {
     QString boottorrc = settings.bootstrapFrom();
@@ -1075,6 +1089,9 @@ MainWindow::start()
 
   /* Specify Tor's data directory, if different from the default */
   QString dataDirectory = settings.getDataDirectory();
+  if(QDir(dataDirectory).isRelative())
+    dataDirectory = QCoreApplication::applicationDirPath() + "/" + dataDirectory;
+
   QString expDataDirectory = expand_filename(dataDirectory);
   if (!dataDirectory.isEmpty())
     args << "DataDirectory" << expDataDirectory;
@@ -1129,7 +1146,10 @@ MainWindow::start()
    * start. */
   _isIntentionalExit = true;
   /* Kick off the Tor process */
-  _torControl->start(settings.getExecutable(), args);
+  QString torExecutable = settings.getExecutable();
+  if(QDir(QFileInfo(torExecutable).filePath()).isRelative())
+    torExecutable = QCoreApplication::applicationDirPath() + "/" + torExecutable;
+  _torControl->start(torExecutable, args);
 }
 
 /** Called when the user changes a setting that needs Tor restarting */
