@@ -97,6 +97,10 @@ TorrcDialog::parseAndSet(QString *errmsg)
   int i = 0;
   foreach(QString line, lines) {
     i++;
+    int commentIndex = line.indexOf("#");
+    if(commentIndex != -1)
+      line = line.remove(commentIndex, line.length() - commentIndex);
+
     line = line.trimmed();
     if(line.startsWith("#")) continue; // Skip commentaries
     parts = line.split(" ", QString::SkipEmptyParts);
