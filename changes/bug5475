@@ -1,0 +1,2 @@
+  o Support adding comments in the same line as a config option inside
+    the torrc dialog. Fixes bug 5475.
