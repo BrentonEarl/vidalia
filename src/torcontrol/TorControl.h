@@ -1,14 +1,14 @@
 /*
 **  This file is part of Vidalia, and is subject to the license terms in the
-**  LICENSE file, found in the top level directory of this distribution. If 
+**  LICENSE file, found in the top level directory of this distribution. If
 **  you did not receive the LICENSE file with this file, you may obtain it
 **  from the Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
-/* 
+/*
 ** \file TorControl.h
 ** \brief Object for interacting with the Tor process and control interface
 */
@@ -49,7 +49,7 @@ typedef QHash<QString,QString> DescriptorAnnotations;
 class TorControl : public QObject
 {
   Q_OBJECT
-  
+
 public:
   /** Default constructor */
   TorControl(ControlMethod::Method method = ControlMethod::Port);
@@ -79,14 +79,14 @@ public:
   bool authenticate(const QByteArray cookie, QString *errmsg = 0);
   /** Sends an authentication password to Tor. */
   bool authenticate(const QString &password = QString(), QString *errmsg = 0);
-  
+
   /** Sends a PROTOCOLINFO command to Tor and parses the response. */
   ProtocolInfo protocolInfo(QString *errmsg = 0);
 
   /** Returns the Tor software's current bootstrap phase and status. */
   BootstrapStatus bootstrapStatus(QString *errmsg = 0);
 
-  /** Returns true if Tor either has an open circuit or (on Tor >= 
+  /** Returns true if Tor either has an open circuit or (on Tor >=
    * 0.2.0.1-alpha) has previously decided it's able to establish a circuit. */
   bool isCircuitEstablished();
 
@@ -106,11 +106,11 @@ public:
 
   /** Sends a signal to Tor */
   bool signal(TorSignal::Signal sig, QString *errmsg = 0);
- 
+
   /** Returns an address on which Tor is listening for application
    * requests. If none are available, a null QHostAddress is returned. */
   QHostAddress getSocksAddress(QString *errmsg = 0);
-  /** Returns a (possibly empty) list of all currently configured 
+  /** Returns a (possibly empty) list of all currently configured
    * SocksListenAddress entries. */
   QStringList getSocksAddressList(QString *errmsg = 0);
   /** Returns a valid SOCKS port for Tor, or 0 if Tor is not accepting
@@ -160,7 +160,7 @@ public:
   /** Sends a GETCONF message to Tor with the single key and returns a QString
    * containing the value returned by Tor */
   QString getHiddenServiceConf(const QString &key, QString *errmsg = 0);
-  
+
   /** Asks Tor to save the current configuration to its torrc */
   bool saveConf(QString *errmsg = 0);
   /** Tells Tor to reset the given configuration keys back to defaults. */
@@ -198,7 +198,7 @@ public:
   CircuitList getCircuits(QString *errmsg = 0);
   /** Gets a list of current streams. */
   StreamList getStreams(QString *errmsg = 0);
-  
+
   /** Gets a list of address mappings of the type specified by <b>type</b>
    * (defaults to <i>AddressMapAll</i>. */
   AddressMap getAddressMap(
@@ -311,7 +311,7 @@ signals:
 
   /** Emitted when Tor decides the client's external IP address has changed
    * to <b>ip</b>. If <b>hostname</b> is non-empty, Tor obtained the new
-   * value for <b>ip</b> by resolving <b>hostname</b>. 
+   * value for <b>ip</b> by resolving <b>hostname</b>.
    */
   void externalAddressChanged(const QHostAddress &ip, const QString &hostname);
 
@@ -336,7 +336,7 @@ signals:
    */
   void dnsUseless();
 
-  /** Indicates Tor has started testing the reachability of its OR port 
+  /** Indicates Tor has started testing the reachability of its OR port
    * using the IP address <b>ip</b> and port <b>port</b>.
    */
   void checkingOrPortReachability(const QHostAddress &ip, quint16 port);

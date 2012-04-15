@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -99,10 +99,10 @@ VMessageBox::critical(QWidget *parent, QString caption, QString text,
                       int button0, int button1, int button2)
 {
   int ret = QMessageBox::critical(parent, caption, p(text),
-              VMessageBox::buttonText(button0), 
-              VMessageBox::buttonText(button1), 
+              VMessageBox::buttonText(button0),
+              VMessageBox::buttonText(button1),
               VMessageBox::buttonText(button2),
-              VMessageBox::defaultButton(button0, button1, button2), 
+              VMessageBox::defaultButton(button0, button1, button2),
               VMessageBox::escapeButton(button0, button1, button2));
   return VMessageBox::selected(ret, button0, button1, button2);
 }
@@ -116,10 +116,10 @@ VMessageBox::question(QWidget *parent, QString caption, QString text,
                       int button0, int button1, int button2)
 {
   int ret = QMessageBox::question(parent, caption, p(text),
-              VMessageBox::buttonText(button0), 
-              VMessageBox::buttonText(button1), 
+              VMessageBox::buttonText(button0),
+              VMessageBox::buttonText(button1),
               VMessageBox::buttonText(button2),
-              VMessageBox::defaultButton(button0, button1, button2), 
+              VMessageBox::defaultButton(button0, button1, button2),
               VMessageBox::escapeButton(button0, button1, button2));
   return VMessageBox::selected(ret, button0, button1, button2);
 }
@@ -133,10 +133,10 @@ VMessageBox::information(QWidget *parent, QString caption, QString text,
                          int button0, int button1, int button2)
 {
   int ret = QMessageBox::information(parent, caption, p(text),
-              VMessageBox::buttonText(button0), 
-              VMessageBox::buttonText(button1), 
+              VMessageBox::buttonText(button0),
+              VMessageBox::buttonText(button1),
               VMessageBox::buttonText(button2),
-              VMessageBox::defaultButton(button0, button1, button2), 
+              VMessageBox::defaultButton(button0, button1, button2),
               VMessageBox::escapeButton(button0, button1, button2));
   return VMessageBox::selected(ret, button0, button1, button2);
 }
@@ -150,10 +150,10 @@ VMessageBox::warning(QWidget *parent, QString caption, QString text,
                      int button0, int button1, int button2)
 {
   int ret = QMessageBox::warning(parent, caption, p(text),
-              VMessageBox::buttonText(button0), 
-              VMessageBox::buttonText(button1), 
+              VMessageBox::buttonText(button0),
+              VMessageBox::buttonText(button1),
               VMessageBox::buttonText(button2),
-              VMessageBox::defaultButton(button0, button1, button2), 
+              VMessageBox::defaultButton(button0, button1, button2),
               VMessageBox::escapeButton(button0, button1, button2));
   return VMessageBox::selected(ret, button0, button1, button2);
 }

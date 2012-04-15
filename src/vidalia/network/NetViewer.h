@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -90,7 +90,7 @@ private slots:
   void onAuthenticated();
   /** Handles when we get disconnected from Tor network */
   void onDisconnected();
-  /** Called when the user selects a router on the network map. Displays a 
+  /** Called when the user selects a router on the network map. Displays a
    * dialog with detailed information for the router specified by
    * <b>id</b>.*/
   void displayRouterInfo(const QString &id);
@@ -122,7 +122,7 @@ private:
   GeoIpResolver _geoip;
   /** Stores a list of address mappings from Tor. */
   AddressMap _addressMap;
- 
+
   /** Widget that displays the Tor network map. */
 #if defined(USE_MARBLE)
   TorMapWidget* _map;

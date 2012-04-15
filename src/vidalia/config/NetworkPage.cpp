@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -41,7 +41,7 @@ NetworkPage::NetworkPage(QWidget *parent)
 
   connect(ui.btnAddBridge, SIGNAL(clicked()), this, SLOT(addBridge()));
   connect(ui.btnRemoveBridge, SIGNAL(clicked()), this, SLOT(removeBridge()));
-  connect(ui.btnCopyBridge, SIGNAL(clicked()), 
+  connect(ui.btnCopyBridge, SIGNAL(clicked()),
           this, SLOT(copySelectedBridgesToClipboard()));
   connect(ui.listBridges, SIGNAL(customContextMenuRequested(QPoint)),
           this, SLOT(bridgeContextMenuRequested(QPoint)));
@@ -167,11 +167,11 @@ void
 NetworkPage::bridgeContextMenuRequested(const QPoint &pos)
 {
   QMenu menu(this);
-  
+
   QListWidgetItem *item = ui.listBridges->itemAt(pos);
   if (!item)
     return;
-  
+
   QAction *copyAction =
     new QAction(QIcon(IMG_COPY), tr("Copy (Ctrl+C)"), &menu);
   connect(copyAction, SIGNAL(triggered()),
@@ -201,7 +201,7 @@ NetworkPage::save(QString &errmsg)
   QStringList bridgeList;
   QList<quint16> reachablePorts;
   bool ok;
-  
+
   if (ui.chkUseProxy->isChecked()) {
     if (ui.lineProxyAddress->text().isEmpty()
           || ui.lineProxyPort->text().isEmpty()) {
@@ -231,7 +231,7 @@ NetworkPage::save(QString &errmsg)
 
     user = ui.lineProxyUsername->text();
     pass = ui.lineProxyPassword->text();
- 
+
     QVariant data;
     int type;
 
@@ -247,7 +247,7 @@ NetworkPage::save(QString &errmsg)
   settings.setProxyAddress(addr);
   settings.setProxyUsername(user);
   settings.setProxyPassword(pass);
- 
+
   /* Save the reachable port settings */
   settings.setFascistFirewall(ui.chkFascistFirewall->isChecked());
   foreach (QString portString,
@@ -324,7 +324,7 @@ NetworkPage::load()
   ui.lineReachablePorts->setText(reachablePortStrings.join(","));
 
   /* Load bridge settings */
-  ui.chkUseBridges->setChecked(settings.getUseBridges()); 
+  ui.chkUseBridges->setChecked(settings.getUseBridges());
   ui.listBridges->clear();
   ui.listBridges->addItems(settings.getBridgeList());
 }
@@ -364,7 +364,7 @@ NetworkPage::findBridges()
 /** Starts a new request for additional bridge addresses. */
 void
 NetworkPage::startBridgeRequest()
-{ 
+{
   if (ui.chkUseProxy->isChecked() &&
      ui.cmboProxyType->currentIndex() == NetworkSettings::HttpHttpsProxy) {
     _bridgeDownloader->setProxy(ui.lineProxyAddress->text(),
@@ -401,9 +401,9 @@ NetworkPage::bridgeRequestFinished(const QStringList &bridges)
     dlg.setInformativeText(tr("Click Help to see other methods of finding "
                               "new bridges."));
     dlg.setStandardButtons(QMessageBox::Ok | QMessageBox::Help);
- 
+
     if (dlg.exec() == QMessageBox::Help)
-      emit helpRequested("bridges.finding");      
+      emit helpRequested("bridges.finding");
   }
 }
 

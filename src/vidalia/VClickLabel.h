@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -34,7 +34,7 @@ public:
   virtual QSize sizeHint() const;
   /** Returns the minimum size hint for this widget's current contents. */
   virtual QSize minimumSizeHint() const;
-  
+
   /** Sets the label text to <b>text</b>. */
   void setText(const QString &text);
   /** Sets the widget's image to <b>img</b>. */
@@ -42,7 +42,7 @@ public:
 
   const QString& text() const { return _text; }
   const QPixmap& pixmap() const { return _pixmap; }
-  
+
   Q_PROPERTY(QString text READ text WRITE setText USER true);
   Q_PROPERTY(QPixmap pixmap READ pixmap WRITE setPixmap USER true);
 
@@ -55,7 +55,7 @@ public slots:
 signals:
   /** Emitted when the widget is left-clicked. */
   void clicked();
-  
+
 protected:
   /** Overloaded paint event to draw a pixmap and a text label. */
   virtual void paintEvent(QPaintEvent *e);

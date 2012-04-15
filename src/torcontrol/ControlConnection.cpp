@@ -1,10 +1,10 @@
 /*
 **  This file is part of Vidalia, and is subject to the license terms in the
-**  LICENSE file, found in the top level directory of this distribution. If 
+**  LICENSE file, found in the top level directory of this distribution. If
 **  you did not receive the LICENSE file with this file, you may obtain it
 **  from the Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -78,7 +78,7 @@ ControlConnection::connect(const QString &addr)
               "control thread is already running.");
     return;
   }
-  
+
   _path = addr;
   _connectAttempt = 0;
   setStatus(Connecting);
@@ -96,7 +96,7 @@ ControlConnection::connect()
   _connectAttempt++;
   tc::debug("Connecting to Tor (Attempt %1 of %2)").arg(_connectAttempt)
                                                    .arg(MAX_CONNECT_ATTEMPTS);
-  
+
   _connMutex.lock();
   switch(_method) {
     case ControlMethod::Socket:
@@ -274,11 +274,11 @@ ControlConnection::send(const ControlCommand &cmd, QString *errmsg)
   _connMutex.lock();
   if (!_sock || !_sock->isConnected()) {
     _connMutex.unlock();
-    return err(errmsg, tr("Control socket is not connected.")); 
+    return err(errmsg, tr("Control socket is not connected."));
   }
   QCoreApplication::postEvent(_sock, new SendCommandEvent(cmd, _sendWaiter));
   _connMutex.unlock();
-  
+
   return _sendWaiter->getResult(errmsg);
 }
 
@@ -289,21 +289,21 @@ ControlConnection::onReadyRead()
   QMutexLocker locker(&_connMutex);
   ReceiveWaiter *waiter;
   QString errmsg;
- 
+
   while (_sock->canReadLine()) {
     ControlReply reply;
     if (_sock->readReply(reply, &errmsg)) {
       if (reply.getStatus() == "650") {
         /* Asynchronous event message */
         tc::debug("Control Event: %1").arg(reply.toString());
-        
+
         if (_events) {
           _events->handleEvent(reply);
         }
       } else {
         /* Response to a previous command */
         tc::debug("Control Reply: %1").arg(reply.toString());
-        
+
         _recvMutex.lock();
         if (!_recvQueue.isEmpty()) {
           waiter = _recvQueue.dequeue();
@@ -328,21 +328,21 @@ ControlConnection::run()
 
   _connectTimer = new QTimer();
   _connectTimer->setSingleShot(true);
-  
+
   QObject::connect(_sock, SIGNAL(readyRead()), this, SLOT(onReadyRead()),
                    Qt::DirectConnection);
   QObject::connect(_sock, SIGNAL(disconnected()), this, SLOT(onDisconnected()),
                    Qt::DirectConnection);
   QObject::connect(_sock, SIGNAL(connected()), this, SLOT(onConnected()),
                    Qt::DirectConnection);
-  QObject::connect(_sock, SIGNAL(error(QAbstractSocket::SocketError)), 
+  QObject::connect(_sock, SIGNAL(error(QAbstractSocket::SocketError)),
                    this, SLOT(onError(QAbstractSocket::SocketError)),
                    Qt::DirectConnection);
   QObject::connect(_connectTimer, SIGNAL(timeout()), this, SLOT(connect()),
                    Qt::DirectConnection);
 
   _connMutex.unlock();
-  
+
   /* Attempt to connect to Tor */
   connect();
   tc::debug("Starting control connection event loop.");
@@ -364,7 +364,7 @@ ControlConnection::run()
   _recvMutex.lock();
   while (!_recvQueue.isEmpty()) {
     ReceiveWaiter *w = _recvQueue.dequeue();
-    w->setResult(false, ControlReply(), 
+    w->setResult(false, ControlReply(),
                  tr("Control socket is not connected."));
   }
   _recvMutex.unlock();
@@ -375,8 +375,8 @@ ControlConnection::run()
  * ControlConnection::ReceiveWaiter
  */
 /** Waits for and gets the reply from a control command. */
-bool 
-ControlConnection::ReceiveWaiter::getResult(ControlReply *reply, 
+bool
+ControlConnection::ReceiveWaiter::getResult(ControlReply *reply,
                                             QString *errmsg)
 {
   forever {
@@ -397,14 +397,14 @@ ControlConnection::ReceiveWaiter::getResult(ControlReply *reply,
 }
 
 /** Sets the result and reply from a control command. */
-void 
-ControlConnection::ReceiveWaiter::setResult(bool success, 
-                                            const ControlReply &reply, 
+void
+ControlConnection::ReceiveWaiter::setResult(bool success,
+                                            const ControlReply &reply,
                                             const QString &errmsg)
 {
   _mutex.lock();
   _status = (success ? Success : Failed);
-  _reply = reply; 
+  _reply = reply;
   _errmsg = errmsg;
   _mutex.unlock();
   _waitCond.wakeAll();

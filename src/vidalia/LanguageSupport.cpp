@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -33,21 +33,21 @@ LanguageSupport::languages()
       QString::fromUtf8("\320\221\321\212\320\273\320\263\320"
                        "\260\321\200\321\201\320\272\320\270"));
     // languages.insert("my",   "Burmese");
-    languages.insert("cs",    
+    languages.insert("cs",
       QString::fromUtf8("\304\215e\305\241tina"));
-    languages.insert("ca",    
+    languages.insert("ca",
       QString::fromUtf8("catal\303\240"));
     languages.insert("da",    "dansk");
     languages.insert("de",    "Deutsch");
-    languages.insert("es",    
+    languages.insert("es",
       QString::fromUtf8("espa\303\261ol"));
-    languages.insert("el",    
+    languages.insert("el",
       QString::fromUtf8("\316\225\316\273\316\273\316\267\316\275\316\271\316\272\316\254"));
     // languages.insert("eo",    "Esperanto");
     languages.insert("fa",
       QString::fromUtf8("\331\201\330\247\330\261\330\263\333\214"));
     languages.insert("fi",    "suomi");
-    languages.insert("fr",    
+    languages.insert("fr",
       QString::fromUtf8("fran\303\247ais"));
     languages.insert("he",
       QString::fromUtf8("\327\242\327\221\327\250\327\231\327\252"));
@@ -58,13 +58,13 @@ LanguageSupport::languages()
     //   QString::fromUtf8("\346\227\245\346\234\254\350\252\236"));
     languages.insert("ko",
       QString::fromUtf8("\355\225\234\352\265\255\354\226\264"));
-    languages.insert("nb",    
+    languages.insert("nb",
       QString::fromUtf8("Bokm\303\245l"));
     languages.insert("nl",    "Nederlands");
     languages.insert("pl",    "Polski");
-    languages.insert("pt",    
+    languages.insert("pt",
       QString::fromUtf8("Portugu\303\252s"));
-    languages.insert("pt_BR",    
+    languages.insert("pt_BR",
       QString::fromUtf8("Portugu\303\252s brasileiro"));
     languages.insert("ro",
       QString::fromUtf8("rom\303\242n\304\203"));
@@ -78,9 +78,9 @@ LanguageSupport::languages()
     languages.insert("tr",    QString::fromUtf8("T\303\274rk\303\247e"));
     // languages.insert("vi",
     //   QString::fromUtf8("ti\341\272\277ng Vi\341\273\207t"));
-    languages.insert("zh_CN", 
+    languages.insert("zh_CN",
       QString::fromUtf8("\347\256\200\344\275\223\345\255\227"));
-    // languages.insert("zh_TW", 
+    // languages.insert("zh_TW",
     //   QString::fromUtf8("\347\260\241\351\253\224\345\255\227"));
   }
   return languages;
@@ -96,7 +96,7 @@ LanguageSupport::defaultLanguageCode()
     language = language.mid(0, language.indexOf("_"));
   if (!isValidLanguageCode(language))
     language = "en";
-  
+
   return language;
 }
 

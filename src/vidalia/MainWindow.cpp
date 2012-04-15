@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -137,7 +137,7 @@ MainWindow::MainWindow()
   updateTorStatus(Stopped);
 
   /* Create a new TorControl object, used to communicate with Tor */
-  _torControl = Vidalia::torControl(); 
+  _torControl = Vidalia::torControl();
   connect(_torControl, SIGNAL(started()), this, SLOT(started()));
   connect(_torControl, SIGNAL(startFailed(QString)),
           this, SLOT(startFailed(QString)));
@@ -145,7 +145,7 @@ MainWindow::MainWindow()
           this, SLOT(stopped(int, QProcess::ExitStatus)));
   connect(_torControl, SIGNAL(connected()), this, SLOT(connected()));
   connect(_torControl, SIGNAL(disconnected()), this, SLOT(disconnected()));
-  connect(_torControl, SIGNAL(connectFailed(QString)), 
+  connect(_torControl, SIGNAL(connectFailed(QString)),
           this, SLOT(connectFailed(QString)));
   connect(_torControl, SIGNAL(authenticated()), this, SLOT(authenticated()));
   connect(_torControl, SIGNAL(authenticationFailed(QString)),
@@ -222,7 +222,7 @@ MainWindow::MainWindow()
 
   ui.chkShowOnStartup->setChecked(settings.showMainWindowAtStart());
   if (ui.chkShowOnStartup->isChecked())
-    show(); 
+    show();
   /* Optimistically hope that the tray icon gets added. */
   _trayIcon.show();
 
@@ -365,7 +365,7 @@ MainWindow::aboutToQuit()
   vNotice("Cleaning up before exiting.");
 
   if (_torControl->isVidaliaRunningTor()) {
-    /* Kill our Tor process now */ 
+    /* Kill our Tor process now */
     _torControl->stop();
   }
 
@@ -397,7 +397,7 @@ MainWindow::aboutToQuit()
 #endif
 
     if (_imProcess->state() == QProcess::Running)
-      _imProcess->terminate();    
+      _imProcess->terminate();
   }
 
   /* Disconnect all of the TorControl object's signals */
@@ -427,7 +427,7 @@ MainWindow::close()
 
 /** Create and bind actions to events. Setup for initial
  * tray menu configuration. */
-void 
+void
 MainWindow::createActions()
 {
   _actionStartStopTor = new QAction(tr("Start Tor"), this);
@@ -437,7 +437,7 @@ MainWindow::createActions()
   connect(_actionExit, SIGNAL(triggered()), this, SLOT(close()));
 
   _actionShowBandwidth = new QAction(tr("Bandwidth Graph"), this);
-  connect(_actionShowBandwidth, SIGNAL(triggered()), 
+  connect(_actionShowBandwidth, SIGNAL(triggered()),
           _bandwidthGraph, SLOT(showWindow()));
   connect(ui.lblBandwidthGraph, SIGNAL(clicked()),
           _bandwidthGraph, SLOT(showWindow()));
@@ -453,7 +453,7 @@ MainWindow::createActions()
           ui.lblMessageLog, SLOT(disableFlashing()));
 
   _actionShowNetworkMap = new QAction(tr("Network Map"), this);
-  connect(_actionShowNetworkMap, SIGNAL(triggered()), 
+  connect(_actionShowNetworkMap, SIGNAL(triggered()),
           _netViewer, SLOT(showWindow()));
   connect(ui.lblViewNetwork, SIGNAL(clicked()),
           _netViewer, SLOT(showWindow()));
@@ -463,7 +463,7 @@ MainWindow::createActions()
 
   _actionShowConfig = new QAction(tr("Settings"), this);
   connect(_actionShowConfig, SIGNAL(triggered()), this, SLOT(showConfigDialog()));
-  
+
   _actionShowAbout = new QAction(tr("About"), this);
   connect(_actionShowAbout, SIGNAL(triggered()), this, SLOT(showAboutDialog()));
 
@@ -511,9 +511,9 @@ MainWindow::createTrayIcon()
 #endif
 }
 
-/** Creates a QMenu object that contains QActions which compose the system 
+/** Creates a QMenu object that contains QActions which compose the system
  * tray menu. */
-QMenu* 
+QMenu*
 MainWindow::createTrayMenu()
 {
   QMenu *menu = new QMenu(this);
@@ -525,7 +525,7 @@ MainWindow::createTrayMenu()
   menu->addAction(_actionNewIdentity);
   menu->addSeparator();
   menu->addAction(_actionShowControlPanel);
-  
+
 #if !defined(Q_WS_MAC)
   /* These aren't added to the dock menu on Mac, since they are in the
    * standard Mac locations in the menu bar. */
@@ -585,7 +585,7 @@ MainWindow::createMenuBar()
   viewMenu->addAction(_actionShowBandwidth);
   viewMenu->addAction(_actionShowMessageLog);
   viewMenu->addAction(_actionShowNetworkMap);
-  
+
   QMenu *helpMenu = _menuBar->addMenu(tr("Help"));
   _actionShowHelp->setText(tr("Vidalia Help"));
   helpMenu->addAction(_actionShowHelp);
@@ -767,7 +767,7 @@ MainWindow::onCheckForBrowser()
 
   /* The browser isn't running, exit Vidalia */
   vApp->quit();
-#endif  
+#endif
 }
 
 /** Called when the web browser failed to start, for example, because the path
@@ -776,7 +776,7 @@ void
 MainWindow::onBrowserFailed(QString errmsg)
 {
   Q_UNUSED(errmsg);
- 
+
   /* Display an error message and see if the user wants some help */
   VMessageBox::warning(this, tr("Error starting web browser"),
               tr("Vidalia was unable to start the configured web browser"),
@@ -789,7 +789,7 @@ void
 MainWindow::onIMFailed(QString errmsg)
 {
   Q_UNUSED(errmsg);
- 
+
   /* Display an error message and see if the user wants some help */
   VMessageBox::warning(this, tr("Error starting IM client"),
               tr("Vidalia was unable to start the configured IM client"),
@@ -811,7 +811,7 @@ void
 MainWindow::onProxyFailed(QString errmsg)
 {
   Q_UNUSED(errmsg);
- 
+
   /* Display an error message and see if the user wants some help */
   VMessageBox::warning(this, tr("Error starting proxy server"),
               tr("Vidalia was unable to start the configured proxy server"),
@@ -824,7 +824,7 @@ void
 MainWindow::bootstrapStatusChanged(const BootstrapStatus &bs)
 {
   int percentComplete = STARTUP_PROGRESS_BOOTSTRAPPING + bs.percentComplete();
-  bool warn = (bs.severity() == tc::WarnSeverity && 
+  bool warn = (bs.severity() == tc::WarnSeverity &&
                bs.recommendedAction() != BootstrapStatus::RecommendIgnore);
 
   QString description;
@@ -909,7 +909,7 @@ MainWindow::updateTorStatus(TorStatus status)
   QString statusText, actionText;
   QString trayIconFile, statusIconFile;
   TorStatus prevStatus = _status;
- 
+
   vNotice("Tor status changed from '%1' to '%2'.")
     .arg(toString(prevStatus)).arg(toString(status));
   _status = status;
@@ -936,14 +936,14 @@ MainWindow::updateTorStatus(TorStatus status)
       setStartupProgressVisible(false);
   } else if (status == Stopping) {
       if (_delayedShutdownStarted) {
-        statusText = tr("Your relay is shutting down.\n" 
+        statusText = tr("Your relay is shutting down.\n"
                         "Click 'Stop' again to stop your relay now.");
       } else {
         statusText = tr("Tor is shutting down");
       }
       trayIconFile = IMG_TOR_STOPPING;
       statusIconFile = IMG_TOR_STOPPING_48;
-      
+
       ui.lblStartStopTor->setStatusTip(tr("Stop Tor Now"));
   } else if (status == Started) {
       actionText = tr("Stop Tor");
@@ -954,7 +954,7 @@ MainWindow::updateTorStatus(TorStatus status)
       ui.lblStartStopTor->setText(actionText);
       ui.lblStartStopTor->setPixmap(QPixmap(IMG_STOP_TOR_48));
       ui.lblStartStopTor->setStatusTip(actionText);
-            
+
       /* XXX: This might need to be smarter if we ever start connecting other
        * slots to these triggered() and clicked() signals. */
       QObject::disconnect(_actionStartStopTor, SIGNAL(triggered()), this, 0);
@@ -1035,7 +1035,7 @@ MainWindow::setStartupProgress(int progressValue,
 
 /** Attempts to start Tor. If Tor fails to start, then startFailed() will be
  * called with an error message containing the reason. */
-void 
+void
 MainWindow::start()
 {
   TorSettings settings;
@@ -1095,7 +1095,7 @@ MainWindow::start()
   QString expDataDirectory = expand_filename(dataDirectory);
   if (!dataDirectory.isEmpty())
     args << "DataDirectory" << expDataDirectory;
-  
+
   if(settings.getControlMethod() == ControlMethod::Port) {
     if(settings.autoControlPort()) {
       QString portconf = QString("%1/port.conf").arg(expDataDirectory);
@@ -1117,7 +1117,7 @@ MainWindow::start()
   }
 
   args << "__OwningControllerProcess" << QString::number(QCoreApplication::applicationPid());
-  
+
   /* Add the control port authentication arguments */
   switch (settings.getAuthenticationMethod()) {
     case TorSettings::PasswordAuth:
@@ -1170,7 +1170,7 @@ MainWindow::startFailed(QString errmsg)
    * that Qt gives us in this instance is almost always "Unknown Error". That
    * will make users sad. */
   Q_UNUSED(errmsg);
- 
+
   updateTorStatus(Stopped);
 
   /* Display an error message and see if the user wants some help */
@@ -1194,7 +1194,7 @@ MainWindow::startFailed(QString errmsg)
 
 /** Slot: Called when the Tor process is started. It will connect the control
  * socket and set the icons and tooltips accordingly. */
-void 
+void
 MainWindow::started()
 {
   TorSettings settings;
@@ -1214,7 +1214,7 @@ MainWindow::started()
     QFile file(QString("%1/port.conf").arg(expand_filename(dataDirectory)));
     int tries = 0, maxtries = 5;
     while((!file.open(QIODevice::ReadOnly | QIODevice::Text)) and
-	  (tries++ < maxtries)) {
+          (tries++ < maxtries)) {
       vWarn(QString("This is try number: %1.").arg(tries));
 #if defined(Q_WS_WIN)
       Sleep(1000);
@@ -1271,9 +1271,9 @@ void
 MainWindow::connectFailed(QString errmsg)
 {
   /* Ok, ok. It really isn't going to connect. I give up. */
-  int response = VMessageBox::warning(this, 
+  int response = VMessageBox::warning(this,
                    tr("Connection Error"), p(errmsg),
-                   VMessageBox::Ok|VMessageBox::Default|VMessageBox::Escape, 
+                   VMessageBox::Ok|VMessageBox::Default|VMessageBox::Escape,
                    VMessageBox::Retry, VMessageBox::Help);
 
 
@@ -1310,16 +1310,16 @@ MainWindow::stop()
                         "open connections from clients.\n\n"
                         "Would you like to shutdown gracefully and "
                         "give clients time to find a new relay?"),
-                        VMessageBox::Yes|VMessageBox::Default, 
-                        VMessageBox::No, 
+                        VMessageBox::Yes|VMessageBox::Default,
+                        VMessageBox::No,
                         VMessageBox::Cancel|VMessageBox::Escape);
     if (response == VMessageBox::Yes)
       _delayedShutdownStarted = true;
     else if (response == VMessageBox::Cancel)
       return false;
   }
-  
-  prevStatus = updateTorStatus(Stopping);  
+
+  prevStatus = updateTorStatus(Stopping);
   if (_delayedShutdownStarted) {
     /* Start a delayed shutdown */
     rc = _torControl->signal(TorSignal::Shutdown, &errmsg);
@@ -1328,15 +1328,15 @@ MainWindow::stop()
     _isIntentionalExit = true;
     rc = _torControl->stop(&errmsg);
   }
-  
+
   if (!rc) {
     /* We couldn't tell Tor to stop, for some reason. */
     int response = VMessageBox::warning(this, tr("Error Shutting Down"),
-                     p(tr("Vidalia was unable to stop the Tor software.")) 
+                     p(tr("Vidalia was unable to stop the Tor software."))
                        + p(errmsg),
-                     VMessageBox::Ok|VMessageBox::Default|VMessageBox::Escape, 
+                     VMessageBox::Ok|VMessageBox::Default|VMessageBox::Escape,
                      VMessageBox::Help);
-      
+
     if (response == VMessageBox::Help) {
       /* Show some troubleshooting help */
       showHelpDialog("troubleshooting.stop");
@@ -1351,7 +1351,7 @@ MainWindow::stop()
 
 /** Slot: Called when the Tor process has exited. It will adjust the tray
  * icons and tooltips accordingly. */
-void 
+void
 MainWindow::stopped(int exitCode, QProcess::ExitStatus exitStatus)
 {
   updateTorStatus(Stopped);
@@ -1368,11 +1368,11 @@ MainWindow::stopped(int exitCode, QProcess::ExitStatus exitStatus)
                      "unexpectedly.\n\n"
                      "Please check the message log for recent "
                      "warning or error messages."),
-                  VMessageBox::Ok|VMessageBox::Escape, 
+                  VMessageBox::Ok|VMessageBox::Escape,
                   VMessageBox::ShowLog|VMessageBox::Default,
                   VMessageBox::Help);
       if (ret == VMessageBox::ShowLog)
-        _messageLog->showWindow();  
+        _messageLog->showWindow();
       else if (ret == VMessageBox::Help)
         showHelpDialog("troubleshooting.torexited");
     }
@@ -1407,7 +1407,7 @@ MainWindow::disconnected()
      * connection as "Tor is stopped". */
     updateTorStatus(Stopped);
   }
-  
+
   /*XXX We should warn here if we get disconnected when we didn't intend to */
   _actionNewIdentity->setEnabled(false);
   ui.lblNewIdentity->setEnabled(false);
@@ -1423,12 +1423,12 @@ MainWindow::authenticate()
   TorSettings::AuthenticationMethod authMethod;
   TorSettings settings;
   ProtocolInfo pi;
-  
+
   updateTorStatus(Authenticating);
   setStartupProgress(STARTUP_PROGRESS_AUTHENTICATING,
                      tr("Authenticating to Tor"));
 
-  authMethod = settings.getAuthenticationMethod(); 
+  authMethod = settings.getAuthenticationMethod();
   pi = _torControl->protocolInfo();
   if (!pi.isEmpty()) {
     QStringList authMethods = pi.authMethods();
@@ -1439,7 +1439,7 @@ MainWindow::authenticate()
     else if (authMethods.contains("NULL"))
       authMethod = TorSettings::NullAuth;
   }
-  
+
   if (authMethod == TorSettings::CookieAuth) {
     /* Try to load an auth cookie and send it to Tor */
     QByteArray cookie = loadControlCookie(pi.cookieAuthFile());
@@ -1454,7 +1454,7 @@ MainWindow::authenticate()
                          "'control_auth_cookie' yourself?")),
                 VMessageBox::Browse|VMessageBox::Default,
                 VMessageBox::Cancel|VMessageBox::Escape);
-      
+
       if (ret == VMessageBox::Cancel)
         goto cancel;
       QString cookieDir = QFileDialog::getOpenFileName(this,
@@ -1503,14 +1503,14 @@ MainWindow::authenticated()
   QString errmsg;
 
   updateTorStatus(Authenticated);
-  
+
   /* If Tor doesn't have bootstrapping events, then update the current
    * status string and bump the progress bar along a bit. */
   if (_torControl->getTorVersion() < 0x020101) {
     setStartupProgress(STARTUP_PROGRESS_CIRCUITBUILD,
                        tr("Connecting to the Tor network"));
   }
-  
+
   /* Let people click on their beloved "New Identity" button */
   _actionNewIdentity->setEnabled(true);
   ui.lblNewIdentity->setEnabled(true);
@@ -1550,7 +1550,7 @@ void
 MainWindow::authenticationFailed(QString errmsg)
 {
   bool retry = false;
-  
+
   vWarn("Authentication failed: %1").arg(errmsg);
 
   /* Parsing log messages is evil, but we're left with little option */
@@ -1601,21 +1601,21 @@ MainWindow::authenticationFailed(QString errmsg)
     }
   } else {
     /* Something else went wrong */
-    int ret = VMessageBox::warning(this, 
+    int ret = VMessageBox::warning(this,
                 tr("Authentication Error"),
                 p(tr("Vidalia was unable to authenticate to the Tor software. "
-                     "(%1)").arg(errmsg)) + 
+                     "(%1)").arg(errmsg)) +
                 p(tr("Please check your control port authentication "
                      "settings.")),
                 VMessageBox::ShowSettings|VMessageBox::Default,
                 VMessageBox::Cancel|VMessageBox::Escape);
-    
+
     if (ret == VMessageBox::ShowSettings)
       showConfigDialog(ConfigDialog::Advanced);
   }
-  
+
   if (_torControl->isRunning())
-    if (_isVidaliaRunningTor) 
+    if (_isVidaliaRunningTor)
       stop();
     else
       disconnect();
@@ -1642,14 +1642,14 @@ MainWindow::loadControlCookie(QString cookiePath)
     QString dataDir = settings.getDataDirectory();
     if (!dataDir.isEmpty())
       pathList << dataDir;
-      
+
 #if defined(Q_WS_WIN)
     pathList << expand_filename("%APPDATA%\\Tor");
 #else
     pathList << expand_filename("~/.tor");
 #endif
   }
-  
+
   /* Search for the cookie file */
   foreach (QString path, pathList) {
     QString cookieFile = QFileInfo(path).isFile() ?
@@ -1657,7 +1657,7 @@ MainWindow::loadControlCookie(QString cookiePath)
     vDebug("Checking for authentication cookie in '%1'").arg(cookieFile);
     if (!QFileInfo(cookieFile).exists())
       continue;
-    
+
     authCookie.setFileName(cookieFile);
     if (authCookie.open(QIODevice::ReadOnly)) {
       vInfo("Reading authentication cookie from '%1'").arg(cookieFile);
@@ -1787,7 +1787,7 @@ MainWindow::warnDangerousPort(quint16 port, bool rejected)
     case 109:
     case 110:
     case 143:
-      application = tr("(probably an email client)"); 
+      application = tr("(probably an email client)");
       break;
 
     default:
@@ -1899,7 +1899,7 @@ MainWindow::newIdentity()
   QString errmsg;
 
   /* Send the NEWNYM signal. If message balloons are supported and the NEWNYM
-   * is successful, we will show the result as a balloon. Otherwise, we'll 
+   * is successful, we will show the result as a balloon. Otherwise, we'll
    * just use a message box. */
   if (_torControl->signal(TorSignal::NewNym, &errmsg)) {
     /* NEWNYM signal was successful */
@@ -1911,7 +1911,7 @@ MainWindow::newIdentity()
     /* Disable the New Identity button for MIN_NEWIDENTITY_INTERVAL */
     _actionNewIdentity->setEnabled(false);
     ui.lblNewIdentity->setEnabled(false);
-    QTimer::singleShot(MIN_NEWIDENTITY_INTERVAL, 
+    QTimer::singleShot(MIN_NEWIDENTITY_INTERVAL,
                        this, SLOT(enableNewIdentity()));
 
     if (QSystemTrayIcon::supportsMessages())
@@ -1920,7 +1920,7 @@ MainWindow::newIdentity()
       VMessageBox::information(this, title, message, VMessageBox::Ok);
   } else {
     /* NEWNYM signal failed */
-    VMessageBox::warning(this, 
+    VMessageBox::warning(this,
       tr("Failed to Create New Identity"), errmsg, VMessageBox::Ok);
   }
 }
@@ -2106,7 +2106,7 @@ MainWindow::installUpdatesFailed(const QString &errmsg)
 
   VMessageBox::warning(this, tr("Installation Failed"),
                        p(tr("Vidalia was unable to install your software updates."))
-                         + p(tr("The following error occurred:")) 
+                         + p(tr("The following error occurred:"))
                          + p(errmsg),
                        VMessageBox::Ok);
 
@@ -2140,11 +2140,11 @@ MainWindow::updateBrowserEnv() {
     env << QString("TOR_SOCKS_PORT=%1").arg(port);
 
     vInfo(QString("Using automatic ControlPort and SocksPort configuration:\n"
-		  "   ControlPort=%1\n   SocksPort=%2\n   Host=%3\n   Configuration file:%4")
-	  .arg(_autoControlPort)
-	  .arg(port)
-	  .arg(addrPort.at(0))
-	  .arg(QString("%1/port.conf").arg(expand_filename(settings.getDataDirectory()))));
+                  "   ControlPort=%1\n   SocksPort=%2\n   Host=%3\n   Configuration file:%4")
+          .arg(_autoControlPort)
+          .arg(port)
+          .arg(addrPort.at(0))
+          .arg(QString("%1/port.conf").arg(expand_filename(settings.getDataDirectory()))));
   }
 
   if(settings.getAuthenticationMethod() == TorSettings::PasswordAuth) {

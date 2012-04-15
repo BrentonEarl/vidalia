@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -110,12 +110,12 @@ NetViewer::NetViewer(QWidget *parent)
    * needs to be called to get rid of any descriptors that were removed. */
   _refreshTimer.setInterval(60*60*1000);
   connect(&_refreshTimer, SIGNAL(timeout()), this, SLOT(refresh()));
- 
+
   /* Connect the necessary slots and signals */
   connect(ui.actionHelp, SIGNAL(triggered()), this, SLOT(help()));
   connect(ui.actionRefresh, SIGNAL(triggered()), this, SLOT(refresh()));
   connect(ui.treeRouterList, SIGNAL(routerSelected(QList<RouterDescriptor>)),
-	        this, SLOT(routerSelected(QList<RouterDescriptor>)));
+          this, SLOT(routerSelected(QList<RouterDescriptor>)));
   connect(ui.treeRouterList, SIGNAL(zoomToRouter(QString)),
           _map, SLOT(zoomToRouter(QString)));
   connect(ui.treeCircuitList, SIGNAL(circuitSelected(Circuit)),
@@ -217,7 +217,7 @@ NetViewer::refresh()
 
   /* Ok, they can refresh again. */
   ui.actionRefresh->setEnabled(true);
-} 
+}
 
 /** Clears the lists and the map */
 void
@@ -281,7 +281,7 @@ NetViewer::addStream(const Stream &stream)
   if (stream.status() == Stream::New) {
     QString target = stream.targetAddress();
     if (! QHostAddress(target).isNull() && _addressMap.isMapped(target)) {
-      /* Replace the IP address in the stream event with the original 
+      /* Replace the IP address in the stream event with the original
        * hostname */
       ui.treeCircuitList->addStream(
         Stream(stream.id(), stream.status(), stream.circuitId(),
@@ -312,7 +312,7 @@ void
 NetViewer::loadNetworkStatus()
 {
   NetworkStatus networkStatus = _torControl->getNetworkStatus();
-  
+
   foreach(RouterStatus rs, networkStatus) {
     if (!rs.isRunning())
       continue;
@@ -401,13 +401,13 @@ NetViewer::routerSelected(const QList<RouterDescriptor> &routers)
     _map->selectRouter(routers[0].id());
 }
 
-/** Called when the user selects a router on the network map. Displays a 
+/** Called when the user selects a router on the network map. Displays a
  * dialog with detailed information for the router specified by
  * <b>id</b>.*/
 void
 NetViewer::displayRouterInfo(const QString &id)
 {
-  RouterInfoDialog dlg(_map->isFullScreen() ? static_cast<QWidget*>(_map) 
+  RouterInfoDialog dlg(_map->isFullScreen() ? static_cast<QWidget*>(_map)
                                             : static_cast<QWidget*>(this));
 
   /* Fetch the specified router's descriptor */

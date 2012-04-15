@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -89,7 +89,7 @@ TorSettings::TorSettings(TorControl *torControl)
   setDefault(SETTING_DATA_DIRECTORY, "");
   setDefault(SETTING_CONTROL_PASSWORD, "");
   setDefault(SETTING_USE_RANDOM_PASSWORD, true);
-  setDefault(SETTING_WARN_PLAINTEXT_PORTS, QList<QVariant>() << 23 << 109 
+  setDefault(SETTING_WARN_PLAINTEXT_PORTS, QList<QVariant>() << 23 << 109
                                                              << 110 << 143);
   setDefault(SETTING_REJECT_PLAINTEXT_PORTS, QList<QVariant>());
   setDefault(SETTING_BOOTSTRAP, false);
@@ -111,8 +111,8 @@ TorSettings::apply(QString *errmsg)
     conf.insert(TOR_ARG_SOCKSPORT, "auto");
   else
     conf.insert(TOR_ARG_SOCKSPORT, "9050");
-  
-  AuthenticationMethod authMethod = 
+
+  AuthenticationMethod authMethod =
     toAuthenticationMethod(localValue(SETTING_AUTH_METHOD).toString());
   switch (authMethod) {
     case CookieAuth:
@@ -120,7 +120,7 @@ TorSettings::apply(QString *errmsg)
       conf.insert(TOR_ARG_HASHED_PASSWORD, "");
       break;
     case PasswordAuth:
-      hashedPassword = useRandomPassword() 
+      hashedPassword = useRandomPassword()
                           ? hashPassword(randomPassword())
                           : hashPassword(getControlPassword());
       if (hashedPassword.isEmpty()) {
@@ -188,7 +188,7 @@ TorSettings::getTorrc() const
 }
 
 /** Sets the torrc that will be used when starting Tor.
- * \param torrc The torrc to use. 
+ * \param torrc The torrc to use.
  */
 void
 TorSettings::setTorrc(const QString &torrc)
@@ -226,14 +226,14 @@ TorSettings::setControlPort(quint16 port)
 }
 
 /** Get the path for ControlSocket */
-QString 
+QString
 TorSettings::getSocketPath() const
 {
   return value(SETTING_SOCKET_PATH).toString();
 }
 
 /** Set the path for ControlSocket */
-void 
+void
 TorSettings::setSocketPath(const QString &path)
 {
   setValue(SETTING_SOCKET_PATH, path);
@@ -247,7 +247,7 @@ TorSettings::getControlMethod() const
 }
 
 /** Set the control method */
-void 
+void
 TorSettings::setControlMethod(ControlMethod::Method method)
 {
   setValue(SETTING_CONTROL_METHOD, ControlMethod::toString(method));
@@ -388,7 +388,7 @@ TorSettings::toString(AuthenticationMethod method) const
  * description of the authentication method given in <b>authMethod</b>. */
 TorSettings::AuthenticationMethod
 TorSettings::toAuthenticationMethod(const QString &authMethod) const
-{ 
+{
   QString str = authMethod.toLower();
   if (str == toString(NullAuth))
     return NullAuth;
@@ -412,7 +412,7 @@ QString
 TorSettings::hashPassword(const QString &password)
 {
   QByteArray salt;
-  
+
   /* Generate an 8 octet salt value. Bail if we fail to generate enough
    * random bytes (unlikely). */
   while (salt.size() < 8) {
@@ -459,13 +459,13 @@ TorSettings::bootstrapFrom() const
   return QDir::convertSeparators(value(SETTING_BOOTSTRAP_FROM).toString());
 }
 
-bool 
+bool
 TorSettings::autoControlPort() const
 {
   return value(SETTING_AUTOCONTROL).toBool();
 }
 
-void 
+void
 TorSettings::setAutoControlPort(const bool autoControl)
 {
   setValue(SETTING_AUTOCONTROL, autoControl);

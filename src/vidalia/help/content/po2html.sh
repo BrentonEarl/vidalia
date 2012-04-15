@@ -6,12 +6,12 @@
 # This is Free Software (GPLv3)
 # http://www.gnu.org/licenses/gpl-3.0.txt
 #
-# This script will convert translated po files back to html. 
+# This script will convert translated po files back to html.
 #
 
 ### Start config ###
 
-# Location of the translated po files. Do not add the trailing slash. 
+# Location of the translated po files. Do not add the trailing slash.
 translated="/home/runa/tor/vidalia/src/vidalia/help/content/po"
 
 # Location of the original and translated html files. Do not add the

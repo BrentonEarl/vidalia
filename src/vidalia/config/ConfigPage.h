@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -25,7 +25,7 @@ class ConfigPage : public QWidget
 
 public:
   /** Default Constructor */
-  ConfigPage(QWidget *parent = 0, const QString title = QString()) 
+  ConfigPage(QWidget *parent = 0, const QString title = QString())
    : QWidget(parent), _title(title) {}
 
   /** Returns the title of this configuration page. */
@@ -54,7 +54,7 @@ public:
   /** Subclassed pages can overload this method to revert any cancelled
    * settings. */
   virtual void revert() {}
-  
+
   virtual void retranslateUi() {}
 
 signals:

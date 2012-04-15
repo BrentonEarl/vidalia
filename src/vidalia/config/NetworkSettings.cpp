@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -66,9 +66,9 @@ NetworkSettings::apply(QString *errmsg)
   quint32 torVersion = torControl()->getTorVersion();
 
   conf.insert(SETTING_REACHABLE_ADDRESSES,
-    (getFascistFirewall() ? 
+    (getFascistFirewall() ?
       localValue(SETTING_REACHABLE_ADDRESSES).toStringList().join(",") : ""));
- 
+
   QString socks4, socks5, http, https;
   QString addr, user, pass, auth;
 
@@ -78,7 +78,7 @@ NetworkSettings::apply(QString *errmsg)
 
   if (!user.isEmpty() || !pass.isEmpty())
     auth = QString("%1:%2").arg(user).arg(pass);
- 
+
   switch (getProxyType()) {
     case NoProxy:
       break;
@@ -189,7 +189,7 @@ NetworkSettings::setReachablePorts(const QList<quint16> &reachablePorts)
 }
 
 /** Returns the proxy type Tor is using, or NoProxy if it makes direct
- * connections. */ 
+ * connections. */
 NetworkSettings::ProxyType
 NetworkSettings::getProxyType()
 {
@@ -225,7 +225,7 @@ NetworkSettings::getProxyUsername()
   return value(SETTING_PROXY_USERNAME).toString();
 }
 
-/** Sets the proxy server username to <b>user</b>. */ 
+/** Sets the proxy server username to <b>user</b>. */
 void
 NetworkSettings::setProxyUsername(const QString &user)
 {
@@ -239,7 +239,7 @@ NetworkSettings::getProxyPassword()
   return value(SETTING_PROXY_PASSWORD).toString();
 }
 
-/** Sets the proxy server password to <b>pass</b>. */ 
+/** Sets the proxy server password to <b>pass</b>. */
 void
 NetworkSettings::setProxyPassword(const QString &pass)
 {
@@ -315,7 +315,7 @@ NetworkSettings::ProxyType
 NetworkSettings::proxyTypeFromString(const QString &type)
 {
   QString str = type.toLower();
-  
+
   if (str == "socks4")
     return Socks4Proxy;
   if (str == "socks5")

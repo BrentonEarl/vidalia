@@ -3,8 +3,8 @@
 **  LICENSE file, found in the top level directory of this distribution. If you
 **  did not receive the LICENSE file with this file, you may obtain it from the
 **  Vidalia source package distributed by the Vidalia Project at
-**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-**  including this file, may be copied, modified, propagated, or distributed 
+**  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+**  including this file, may be copied, modified, propagated, or distributed
 **  except according to the terms described in the LICENSE file.
 */
 
@@ -73,7 +73,7 @@ ServerSettings::ServerSettings(TorControl *torControl)
   setDefault(SETTING_RELAY_BANDWIDTH_BURST, 10485760);
   setDefault(SETTING_EXITPOLICY,
              ExitPolicy(ExitPolicy::Middleman).toString());
-  setDefault(SETTING_ENABLE_UPNP, false); 
+  setDefault(SETTING_ENABLE_UPNP, false);
   setDefault(SETTING_BRIDGE_RELAY, false);
   setDefault(SETTING_PUBLISH_SERVER_DESCRIPTOR, "1");
 }
@@ -95,24 +95,24 @@ ServerSettings::confValues()
     (isServerEnabled() ? localValue(SETTING_ORPORT).toString()
                        : "0"));
   /* Server DirPort */
-  conf.insert(SETTING_DIRPORT, 
-    (isDirectoryMirror() ? localValue(SETTING_DIRPORT).toString() 
+  conf.insert(SETTING_DIRPORT,
+    (isDirectoryMirror() ? localValue(SETTING_DIRPORT).toString()
                          : "0"));
   /* Server Exit Policy */
-  conf.insert(SETTING_EXITPOLICY, 
+  conf.insert(SETTING_EXITPOLICY,
     ((isBridgeEnabled() || isNonExitEnabled()) ? "reject *:*"
                         : localValue(SETTING_EXITPOLICY).toString()));
-  
+
   /* Server bandwidth settings */
-  conf.insert((torVersion >= 0x020001 ? SETTING_RELAY_BANDWIDTH_RATE 
+  conf.insert((torVersion >= 0x020001 ? SETTING_RELAY_BANDWIDTH_RATE
                                       : SETTING_BANDWIDTH_RATE),
     QString::number(localValue(SETTING_BANDWIDTH_RATE).toUInt()) + " bytes");
   conf.insert((torVersion >= 0x020001 ? SETTING_RELAY_BANDWIDTH_BURST
                                       : SETTING_BANDWIDTH_BURST),
     QString::number(localValue(SETTING_BANDWIDTH_BURST).toUInt()) + " bytes");
-    
+
   /* Server Contact Information */
-  QString contact = 
+  QString contact =
     localValue(SETTING_CONTACT).toString().trimmed();
   QString defaultContact = defaultValue(SETTING_CONTACT).toString();
   if ((contact == defaultContact) ||
@@ -121,7 +121,7 @@ ServerSettings::confValues()
     contact = "";
   }
   conf.insert(SETTING_CONTACT, scrub_email_addr(contact));
-  
+
   /* Set if we're a bridge relay */
   if (isBridgeEnabled()) {
     conf.insert(SETTING_BRIDGE_RELAY, "1");
@@ -135,7 +135,7 @@ ServerSettings::confValues()
 }
 
 /** Applies the current server configuration settings to Tor. If <b>errmsg</b>
- * is specified and an error occurs while applying the settings, it will be 
+ * is specified and an error occurs while applying the settings, it will be
  * set to a string describing the error. */
 bool
 ServerSettings::apply(QString *errmsg)
@@ -146,11 +146,11 @@ ServerSettings::apply(QString *errmsg)
 
   if (isServerEnabled()) {
     rc = torControl()->setConf(confValues(), errmsg);
-  } else { 
+  } else {
     QStringList resetKeys;
     quint32 torVersion = torControl()->getTorVersion();
-    resetKeys << SETTING_ORPORT 
-              << SETTING_NICKNAME 
+    resetKeys << SETTING_ORPORT
+              << SETTING_NICKNAME
               << SETTING_DIRPORT
               << SETTING_CONTACT
               << SETTING_EXITPOLICY
@@ -221,8 +221,8 @@ ServerSettings::torValue(const QString &key) const
   return AbstractTorSettings::torValue(key);
 }
 
-/** Enables or disables running Tor as a server. 
- * \param enable Whether to enable or disable the Tor server. 
+/** Enables or disables running Tor as a server.
+ * \param enable Whether to enable or disable the Tor server.
  */
 void
 ServerSettings::setServerEnabled(bool enable)
@@ -258,7 +258,7 @@ ServerSettings::isBridgeEnabled()
 {
   return value(SETTING_BRIDGE_RELAY).toBool() && isServerEnabled();
 }
- 
+
 /** Sets to <b>enabled</b> whether Tor should be a non-exit node when acting as
  * a server. */
 void
@@ -315,7 +315,7 @@ ServerSettings::getNickname()
 {
   QString nickname = value(SETTING_NICKNAME).toString();
   /* Ensure the nickname contains only valid characters and is not too long. */
-  return ensure_valid_chars(nickname, 
+  return ensure_valid_chars(nickname,
                             VALID_NICKNAME_CHARS).left(MAX_NICKNAME_LEN);
 }
 
@@ -407,7 +407,7 @@ ServerSettings::setPublishServerDescriptor(bool publish)
 bool
 ServerSettings::publishServerDescriptor() const
 {
-  return (value(SETTING_PUBLISH_SERVER_DESCRIPTOR).toString() != "0"); 
+  return (value(SETTING_PUBLISH_SERVER_DESCRIPTOR).toString() != "0");
 }
 
 /** Returns true if UPnP support is available and enabled. */
