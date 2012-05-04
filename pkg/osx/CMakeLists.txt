@@ -118,10 +118,8 @@ add_custom_target(dist-osx
 )
 add_dependencies(dist-osx dist-osx-libraries)
 
-if (TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
+if (TOR_SOURCE_DIR)
   get_filename_component(TOR_SOURCE_DIR ${TOR_SOURCE_DIR} ABSOLUTE)
-  get_filename_component(POLIPO_SOURCE_DIR ${POLIPO_SOURCE_DIR} ABSOLUTE)
-  get_filename_component(TORBUTTON_XPI ${TORBUTTON_XPI} ABSOLUTE)
 
   ## Determine Tor's version string used to build the .dmg filename
   vidalia_get_tor_version(TOR_VERSION "${TOR_SOURCE_DIR}/src/or/tor")
@@ -131,21 +129,8 @@ if (TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
     message(FATAL_ERROR "Unable to determine version of ${TOR_SOURCE_DIR}/src/or/tor")
   endif(TOR_VERSION)
 
-  ## Configure the Torbutton installation script file
-  get_filename_component(TORBUTTON_XPI_FILENAME ${TORBUTTON_XPI} NAME)
-  configure_file(
-    ${CMAKE_CURRENT_SOURCE_DIR}/InstallTorbutton.scpt.in
-    ${CMAKE_CURRENT_BINARY_DIR}/InstallTorbutton.scpt
-  )
-
   set(bundle_DMG "vidalia-bundle-${TOR_VERSION}-${VERSION}-${DMG_ARCH}.dmg")
   add_custom_target(dist-osx-bundle
-    COMMAND osacompile
-      -o "${CMAKE_CURRENT_BINARY_DIR}/Install Torbutton for Firefox.app"
-          ${CMAKE_CURRENT_BINARY_DIR}/InstallTorbutton.scpt
-    COMMAND ${CMAKE_COMMAND} -E copy
-      ${TORBUTTON_XPI}
-      "${CMAKE_CURRENT_BINARY_DIR}/Install Torbutton for Firefox.app/"
     COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/pkg-dmg
       --source ${VIDALIA_APP_BUNDLE_ROOT}
       --target ${Vidalia_BINARY_DIR}/${bundle_DMG}
@@ -169,9 +154,6 @@ if (TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
       --copy ${TOR_SOURCE_DIR}/src/tools/tor-resolve:/Vidalia.app/Contents/MacOS/
       --copy ${TOR_SOURCE_DIR}/src/config/geoip:/Vidalia.app/share/tor/
       --copy ${TOR_SOURCE_DIR}/src/config/torrc.sample:/Vidalia.app/Contents/Resources/
-      --copy ${POLIPO_SOURCE_DIR}/polipo:/Vidalia.app/Contents/MacOS/
-      --copy ${CMAKE_CURRENT_SOURCE_DIR}/polipo.conf:/Vidalia.app/Contents/Resources/
-      --copy "${CMAKE_CURRENT_BINARY_DIR}/Install Torbutton for Firefox.app:/"
     COMMENT "Creating ${bundle_DMG}"
     VERBATIM
   )
@@ -184,21 +166,21 @@ if (TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
     VERBATIM
   )
   add_dependencies(dist-osx-split-bundle dist-osx-bundle)
-else(TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
+else(TOR_SOURCE_DIR)
   message("-- Skipping dist-osx-bundle build target")
   add_custom_target(dist-osx-bundle
     COMMAND ${CMAKE_COMMAND} -E echo
       "!! The dist-osx-bundle target is not configured."
     COMMAND ${CMAKE_COMMAND} -E echo
-      "!! You must set the -DTOR_SOURCE_DIR,-DPOLIPO_SOURCE_DIR and -DTORBUTTON_XPI CMake variables."
+      "!! You must set the -DTOR_SOURCE_DIR CMake variable."
     COMMAND ${CMAKE_COMMAND} -E echo "!! Quitting."
   )
   add_custom_target(dist-osx-split-bundle
     COMMAND ${CMAKE_COMMAND} -E echo
       "!! The dist-osx-split-bundle target is not configured. Quitting."
     COMMAND ${CMAKE_COMMAND} -E echo
-      "!! You must set the -DTOR_SOURCE_DIR, -DPOLIPO_SOURCE_DIR and -DTORBUTTON_XPI CMake variables."
+      "!! You must set the -DTOR_SOURCE_DIR CMake variable."
     COMMAND ${CMAKE_COMMAND} -E echo "!! Quitting."
   )
-endif(TOR_SOURCE_DIR AND POLIPO_SOURCE_DIR AND TORBUTTON_XPI)
+endif(TOR_SOURCE_DIR)
 
