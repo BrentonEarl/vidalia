@@ -627,8 +627,8 @@ MainWindow::launchBrowserFromDirectory()
   /** Directory for the browser */
   QString browserDirectory = settings.getBrowserDirectory();
   if(QDir(browserDirectory).isRelative())
-    browserDirectory = QDir::toNativeSeparators(QCoreApplication::applicationDirPath()
-                                                + "/" + browserDirectory);
+    browserDirectory = QDir(QDir::toNativeSeparators(QCoreApplication::applicationDirPath()
+                                                     + "/" + browserDirectory)).canonicalPath();
 
   /** Relative path to the browser executable from the browserDirectory */
   QString browserExecutable = QDir::toNativeSeparators(browserDirectory + "/" + settings.getBrowserExecutable());
@@ -643,7 +643,7 @@ MainWindow::launchBrowserFromDirectory()
   /** Relative path to the default plugins directory from the browserDirectory */
   QString defaultPluginsDirectory = QDir::toNativeSeparators(settings.getDefaultPluginsDirectory());
 
-  QString profileDir = browserDirectory + "/" + profileDirectory;
+  QString profileDir = QDir(browserDirectory + "/" + profileDirectory).canonicalPath();
 
   _browserProcess->setEnvironment(updateBrowserEnv());
 
@@ -652,15 +652,15 @@ MainWindow::launchBrowserFromDirectory()
   /* Copy the profile directory if it's not already there */
   if (!browserDirObj.exists(profileDirectory)) {
     browserDirObj.mkdir(profileDirectory);
-    copy_dir(browserDirectory + "/" + defaultProfileDirectory,
-             browserDirectory + "/" + profileDirectory);
+    copy_dir(QDir(browserDirectory + "/" + defaultProfileDirectory).canonicalPath(),
+             QDir(browserDirectory + "/" + profileDirectory).canonicalPath());
   }
 
   /* Copy the pluginss directory if it's not already there */
   if (!browserDirObj.exists(pluginsDirectory)) {
     browserDirObj.mkdir(pluginsDirectory);
-    copy_dir(browserDirectory + "/" + defaultPluginsDirectory,
-             browserDirectory + "/" + pluginsDirectory);
+    copy_dir(QDir(browserDirectory + "/" + defaultPluginsDirectory).canonicalPath(),
+             QDir(browserDirectory + "/" + pluginsDirectory).canonicalPath());
   }
 
   /* Build the command line arguments */
@@ -1092,7 +1092,7 @@ MainWindow::start()
   if(QDir(dataDirectory).isRelative())
     dataDirectory = QCoreApplication::applicationDirPath() + "/" + dataDirectory;
 
-  QString expDataDirectory = expand_filename(dataDirectory);
+  QString expDataDirectory = QDir(expand_filename(dataDirectory)).canonicalPath();
   if (!dataDirectory.isEmpty())
     args << "DataDirectory" << expDataDirectory;
 
@@ -1100,7 +1100,7 @@ MainWindow::start()
     if(settings.autoControlPort()) {
       QString portconf = QString("%1/port.conf").arg(expDataDirectory);
       if(!QFile::remove(portconf))
-        vWarn(QString("Unable to remove %s, may be it didn't existed.").arg(portconf));
+        vWarn(QString("Unable to remove %1, may be it didn't existed.").arg(portconf));
 
       args << "ControlPort" << "auto";
       args << "SocksPort" << "auto";
@@ -1211,7 +1211,10 @@ MainWindow::started()
   /* Try to connect to Tor's control port */
   if(settings.autoControlPort()) {
     QString dataDirectory = settings.getDataDirectory();
-    QFile file(QString("%1/port.conf").arg(expand_filename(dataDirectory)));
+    if(QDir(dataDirectory).isRelative())
+      dataDirectory = QCoreApplication::applicationDirPath() + "/" + dataDirectory;
+
+    QFile file(QString("%1/port.conf").arg(QDir(expand_filename(dataDirectory)).canonicalPath()));
     int tries = 0, maxtries = 5;
     while((!file.open(QIODevice::ReadOnly | QIODevice::Text)) and
           (tries++ < maxtries)) {
@@ -1467,7 +1470,7 @@ MainWindow::authenticate()
       cookie = loadControlCookie(cookieDir);
     }
     if(cookie.size() != 32) {
-      vWarn(QString("Cookie length has to be exactly 32 bytes long. Found %s bytes")
+      vWarn(QString("Cookie length has to be exactly 32 bytes long. Found %1 bytes")
             .arg(cookie.size()));
       goto cancel;
     }
