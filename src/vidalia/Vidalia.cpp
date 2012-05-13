@@ -480,7 +480,6 @@ err:
     delete vidaliaQtTranslator;
   if (vidaliaTranslator)
     delete vidaliaTranslator;
-  delete vidaliaTranslator;
   return false;
 }
 
