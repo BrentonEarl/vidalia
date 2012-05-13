@@ -1,22 +1,24 @@
-0.2.18  ??-???-2012
+0.2.18  13-May-2012
   o Use consensus bandwidth for routers when microdescriptors is
     enabled. Fixes bug 3287.
   o Notify users that a warning status event has appeared by flashing
     the Message Log button. Fixes bug 3957.
-  o Improve a method that didn't returned the specified type if
-    another control method was selected. Fixes bug 4065.
-  o Add support for Microdescriptors. Fixes ticket 4203.
-  o Handle tor's bootstrap phases in a more generic way. Fixes bug
-    5109.
+  o Fix a method that didn't return the specified type if another
+    control method was selected. Fixes bug 4065.
+  o Resume listing relays in the Network Map panel even when Tor only
+    offers microdescriptors (new in Tor 0.2.3.x). Fixes ticket 4203.
+  o Handle unrecognized Tor bootstrap phases. (Tor tells us a summary
+    description of each bootstrap phase as it occurs, so we can use
+    that string if needed.) Fixes bug 5109.
   o Displays Korean, Catalan and Greek in their native scripts. Fix
     bug 5110.
-  o Fix the bridge line parsing for requests to
-    bridges.torproject.org. Fixes bug 5730.
+  o Fix the bridge line parsing for requests to bridges.torproject.org
+    when the user clicks 'find bridges now'. Fixes bug 5730.
   o Support adding comments in the same line as a config option inside
     the torrc dialog. Fixes bug 5475.
   o Remove Polipo and Torbutton from Vidalia's build scripts. Resolves
     ticket 5769.
-  o Fix deadlock when the browser process failed to launch in OSX.
+  o Fix deadlock when the browser process failed to launch in OS X.
   o Add ProfileDirectory, DefaultProfileDirectory, PluginsDirectory,
     DefaultPluginsDirectory for better Browser configuration. Also set
     the Vidalia binary location as the starting point for relative
