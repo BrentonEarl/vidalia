@@ -1,0 +1,3847 @@
+# 
+# Translators:
+# Armando Vega <synaan@gmail.com>, 2012.
+#   <trebelnik2@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-05-09 08:49+0000\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: translations@vidalia-project.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr_HR\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"X-Generator: Vidalia ts2po 0.2\n"
+
+msgctxt "AboutDialog"
+msgid "About Vidalia"
+msgstr "O Vidalia"
+
+msgctxt "AboutDialog"
+msgid "License"
+msgstr "Licenca"
+
+msgctxt "AboutDialog"
+msgid "Vidalia 0.2.0"
+msgstr "Vidalia 0.2.0"
+
+msgctxt "AboutDialog"
+msgid "Tor 0.2.0.32"
+msgstr "Tor 0.2.0.32"
+
+msgctxt "AboutDialog"
+msgid "Qt 4.4.2"
+msgstr "Qt 4.4.2"
+
+msgctxt "AdvancedPage"
+msgid "'%1' is not a valid IP address."
+msgstr "'%1' nije važeća IP adresa."
+
+msgctxt "AdvancedPage"
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
+msgstr "Odabrali ste autentifikaciju 'Lozinkom', ali niste postavili lozinku."
+
+msgctxt "AdvancedPage"
+msgid "Select Tor Configuration File"
+msgstr "Odaberi Tor Konfiguracijsku Datoteku"
+
+msgctxt "AdvancedPage"
+msgid "File Not Found"
+msgstr "Datoteka Nije Pronađena"
+
+msgctxt "AdvancedPage"
+msgid "%1 does not exist. Would you like to create it?"
+msgstr "%1 ne postoji. Da li biste ju željeli stvoriti?"
+
+msgctxt "AdvancedPage"
+msgid "Failed to Create File"
+msgstr "Neuspješno Stvaranje Datoteke"
+
+msgctxt "AdvancedPage"
+msgid "Unable to create %1 [%2]"
+msgstr "Nije moguće stvoriti %1 [%2]"
+
+msgctxt "AdvancedPage"
+msgid "Select a Directory to Use for Tor Data"
+msgstr "Odaberite Mapu za Tor Podatke"
+
+msgctxt "AdvancedPage"
+msgid "Unable to remove Tor Service"
+msgstr "Neuspješno uklanjanje Tor Usluge"
+
+msgctxt "AdvancedPage"
+msgid "Unable to install Tor Service"
+msgstr "Neuspješna instalacija Tor Usluge"
+
+msgctxt "AdvancedPage"
+msgid "Vidalia was unable to install the Tor service."
+msgstr "Vidalia nije bila u mogućnosti instalirati Tor uslugu."
+
+msgctxt "AdvancedPage"
+msgid "Authentication:"
+msgstr "Autentifikacija:"
+
+msgctxt "AdvancedPage"
+msgid "Address:"
+msgstr "Adresa:"
+
+msgctxt "AdvancedPage"
+msgid "None"
+msgstr "Ništa"
+
+msgctxt "AdvancedPage"
+msgid "Cookie"
+msgstr "Cookie"
+
+msgctxt "AdvancedPage"
+msgid "Password"
+msgstr "Lozinka"
+
+msgctxt "AdvancedPage"
+msgid "Randomly Generate"
+msgstr "Nasumično Generiraj"
+
+msgctxt "AdvancedPage"
+msgid ":"
+msgstr ":"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File"
+msgstr "Tor Konfiguracijska Datoteka"
+
+msgctxt "AdvancedPage"
+msgid "Start the Tor software with the specified configuration file (torrc)"
+msgstr "Pokreni Tor software sa specificiranom konfiguracijskom datotekom (torrc)"
+
+msgctxt "AdvancedPage"
+msgid "Select path to your configuration file"
+msgstr "Odaberite putanju do vaše konfiguracijske datoteke"
+
+msgctxt "AdvancedPage"
+msgid "Browse"
+msgstr "Pretraži"
+
+msgctxt "AdvancedPage"
+msgid "Data Directory"
+msgstr "Podatkovna Mapa"
+
+msgctxt "AdvancedPage"
+msgid "Store data for the Tor software in the following directory"
+msgstr "Spremaj podatke za Tor software u sljedećoj mapi"
+
+msgctxt "AdvancedPage"
+msgid "Select the directory used to store data for the Tor software"
+msgstr "Odaberite mapu koja će biti korištena za spremanje podataka Tor softwarea"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
+msgstr "Tor Upravljanje"
+
+msgctxt "AdvancedPage"
+msgid "Use TCP connection (ControlPort)"
+msgstr "Koristi TCP vezu (KontrolniPort)"
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr "Putanja:"
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr "Koristi Unix domain socket (KontrolniSocket)"
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "Izmjeni trenutni torrc"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr "NAPOMENA: ovo će izmjeniti trenutno učitani torrc"
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr "Putanja KontrolnogSocketa ne postoji."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr "Specificirana lokacija Tor konfiguracijske datoteke sadrži znakove koji se ne mogu koristiti u trenutnom 8 bitnom kodiranju vašeg sustava."
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr "Specificirana lokacija Tor podatkovne mape sadrži znakove koji se ne mogu koristiti u trenutnom 8 bitnom kodiranju vašeg sustava."
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr "Promjenili ste putanju torrc datoteke, želite li ponovno pokrenuti Tor?"
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr "Tor Konfiguracijska Datoteka (torrc);;All Files(*)"
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr "Odaberite datoteku za korištenje kao Tor socket putanju"
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr "Automatski podesi KontrolniPort"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "Odabrali ste mogućnost automatskog podešavanja za Kontrolni ulaz, ali bez direktorija podatka. Dodajte jedan direktorij ili odznačite mogućnost \"Podesi kontrolni ulaz automatski\"."
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
+"\n"
+"You may need to remove it manually."
+msgstr "Vidalia nije bila u mogućnosti ukloniti Tor uslugu.\n\nMožda ćete ju morati ukloniti ručno."
+
+msgctxt "AppearancePage"
+msgid "Language"
+msgstr "Jezik"
+
+msgctxt "AppearancePage"
+msgid "Choose the language used in Vidalia"
+msgstr "Odaberite jezik korišten u Vidaliji"
+
+msgctxt "AppearancePage"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "AppearancePage"
+msgid "Choose Vidalia's interface style"
+msgstr "Odaberite Vidalijin stil sučelja"
+
+msgctxt "AppearancePage"
+msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia nije bila u mogućnosti učitati odabrani jezični prijevod."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "Postavke ikone sustava (izmjene će se primjeniti nakon ponovnog pokretanja Vidalia)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "Prikaži ikonu obavijesnog područja i ikonu pokretača (uobičajeno)"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "Sakrij ikonu "
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "Sakrij ikonu pokretača"
+
+msgctxt "BandwidthGraph"
+msgid "Since:"
+msgstr "Od:"
+
+msgctxt "BandwidthGraph"
+msgid "Hide Settings"
+msgstr "Sakrij Postavke"
+
+msgctxt "BandwidthGraph"
+msgid "Show Settings"
+msgstr "Prikaži Postavke"
+
+msgctxt "BandwidthGraph"
+msgid "Tor Bandwidth Usage"
+msgstr "Tor Korištenje Propusnosti"
+
+msgctxt "BandwidthGraph"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "BandwidthGraph"
+msgid "Receive Rate"
+msgstr "Brzina Primanja"
+
+msgctxt "BandwidthGraph"
+msgid "Send Rate"
+msgstr "Brzina Slanja"
+
+msgctxt "BandwidthGraph"
+msgid "Always on Top"
+msgstr "Uvijek na Vrhu"
+
+msgctxt "BandwidthGraph"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "BandwidthGraph"
+msgid "Changes the transparency of the Bandwidth Graph"
+msgstr "Mijenja transparenciju Grafa Propusnosti"
+
+msgctxt "BandwidthGraph"
+msgid "100"
+msgstr "100"
+
+msgctxt "BandwidthGraph"
+msgid "% Opaque"
+msgstr "% Neproziran"
+
+msgctxt "BandwidthGraph"
+msgid "Save"
+msgstr "Spremi"
+
+msgctxt "BandwidthGraph"
+msgid "Cancel"
+msgstr "Odustani"
+
+msgctxt "BridgeDownloader"
+msgid "Starting HTTPS bridge request..."
+msgstr "Započinjem zahtjev za HTTPS mostom..."
+
+msgctxt "BridgeDownloader"
+msgid "Connecting to %1:%2..."
+msgstr "Spajanje na %1:%2..."
+
+msgctxt "BridgeDownloader"
+msgid "Sending an HTTPS request for bridges..."
+msgstr "Slanje HTTPS zahtjeva za mostovima..."
+
+msgctxt "BridgeDownloader"
+msgid "Downloading a list of bridges..."
+msgstr "Preuzimanje popisa mostova..."
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Downloading Bridges"
+msgstr "Preuzimanje Mostova"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Unable to download bridges: %1"
+msgstr "Nije moguće preuzeti mostove: %1"
+
+msgctxt "BridgeDownloaderProgressDialog"
+msgid "Retrying bridge request..."
+msgstr "Ponovni pokušaj zahtjeva za mostom..."
+
+msgctxt "BridgeUsageDialog"
+msgid "Country"
+msgstr "Država"
+
+msgctxt "BridgeUsageDialog"
+msgid "# Clients"
+msgstr "# Klijenti"
+
+msgctxt "BridgeUsageDialog"
+msgid "Clients from the following countries have used your relay since %1"
+msgstr "Klijenti iz sljedećih država su koristili vaš relej od %1"
+
+msgctxt "BridgeUsageDialog"
+msgid "Bridge Usage Summary"
+msgstr "Sažetak Korištenja Mosta"
+
+msgctxt "BridgeUsageDialog"
+msgid "Client Summary"
+msgstr "Sažetak Klijenata"
+
+msgctxt "Circuit"
+msgid "New"
+msgstr "Novo"
+
+msgctxt "Circuit"
+msgid "Open"
+msgstr "Otvori"
+
+msgctxt "Circuit"
+msgid "Building"
+msgstr "Građenje"
+
+msgctxt "Circuit"
+msgid "Failed"
+msgstr "Neuspjelo"
+
+msgctxt "Circuit"
+msgid "Closed"
+msgstr "Zatvoreno"
+
+msgctxt "Circuit"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "CircuitItem"
+msgid "<Path Empty>"
+msgstr "<Putanja Prazna>"
+
+msgctxt "CircuitListWidget"
+msgid "Connection"
+msgstr "Veza"
+
+msgctxt "CircuitListWidget"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "CircuitListWidget"
+msgid "Zoom to Circuit"
+msgstr "Uvećaj prema Krugu"
+
+msgctxt "CircuitListWidget"
+msgid "Close Circuit (Del)"
+msgstr "Zatvori Krug (Del)"
+
+msgctxt "CircuitListWidget"
+msgid "Close Stream (Del)"
+msgstr "Zatvori Tok (Del)"
+
+msgctxt "ConfigDialog"
+msgid "General"
+msgstr "Općenito"
+
+msgctxt "ConfigDialog"
+msgid "Network"
+msgstr "Mreža"
+
+msgctxt "ConfigDialog"
+msgid "Sharing"
+msgstr "Dijeljenje"
+
+msgctxt "ConfigDialog"
+msgid "Services"
+msgstr "Usluge"
+
+msgctxt "ConfigDialog"
+msgid "Appearance"
+msgstr "Izgled"
+
+msgctxt "ConfigDialog"
+msgid "Advanced"
+msgstr "Napredno"
+
+msgctxt "ConfigDialog"
+msgid "Help"
+msgstr "Pomoć"
+
+msgctxt "ConfigDialog"
+msgid "Error Saving Settings"
+msgstr "Greška pri Spremanju Postavki"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to save your %1 settings."
+msgstr "Vidalia nije bila u mogućnosti spremiti vaše %1 postavke."
+
+msgctxt "ConfigDialog"
+msgid "Error Applying Settings"
+msgstr "Greška pri Primjenjivanju Postavki"
+
+msgctxt "ConfigDialog"
+msgid "Vidalia was unable to apply your %1 settings to Tor."
+msgstr "Vidalia nije bila u mogućnosti primjeniti vaše %1 postavke za Tor."
+
+msgctxt "ConfigDialog"
+msgid "Settings"
+msgstr "Postavke"
+
+msgctxt "ControlConnection"
+msgid "Vidalia was unable to connect to Tor. (%1)"
+msgstr "Vidalia nije bila u mogućnosti spojiti se na Tor. (%1)"
+
+msgctxt "ControlConnection"
+msgid "Control socket is not connected."
+msgstr "Kontrolni socket nije spojen."
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Password Required"
+msgstr "Potrebna Lozinka"
+
+msgctxt "ControlPasswordInputDialog"
+msgid "Remember my password"
+msgstr "Zapamti moju lozinku"
+
+msgctxt "ControlPasswordInputDialog"
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidalia se spojila na pokrenuti Tor proces koji zahtjeva lozinku. Molimo unesite svoju kontrolnu lozinku:"
+
+msgctxt "ControlSocket"
+msgid "Control socket is not connected."
+msgstr "Kontrolni socket nije spojen."
+
+msgctxt "ControlSocket"
+msgid "Error sending control command. [%1]"
+msgstr "Greška pri slanju kontrolne naredbe. [%1]"
+
+msgctxt "ControlSocket"
+msgid "Socket disconnected while attempting to read a line of data."
+msgstr "Socket se odspojio tijekom pokušaja čitanja linije podataka."
+
+msgctxt "ControlSocket"
+msgid "Invalid control reply. [%1]"
+msgstr "Nevažeći kontrolni odgovor. [%1]"
+
+msgctxt "CountryInfo"
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+msgctxt "CountryInfo"
+msgid "Andorra"
+msgstr "Andora"
+
+msgctxt "CountryInfo"
+msgid "Angola"
+msgstr "Angola"
+
+msgctxt "CountryInfo"
+msgid "Antigua & Barbuda"
+msgstr "Antigua & Barbuda"
+
+msgctxt "CountryInfo"
+msgid "Argentina"
+msgstr "Argentina"
+
+msgctxt "CountryInfo"
+msgid "Armenia"
+msgstr "Armenija"
+
+msgctxt "CountryInfo"
+msgid "Australia"
+msgstr "Australija"
+
+msgctxt "CountryInfo"
+msgid "Azerbaijan"
+msgstr "Azerbedžan"
+
+msgctxt "CountryInfo"
+msgid "Bahamas"
+msgstr "Bahami"
+
+msgctxt "CountryInfo"
+msgid "Bangladesh"
+msgstr "Bangladeš"
+
+msgctxt "CountryInfo"
+msgid "Barbados"
+msgstr "Barbados"
+
+msgctxt "CountryInfo"
+msgid "Belarus"
+msgstr "Bjelorusija"
+
+msgctxt "CountryInfo"
+msgid "Belgium"
+msgstr "Belgija"
+
+msgctxt "CountryInfo"
+msgid "Belize"
+msgstr "Belize"
+
+msgctxt "CountryInfo"
+msgid "Bhutan"
+msgstr "Butan"
+
+msgctxt "CountryInfo"
+msgid "Bolivia"
+msgstr "Bolivija"
+
+msgctxt "CountryInfo"
+msgid "Bosnia & Herzegovina"
+msgstr "Bosna i Hercegovina"
+
+msgctxt "CountryInfo"
+msgid "Botswana"
+msgstr "Bocvana"
+
+msgctxt "CountryInfo"
+msgid "Brazil"
+msgstr "Brazil"
+
+msgctxt "CountryInfo"
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+msgctxt "CountryInfo"
+msgid "Bulgaria"
+msgstr "Bugarska"
+
+msgctxt "CountryInfo"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+msgctxt "CountryInfo"
+msgid "Burundi"
+msgstr "Burundi"
+
+msgctxt "CountryInfo"
+msgid "Cambodia"
+msgstr "Kambodža"
+
+msgctxt "CountryInfo"
+msgid "Cameroon"
+msgstr "Kamerun"
+
+msgctxt "CountryInfo"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "CountryInfo"
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+msgctxt "CountryInfo"
+msgid "Central African Republic"
+msgstr "Centralna Afrička Republika"
+
+msgctxt "CountryInfo"
+msgid "Chad"
+msgstr "Čad"
+
+msgctxt "CountryInfo"
+msgid "Chile"
+msgstr "Čile"
+
+msgctxt "CountryInfo"
+msgid "China"
+msgstr "Kina"
+
+msgctxt "CountryInfo"
+msgid "Colombia"
+msgstr "Kolumbija"
+
+msgctxt "CountryInfo"
+msgid "Comoros"
+msgstr "Comoros"
+
+msgctxt "CountryInfo"
+msgid "Congo, The Democratic Republic of the"
+msgstr "Kongo, Demokratska Republika"
+
+msgctxt "CountryInfo"
+msgid "Congo"
+msgstr "Kongo"
+
+msgctxt "CountryInfo"
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+msgctxt "CountryInfo"
+msgid "Cote dâIvoire"
+msgstr "Obala Bjelokosti"
+
+msgctxt "CountryInfo"
+msgid "Croatia"
+msgstr "Hrvatska"
+
+msgctxt "CountryInfo"
+msgid "Cuba"
+msgstr "Kuba"
+
+msgctxt "CountryInfo"
+msgid "Cyprus"
+msgstr "Cipar"
+
+msgctxt "CountryInfo"
+msgid "Czech Republic"
+msgstr "Češka Republika"
+
+msgctxt "CountryInfo"
+msgid "Denmark"
+msgstr "Danska"
+
+msgctxt "CountryInfo"
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgctxt "CountryInfo"
+msgid "Dominica"
+msgstr "Dominica"
+
+msgctxt "CountryInfo"
+msgid "Dominican Republic"
+msgstr "Dominikanska Republika"
+
+msgctxt "CountryInfo"
+msgid "Ecuador"
+msgstr "Ekvador"
+
+msgctxt "CountryInfo"
+msgid "Egypt"
+msgstr "Egipat"
+
+msgctxt "CountryInfo"
+msgid "El Salvador"
+msgstr "El Salvador"
+
+msgctxt "CountryInfo"
+msgid "Equatorial Guinea"
+msgstr "Ekvatorijalna Gvineja"
+
+msgctxt "CountryInfo"
+msgid "Eritrea"
+msgstr "Eritreja"
+
+msgctxt "CountryInfo"
+msgid "Estonia"
+msgstr "Estonija"
+
+msgctxt "CountryInfo"
+msgid "France"
+msgstr "Francuska"
+
+msgctxt "CountryInfo"
+msgid "Gabon"
+msgstr "Gabon"
+
+msgctxt "CountryInfo"
+msgid "Gambia"
+msgstr "Gambia"
+
+msgctxt "CountryInfo"
+msgid "Georgia"
+msgstr "Gruzija"
+
+msgctxt "CountryInfo"
+msgid "Germany"
+msgstr "Njemačka"
+
+msgctxt "CountryInfo"
+msgid "Ghana"
+msgstr "Gana"
+
+msgctxt "CountryInfo"
+msgid "Grenada"
+msgstr "Grenada"
+
+msgctxt "CountryInfo"
+msgid "Guatemala"
+msgstr "Gvatemala"
+
+msgctxt "CountryInfo"
+msgid "Guinea"
+msgstr "Gvineja"
+
+msgctxt "CountryInfo"
+msgid "Guinea-Bissau"
+msgstr "Gvineja-Bissau"
+
+msgctxt "CountryInfo"
+msgid "Guyana"
+msgstr "Guyana"
+
+msgctxt "CountryInfo"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "CountryInfo"
+msgid "Haiti"
+msgstr "Haiti"
+
+msgctxt "CountryInfo"
+msgid "Honduras"
+msgstr "Honduras"
+
+msgctxt "CountryInfo"
+msgid "Israel"
+msgstr "Izrael"
+
+msgctxt "CountryInfo"
+msgid "Italy"
+msgstr "Italija"
+
+msgctxt "CountryInfo"
+msgid "Jamaica"
+msgstr "Jamajka"
+
+msgctxt "CountryInfo"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "CountryInfo"
+msgid "Jordan"
+msgstr "Jordan"
+
+msgctxt "CountryInfo"
+msgid "Kazakhstan"
+msgstr "Kazahstan"
+
+msgctxt "CountryInfo"
+msgid "Kenya"
+msgstr "Kenija"
+
+msgctxt "CountryInfo"
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgctxt "CountryInfo"
+msgid "Kuwait"
+msgstr "Kuvajt"
+
+msgctxt "CountryInfo"
+msgid "Kyrgyzstan"
+msgstr "Kirgistan"
+
+msgctxt "CountryInfo"
+msgid "Laos"
+msgstr "Laos"
+
+msgctxt "CountryInfo"
+msgid "Latvia"
+msgstr "Latvija"
+
+msgctxt "CountryInfo"
+msgid "Lebanon"
+msgstr "Libanon"
+
+msgctxt "CountryInfo"
+msgid "Lesotho"
+msgstr "Lesoto"
+
+msgctxt "CountryInfo"
+msgid "Liberia"
+msgstr "Liberija"
+
+msgctxt "CountryInfo"
+msgid "Liechtenstein"
+msgstr "Lihtenštajn"
+
+msgctxt "CountryInfo"
+msgid "Lithuania"
+msgstr "Litva"
+
+msgctxt "CountryInfo"
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+msgctxt "CountryInfo"
+msgid "Macedonia"
+msgstr "Makedonija"
+
+msgctxt "CountryInfo"
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+msgctxt "CountryInfo"
+msgid "Malawi"
+msgstr "Malawi"
+
+msgctxt "CountryInfo"
+msgid "Malaysia"
+msgstr "Malezija"
+
+msgctxt "CountryInfo"
+msgid "Mali"
+msgstr "Mali"
+
+msgctxt "CountryInfo"
+msgid "Malta"
+msgstr "Malta"
+
+msgctxt "CountryInfo"
+msgid "Marshall Islands"
+msgstr "Maršalovi Otoci"
+
+msgctxt "CountryInfo"
+msgid "Mauritania"
+msgstr "Mauritanija"
+
+msgctxt "CountryInfo"
+msgid "Mauritius"
+msgstr "Mauricijus"
+
+msgctxt "CountryInfo"
+msgid "Micronesia"
+msgstr "Mikronezija"
+
+msgctxt "CountryInfo"
+msgid "Moldova"
+msgstr "Moldavija"
+
+msgctxt "CountryInfo"
+msgid "Monaco"
+msgstr "Monako"
+
+msgctxt "CountryInfo"
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgctxt "CountryInfo"
+msgid "Montenegro"
+msgstr "Crna Gora"
+
+msgctxt "CountryInfo"
+msgid "Morocco"
+msgstr "Maroko"
+
+msgctxt "CountryInfo"
+msgid "Mozambique"
+msgstr "Mozambik"
+
+msgctxt "CountryInfo"
+msgid "Namibia"
+msgstr "Namibija"
+
+msgctxt "CountryInfo"
+msgid "Nauru"
+msgstr "Nauru"
+
+msgctxt "CountryInfo"
+msgid "Nepal"
+msgstr "Nepal"
+
+msgctxt "CountryInfo"
+msgid "Netherlands"
+msgstr "Nizozemska"
+
+msgctxt "CountryInfo"
+msgid "New Zealand"
+msgstr "Novi Zeland"
+
+msgctxt "CountryInfo"
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+msgctxt "CountryInfo"
+msgid "Niger"
+msgstr "Niger"
+
+msgctxt "CountryInfo"
+msgid "Nigeria"
+msgstr "Nigerija"
+
+msgctxt "CountryInfo"
+msgid "Norway"
+msgstr "Norveška"
+
+msgctxt "CountryInfo"
+msgid "Oman"
+msgstr "Oman"
+
+msgctxt "CountryInfo"
+msgid "Pakistan"
+msgstr "Pakistan"
+
+msgctxt "CountryInfo"
+msgid "Palau"
+msgstr "Palau"
+
+msgctxt "CountryInfo"
+msgid "Palestine"
+msgstr "Palestina"
+
+msgctxt "CountryInfo"
+msgid "Panama"
+msgstr "Panama"
+
+msgctxt "CountryInfo"
+msgid "Papua New Guinea"
+msgstr "Papua Nova Gvineja"
+
+msgctxt "CountryInfo"
+msgid "Paraguay"
+msgstr "Paragvaj"
+
+msgctxt "CountryInfo"
+msgid "Peru"
+msgstr "Peru"
+
+msgctxt "CountryInfo"
+msgid "Philippines"
+msgstr "Filipini"
+
+msgctxt "CountryInfo"
+msgid "Poland"
+msgstr "Poljska"
+
+msgctxt "CountryInfo"
+msgid "Portugal"
+msgstr "Portugal"
+
+msgctxt "CountryInfo"
+msgid "Qatar"
+msgstr "Katar"
+
+msgctxt "CountryInfo"
+msgid "Romania"
+msgstr "Rumunjska"
+
+msgctxt "CountryInfo"
+msgid "Russia"
+msgstr "Rusija"
+
+msgctxt "CountryInfo"
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgctxt "CountryInfo"
+msgid "Saint Kitts & Nevis"
+msgstr "Saint Kitts & Nevis"
+
+msgctxt "CountryInfo"
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+msgctxt "CountryInfo"
+msgid "Saint Vincent & the Grenadines"
+msgstr "Saint Vincent & the Grenadines"
+
+msgctxt "CountryInfo"
+msgid "Samoa"
+msgstr "Samoa"
+
+msgctxt "CountryInfo"
+msgid "San Marino"
+msgstr "San Marino"
+
+msgctxt "CountryInfo"
+msgid "Sao Tome & Principe"
+msgstr "Sao Tome & Principe"
+
+msgctxt "CountryInfo"
+msgid "Saudi Arabia"
+msgstr "Saudijska Arabija"
+
+msgctxt "CountryInfo"
+msgid "Senegal"
+msgstr "Senegal"
+
+msgctxt "CountryInfo"
+msgid "Serbia"
+msgstr "Srbija"
+
+msgctxt "CountryInfo"
+msgid "Seychelles"
+msgstr "Sejšeli"
+
+msgctxt "CountryInfo"
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+msgctxt "CountryInfo"
+msgid "Singapore"
+msgstr "Singapur"
+
+msgctxt "CountryInfo"
+msgid "Slovakia"
+msgstr "Slovačka"
+
+msgctxt "CountryInfo"
+msgid "Slovenia"
+msgstr "Slovenija"
+
+msgctxt "CountryInfo"
+msgid "Solomon Islands"
+msgstr "Solomonski Otoci"
+
+msgctxt "CountryInfo"
+msgid "Somalia"
+msgstr "Somalija"
+
+msgctxt "CountryInfo"
+msgid "South Africa"
+msgstr "Južna Afrika"
+
+msgctxt "CountryInfo"
+msgid "Spain"
+msgstr "Španjolska"
+
+msgctxt "CountryInfo"
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+msgctxt "CountryInfo"
+msgid "Sudan"
+msgstr "Sudan"
+
+msgctxt "CountryInfo"
+msgid "Suriname"
+msgstr "Suriname"
+
+msgctxt "CountryInfo"
+msgid "Swaziland"
+msgstr "Swaziland"
+
+msgctxt "CountryInfo"
+msgid "Sweden"
+msgstr "Švedska"
+
+msgctxt "CountryInfo"
+msgid "Switzerland"
+msgstr "Švicarska"
+
+msgctxt "CountryInfo"
+msgid "Syria"
+msgstr "Sirija"
+
+msgctxt "CountryInfo"
+msgid "Tajikistan"
+msgstr "Tadžikistan"
+
+msgctxt "CountryInfo"
+msgid "Tanzania"
+msgstr "Tanzanija"
+
+msgctxt "CountryInfo"
+msgid "Thailand"
+msgstr "Tajland"
+
+msgctxt "CountryInfo"
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor-Leste (Istočni Timor)"
+
+msgctxt "CountryInfo"
+msgid "Togo"
+msgstr "Togo"
+
+msgctxt "CountryInfo"
+msgid "Tonga"
+msgstr "Tonga"
+
+msgctxt "CountryInfo"
+msgid "Trinidad & Tobago"
+msgstr "Trinidad i Tobago"
+
+msgctxt "CountryInfo"
+msgid "Tunisia"
+msgstr "Tunis"
+
+msgctxt "CountryInfo"
+msgid "Turkey"
+msgstr "Turska"
+
+msgctxt "CountryInfo"
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+msgctxt "CountryInfo"
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgctxt "CountryInfo"
+msgid "Uganda"
+msgstr "Uganda"
+
+msgctxt "CountryInfo"
+msgid "Ukraine"
+msgstr "Ukrajina"
+
+msgctxt "CountryInfo"
+msgid "United Arab Emirates"
+msgstr "Ujedinjeni Arapski Emirati"
+
+msgctxt "CountryInfo"
+msgid "United Kingdom"
+msgstr "Ujedinjeno Kraljevstvo"
+
+msgctxt "CountryInfo"
+msgid "United States"
+msgstr "Sjedinjene Američke Države"
+
+msgctxt "CountryInfo"
+msgid "Uruguay"
+msgstr "Urugvaj"
+
+msgctxt "CountryInfo"
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+msgctxt "CountryInfo"
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgctxt "CountryInfo"
+msgid "Vatican"
+msgstr "Vatikan"
+
+msgctxt "CountryInfo"
+msgid "Venezuela"
+msgstr "Venecuela"
+
+msgctxt "CountryInfo"
+msgid "Vietnam"
+msgstr "Vijetnam"
+
+msgctxt "CountryInfo"
+msgid "Western Sahara"
+msgstr "Zapadna Sahara"
+
+msgctxt "CountryInfo"
+msgid "Yemen"
+msgstr "Jemen"
+
+msgctxt "CountryInfo"
+msgid "Zambia"
+msgstr "Zambia"
+
+msgctxt "CountryInfo"
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
+msgstr "Zaire"
+
+msgctxt "CountryInfo"
+msgid "Albania"
+msgstr "Albanija"
+
+msgctxt "CountryInfo"
+msgid "Algeria"
+msgstr "Alžir"
+
+msgctxt "CountryInfo"
+msgid "Austria"
+msgstr "Austrija"
+
+msgctxt "CountryInfo"
+msgid "Bahrain"
+msgstr "Bahrejn"
+
+msgctxt "CountryInfo"
+msgid "Benin"
+msgstr "Benin"
+
+msgctxt "CountryInfo"
+msgid "Ethiopia"
+msgstr "Etiopija"
+
+msgctxt "CountryInfo"
+msgid "Fiji"
+msgstr "Fidži"
+
+msgctxt "CountryInfo"
+msgid "Finland"
+msgstr "Finska"
+
+msgctxt "CountryInfo"
+msgid "Greece"
+msgstr "Grčka"
+
+msgctxt "CountryInfo"
+msgid "Guam"
+msgstr "Guam"
+
+msgctxt "CountryInfo"
+msgid "Hungary"
+msgstr "Mađarska"
+
+msgctxt "CountryInfo"
+msgid "Iceland"
+msgstr "Island"
+
+msgctxt "CountryInfo"
+msgid "India"
+msgstr "Indija"
+
+msgctxt "CountryInfo"
+msgid "Indonesia"
+msgstr "Indonezija"
+
+msgctxt "CountryInfo"
+msgid "Iran"
+msgstr "Iran"
+
+msgctxt "CountryInfo"
+msgid "Iraq"
+msgstr "Irak"
+
+msgctxt "CountryInfo"
+msgid "Ireland"
+msgstr "Irska"
+
+msgctxt "CountryInfo"
+msgid "Korea, North"
+msgstr "Koreja, Sjeverna"
+
+msgctxt "CountryInfo"
+msgid "Korea, South"
+msgstr "Koreja, Južna"
+
+msgctxt "CountryInfo"
+msgid "Libya"
+msgstr "Libija"
+
+msgctxt "CountryInfo"
+msgid "Maldives"
+msgstr "Maldivi"
+
+msgctxt "CountryInfo"
+msgid "Mexico"
+msgstr "Meksiko"
+
+msgctxt "CountryInfo"
+msgid "Myanmar"
+msgstr "Mijanmar"
+
+msgctxt "CountryInfo"
+msgid "Taiwan"
+msgstr "Tajvan"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr "Predaj Izvještaj o Rušenju"
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr "Vidalia je naišla na grešku i treba se zatvoriti"
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Ponovno Pokreni Vidaliu"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "Ne Pokreći Ponovno"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr "Nije bilo moguće ponovno pokrenuti Vidaliu"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr "Nismo bili u mogućnosti automatski ponovno pokrenuti Vidaliu. Molimo pokrenite ponovno Vidaliu ručno."
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr "Molimo unesite tiket:"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr "Kreirano je izvješće o rušenju koje možete poslati developerima Vidalie kako biste pomogli identificirati i riješiti problem. Podnesena prijava ne sadrži nikakve osobne identifikacijske podatke."
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
+msgstr "sa opisom što se tradili prije no što se aplikacija srušila, zajedno sa sljedećim datotekama vezanim uz izvješće o rušenju:"
+
+msgctxt "GeneralPage"
+msgid "Executables (*.exe)"
+msgstr "Izvršne datoteke (*.exe)"
+
+msgctxt "GeneralPage"
+msgid "Select Path to Tor"
+msgstr "Odaberite Putanju do Tora"
+
+msgctxt "GeneralPage"
+msgid "Select Proxy Executable"
+msgstr "Odaberite Proxy Izvršnu Datoteku"
+
+msgctxt "GeneralPage"
+msgid "You must specify the name of your Tor executable."
+msgstr "Morate specificirati ime vaše Tor izvršne datoteke."
+
+msgctxt "GeneralPage"
+msgid "Start Vidalia when my system starts"
+msgstr "Pokreni Vidaliu pri pokretanju sustava"
+
+msgctxt "GeneralPage"
+msgid "Browse"
+msgstr "Pretraži"
+
+msgctxt "GeneralPage"
+msgid "Start the Tor software when Vidalia starts"
+msgstr "Pokreni Tor software pri pokretanju Vidalie"
+
+msgctxt "GeneralPage"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application (optional)"
+msgstr "Proxy Aplikacija (opcionalno)"
+
+msgctxt "GeneralPage"
+msgid "Start a proxy application when Tor starts"
+msgstr "Pokreni proxy aplikaciju kada se Tor pokrene"
+
+msgctxt "GeneralPage"
+msgid "Proxy Application Arguments:"
+msgstr "Parametri Proxy Aplikacije:"
+
+msgctxt "GeneralPage"
+msgid "Software Updates"
+msgstr "Ažuriranje Softwarea"
+
+msgctxt "GeneralPage"
+msgid "Check for new software updates automatically"
+msgstr "Automatski provjeravaj za ažuriranje softwarea"
+
+msgctxt "GeneralPage"
+msgid "Check Now"
+msgstr "Provjeri Sada"
+
+msgctxt "GraphFrame"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "GraphFrame"
+msgid "%1 KB"
+msgstr "%1 KB"
+
+msgctxt "GraphFrame"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+msgctxt "GraphFrame"
+msgid "%1 GB"
+msgstr "%1 GB"
+
+msgctxt "GraphFrame"
+msgid "Recv:"
+msgstr "Prim:"
+
+msgctxt "GraphFrame"
+msgid "Sent:"
+msgstr "Posl:"
+
+msgctxt "HelpBrowser"
+msgid "Supplied XML file is not a valid Contents document."
+msgstr "Data XML datoteka nije važeći dokument Sadržaja"
+
+msgctxt "HelpBrowser"
+msgid "Search reached end of document"
+msgstr "Pretraga je došla do kraja dokumenta"
+
+msgctxt "HelpBrowser"
+msgid "Search reached start of document"
+msgstr "Pretraga je došla do početka dokumenta"
+
+msgctxt "HelpBrowser"
+msgid "Text not found in document"
+msgstr "Tekst nije pronađen u dokumentu"
+
+msgctxt "HelpBrowser"
+msgid "Found %1 results"
+msgstr "Pronađeno %1 rezultata"
+
+msgctxt "HelpBrowser"
+msgid "Vidalia Help"
+msgstr "Vidalia Pomoć"
+
+msgctxt "HelpBrowser"
+msgid "Back"
+msgstr "Natrag"
+
+msgctxt "HelpBrowser"
+msgid "Move to previous page (Backspace)"
+msgstr "Povratak na prethodnu stranicu (Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Forward"
+msgstr "Naprijed"
+
+msgctxt "HelpBrowser"
+msgid "Move to next page (Shift+Backspace)"
+msgstr "Pomicanje na sljedeću stranicu (Shift+Backspace)"
+
+msgctxt "HelpBrowser"
+msgid "Shift+Backspace"
+msgstr "Shift+Backspace"
+
+msgctxt "HelpBrowser"
+msgid "Home"
+msgstr "Home"
+
+msgctxt "HelpBrowser"
+msgid "Move to the Home page (Ctrl+H)"
+msgstr "Povratak na domaću stranicu (Ctrl+H)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgctxt "HelpBrowser"
+msgid "Find"
+msgstr "Pronađi"
+
+msgctxt "HelpBrowser"
+msgid "Search for a word or phrase on current page (Ctrl+F)"
+msgstr "Pretraga za riječ ili frazu na trenutnoj stranici (Ctrl+F)"
+
+msgctxt "HelpBrowser"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "HelpBrowser"
+msgid "Close"
+msgstr "Zatvori"
+
+msgctxt "HelpBrowser"
+msgid "Close Vidalia Help"
+msgstr "Zatvori Vidalia Pomoć"
+
+msgctxt "HelpBrowser"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "HelpBrowser"
+msgid "Find:"
+msgstr "Pronađi:"
+
+msgctxt "HelpBrowser"
+msgid "Find Previous"
+msgstr "Pronađi prethodno"
+
+msgctxt "HelpBrowser"
+msgid "Find Next"
+msgstr "Pronađi sljedeće"
+
+msgctxt "HelpBrowser"
+msgid "Case sensitive"
+msgstr "Osjetljiv na veličinu slova"
+
+msgctxt "HelpBrowser"
+msgid "Whole words only"
+msgstr "Samo cijele riječi"
+
+msgctxt "HelpBrowser"
+msgid "Help Topics"
+msgstr "Teme Pomoći"
+
+msgctxt "HelpBrowser"
+msgid "Contents"
+msgstr "Sadržaj"
+
+msgctxt "HelpBrowser"
+msgid "Search"
+msgstr "Pretraživanje"
+
+msgctxt "HelpBrowser"
+msgid "Searching for:"
+msgstr "Pretražujem za:"
+
+msgctxt "HelpBrowser"
+msgid "Found Documents"
+msgstr "Pronađeni Dokumenti"
+
+msgctxt "HelpBrowser"
+msgid "Error Loading Help Contents:"
+msgstr "Greška pri Učitavanju Sadržaja Pomoći:"
+
+msgctxt "HelpTextBrowser"
+msgid "Opening External Link"
+msgstr "Otvaranje Vanjske Poveznice"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
+msgstr "Vidalia može otvoriti poveznicu koju ste odabrali u vašem pretpostavljenom Web pregledniku. Ako vaš preglednik nije trenutno podešen za korištenje Tora onda zahtjev neće biti anoniman."
+
+msgctxt "HelpTextBrowser"
+msgid "Do you want Vidalia to open the link in your Web browser?"
+msgstr "Želite li da VIdalia otvori poveznicu u vašem Web pregledniku?"
+
+msgctxt "HelpTextBrowser"
+msgid "Unable to Open Link"
+msgstr "Nije Bilo Boguće Otvoriti Poveznicu"
+
+msgctxt "HelpTextBrowser"
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
+msgstr "Vidalia nije bila u mogućnosti otvoriti odabranu poveznicu u vašem Web pregledniku. Još uvijek možete kopirati URL i zalijepiti ga u vaš preglednik."
+
+msgctxt "HelpTextBrowser"
+msgid "Error opening help file:"
+msgstr "Greška pri otvaranju datoteke pomoći:"
+
+msgctxt "LicenseDialog"
+msgid "License Information"
+msgstr "Informacije o Licenci"
+
+msgctxt "LicenseDialog"
+msgid "License"
+msgstr "Licenca"
+
+msgctxt "LicenseDialog"
+msgid "Credits"
+msgstr "Zasluge"
+
+msgctxt "LogEvent"
+msgid "Debug"
+msgstr "Debugiranje"
+
+msgctxt "LogEvent"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogEvent"
+msgid "Notice"
+msgstr "Obavijest"
+
+msgctxt "LogEvent"
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgctxt "LogEvent"
+msgid "Error"
+msgstr "Greška"
+
+msgctxt "LogEvent"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr "Debugiranje"
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "Obavijest"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "Greška"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "MainWindow"
+msgid "Start Tor"
+msgstr "Pokreni Tor"
+
+msgctxt "MainWindow"
+msgid "Exit"
+msgstr "Izlaz"
+
+msgctxt "MainWindow"
+msgid "Bandwidth Graph"
+msgstr "Graf Propusnosti"
+
+msgctxt "MainWindow"
+msgid "Message Log"
+msgstr "Dnevnik Poruka"
+
+msgctxt "MainWindow"
+msgid "Network Map"
+msgstr "Mrežna Karta"
+
+msgctxt "MainWindow"
+msgid "Control Panel"
+msgstr "Kontrolna Ploča"
+
+msgctxt "MainWindow"
+msgid "Settings"
+msgstr "Postavke"
+
+msgctxt "MainWindow"
+msgid "About"
+msgstr "O"
+
+msgctxt "MainWindow"
+msgid "Help"
+msgstr "Pomoć"
+
+msgctxt "MainWindow"
+msgid "New Identity"
+msgstr "Novi Identitet"
+
+msgctxt "MainWindow"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MainWindow"
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgctxt "MainWindow"
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+msgctxt "MainWindow"
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+msgctxt "MainWindow"
+msgid "Ctrl+?"
+msgstr "Ctrl+?"
+
+msgctxt "MainWindow"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "MainWindow"
+msgid "Ctrl+P"
+msgstr "Ctrl+P"
+
+msgctxt "MainWindow"
+msgid "Tor"
+msgstr "Tor"
+
+msgctxt "MainWindow"
+msgid "View"
+msgstr "Pogled"
+
+msgctxt "MainWindow"
+msgid "Vidalia Help"
+msgstr "Vidalia Pomoć"
+
+msgctxt "MainWindow"
+msgid "Error starting web browser"
+msgstr "Greška pri pokretanju web pretraživača"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured web browser"
+msgstr "Vidalia nije bila u mogućnosti pokrenuti podešeni web pretraživač"
+
+msgctxt "MainWindow"
+msgid "Error starting IM client"
+msgstr "Greška pri pokretanju IM klijenta"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured IM client"
+msgstr "Vidalia nije bila u mogućnosti pokrenuti podešeni IM klijent"
+
+msgctxt "MainWindow"
+msgid "Error starting proxy server"
+msgstr "Greška pri pokretanju proxy poslužitelja"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to start the configured proxy server"
+msgstr "Vidalia nije bila u mogućnosti pokrenuti podešeni proxy poslužitelj"
+
+msgctxt "MainWindow"
+msgid "Connecting to a relay directory"
+msgstr "Spajanje na mapu releja"
+
+msgctxt "MainWindow"
+msgid "Establishing an encrypted directory connection"
+msgstr "Uspostavljanje šifrirane veze prema mapi"
+
+msgctxt "MainWindow"
+msgid "Retrieving network status"
+msgstr "Dohvaćanje statusa mreže"
+
+msgctxt "MainWindow"
+msgid "Loading network status"
+msgstr "Učitavanje statusa mreže"
+
+msgctxt "MainWindow"
+msgid "Loading authority certificates"
+msgstr "Učitavanje certifikata autoriteta"
+
+msgctxt "MainWindow"
+msgid "Requesting relay information"
+msgstr "Zahtjevanje informacije o releju"
+
+msgctxt "MainWindow"
+msgid "Loading relay information"
+msgstr "Učitavanje informacija o releju"
+
+msgctxt "MainWindow"
+msgid "Connecting to the Tor network"
+msgstr "Spajanje na Tor mrežu"
+
+msgctxt "MainWindow"
+msgid "Establishing a Tor circuit"
+msgstr "Uspostavljanje Tor kruga"
+
+msgctxt "MainWindow"
+msgid "Connected to the Tor network!"
+msgstr "Spojen na Tor mrežu!"
+
+msgctxt "MainWindow"
+msgid "miscellaneous"
+msgstr "razno"
+
+msgctxt "MainWindow"
+msgid "identity mismatch"
+msgstr "nepodudaranje identiteta"
+
+msgctxt "MainWindow"
+msgid "done"
+msgstr "gotovo"
+
+msgctxt "MainWindow"
+msgid "connection refused"
+msgstr "veza odbijena"
+
+msgctxt "MainWindow"
+msgid "connection timeout"
+msgstr "vrijeme čekanja veze isteklo"
+
+msgctxt "MainWindow"
+msgid "read/write error"
+msgstr "greška čitanja/pisanja"
+
+msgctxt "MainWindow"
+msgid "no route to host"
+msgstr "nema rute do domaćina"
+
+msgctxt "MainWindow"
+msgid "insufficient resources"
+msgstr "nedostatni resursi"
+
+msgctxt "MainWindow"
+msgid "unknown"
+msgstr "nepoznato"
+
+msgctxt "MainWindow"
+msgid "Tor is not running"
+msgstr "Tor nije pokrenut"
+
+msgctxt "MainWindow"
+msgid "Tor is shutting down"
+msgstr "Tor je u procesu gašenja"
+
+msgctxt "MainWindow"
+msgid "Stop Tor Now"
+msgstr "Zaustavi Tor Odmah"
+
+msgctxt "MainWindow"
+msgid "Stop Tor"
+msgstr "Zaustavi Tor"
+
+msgctxt "MainWindow"
+msgid "Starting the Tor software"
+msgstr "Pokrećem Tor software"
+
+msgctxt "MainWindow"
+msgid "Starting Tor"
+msgstr "Pokrećem Tor"
+
+msgctxt "MainWindow"
+msgid "Error Starting Tor"
+msgstr "Greška pri Pokretanju Tora"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
+msgstr "Vidalia nije bila u mogućnosti pokrenuti Tor. Provjerite svoje postavke i uvjerite se da su naziv i lokacija vaše Tor izvršne datoteke ispravni."
+
+msgctxt "MainWindow"
+msgid "Connecting to Tor"
+msgstr "Spajanje na Tor"
+
+msgctxt "MainWindow"
+msgid "Connection Error"
+msgstr "Greška pri Spajanju"
+
+msgctxt "MainWindow"
+msgid "Relaying is Enabled"
+msgstr "Relej je Omogućen"
+
+msgctxt "MainWindow"
+msgid "Error Shutting Down"
+msgstr "Greška pri Isključivanju"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to stop the Tor software."
+msgstr "Vidalia nije bila u mogućnosti zaustaviti Tor software."
+
+msgctxt "MainWindow"
+msgid "Unexpected Error"
+msgstr "Neočekivana Greška"
+
+msgctxt "MainWindow"
+msgid "Authenticating to Tor"
+msgstr "Autentificiranje Toru"
+
+msgctxt "MainWindow"
+msgid "Cookie Authentication Required"
+msgstr "Zahtjevana Autentifikacija Cookijima"
+
+msgctxt "MainWindow"
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
+msgstr "Tor software traži od Vidalije da pošalje sadržaj autentifikacijskog cookia, ali Vidalia ga nije bila u mogućnosti pronaći."
+
+msgctxt "MainWindow"
+msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
+msgstr "Dali biste sami željeli potražiti datoteku 'control_auth_cookie'?"
+
+msgctxt "MainWindow"
+msgid "Data Directory"
+msgstr "Podatkovna Mapa"
+
+msgctxt "MainWindow"
+msgid "Control Cookie (control_auth_cookie)"
+msgstr "Kontrolni Cookie (control_auth_cookie)"
+
+msgctxt "MainWindow"
+msgid "Error Registering for Events"
+msgstr "Greška pri Registriranju za Događaje"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
+msgstr "Vidalia nije bila u mogućnosti registrirati se za neke događaje. Mnoge mogućnosti Vidalije mogle bi biti nedostupne."
+
+msgctxt "MainWindow"
+msgid "Authentication Error"
+msgstr "Greška pri Autentifikaciji"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
+msgstr "Vidalija nije bila u mogućnosti autentificirati se Toru. (%1)"
+
+msgctxt "MainWindow"
+msgid "Please check your control port authentication settings."
+msgstr "Molimo provjerite svoje postavke autentifikacije kontrolnog porta."
+
+msgctxt "MainWindow"
+msgid "Tor Update Available"
+msgstr "Dostupno Ažuriranje Tora"
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
+msgstr "Trenutno instalirana inačica tora nije ažurna ili se više ne preporuča. Molimo posjetite Tor web stranicu za preuzimanje posljednje inačice."
+
+msgctxt "MainWindow"
+msgid "Tor website: %1"
+msgstr "Tor web stranica: %1"
+
+msgctxt "MainWindow"
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
+msgstr "Sve daljnje veze činiti će se drugačije od vaše stare veze."
+
+msgctxt "MainWindow"
+msgid "Failed to Create New Identity"
+msgstr "Neuspješno Kreiranje Novog Identiteta"
+
+msgctxt "MainWindow"
+msgid "Port Forwarding Failed"
+msgstr "Preusmjeravanje Portova Neuspjelo"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to configure automatic port forwarding."
+msgstr "Vidalia nije bila u mogućnosti podesiti automatsko preusmjeravanje portova."
+
+msgctxt "MainWindow"
+msgid "Vidalia Control Panel"
+msgstr "Vidalia Kontrolna Ploča"
+
+msgctxt "MainWindow"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "MainWindow"
+msgid "Vidalia Shortcuts"
+msgstr "Vidalia Kratice"
+
+msgctxt "MainWindow"
+msgid "Setup Relaying"
+msgstr "Postavljanje Releja"
+
+msgctxt "MainWindow"
+msgid "Set up a relay and help the network grow"
+msgstr "Postavite relej i pomognite rastu mreže"
+
+msgctxt "MainWindow"
+msgid "View the Network"
+msgstr "Pregled Mreže"
+
+msgctxt "MainWindow"
+msgid "View a map of the Tor network"
+msgstr "Pregled karte Tor mreže"
+
+msgctxt "MainWindow"
+msgid "Use a New Identity"
+msgstr "Korištenje Novog Identiteta"
+
+msgctxt "MainWindow"
+msgid "Make subsequent connections appear new"
+msgstr "Učini da se daljnje veze čine novima"
+
+msgctxt "MainWindow"
+msgid "View recent bandwidth usage"
+msgstr "Pregled nedavnog korištenja propusnosti"
+
+msgctxt "MainWindow"
+msgid "View log message history"
+msgstr "Pregled povijesti dnevnika poruka"
+
+msgctxt "MainWindow"
+msgid "View help documentation"
+msgstr "Pregled pomoćne dokumentacije"
+
+msgctxt "MainWindow"
+msgid "Configure Vidalia"
+msgstr "Podešavanje Vidalije"
+
+msgctxt "MainWindow"
+msgid "View version and license information"
+msgstr "Pregled informacija inačice i licence"
+
+msgctxt "MainWindow"
+msgid "Exit Vidalia"
+msgstr "Izlaz iz Vidalie"
+
+msgctxt "MainWindow"
+msgid "Show this window on startup"
+msgstr "Prikaži ovaj prozor pri pokretanju"
+
+msgctxt "MainWindow"
+msgid "Hide"
+msgstr "Sakrij"
+
+msgctxt "MainWindow"
+msgid "Hide this window"
+msgstr "Sakrij ovaj prozor"
+
+msgctxt "MainWindow"
+msgid "Password Reset Failed"
+msgstr "Resetiranje Lozinke Neuspjelo"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
+msgstr "Vidalia je pokušala resetirati Tor kontrolnu lozinku, ali nije bila u mogućnosti ponovno pokrenuti Tor. Molimo provjerite svoj Task Manager da biste se uvjerili da nema trenutno drugih pokrenutih Tor procesa."
+
+msgctxt "MainWindow"
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
+msgstr "Trenutno instalirana inačica Tora je zastarjela i nije više preporučena."
+
+msgctxt "MainWindow"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
+msgstr "Dali biste željeli provjeriti ako postoji novi paket dostupan za instalaciju?"
+
+msgctxt "MainWindow"
+msgid "Potentially Unsafe Connection"
+msgstr "Potencijalno Nesigurna Veza"
+
+msgctxt "MainWindow"
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
+msgstr "Tor je automatski zatvorio vašu vezu kako bi zaštitio vašu anonimnost."
+
+msgctxt "MainWindow"
+msgid "Update Failed"
+msgstr "Ažuriranje Neuspjelo"
+
+msgctxt "MainWindow"
+msgid "Your software is up to date"
+msgstr "Vaš software je ažuran."
+
+msgctxt "MainWindow"
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
+msgstr "Nema novih Tor paketa dostupnih za vaše računalo u ovom trenutku."
+
+msgctxt "MainWindow"
+msgid "Installation Failed"
+msgstr "Instalacija Neuspjela"
+
+msgctxt "MainWindow"
+msgid "Vidalia was unable to install your software updates."
+msgstr "Vidalia nije bila u mogućnosti instalirati ažuriranja softwarea."
+
+msgctxt "MainWindow"
+msgid "The following error occurred:"
+msgstr "Sljedeća greška se pojavila:"
+
+msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr "Sve poslano preko ove veze može biti nadgledano. Molimo provjerite postavke svoje aplikacije i koristite samo šifrirane protokole, poput SSL-a, ukoliko je moguće."
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Bootstrapping torrc iz %1 u %2"
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(vjerojatno Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(vjerojatno email klijent)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Jedna od vaših aplikacija %1 čini se pokušava napraviti potencijalno nešifriranu i nesigurnu vezu na port %2."
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "neuspjelo (%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "Vaš relej je u procesu gašenja.\nKliknite 'Zaustavi' ponovno za trenutno zaustavljanje releja."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "Vidalia ne može saznati kako komunicirati sa Tor-om zato jer ne može pristupiti ovoj datoteci: %1\n\nOvdje je posljednja poruka greške:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "Čini se da je Tor prestao sa radom od kada je Vidalia pokrenuta.\n\nPogledajte 'Napredni popis poruka' za više informacija."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "Trenutno imate pokrenut relej. Gašenjem svog releja ćete prekinuti sve trenutno otvorene veze klijenata.\n\nŽelite li pravilno ugasiti i dozvoliti klijentima vrijeme za pronalazak novog releja?"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "Vidalia je detektirala da je Tor neočekivano izašao.\n\nMolimo provjerite dnevnik poruka za nedavna upozorenja i greške."
+
+msgctxt "MessageLog"
+msgid "Error Setting Filter"
+msgstr "Filter Postavki Grešaka"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to register for Tor's log events."
+msgstr "Vidalia se nije uspjela prijaviti za dnevnik događaja Tora."
+
+msgctxt "MessageLog"
+msgid "Error Opening Log File"
+msgstr "Greška pri Otvaranju Datoteke Dnevnika"
+
+msgctxt "MessageLog"
+msgid "Vidalia was unable to open the specified log file."
+msgstr "Vidalia nije bila u mogućnosti otvoriti specificiranu datoteku dnevnika."
+
+msgctxt "MessageLog"
+msgid "Log Filename Required"
+msgstr "Naziv Datoteke Dnevnika Potreban"
+
+msgctxt "MessageLog"
+msgid "You must enter a filename to be able to save log messages to a file."
+msgstr "Morate unesti naziv datoteke da biste bili u mogućnosti spremati poruke dnevnika u datoteku."
+
+msgctxt "MessageLog"
+msgid "Select Log File"
+msgstr "Odaberi Datoteku Dnevnika"
+
+msgctxt "MessageLog"
+msgid "Save Log Messages"
+msgstr "Spremi Poruke Dnevnika"
+
+msgctxt "MessageLog"
+msgid "Text Files (*.txt)"
+msgstr "Tekstualne Datoteke (*.txt)"
+
+msgctxt "MessageLog"
+msgid "Vidalia"
+msgstr "Vidalia"
+
+msgctxt "MessageLog"
+msgid "Find in Message Log"
+msgstr "Pronađi u Dnevniku Poruka"
+
+msgctxt "MessageLog"
+msgid "Find:"
+msgstr "Pronađi:"
+
+msgctxt "MessageLog"
+msgid "Not Found"
+msgstr "Nije Pronađeno"
+
+msgctxt "MessageLog"
+msgid "Search found 0 matches."
+msgstr "Pretraga je pronašla 0 podudarnosti."
+
+msgctxt "MessageLog"
+msgid "Message Log"
+msgstr "Dnevnik Poruka"
+
+msgctxt "MessageLog"
+msgid "Message Filters..."
+msgstr "Filteri Poruka..."
+
+msgctxt "MessageLog"
+msgid "Set message filters"
+msgstr "Postavi filtere poruka"
+
+msgctxt "MessageLog"
+msgid "History Size..."
+msgstr "Veličina Povijesti..."
+
+msgctxt "MessageLog"
+msgid "Set maximum number of messages to display"
+msgstr "Postavi maksimalni broj poruka za prikaz"
+
+msgctxt "MessageLog"
+msgid "Clear"
+msgstr "Očisti"
+
+msgctxt "MessageLog"
+msgid "Clear all messages from the Message Log (Ctrl+E)"
+msgstr "Očisti sve poruke iz Dnevnika Poruka (Ctrl+E)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+E"
+msgstr "Ctrl+E"
+
+msgctxt "MessageLog"
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgctxt "MessageLog"
+msgid "Copy the selected messages to the clipboard (Ctrl+C)"
+msgstr "Kopiraj odabrane poruke u međuspremnik (Ctrl+C)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+msgctxt "MessageLog"
+msgid "Select All"
+msgstr "Odaberi Sve"
+
+msgctxt "MessageLog"
+msgid "Select all messages (Ctrl+A)"
+msgstr "Odaberi sve poruke (Ctrl+A)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+msgctxt "MessageLog"
+msgid "Save All"
+msgstr "Spremi Sve"
+
+msgctxt "MessageLog"
+msgid "Save all messages to a file"
+msgstr "Spremi sve poruke u datoteku"
+
+msgctxt "MessageLog"
+msgid "Save Selected"
+msgstr "Spremi odabrano"
+
+msgctxt "MessageLog"
+msgid "Save selected messages to a file"
+msgstr "Spremi odabrane poruke u datoteku"
+
+msgctxt "MessageLog"
+msgid "Settings"
+msgstr "Postavke"
+
+msgctxt "MessageLog"
+msgid "Adjust Message Log Settings"
+msgstr "Prilagodi Postavke Dnevnika Poruka"
+
+msgctxt "MessageLog"
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+msgctxt "MessageLog"
+msgid "Help"
+msgstr "Pomoć"
+
+msgctxt "MessageLog"
+msgid "Show the help browser"
+msgstr "Prikaži preglednih pomoći"
+
+msgctxt "MessageLog"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "MessageLog"
+msgid "Close"
+msgstr "Zatvori"
+
+msgctxt "MessageLog"
+msgid "Close the Message Log"
+msgstr "Zatvori Dnevnik Poruka"
+
+msgctxt "MessageLog"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "MessageLog"
+msgid "Find"
+msgstr "Pronađi"
+
+msgctxt "MessageLog"
+msgid "Find all messages containing the search text (Ctrl+F)"
+msgstr "Pronađi sve poruke koje sadržavaju tekst pretrage (Ctrl+F)"
+
+msgctxt "MessageLog"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "MessageLog"
+msgid "Time"
+msgstr "Vrijeme"
+
+msgctxt "MessageLog"
+msgid "Type"
+msgstr "Tip"
+
+msgctxt "MessageLog"
+msgid "Message"
+msgstr "Poruka"
+
+msgctxt "MessageLog"
+msgid "Saves the current Message Log settings"
+msgstr "Sprema trenutne postavke Dnevnika Poruka"
+
+msgctxt "MessageLog"
+msgid "Save Settings"
+msgstr "Spremi Postavke"
+
+msgctxt "MessageLog"
+msgid "Cancels changes made to settings"
+msgstr "Otkaži izmjene učinjenje postavkama"
+
+msgctxt "MessageLog"
+msgid "Cancel"
+msgstr "Odustani"
+
+msgctxt "MessageLog"
+msgid "Message Filter"
+msgstr "Filter Poruka"
+
+msgctxt "MessageLog"
+msgid "Error"
+msgstr "Greška"
+
+msgctxt "MessageLog"
+msgid "Warning"
+msgstr "Upozorenje"
+
+msgctxt "MessageLog"
+msgid "Notice"
+msgstr "Napomena"
+
+msgctxt "MessageLog"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "MessageLog"
+msgid "Debug"
+msgstr "Debugiranje"
+
+msgctxt "MessageLog"
+msgid "Message Log History"
+msgstr "Povijest Dnevnika Poruka"
+
+msgctxt "MessageLog"
+msgid "Number of messages to display in the message log window"
+msgstr "Broj poruka koje će se prikazivati u prozoru dnevnika poruka"
+
+msgctxt "MessageLog"
+msgid "messages"
+msgstr "poruke"
+
+msgctxt "MessageLog"
+msgid "Browse"
+msgstr "Pretraži"
+
+msgctxt "MessageLog"
+msgid "Enable automatically saving all new log messages to a file"
+msgstr "Omogući automatsko spremanje novih poruka dnevnika u datoteku"
+
+msgctxt "MessageLog"
+msgid "Automatically save new log messages to a file"
+msgstr "Automatski spremi nove poruke dnevnika u datoteku"
+
+msgctxt "MessageLog"
+msgid "Basic"
+msgstr "Osnovno"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr "Tor Status"
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr "Napredno"
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "Uvijek Spremi Nove Poruke Dnevnika"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
+"gone very wrong and Tor cannot proceed."
+msgstr "Poruke koje se pojavljuju kada je nešto\nzaista pošlo po krivu i Tor ne može nastaviti."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that only appear when \n"
+"something has gone wrong with Tor."
+msgstr "Poruke koje se pojavljuju samo kada\nje nešto pošlo po krivu sa Torom."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear infrequently \n"
+"during normal Tor operation and are \n"
+"not considered errors, but you may \n"
+"care about."
+msgstr "Poruke koje se pojavljuju rijetko\ntijekom uobičajenog rada Tora i nisu\nsmatrane greškama, ali su vam\nmožda bitne."
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear frequently \n"
+"during normal Tor operation."
+msgstr "Poruke koje se pojavljuju često\ntijekom uobičajenog rada Tora."
+
+msgctxt "MessageLog"
+msgid ""
+"Hyper-verbose messages primarily of \n"
+"interest to Tor developers."
+msgstr "Vrlo detaljne poruke od primarnog\ninteresa Tor developerima."
+
+msgctxt "MessageLog"
+msgid ""
+"Cannot write file %1\n"
+"\n"
+"%2."
+msgstr "Nije moguće zapisati datoteku %1\n\n%2."
+
+msgctxt "NetViewer"
+msgid "Tor Network Map"
+msgstr "Tor Karta Mreže"
+
+msgctxt "NetViewer"
+msgid "Refresh"
+msgstr "Osvježi"
+
+msgctxt "NetViewer"
+msgid "Refresh the list of Tor relays and connections"
+msgstr "Osvježi listu Tor releja i veza"
+
+msgctxt "NetViewer"
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgctxt "NetViewer"
+msgid "Help"
+msgstr "Pomoć"
+
+msgctxt "NetViewer"
+msgid "Show the network map help"
+msgstr "Prikaži pomoć karte mreže"
+
+msgctxt "NetViewer"
+msgid "Show network map help"
+msgstr "Prikaži pomoć karte mreže"
+
+msgctxt "NetViewer"
+msgid "F1"
+msgstr "F1"
+
+msgctxt "NetViewer"
+msgid "Close"
+msgstr "Zatvori"
+
+msgctxt "NetViewer"
+msgid "Close the network map"
+msgstr "Zatvori kartu mreže"
+
+msgctxt "NetViewer"
+msgid "Esc"
+msgstr "Esc"
+
+msgctxt "NetViewer"
+msgid "Zoom In"
+msgstr "Uvećaj"
+
+msgctxt "NetViewer"
+msgid "Zoom in on the network map"
+msgstr "Uvećavanje karte mreže"
+
+msgctxt "NetViewer"
+msgid "+"
+msgstr "+"
+
+msgctxt "NetViewer"
+msgid "Zoom Out"
+msgstr "Umanjivanje"
+
+msgctxt "NetViewer"
+msgid "Zoom out on the network map"
+msgstr "Umanjivanje karte mreže"
+
+msgctxt "NetViewer"
+msgid "-"
+msgstr "-"
+
+msgctxt "NetViewer"
+msgid "Zoom To Fit"
+msgstr "Uvećaj Optimalno"
+
+msgctxt "NetViewer"
+msgid "Zooms to fit all currently displayed circuits"
+msgstr "Uvećava dok se ne prikazuju svi trenutno prikazani krugovi."
+
+msgctxt "NetViewer"
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+msgctxt "NetViewer"
+msgid "Relay Not Found"
+msgstr "Relej Nije Pronađen"
+
+msgctxt "NetViewer"
+msgid "No details on the selected relay are available."
+msgstr "Nikakvi detalji o odabranom releju nisu dostupni."
+
+msgctxt "NetViewer"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "NetViewer"
+msgid "Full Screen"
+msgstr "Cijeli Zaslon"
+
+msgctxt "NetViewer"
+msgid "View the network map as a full screen window"
+msgstr "Pregled karte mreže preko cijelog zaslona"
+
+msgctxt "NetViewer"
+msgid "Ctrl+F"
+msgstr "Ctrl+F"
+
+msgctxt "NetworkPage"
+msgid "Copy (Ctrl+C)"
+msgstr "Kopiraj (Ctrl+C)"
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
+msgstr "Morate specificirati i IP adresu ili naziv domaćina i broj porta da biste podesili Tor za korištenje proxya za pristup Internetu."
+
+msgctxt "NetworkPage"
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
+msgstr "Morate specificirati jedan ili više portova na koje vam vaš vatrozid dozvoljava spajanje."
+
+msgctxt "NetworkPage"
+msgid "'%1' is not a valid port number."
+msgstr "'%1' nije važeći broj porta."
+
+msgctxt "NetworkPage"
+msgid "Check if your local network requires a proxy to access the Internet"
+msgstr "Provjerite dali vaša lokalna mreža zahtjeva proxy za pristup Internetu"
+
+msgctxt "NetworkPage"
+msgid "I use a proxy to access the Internet"
+msgstr "Koristim proxy za pristup Internetu"
+
+msgctxt "NetworkPage"
+msgid "Proxy Settings"
+msgstr "Postavke Proxya"
+
+msgctxt "NetworkPage"
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+msgctxt "NetworkPage"
+msgid "Password:"
+msgstr "Lozinka:"
+
+msgctxt "NetworkPage"
+msgid "Port:"
+msgstr "Port:"
+
+msgctxt "NetworkPage"
+msgid "Check to only connect to relays using ports allowed by your firewall"
+msgstr "Označite za spajanje na releje samo portovima koje vaš vatrozid dozvoljava"
+
+msgctxt "NetworkPage"
+msgid "My firewall only lets me connect to certain ports"
+msgstr "Moj vatrozid mi dopušta spajanje samo na određene portove"
+
+msgctxt "NetworkPage"
+msgid "Firewall Settings"
+msgstr "Postavke Vatrozida"
+
+msgctxt "NetworkPage"
+msgid "Allowed Ports:"
+msgstr "Dozvoljeni Portovi:"
+
+msgctxt "NetworkPage"
+msgid "80, 443"
+msgstr "80, 443"
+
+msgctxt "NetworkPage"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
+msgstr "Označite za šifriranje zahtjeva za imenikom i, opcionalno, korištenje mostovnih releja za pristup Tor mreži"
+
+msgctxt "NetworkPage"
+msgid "My ISP blocks connections to the Tor network"
+msgstr "Moj ISP blokira veze prema Tor mreži"
+
+msgctxt "NetworkPage"
+msgid "Bridge Settings"
+msgstr "Postavke Mosta"
+
+msgctxt "NetworkPage"
+msgid "Add a Bridge:"
+msgstr "Dodaj Most:"
+
+msgctxt "NetworkPage"
+msgid "Remove the selected bridges from the list"
+msgstr "Ukloni odabrane mostove sa liste"
+
+msgctxt "NetworkPage"
+msgid "Copy the selected bridges to the clipboard"
+msgstr "Kopiraj odabrane mostove u međuspremnik"
+
+msgctxt "NetworkPage"
+msgid "Find Bridges Now"
+msgstr "Pronađi Mostove Sada"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Kako još mogu pronaći mostove?</a>"
+
+msgctxt "NetworkPage"
+msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
+msgstr "<a href=\"bridges.finding\">Kako mogu pronaći mostove?</a>"
+
+msgctxt "NetworkPage"
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
+msgstr "Trenutno nema dostupnih novih mostova. Možete ili pričekati neko vrijeme i pokušati ponovno, ili pokušati nekom drugom metodom pronalaska novih mostova."
+
+msgctxt "NetworkPage"
+msgid "Click Help to see other methods of finding new bridges."
+msgstr "Kliknite Pomoć za pregled drugih metoda pronalaska novih mostova."
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "Adresa:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr "Tip:"
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr "Morate odabrati tip proxya."
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "Morate odrediti jedan ili više mostova."
+
+msgctxt "Policy"
+msgid "accept"
+msgstr "prihvati"
+
+msgctxt "Policy"
+msgid "reject"
+msgstr "odbij"
+
+msgctxt "RouterDescriptor"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterDescriptor"
+msgid "Hibernating"
+msgstr "Hibernacija"
+
+msgctxt "RouterDescriptor"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterDescriptorView"
+msgid "Location:"
+msgstr "Lokacija:"
+
+msgctxt "RouterDescriptorView"
+msgid "IP Address:"
+msgstr "IP Adresa:"
+
+msgctxt "RouterDescriptorView"
+msgid "Platform:"
+msgstr "Platforma:"
+
+msgctxt "RouterDescriptorView"
+msgid "Bandwidth:"
+msgstr "Propusnost:"
+
+msgctxt "RouterDescriptorView"
+msgid "Uptime:"
+msgstr "Vrijeme rada:"
+
+msgctxt "RouterDescriptorView"
+msgid "Last Updated:"
+msgstr "Posljednje Ažuriranje:"
+
+msgctxt "RouterDescriptorView"
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgctxt "RouterInfoDialog"
+msgid "Hibernating"
+msgstr "Hiberniranje"
+
+msgctxt "RouterInfoDialog"
+msgid "Online"
+msgstr "Online"
+
+msgctxt "RouterInfoDialog"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterInfoDialog"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "RouterInfoDialog"
+msgid "Relay Details"
+msgstr "Detalji Releja"
+
+msgctxt "RouterInfoDialog"
+msgid "Summary"
+msgstr "Sažetak"
+
+msgctxt "RouterInfoDialog"
+msgid "Name:"
+msgstr "Naziv:"
+
+msgctxt "RouterInfoDialog"
+msgid "Status:"
+msgstr "Status:"
+
+msgctxt "RouterInfoDialog"
+msgid "Location:"
+msgstr "Lokacija:"
+
+msgctxt "RouterInfoDialog"
+msgid "IP Address:"
+msgstr "IP Adresa:"
+
+msgctxt "RouterInfoDialog"
+msgid "Platform:"
+msgstr "Platforma:"
+
+msgctxt "RouterInfoDialog"
+msgid "Bandwidth:"
+msgstr "Propusnost:"
+
+msgctxt "RouterInfoDialog"
+msgid "Uptime:"
+msgstr "Vrijeme rada:"
+
+msgctxt "RouterInfoDialog"
+msgid "Contact:"
+msgstr "Kontakt:"
+
+msgctxt "RouterInfoDialog"
+msgid "Last Updated:"
+msgstr "Posljednje ažuriranje:"
+
+msgctxt "RouterInfoDialog"
+msgid "Descriptor"
+msgstr "Opis"
+
+msgctxt "RouterListItem"
+msgid "Offline"
+msgstr "Offline"
+
+msgctxt "RouterListItem"
+msgid "Hibernating"
+msgstr "Hiberniranje"
+
+msgctxt "RouterListItem"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "RouterListWidget"
+msgid "Relay"
+msgstr "Relej"
+
+msgctxt "RouterListWidget"
+msgid "Zoom to Relay"
+msgstr "Uvećaj do Releja"
+
+msgctxt "RouterListWidget"
+msgid "%1 relays online"
+msgstr "%1 Releja Online"
+
+msgctxt "RouterListWidget"
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgctxt "RouterListWidget"
+msgid "Nickname"
+msgstr "Nadimak"
+
+msgctxt "RouterListWidget"
+msgid "Fingerprint"
+msgstr "Otisak"
+
+msgctxt "ServerPage"
+msgid "Bridge Support Unavailable"
+msgstr "Podrška Mosta Nedostupna"
+
+msgctxt "ServerPage"
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
+msgstr "Podesili ste Tor da se ponaša kao mostni relej za cenzurirane korisnike, ali vaša inačica Tora ne podržava mostove."
+
+msgctxt "ServerPage"
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
+msgstr "Molimo ažurirajte vaš Tor software ili podesite Tor da se ponaša kao uobičajeni Tor relej."
+
+msgctxt "ServerPage"
+msgid "Your bridge relay is not running."
+msgstr "Vaš mostni relej nije pokrenut."
+
+msgctxt "ServerPage"
+msgid "You must specify at least a relay nickname and port."
+msgstr "Morate specificirati barem nadimak i port releja."
+
+msgctxt "ServerPage"
+msgid "Run as a client only"
+msgstr "Pokreni samo kao klijent"
+
+msgctxt "ServerPage"
+msgid "Relay Port:"
+msgstr "Port Releja:"
+
+msgctxt "ServerPage"
+msgid "Enable to mirror the relay directory"
+msgstr "Omogući za zrcaljenje imenika releja"
+
+msgctxt "ServerPage"
+msgid "Attempt to automatically configure port forwarding"
+msgstr "Pokušaj automatski podesiti preusmjeravanje portova"
+
+msgctxt "ServerPage"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "ServerPage"
+msgid "Show help topic on port forwarding"
+msgstr "Prikaži temu pomoći vezanu uz preusmjeravanje portova"
+
+msgctxt "ServerPage"
+msgid "Directory Port:"
+msgstr "Port Imenika:"
+
+msgctxt "ServerPage"
+msgid "Directory Port Number"
+msgstr "Broj Porta Imenika"
+
+msgctxt "ServerPage"
+msgid "Contact Info:"
+msgstr "Kontakt Podaci:"
+
+msgctxt "ServerPage"
+msgid "Name of your relay"
+msgstr "Ime vašeg releja"
+
+msgctxt "ServerPage"
+msgid "Port on which users and other relays can communicate with your relay"
+msgstr "Port na kojem korisnici i drugi releji mogu komunicirati sa vašim relejom"
+
+msgctxt "ServerPage"
+msgid "Nickname:"
+msgstr "Nadimak:"
+
+msgctxt "ServerPage"
+msgid "Basic Settings"
+msgstr "Osnovne Postavke"
+
+msgctxt "ServerPage"
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
+msgstr "Za Internet veze sa brzom brzinom preuzimanja i sporim slanjem, molimo navedite svoju brzinu slanja."
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 256 Kbps"
+msgstr "Cable/DSL 256 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 512 Kbps"
+msgstr "Cable/DSL 512 Kbps"
+
+msgctxt "ServerPage"
+msgid "Cable/DSL 768 Kbps"
+msgstr "Cable/DSL 768 Kbps"
+
+msgctxt "ServerPage"
+msgid "T1/Cable/DSL 1.5 Mbps"
+msgstr "T1/Cable/DSL 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "> 1.5 Mbps"
+msgstr "> 1.5 Mbps"
+
+msgctxt "ServerPage"
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgctxt "ServerPage"
+msgid "Select the entry that most closely resembles your Internet connection"
+msgstr "Odaberite unos koji najbliže opisuje vašu Internet vezu"
+
+msgctxt "ServerPage"
+msgid "Show help topic on bandwidth rate limits"
+msgstr "Prikaži temu pomoći vezanu uz ograničenja propusnosti"
+
+msgctxt "ServerPage"
+msgid "Average Rate"
+msgstr "Prosječna brzina"
+
+msgctxt "ServerPage"
+msgid "Long-term average bandwidth limit"
+msgstr "Dugotrajno prosječno ograničenje propusnosti"
+
+msgctxt "ServerPage"
+msgid "KB/s"
+msgstr "KB/s"
+
+msgctxt "ServerPage"
+msgid "Maximum Rate"
+msgstr "Maksimalna Brzina"
+
+msgctxt "ServerPage"
+msgid "Peak bandwidth rate limit"
+msgstr "Vršno ograničenje propusnosti"
+
+msgctxt "ServerPage"
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
+msgstr "Vaša maksimalna propusnost mora biti veća od ili jednaka vašoj prosječnoj propusnosti. Obje vrijednosti moraju biti barem 20 KB/s."
+
+msgctxt "ServerPage"
+msgid "Bandwidth Limits"
+msgstr "Ograničenja Propusnosti"
+
+msgctxt "ServerPage"
+msgid "Ports 6660 - 6669 and 6697"
+msgstr "Portovi 6660 - 6669 i 6697"
+
+msgctxt "ServerPage"
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+msgctxt "ServerPage"
+msgid "Ports 110, 143, 993 and 995"
+msgstr "Portovi 110, 143, 993 i 995"
+
+msgctxt "ServerPage"
+msgid "Retrieve Mail (POP, IMAP)"
+msgstr "Dohvati Poštu (POP, IMAP)"
+
+msgctxt "ServerPage"
+msgid "Ports unspecified by other checkboxes"
+msgstr "Portovi nespecificirani drugim checkboxovima"
+
+msgctxt "ServerPage"
+msgid "Misc Other Services"
+msgstr "Razne Druge Usluge"
+
+msgctxt "ServerPage"
+msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
+msgstr "Portovi 706, 1863, 5050, 5190, 5222, 5223, 8300 i 8888"
+
+msgctxt "ServerPage"
+msgid "Instant Messaging (IM)"
+msgstr "Instant Messaging (IM)"
+
+msgctxt "ServerPage"
+msgid "Port 443"
+msgstr "Port 443"
+
+msgctxt "ServerPage"
+msgid "Secure Websites (SSL)"
+msgstr "Sigurne Web Stranice (SSL)"
+
+msgctxt "ServerPage"
+msgid "Port 80"
+msgstr "Port 80"
+
+msgctxt "ServerPage"
+msgid "Websites"
+msgstr "Web Stranice"
+
+msgctxt "ServerPage"
+msgid "Show help topic on exit policies"
+msgstr "Prikaži teme pomoći vezane uz izlazne politike"
+
+msgctxt "ServerPage"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
+msgstr "Kojim Internet resursima bi korisnik trebao biti u mogućnosti pristupiti sa vašeg releja?"
+
+msgctxt "ServerPage"
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
+msgstr "Tor će svejedno blokirati neke aplikacije za slanje pošte i dijeljenja datoteka po defaultu kako bi se smanjio spam i druge zloupotrebe."
+
+msgctxt "ServerPage"
+msgid "Exit Policies"
+msgstr "Izlazne Politike"
+
+msgctxt "ServerPage"
+msgid "Let others access your bridge by giving them this line:"
+msgstr "Dozvolite drugima pristup vašem mostu davanjem sljedećeg reda:"
+
+msgctxt "ServerPage"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
+msgstr "Ovo je identitet vašeg mostnog releja koji možete davati drugim ljudima"
+
+msgctxt "ServerPage"
+msgid "Copy your bridge relay's identity to the clipboard"
+msgstr "Kopirajte identitet svog mostnog releja u međuspremnik"
+
+msgctxt "ServerPage"
+msgid "No Recent Usage"
+msgstr "Nema Nedavnog Korištenja"
+
+msgctxt "ServerPage"
+msgid "No clients have used your relay recently."
+msgstr "Niti jedan klijent nije nedavno koristio vaš relej."
+
+msgctxt "ServerPage"
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
+msgstr "Ostavite svoj relej pokrenut kako bi klijenti imali bolju šansu da ga pronađu i koriste."
+
+msgctxt "ServerPage"
+msgid "Bridge History"
+msgstr "Povijest Mosta"
+
+msgctxt "ServerPage"
+msgid "Vidalia was unable to retrieve your bridge's usage history."
+msgstr "Vidalia nije bila u mogućnosti dohvatiti povijest korištenja vašeg mosta."
+
+msgctxt "ServerPage"
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
+msgstr "Tor je vratio nepravilno formatirani odgovor kada je Vidalia zatražila povijest korištenja vašeg mosta."
+
+msgctxt "ServerPage"
+msgid "The returned response was: %1"
+msgstr "Vraćeni odgovor je bio: %1"
+
+msgctxt "ServerPage"
+msgid "Help censored users reach the Tor network"
+msgstr "Pomognite cenzuriranim korisnicima dolazak do Tor mreže"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
+msgstr "<a href=\"#bridgeUsage\">Tko je koristio moj most?</a>"
+
+msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr "<a href=\"#bridgeHelp\">Što je ovo?</a>"
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr "Automatski distribuiraj adresu mog mosta"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "Relej prometa za Tor mrežu (napusti relej)"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "Relej prometa unutar Tor mreže (nemoguće napuštanje releja)"
+
+msgctxt "ServerPage"
+msgid "Mirror the Relay Directory"
+msgstr "Zrcali Imenik Releja"
+
+msgctxt "ServerPage"
+msgid ""
+"Email address at which you may be reached if there is a\n"
+"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Email adresa kojom vas se može doseći ako postoji\nproblem sa vašim relejom. Možete ujedno i uključiti vaš PGP ili GPG otisak."
+
+msgctxt "ServicePage"
+msgid "Error while trying to unpublish all services"
+msgstr "Greška pri povlačenju svih usluga"
+
+msgctxt "ServicePage"
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
+msgstr "Molimo podesite barem imenik usluga i virtualni port za svaku uslugu koju želite spremiti. Ukolnite ostale."
+
+msgctxt "ServicePage"
+msgid "Error"
+msgstr "Greška"
+
+msgctxt "ServicePage"
+msgid "Please select a Service."
+msgstr "Molimo odaberite Uslugu."
+
+msgctxt "ServicePage"
+msgid "Select Service Directory"
+msgstr "Odaberite Imenik Usluga"
+
+msgctxt "ServicePage"
+msgid "Virtual Port may only contain valid port numbers [1..65535]."
+msgstr "Virtualni Port može sadržavati samo važeće brojeve portova [1..65535]."
+
+msgctxt "ServicePage"
+msgid "Target may only contain address:port, address, or port."
+msgstr "Meta može sadržavati samo adresa:port, adresu, ili port."
+
+msgctxt "ServicePage"
+msgid "Directory already in use by another service."
+msgstr "Imenik već koristi neka druga usluga."
+
+msgctxt "ServicePage"
+msgid "Form"
+msgstr "Formular"
+
+msgctxt "ServicePage"
+msgid "Provided Hidden Services"
+msgstr "Pružene Skrivene Usluge"
+
+msgctxt "ServicePage"
+msgid "Onion Address"
+msgstr "Onion Adresa"
+
+msgctxt "ServicePage"
+msgid "Virtual Port"
+msgstr "Virtualni Port"
+
+msgctxt "ServicePage"
+msgid "Target"
+msgstr "Meta"
+
+msgctxt "ServicePage"
+msgid "Directory Path"
+msgstr "Putanja Imenika"
+
+msgctxt "ServicePage"
+msgid "Enabled"
+msgstr "Omogućeno"
+
+msgctxt "ServicePage"
+msgid "Add new service to list"
+msgstr "Dodaj novu uslugu na popis"
+
+msgctxt "ServicePage"
+msgid "Remove selected service from list"
+msgstr "Ukloni odabranu uslugu sa popisa"
+
+msgctxt "ServicePage"
+msgid "Copy onion address of selected service to clipboard"
+msgstr "Kopiraj onion adresu odabranog servisa u međuspremnik"
+
+msgctxt "ServicePage"
+msgid "Browse in local file system and choose directory for selected service"
+msgstr "Pretražite u lokalnom datotečnom sustavu i odaberite imenik za odabranu uslugu"
+
+msgctxt "ServicePage"
+msgid "Created by Tor"
+msgstr "Stvorio Tor"
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr "Kopiraj u Međuspremnik"
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr "Tor Software je Pokrenut"
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr "Trenutno imate pokrenutu verziju \"%1\" Tor softwarea."
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr "Tor Software nije Pokrenut"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr "Kliknite \"Pokreni Tor\" u Vidalia Kontrolnoj Ploči za ponovno pokretanje Tor softwarea. Ako je Tor neočekivano izašao, odaberite tab \"Napredno\" za detalje o svim greškama na koje se naišlo."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr "Trenutno koristite inačicu \"%1\" Tor softwarea, koja se više ne preporuča. Molimo nadogradite na najnoviju inačicu softwarea, koja može sadržavate važne ispravke vezane uz pouzdanost, sigurnost i izvođenje."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr "Trenutno koristite inačicu \"%1\" Tor softwarea, koja možda više ne radi sa trenutnom Tor mrežom. Molimo nadogradite na najnoviju inačicu softwarea, koja može sadržavate važne ispravke vezane uz pouzdanost, sigurnost i izvođenje."
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr "Vaš Tor Software nije Ažuran"
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Spojen na Tor Mrežu"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr "Bili smo u mogućnosti uspješno uspostaviti vezu na Tor mrežu. Sada možete podesiti vaše aplikacije za anonimno korištenje Interneta."
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor Greška"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr "Tor software je naišao na unutarnju grešku. Molimo prijavite sljedeću grešku Tor developerima na bugs.torproject.org: \"%1\""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor je uočio da bi sat vašeg računala mogao biti podešen %1 sekundi u prošlost u usporedbi sa izvorom %2. Ako vaš sat nije ispravno podešen, Tor neće moći funkcionirati. Molimo provjerite dali vaše računalo prikazuje ispravno vrijeme."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr "Tor je uočio da bi sat vašeg računala mogao biti podešen %1 sekundi u budućnost u usporedbi sa izvorom %2. Ako vaš sat nije ispravno podešen, Tor neće moći funkcionirati. Molimo provjerite dali vaše računalo prikazuje ispravno vrijeme."
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr "Vrijeme Vašeg Računala je Moguće Neispravno"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr "Moguće je da je jedna od aplikacija na vašem računalu pokušala uspostaviti nešifriranu vezu kroz Tor na port %1. Slanje nešifriranih informacija kroz Tor mrežu je opasno i nije preporučeno. Za vašu zaštitu, Tor je automatski zatvorio tu vezu."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr "Moguće je da je jedna od aplikacija na vašem računalu pokušala uspostaviti nešifriranu vezu kroz Tor na port %1. Slanje nešifriranih informacija kroz Tor mrežu je opasno i nije preporučeno."
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr "Potencijalno Opasna Veza!"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr "Jedna od aplikacija na vašem računalu uspostavila je vezu kroz Tor prema \"%1\" koristeći protokol koji može ispuštati informacije o vašem odredištu. Molimo uvjerite se da podešavate aplikacije za korištenje SOCKS4a ili SOCKS5 sa udaljenim razlučivanjem imena."
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr "Nepoznati SOCKS Protokol"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr "Jedna od vaših aplikacija pokušala je uspostaviti vezu kroz Tor koristeći protokol koji Tor ne razumije. Molimo uvjerite se da podešavate aplikacije za korištenje SOCKS4a ili SOCKS5 sa udaljenim razlučivanjem imena."
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr "Neispravni Naziv Odredišnog Poslužitelja"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr "Jedna od vaših aplikacija pokušala je uspostaviti vezu kroz Tor prema \"%1\", što Tor ne raspoznaje kao ispravan naziv poslužitelja. Molimo provjerite postavke vaše aplikacije."
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr "Vanjska IP Adresa Promjenjena"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr "Tor je razlučio da je trenutna javna adresa vašeg releja %1%2. Ako to nije ispravno, molimo razmislite o postavljanju opcije 'Adresa' u konfiguraciji vašeg releja."
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "Detektirano DNS Otimanje"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr "Tor je detektirao da vaš davatelj DNS usluga daje lažne odgovore za domene koje ne postoje. Neki ISP i drugi davatelji DNS usluga, poput OpenDNS-a, su poznati da to rade kako bi prikazivali svoje vlastite pretraživačke ili reklamne stranice."
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr "Tor je detektirao da vaš davatelj DNS usluga daje lažne odgovore za dobro poznate domene. Pošto klijenti ovise o tome da releji daju ispravne DNS odgovore, vaš relej neće biti postavljen kao izlazni relej."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr "Provjeravam Dostupnost Porta Poslužitelja"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr "Tor pokušava utvrditi dali je port poslužitelja vašeg releja dostupan kroz Tor mrežu tako da se spaja sam na sebe na %1:%2. Ovaj test bi mogao potrajati nekoliko minuta."
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr "Test Dostupnosti Porta Poslužitelja Uspješan!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr "Port poslužitelja vašeg releja je dostupan kroz Tor mrežu!"
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr "Test Dostupnosti Porta Poslužitelja Neuspješan"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr "Port poslužitelja vašeg releja nije dostupan drugim Tor klijentima. To se može dogoditi ukoliko ste iza rutera ili vatrozida koji zahtjeva podešavanje preusmjeravanja portova. Ako %1:%2 nije vaša ispravna IP adresa i port poslužitelja, molimo provjerite postavke svog releja."
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr "Provjeravam Dostupnost Porta Imenika"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr "Tor pokušava utvrditi ako je port imenika vašeg releja dostupan iz Tor mreže spajanjem na samoga sebe na %1:%2. Ovaj test bi mogao potrajati nekoliko minuta."
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr "Test Dostupnosti Porta Imenika Uspješan!"
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr "Port imenika vašeg releja je dostupan iz Tor mreže!"
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr "Test Dostupnosti Porta Imenika Neuspješan"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr "Port imenika vašeg releja nije dostupan drugim Tor klijentima. To se može dogoditi ukoliko ste iza rutera ili vatrozida koji zahtjeva da postavite preusmjeravanje portova. Ako %1:%2 nije vaša ispravna IP adresa i port imenika, molimo provjerite postavke svog releja."
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr "Opis Releja Odbijen"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr "Opis vašeg releja, koji omogućava klijentima spajanje na vaš relej, je odbijen od strane poslužitelja imenika na %1:%2. Dani razlog je: %3"
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr "Vaš Relej je Online"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
+msgstr "Vaš relej je sada online i dostupan za korištenje Tor klijentima. Trebali biste vidjeti povećanje mrežnog prometa prikazan Grafom Propusnosti kroz nekoliko sati kako više klijenata sazna za vaš relej. Hvala vam za doprinos Tor mreži!"
+
+msgctxt "Stream"
+msgid "New"
+msgstr "Novo"
+
+msgctxt "Stream"
+msgid "Resolving"
+msgstr "Razlučujem"
+
+msgctxt "Stream"
+msgid "Connecting"
+msgstr "Spajanje"
+
+msgctxt "Stream"
+msgid "Open"
+msgstr "Otvori"
+
+msgctxt "Stream"
+msgid "Failed"
+msgstr "Neuspješno"
+
+msgctxt "Stream"
+msgid "Closed"
+msgstr "Zatvoreno"
+
+msgctxt "Stream"
+msgid "Retrying"
+msgstr "Pokušavam ponovno"
+
+msgctxt "Stream"
+msgid "Remapped"
+msgstr "Premapiran"
+
+msgctxt "Stream"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgctxt "TorProcess"
+msgid "Process %1 failed to stop. [%2]"
+msgstr "Proces %1 nije uspješno zaustavljen. [%2]"
+
+msgctxt "TorService"
+msgid "The Tor service is not installed."
+msgstr "Tor usloga nije instalirana."
+
+msgctxt "TorService"
+msgid "Unable to start the Tor service."
+msgstr "Nije bilo moguće pokrenuti Tor uslugu."
+
+msgctxt "TorSettings"
+msgid "Failed to hash the control password."
+msgstr "Neuspješno hashanje kontrolne lozinke."
+
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Izmjenjivanje torrc"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr "Spremi postavke. Ako nije odabrano, primjeniti će postavke samo na trentnu instancu Tora."
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "Izreži"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "Zalijepi"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "Poništi"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr "Ponovi"
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "Odaberi Sve"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr "Primjeni Sve"
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr "Primjeni samo odabrano"
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr "Greška pri spajanju na Tor"
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr "Selekcija je prazna. Molimo odaberite neki tekst, ili označite \"Primjeni sve\""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr "Greška u liniji %1: \"%2\""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr "Greška"
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr "Greška se pojavila pri otvaranju torrc datoteke"
+
+msgctxt "UPNPControl"
+msgid "Success"
+msgstr "Uspjeh"
+
+msgctxt "UPNPControl"
+msgid "No UPnP-enabled devices found"
+msgstr "Nije pronađen niti jedan UPnP-omogućen uređaj"
+
+msgctxt "UPNPControl"
+msgid "No valid UPnP-enabled Internet gateway devices found"
+msgstr "Nije pronađen niti jedan UPnP-omogućen gateway uređaj"
+
+msgctxt "UPNPControl"
+msgid "WSAStartup failed"
+msgstr "WSAStartup neuspješan"
+
+msgctxt "UPNPControl"
+msgid "Failed to add a port mapping"
+msgstr "Neuspješno dodavanje port mape"
+
+msgctxt "UPNPControl"
+msgid "Failed to retrieve a port mapping"
+msgstr "Neuspješno dohvaćanje port mape"
+
+msgctxt "UPNPControl"
+msgid "Failed to remove a port mapping"
+msgstr "Neuspješno uklanjanje port mape"
+
+msgctxt "UPNPControl"
+msgid "Unknown error"
+msgstr "Nepoznata greška"
+
+msgctxt "UPNPTestDialog"
+msgid "Discovering UPnP-enabled devices"
+msgstr "Otkrivam UPnP-omogućene uređaje"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating directory port mapping"
+msgstr "Ažuriram port mapu imenika"
+
+msgctxt "UPNPTestDialog"
+msgid "Updating relay port mapping"
+msgstr "Ažuriram port mapu releja"
+
+msgctxt "UPNPTestDialog"
+msgid "Test completed successfully!"
+msgstr "Test je uspješno završen!"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing UPnP Support"
+msgstr "Testiranje UPnP Podrške"
+
+msgctxt "UPNPTestDialog"
+msgid "Testing Universal Plug & Play Support"
+msgstr "Testiram Universal Plug & Play Podršku"
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
+msgstr "Vidalia nije bila u mogućnosti provjeriti za dostupna ažuriranja softwarea jer nije mogla pronaći '%1'."
+
+msgctxt "UpdateProcess"
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
+msgstr "Vidalia nije bila u mogućnosti provjeriti za dostupna ažuriranja softwarea jer je Torov proces za ažuriranje neočekivano završio."
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for available updates..."
+msgstr "Provjeravam za dostupna ažuriranja..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Hide"
+msgstr "Sakrij"
+
+msgctxt "UpdateProgressDialog"
+msgid "Downloading updates..."
+msgstr "Preuzimam ažuriranja..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Installing updated software..."
+msgstr "Instaliram ažurirani software..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Done! Your software is now up to date."
+msgstr "Gotovo! Vaš software je sada ažuran."
+
+msgctxt "UpdateProgressDialog"
+msgid "OK"
+msgstr "U redu"
+
+msgctxt "UpdateProgressDialog"
+msgid "Software Updates"
+msgstr "Ažuriranje Softwarea"
+
+msgctxt "UpdateProgressDialog"
+msgid "Checking for updates..."
+msgstr "Provjeravam za ažuriranja..."
+
+msgctxt "UpdateProgressDialog"
+msgid "Cancel"
+msgstr "Odustani"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Software Updates Available"
+msgstr "Ažuriranja Softwarea Dostupna"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Remind Me Later"
+msgstr "Podsjeti Me Kasnije"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Install"
+msgstr "Instaliraj"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "The following updated software packages are ready for installation:"
+msgstr "Sljedeći ažurirani softwareski paketi su spremni za instalaciju:"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Package"
+msgstr "Paket"
+
+msgctxt "UpdatesAvailableDialog"
+msgid "Version"
+msgstr "Inačica"
+
+msgctxt "VMessageBox"
+msgid "OK"
+msgstr "U redu"
+
+msgctxt "VMessageBox"
+msgid "Cancel"
+msgstr "Odustani"
+
+msgctxt "VMessageBox"
+msgid "Yes"
+msgstr "Da"
+
+msgctxt "VMessageBox"
+msgid "No"
+msgstr "Ne"
+
+msgctxt "VMessageBox"
+msgid "Help"
+msgstr "Pomoć"
+
+msgctxt "VMessageBox"
+msgid "Retry"
+msgstr "Ponovni pokušaj"
+
+msgctxt "VMessageBox"
+msgid "Show Log"
+msgstr "Prikaži Dnevnik"
+
+msgctxt "VMessageBox"
+msgid "Show Settings"
+msgstr "Prikaži Postavke"
+
+msgctxt "VMessageBox"
+msgid "Continue"
+msgstr "Nastavi"
+
+msgctxt "VMessageBox"
+msgid "Quit"
+msgstr "Napusti"
+
+msgctxt "VMessageBox"
+msgid "Browse"
+msgstr "Pretraži"
+
+msgctxt "Vidalia"
+msgid "Invalid Argument"
+msgstr "Neispravan Argument"
+
+msgctxt "Vidalia"
+msgid "Vidalia is already running"
+msgstr "Vidalia je već pokrenuta"
+
+msgctxt "Vidalia"
+msgid "Displays this usage message and exits."
+msgstr "Prikazuje ovu poruku korištenja i izlazi."
+
+msgctxt "Vidalia"
+msgid "Resets ALL stored Vidalia settings."
+msgstr "Resetira SVE spremljene postavke Vidalie."
+
+msgctxt "Vidalia"
+msgid "Sets the directory Vidalia uses for data files."
+msgstr "Postavlja mapu koju Vidalia koristi za podatkovne datoteke."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's pidfile."
+msgstr "Postavlja naziv i lokaciju pid datoteke Vidalie."
+
+msgctxt "Vidalia"
+msgid "Sets the name and location of Vidalia's logfile."
+msgstr "Postavlja naziv i lokaciju datoteke dnevnika Vidalie."
+
+msgctxt "Vidalia"
+msgid "Sets the verbosity of Vidalia's logging."
+msgstr "Postavlja detaljnost imenika Vidalie."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's interface style."
+msgstr "Postavlja stil sučelja Vidalie."
+
+msgctxt "Vidalia"
+msgid "Sets Vidalia's language."
+msgstr "Postavlja jezik Vidalie."
+
+msgctxt "Vidalia"
+msgid "Vidalia Usage Information"
+msgstr "Informacije Korištenja Vidalie"
+
+msgctxt "Vidalia"
+msgid "Unable to open log file '%1': %2"
+msgstr "Nije bilo moguće otvoriti datoteku dnevnika '%1': %2"
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr "Vrijednost potrebna za parametar :"
+
+msgctxt "Vidalia"
+msgid "Invalid language code specified:"
+msgstr "Specificiran neispravan kod jezika:"
+
+msgctxt "Vidalia"
+msgid "Invalid GUI style specified:"
+msgstr "Specificiran neispravan stil GUIa:"
+
+msgctxt "Vidalia"
+msgid "Invalid log level specified:"
+msgstr "Specificiran neispravan nivo zapisa dnevnika:"
+
+msgctxt "Vidalia"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+"\n"
+"Would you like to continue starting Vidalia?"
+msgstr "Moguće je da je drugi proces Vidalie već pokrenut. Ako stvarno postoji drugi proces Vidalie koji je pokrenut, možete odabrati svejedno nastaviti.\n\nŽelite li nastaviti s pokretanjem Vidalie?"
+
+msgctxt "stringutil.h"
+msgid "%1 secs"
+msgstr "%1 sekundi"
+
+msgctxt "stringutil.h"
+msgid "%1 B/s"
+msgstr "%1 B/s"
+
+msgctxt "stringutil.h"
+msgid "%1 KB/s"
+msgstr "%1 KB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 MB/s"
+msgstr "%1 MB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 GB/s"
+msgstr "%1 GB/s"
+
+msgctxt "stringutil.h"
+msgid "%1 days"
+msgstr "%1 dana"
+
+msgctxt "stringutil.h"
+msgid "%1 hours"
+msgstr "%1 sati"
+
+msgctxt "stringutil.h"
+msgid "%1 mins"
+msgstr "%1 minuta"
