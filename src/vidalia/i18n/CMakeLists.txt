@@ -1,12 +1,12 @@
 ##
 ##  $Id$
-## 
+##
 ##  This file is part of Vidalia, and is subject to the license terms in the
-##  LICENSE file, found in the top level directory of this distribution. If 
+##  LICENSE file, found in the top level directory of this distribution. If
 ##  you did not receive the LICENSE file with this file, you may obtain it
 ##  from the Vidalia source package distributed by the Vidalia Project at
-##  http://www.torproject.org/projects/vidalia.html. No part of Vidalia, 
-##  including this file, may be copied, modified, propagated, or distributed 
+##  http://www.torproject.org/projects/vidalia.html. No part of Vidalia,
+##  including this file, may be copied, modified, propagated, or distributed
 ##  except according to the terms described in the LICENSE file.
 ##
 
@@ -39,6 +39,10 @@ set(vidalia_PO
   po/nb/vidalia_nb.po
   po/pl/vidalia_pl.po
   po/ca/vidalia_ca.po
+  po/my/vidalia_my.po
+  po/eu/vidalia_eu.po
+  po/hr_HR/vidalia_hr_HR.po
+  po/sr/vidalia_sr.po
 )
 vidalia_add_po(vidalia_QMS ${vidalia_PO})
 
@@ -70,6 +74,10 @@ set(qt_PO
   po/nb/qt_nb.po
   po/pl/qt_pl.po
   po/ca/qt_ca.po
+  po/my/qt_my.po
+  po/eu/qt_eu.po
+  po/hr_HR/qt_hr_HR.po
+  po/sr/qt_sr.po
 )
 vidalia_add_po(qt_QMS ${qt_PO})
 
