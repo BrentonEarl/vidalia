@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 #   <gsanky+transifex@gmail.com>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-11-17 19:48+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
 "Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 již existuje.\n"
-"Přejete si jej nahradit?"
+msgstr "%1 již existuje.\nPřejete si jej nahradit?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Soubor nebyl nalezen.\n"
-"Prosím ověřte, zda byl název souboru zadán správně."
+msgstr "%1\nSoubor nebyl nalezen.\nProsím ověřte, zda byl název souboru zadán správně."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Adresář nebyl nalezen.\n"
-"Prosím ověřte, zda bylo jméno adresáře zadáno správně."
+msgstr "%1\nAdresář nebyl nalezen.\nProsím ověřte, zda bylo jméno adresáře zadáno správně."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1'  je chráněn proti přepisu.\n"
-"Chcete jej smazat i tak?"
+msgstr "'%1'  je chráněn proti přepisu.\nChcete jej smazat i tak?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -382,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>Název \"%1\" nelze použít.</b><p>Zkuste použít jiný název s menším počtem"
-" znaků nebo bez zvláštních znaků."
+msgstr "<b>Název \"%1\" nelze použít.</b><p>Zkuste použít jiný název s menším počtem znaků nebo bez zvláštních znaků."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -445,5 +433,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bajtů"
-
-

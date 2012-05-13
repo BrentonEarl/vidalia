@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 #   <marta.leffler@gmail.com>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-07-04 10:34+0000\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
 "Last-Translator: mle <marta.leffler@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -210,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1 \n"
-"Filen hittades inte.\n"
-"Var god bekräfta att det korrekta filnamnet har angetts."
+msgstr "%1 \nFilen hittades inte.\nVar god bekräfta att det korrekta filnamnet har angetts."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -271,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Mappen hittades inte.\n"
-"Var god bekräfta att det korrekta mappnamnet har angetts."
+msgstr "%1\nMappen hittades inte.\nVar god bekräfta att det korrekta mappnamnet har angetts."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' är skrivskyddat.\n"
-"Vill du ta bort det ändå?"
+msgstr "'%1' är skrivskyddat.\nVill du ta bort det ändå?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -380,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>Namnet \"%1\" kan inte användas.</b><p>Försök använda ett nytt namn, med "
-"färre tecken eller inga skiljetecken."
+msgstr "<b>Namnet \"%1\" kan inte användas.</b><p>Försök använda ett nytt namn, med färre tecken eller inga skiljetecken."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -443,5 +433,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
-
-

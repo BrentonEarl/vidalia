@@ -1,11 +1,13 @@
 # 
+# Translators:
+#   <andrius.dre@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-03-09 13:05+0000\n"
-"PO-Revision-Date: 2011-08-10 10:43+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-24 21:58+0000\n"
+"Last-Translator: vasaris <andrius.dre@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,124 +18,124 @@ msgstr ""
 
 msgctxt "AboutDialog"
 msgid "About Vidalia"
-msgstr ""
+msgstr "Apie Vidalia"
 
 msgctxt "AboutDialog"
 msgid "License"
-msgstr ""
+msgstr "Licencija"
 
 msgctxt "AboutDialog"
 msgid "Vidalia 0.2.0"
-msgstr ""
+msgstr "Vidalia 0.2.0"
 
 msgctxt "AboutDialog"
 msgid "Tor 0.2.0.32"
-msgstr ""
+msgstr "Tor 0.2.0.32"
 
 msgctxt "AboutDialog"
 msgid "Qt 4.4.2"
-msgstr ""
+msgstr "Qt 4.4.2"
 
 msgctxt "AdvancedPage"
 msgid "'%1' is not a valid IP address."
-msgstr ""
+msgstr "'%1' IP adresas negalioja."
 
 msgctxt "AdvancedPage"
 msgid ""
 "You selected 'Password' authentication, but did not specify a password."
-msgstr ""
+msgstr "Pažymėta \"Apsaugoti slaptažodžiu\", tačiau nenurodytas slaptažodis."
 
 msgctxt "AdvancedPage"
 msgid "Select Tor Configuration File"
-msgstr ""
+msgstr "Nurodykite Tor konfigūracijos failą."
 
 msgctxt "AdvancedPage"
 msgid "File Not Found"
-msgstr ""
+msgstr "Failas nerastas."
 
 msgctxt "AdvancedPage"
 msgid "%1 does not exist. Would you like to create it?"
-msgstr ""
+msgstr "%1 neegzistuoja. Sukurti naują?"
 
 msgctxt "AdvancedPage"
 msgid "Failed to Create File"
-msgstr ""
+msgstr "Saugant failą įvyko klaida."
 
 msgctxt "AdvancedPage"
 msgid "Unable to create %1 [%2]"
-msgstr ""
+msgstr "Nepavyko sukurti %1 [%2]"
 
 msgctxt "AdvancedPage"
 msgid "Select a Directory to Use for Tor Data"
-msgstr ""
+msgstr "Pažymėkite aplanką Tor duomenims saugoti."
 
 msgctxt "AdvancedPage"
 msgid "Unable to remove Tor Service"
-msgstr ""
+msgstr "Nepavyko pašalinti Tor Servisą"
 
 msgctxt "AdvancedPage"
 msgid "Unable to install Tor Service"
-msgstr ""
+msgstr "Nepavyko įdiegti Tor Servisą."
 
 msgctxt "AdvancedPage"
 msgid "Vidalia was unable to install the Tor service."
-msgstr ""
+msgstr "Vidalia programai nepavyko įdiegti Tor Servisą."
 
 msgctxt "AdvancedPage"
 msgid "Authentication:"
-msgstr ""
+msgstr "Atpažinimas:"
 
 msgctxt "AdvancedPage"
 msgid "Address:"
-msgstr ""
+msgstr "Adresas:"
 
 msgctxt "AdvancedPage"
 msgid "None"
-msgstr ""
+msgstr "Joks"
 
 msgctxt "AdvancedPage"
 msgid "Cookie"
-msgstr ""
+msgstr "Slapukas (Cookie)"
 
 msgctxt "AdvancedPage"
 msgid "Password"
-msgstr ""
+msgstr "Slaptažodis"
 
 msgctxt "AdvancedPage"
 msgid "Randomly Generate"
-msgstr ""
+msgstr "Generuoti atsitiktinai"
 
 msgctxt "AdvancedPage"
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File"
-msgstr ""
+msgstr "Tor konfigūracijos failas"
 
 msgctxt "AdvancedPage"
 msgid "Start the Tor software with the specified configuration file (torrc)"
-msgstr ""
+msgstr "Paleisti Tor programinę įrangą, naudojantis konkrečiu konfigūracijos failu (torrc)"
 
 msgctxt "AdvancedPage"
 msgid "Select path to your configuration file"
-msgstr ""
+msgstr "Nurodykite kelią iki konfigūracijos failo"
 
 msgctxt "AdvancedPage"
 msgid "Browse"
-msgstr ""
+msgstr "Naršyti"
 
 msgctxt "AdvancedPage"
 msgid "Data Directory"
-msgstr ""
+msgstr "Duomenų aplankas"
 
 msgctxt "AdvancedPage"
 msgid "Store data for the Tor software in the following directory"
-msgstr ""
+msgstr "Saugoti Tor programinės įrangos duomenis šiame aplanke"
 
 msgctxt "AdvancedPage"
 msgid "Select the directory used to store data for the Tor software"
-msgstr ""
+msgstr "Nurodykite aplanką Tor programiniams duomenims"
 
 msgctxt "AdvancedPage"
 msgid "Tor Control"
@@ -192,87 +194,115 @@ msgid "Select a file to use for Tor socket path"
 msgstr ""
 
 msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr ""
+
+msgctxt "AdvancedPage"
 msgid ""
 "Vidalia was unable to remove the Tor service.\n"
 "\n"
 "You may need to remove it manually."
-msgstr ""
+msgstr "Vidalia programai nepavyko pašalinti Tor Serviso.\n\nJums teks pašalinti Tor Servisą rankiniu būdu."
 
 msgctxt "AppearancePage"
 msgid "Language"
-msgstr ""
+msgstr "Kalba"
 
 msgctxt "AppearancePage"
 msgid "Choose the language used in Vidalia"
-msgstr ""
+msgstr "Pasirinkite kalbą Vidalia programai"
 
 msgctxt "AppearancePage"
 msgid "Style"
-msgstr ""
+msgstr "Stilius"
 
 msgctxt "AppearancePage"
 msgid "Choose Vidalia's interface style"
-msgstr ""
+msgstr "Pasirinkite Vidalia programos stilių"
 
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidalia programai nepavyko rasti nurodytos kalbos vertimo."
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
 msgstr ""
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
-msgstr ""
+msgstr "Nuo: "
 
 msgctxt "BandwidthGraph"
 msgid "Hide Settings"
-msgstr ""
+msgstr "Paslėpti nustatymus"
 
 msgctxt "BandwidthGraph"
 msgid "Show Settings"
-msgstr ""
+msgstr "Rodyti nustatymus"
 
 msgctxt "BandwidthGraph"
 msgid "Tor Bandwidth Usage"
-msgstr ""
+msgstr "Tor pralaidumas"
 
 msgctxt "BandwidthGraph"
 msgid "Reset"
-msgstr ""
+msgstr "Paleisti iš naujo"
 
 msgctxt "BandwidthGraph"
 msgid "Receive Rate"
-msgstr ""
+msgstr "Įeinamojo srauto sparta"
 
 msgctxt "BandwidthGraph"
 msgid "Send Rate"
-msgstr ""
+msgstr "Išeinamojo srauto sparta"
 
 msgctxt "BandwidthGraph"
 msgid "Always on Top"
-msgstr ""
+msgstr "Visada viršuje"
 
 msgctxt "BandwidthGraph"
 msgid "Style"
-msgstr ""
+msgstr "Stilius"
 
 msgctxt "BandwidthGraph"
 msgid "Changes the transparency of the Bandwidth Graph"
-msgstr ""
+msgstr "Keisti Siuntimo spartos grafiko permatomumą"
 
 msgctxt "BandwidthGraph"
 msgid "100"
-msgstr ""
+msgstr "100"
 
 msgctxt "BandwidthGraph"
 msgid "% Opaque"
-msgstr ""
+msgstr "% nepermatomas"
 
 msgctxt "BandwidthGraph"
 msgid "Save"
-msgstr ""
+msgstr "Saugoti"
 
 msgctxt "BandwidthGraph"
 msgid "Cancel"
-msgstr ""
+msgstr "Atšaukti"
 
 msgctxt "BridgeDownloader"
 msgid "Starting HTTPS bridge request..."
@@ -478,203 +508,203 @@ msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Armenia"
-msgstr ""
+msgstr "Armėnija"
 
 msgctxt "CountryInfo"
 msgid "Australia"
-msgstr ""
+msgstr "Australija"
 
 msgctxt "CountryInfo"
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaidžanas"
 
 msgctxt "CountryInfo"
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamų salos"
 
 msgctxt "CountryInfo"
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladešas"
 
 msgctxt "CountryInfo"
 msgid "Barbados"
-msgstr ""
+msgstr "Barbadosas"
 
 msgctxt "CountryInfo"
 msgid "Belarus"
-msgstr ""
+msgstr "Gudija"
 
 msgctxt "CountryInfo"
 msgid "Belgium"
-msgstr ""
+msgstr "Belgija"
 
 msgctxt "CountryInfo"
 msgid "Belize"
-msgstr ""
+msgstr "Belizas"
 
 msgctxt "CountryInfo"
 msgid "Bhutan"
-msgstr ""
+msgstr "Butanas"
 
 msgctxt "CountryInfo"
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivija"
 
 msgctxt "CountryInfo"
 msgid "Bosnia & Herzegovina"
-msgstr ""
+msgstr "Bosnija ir Hercogovina"
 
 msgctxt "CountryInfo"
 msgid "Botswana"
-msgstr ""
+msgstr "Botsvana"
 
 msgctxt "CountryInfo"
 msgid "Brazil"
-msgstr ""
+msgstr "Brazilija"
 
 msgctxt "CountryInfo"
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunėjus"
 
 msgctxt "CountryInfo"
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgarija"
 
 msgctxt "CountryInfo"
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 msgctxt "CountryInfo"
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 msgctxt "CountryInfo"
 msgid "Cambodia"
-msgstr ""
+msgstr "Kambodža"
 
 msgctxt "CountryInfo"
 msgid "Cameroon"
-msgstr ""
+msgstr "Kamerūnas"
 
 msgctxt "CountryInfo"
 msgid "Canada"
-msgstr ""
+msgstr "Kanada"
 
 msgctxt "CountryInfo"
 msgid "Cape Verde"
-msgstr ""
+msgstr "Žaliasis Kyšulys"
 
 msgctxt "CountryInfo"
 msgid "Central African Republic"
-msgstr ""
+msgstr "Centrinės Afrikos Respublika"
 
 msgctxt "CountryInfo"
 msgid "Chad"
-msgstr ""
+msgstr "Čadas"
 
 msgctxt "CountryInfo"
 msgid "Chile"
-msgstr ""
+msgstr "Čilė"
 
 msgctxt "CountryInfo"
 msgid "China"
-msgstr ""
+msgstr "Kinija"
 
 msgctxt "CountryInfo"
 msgid "Colombia"
-msgstr ""
+msgstr "Kolumbija"
 
 msgctxt "CountryInfo"
 msgid "Comoros"
-msgstr ""
+msgstr "Komorų salos"
 
 msgctxt "CountryInfo"
 msgid "Congo, The Democratic Republic of the"
-msgstr ""
+msgstr "Kongo DR"
 
 msgctxt "CountryInfo"
 msgid "Congo"
-msgstr ""
+msgstr "Kongas"
 
 msgctxt "CountryInfo"
 msgid "Costa Rica"
-msgstr ""
+msgstr "Kosta Rika"
 
 msgctxt "CountryInfo"
 msgid "Cote dâIvoire"
-msgstr ""
+msgstr "Dramblio Kaulo Krantas"
 
 msgctxt "CountryInfo"
 msgid "Croatia"
-msgstr ""
+msgstr "Kroatija"
 
 msgctxt "CountryInfo"
 msgid "Cuba"
-msgstr ""
+msgstr "Kuba"
 
 msgctxt "CountryInfo"
 msgid "Cyprus"
-msgstr ""
+msgstr "Kipras"
 
 msgctxt "CountryInfo"
 msgid "Czech Republic"
-msgstr ""
+msgstr "Čekija"
 
 msgctxt "CountryInfo"
 msgid "Denmark"
-msgstr ""
+msgstr "Danija"
 
 msgctxt "CountryInfo"
 msgid "Djibouti"
-msgstr ""
+msgstr "Džibutis"
 
 msgctxt "CountryInfo"
 msgid "Dominica"
-msgstr ""
+msgstr "Dominika"
 
 msgctxt "CountryInfo"
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Dominikos Respublika"
 
 msgctxt "CountryInfo"
 msgid "Ecuador"
-msgstr ""
+msgstr "Ekvadoras"
 
 msgctxt "CountryInfo"
 msgid "Egypt"
-msgstr ""
+msgstr "Egiptas"
 
 msgctxt "CountryInfo"
 msgid "El Salvador"
-msgstr ""
+msgstr "Salvadoras"
 
 msgctxt "CountryInfo"
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Pusaujo Gvinėja"
 
 msgctxt "CountryInfo"
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrėja"
 
 msgctxt "CountryInfo"
 msgid "Estonia"
-msgstr ""
+msgstr "Estija"
 
 msgctxt "CountryInfo"
 msgid "France"
-msgstr ""
+msgstr "Prancūzija"
 
 msgctxt "CountryInfo"
 msgid "Gabon"
-msgstr ""
+msgstr "Gabonas"
 
 msgctxt "CountryInfo"
 msgid "Gambia"
-msgstr ""
+msgstr "Gambija"
 
 msgctxt "CountryInfo"
 msgid "Georgia"
-msgstr ""
+msgstr "Gruzija"
 
 msgctxt "CountryInfo"
 msgid "Germany"
@@ -878,75 +908,75 @@ msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Niger"
-msgstr ""
+msgstr "Nigeris"
 
 msgctxt "CountryInfo"
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigerija"
 
 msgctxt "CountryInfo"
 msgid "Norway"
-msgstr ""
+msgstr "Norvegija"
 
 msgctxt "CountryInfo"
 msgid "Oman"
-msgstr ""
+msgstr "Omanas"
 
 msgctxt "CountryInfo"
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistanas"
 
 msgctxt "CountryInfo"
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 msgctxt "CountryInfo"
 msgid "Palestine"
-msgstr ""
+msgstr "Palestina"
 
 msgctxt "CountryInfo"
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 msgctxt "CountryInfo"
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papua Naujoji Guinėja"
 
 msgctxt "CountryInfo"
 msgid "Paraguay"
-msgstr ""
+msgstr "Paragvajus"
 
 msgctxt "CountryInfo"
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 msgctxt "CountryInfo"
 msgid "Philippines"
-msgstr ""
+msgstr "Filipinai"
 
 msgctxt "CountryInfo"
 msgid "Poland"
-msgstr ""
+msgstr "Lenkija"
 
 msgctxt "CountryInfo"
 msgid "Portugal"
-msgstr ""
+msgstr "Portugalija"
 
 msgctxt "CountryInfo"
 msgid "Qatar"
-msgstr ""
+msgstr "Kataras"
 
 msgctxt "CountryInfo"
 msgid "Romania"
-msgstr ""
+msgstr "Rumunija"
 
 msgctxt "CountryInfo"
 msgid "Russia"
-msgstr ""
+msgstr "Rusija"
 
 msgctxt "CountryInfo"
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 msgctxt "CountryInfo"
 msgid "Saint Kitts & Nevis"
@@ -1074,7 +1104,7 @@ msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Trinidad & Tobago"
-msgstr ""
+msgstr "Gruzija"
 
 msgctxt "CountryInfo"
 msgid "Tunisia"
@@ -1261,24 +1291,6 @@ msgid "Vidalia encountered an error and needed to close"
 msgstr ""
 
 msgctxt "CrashReportDialog"
-msgid ""
-"A crash report has been created that you can automatically send to the "
-"Vidalia developers to help identify and fix the problem. The submitted "
-"report does not contain any personally identifying information, but your "
-"connection to the crash reporting server may not be anonymous."
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid ""
-"Please also describe what you were doing before the application crashed "
-"(optional):"
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid "Send my crash report to the Vidalia developers"
-msgstr ""
-
-msgctxt "CrashReportDialog"
 msgid "Restart Vidalia"
 msgstr ""
 
@@ -1296,121 +1308,132 @@ msgid ""
 "manually."
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Connecting..."
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Sending crash report..."
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Receiving response..."
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
 msgstr ""
 
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
-msgstr ""
+msgstr "Vykdomieji failai (*.exe)"
 
 msgctxt "GeneralPage"
 msgid "Select Path to Tor"
-msgstr ""
+msgstr "Nurodykite kelią ik Tor"
 
 msgctxt "GeneralPage"
 msgid "Select Proxy Executable"
-msgstr ""
+msgstr "Nurodykite Proxy vykdomąjį failą"
 
 msgctxt "GeneralPage"
 msgid "You must specify the name of your Tor executable."
-msgstr ""
+msgstr "Nurodykite Tor vykdomojo failo vardą"
 
 msgctxt "GeneralPage"
 msgid "Start Vidalia when my system starts"
-msgstr ""
+msgstr "Paleisti Vidalia programą startavus operacinei sistemai"
 
 msgctxt "GeneralPage"
 msgid "Browse"
-msgstr ""
+msgstr "Naršyti"
 
 msgctxt "GeneralPage"
 msgid "Start the Tor software when Vidalia starts"
-msgstr ""
+msgstr "Paleisti Tor programinę įrangą startavus Vidalia programai"
 
 msgctxt "GeneralPage"
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application (optional)"
-msgstr ""
+msgstr "Proxy programa (nebūtina)"
 
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Tor starts"
-msgstr ""
+msgstr "Paleisti proxy programą startavus Tor"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application Arguments:"
-msgstr ""
+msgstr "Proxy programos papildomi kintamieji:"
 
 msgctxt "GeneralPage"
 msgid "Software Updates"
-msgstr ""
+msgstr "Programinės įrangos atnaujinimai"
 
 msgctxt "GeneralPage"
 msgid "Check for new software updates automatically"
-msgstr ""
+msgstr "Automatiškai tikrinti ar yra programinės įrangos atnaujinimų"
 
 msgctxt "GeneralPage"
 msgid "Check Now"
-msgstr ""
+msgstr "Tikrinti"
 
 msgctxt "GraphFrame"
 msgid "%1 KB/s"
-msgstr ""
+msgstr "%1 KB/s"
 
 msgctxt "GraphFrame"
 msgid "%1 KB"
-msgstr ""
+msgstr "%1 KB"
 
 msgctxt "GraphFrame"
 msgid "%1 MB"
-msgstr ""
+msgstr "%1 MB"
 
 msgctxt "GraphFrame"
 msgid "%1 GB"
-msgstr ""
+msgstr "%1 GB"
 
 msgctxt "GraphFrame"
 msgid "Recv:"
-msgstr ""
+msgstr "Gauta:"
 
 msgctxt "GraphFrame"
 msgid "Sent:"
-msgstr ""
+msgstr "Išsiųsta:"
 
 msgctxt "HelpBrowser"
 msgid "Supplied XML file is not a valid Contents document."
-msgstr ""
+msgstr "Pateiktas XML failas nėra tinkamas"
 
 msgctxt "HelpBrowser"
 msgid "Search reached end of document"
-msgstr ""
+msgstr "Paieška pasiekė dokumento pabaigą"
 
 msgctxt "HelpBrowser"
 msgid "Search reached start of document"
-msgstr ""
+msgstr "Paieška pasiekė dokumento pradžią"
 
 msgctxt "HelpBrowser"
 msgid "Text not found in document"
-msgstr ""
+msgstr "Tekstas dokumente nerastas"
 
 msgctxt "HelpBrowser"
 msgid "Found %1 results"
-msgstr ""
+msgstr "Rasta %1 rezultatų"
 
 msgctxt "HelpBrowser"
 msgid "Vidalia Help"
-msgstr ""
+msgstr "Vidalia Instrukcija"
 
 msgctxt "HelpBrowser"
 msgid "Back"
@@ -1518,40 +1541,40 @@ msgstr ""
 
 msgctxt "HelpTextBrowser"
 msgid "Opening External Link"
-msgstr ""
+msgstr "Atidaryti išorinę nuorodą"
 
 msgctxt "HelpTextBrowser"
 msgid ""
 "Vidalia can open the link you selected in your default Web browser. If your "
 "browser is not currently configured to use Tor then the request will not be "
 "anonymous."
-msgstr ""
+msgstr "Vidalia negali atidaryti nuorodos. Jūsų duomenys bus anonimiški tik sukonfigūravus naršyklę naudoti Tor."
 
 msgctxt "HelpTextBrowser"
 msgid "Do you want Vidalia to open the link in your Web browser?"
-msgstr ""
+msgstr "Ar norite, kad Vidalia atidarytų nuorodą Jūsų naršyklėje?"
 
 msgctxt "HelpTextBrowser"
 msgid "Unable to Open Link"
-msgstr ""
+msgstr "Nepavyko atidaryti nuorodos"
 
 msgctxt "HelpTextBrowser"
 msgid ""
 "Vidalia was unable to open the selected link in your Web browser. You can "
 "still copy the URL and paste it into your browser."
-msgstr ""
+msgstr "Vidalia progrmai nepavyko atidaryti nuorodos. Jūs galite nukopijuoti URL adresą."
 
 msgctxt "HelpTextBrowser"
 msgid "Error opening help file:"
-msgstr ""
+msgstr "Klaida atidanat failą:"
 
 msgctxt "LicenseDialog"
 msgid "License Information"
-msgstr ""
+msgstr "Licencijos informacija"
 
 msgctxt "LicenseDialog"
 msgid "License"
-msgstr ""
+msgstr "Licencija"
 
 msgctxt "LicenseDialog"
 msgid "Credits"
@@ -1563,23 +1586,23 @@ msgstr ""
 
 msgctxt "LogEvent"
 msgid "Info"
-msgstr ""
+msgstr "Informacija"
 
 msgctxt "LogEvent"
 msgid "Notice"
-msgstr ""
+msgstr "Pranešimas"
 
 msgctxt "LogEvent"
 msgid "Warning"
-msgstr ""
+msgstr "Įspėjimas"
 
 msgctxt "LogEvent"
 msgid "Error"
-msgstr ""
+msgstr "Klaida"
 
 msgctxt "LogEvent"
 msgid "Unknown"
-msgstr ""
+msgstr "Nežinoma"
 
 msgctxt "LogTreeItem"
 msgid "Debug"
@@ -1607,150 +1630,146 @@ msgstr ""
 
 msgctxt "MainWindow"
 msgid "Start Tor"
-msgstr ""
+msgstr "Paleisti Tor"
 
 msgctxt "MainWindow"
 msgid "Exit"
-msgstr ""
+msgstr "Išeiti"
 
 msgctxt "MainWindow"
 msgid "Bandwidth Graph"
-msgstr ""
+msgstr "Spartos grafikas"
 
 msgctxt "MainWindow"
 msgid "Message Log"
-msgstr ""
+msgstr "Pranešimų žurnalas"
 
 msgctxt "MainWindow"
 msgid "Network Map"
-msgstr ""
+msgstr "Tinklo žemėlapis"
 
 msgctxt "MainWindow"
 msgid "Control Panel"
-msgstr ""
+msgstr "Kontrolinis pultas"
 
 msgctxt "MainWindow"
 msgid "Settings"
-msgstr ""
+msgstr "Nustatymai"
 
 msgctxt "MainWindow"
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 msgctxt "MainWindow"
 msgid "Help"
-msgstr ""
+msgstr "Pagalba"
 
 msgctxt "MainWindow"
 msgid "New Identity"
-msgstr ""
+msgstr "Nauja tapatybė"
 
 msgctxt "MainWindow"
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 msgctxt "MainWindow"
 msgid "Ctrl+B"
-msgstr ""
+msgstr "Ctrl+B"
 
 msgctxt "MainWindow"
 msgid "Ctrl+L"
-msgstr ""
+msgstr "Ctrl+L"
 
 msgctxt "MainWindow"
 msgid "Ctrl+N"
-msgstr ""
+msgstr "Ctrl+N"
 
 msgctxt "MainWindow"
 msgid "Ctrl+?"
-msgstr ""
+msgstr "Ctrl+?"
 
 msgctxt "MainWindow"
 msgid "Ctrl+I"
-msgstr ""
+msgstr "Ctrl+I"
 
 msgctxt "MainWindow"
 msgid "Ctrl+P"
-msgstr ""
+msgstr "Ctrl+P"
 
 msgctxt "MainWindow"
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 msgctxt "MainWindow"
 msgid "View"
-msgstr ""
+msgstr "Rodymas"
 
 msgctxt "MainWindow"
 msgid "Vidalia Help"
-msgstr ""
+msgstr "Vidalia Instrukcija"
 
 msgctxt "MainWindow"
 msgid "Error starting web browser"
-msgstr ""
+msgstr "Klaida paleidžiant naršyklę"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured web browser"
-msgstr ""
+msgstr "Vidalia programai nepavyko paleisti naršyklės su šiais nustatymais"
 
 msgctxt "MainWindow"
 msgid "Error starting IM client"
-msgstr ""
+msgstr "Klaida paleidžiant pokalbių programą"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured IM client"
-msgstr ""
+msgstr "Vidalia programai nepavyko paleisti pokalbių programą"
 
 msgctxt "MainWindow"
 msgid "Error starting proxy server"
-msgstr ""
+msgstr "Klaida paleidžiant proxy serverį"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured proxy server"
-msgstr ""
+msgstr "Vidalia programai nepavyko paleisti proxy serverį su šiais nustatymais"
 
 msgctxt "MainWindow"
 msgid "Connecting to a relay directory"
-msgstr ""
+msgstr "Jungiamasi prie retransliavimo taškų"
 
 msgctxt "MainWindow"
 msgid "Establishing an encrypted directory connection"
-msgstr ""
+msgstr "Užmezgiamas ryšys"
 
 msgctxt "MainWindow"
 msgid "Retrieving network status"
-msgstr ""
+msgstr "Nuskaitoma tinklo būklė"
 
 msgctxt "MainWindow"
 msgid "Loading network status"
-msgstr ""
+msgstr "Nustatoma tinklo būklė"
 
 msgctxt "MainWindow"
 msgid "Loading authority certificates"
-msgstr ""
+msgstr "Įkeliami prieigos sertifikatai"
 
 msgctxt "MainWindow"
 msgid "Requesting relay information"
-msgstr ""
+msgstr "Užklausiama retranslaicijos taškų informacija"
 
 msgctxt "MainWindow"
 msgid "Loading relay information"
-msgstr ""
+msgstr "Įkeliama retransliacijos informacija"
 
 msgctxt "MainWindow"
 msgid "Connecting to the Tor network"
-msgstr ""
+msgstr "Jungiamasi prie Tor tinklo"
 
 msgctxt "MainWindow"
 msgid "Establishing a Tor circuit"
-msgstr ""
+msgstr "Užmezgiamas sujungimas"
 
 msgctxt "MainWindow"
 msgid "Connected to the Tor network!"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid "Unrecognized startup status"
 msgstr ""
 
 msgctxt "MainWindow"
@@ -1953,115 +1972,109 @@ msgstr ""
 
 msgctxt "MainWindow"
 msgid "View a map of the Tor network"
-msgstr ""
+msgstr "Rodyti Tor tinklo žemėlapį"
 
 msgctxt "MainWindow"
 msgid "Use a New Identity"
-msgstr ""
+msgstr "Naudoti naują tapatybę"
 
 msgctxt "MainWindow"
 msgid "Make subsequent connections appear new"
-msgstr ""
+msgstr "Paspaudus šį mygtuką bus jungiamasi kaip iš naujos vietos"
 
 msgctxt "MainWindow"
 msgid "View recent bandwidth usage"
-msgstr ""
+msgstr "Rodyti srauto spartą"
 
 msgctxt "MainWindow"
 msgid "View log message history"
-msgstr ""
+msgstr "Rodyti žurnalą"
 
 msgctxt "MainWindow"
 msgid "View help documentation"
-msgstr ""
+msgstr "Rodyti instrukciją"
 
 msgctxt "MainWindow"
 msgid "Configure Vidalia"
-msgstr ""
+msgstr "Konfigūruoti Vidalia"
 
 msgctxt "MainWindow"
 msgid "View version and license information"
-msgstr ""
+msgstr "Rodyti programos versiją ir licencijos infomaciją"
 
 msgctxt "MainWindow"
 msgid "Exit Vidalia"
-msgstr ""
+msgstr "Uždaryti Vidalia"
 
 msgctxt "MainWindow"
 msgid "Show this window on startup"
-msgstr ""
+msgstr "Rodyti šį langą įjungus kompiuterį"
 
 msgctxt "MainWindow"
 msgid "Hide"
-msgstr ""
+msgstr "Slėpti"
 
 msgctxt "MainWindow"
 msgid "Hide this window"
-msgstr ""
+msgstr "Slėpti šį langą"
 
 msgctxt "MainWindow"
 msgid "Password Reset Failed"
-msgstr ""
+msgstr "Įvyko klaida keičiant slaptažodį"
 
 msgctxt "MainWindow"
 msgid ""
 "Vidalia tried to reset Tor's control password, but was not able to restart "
 "the Tor software. Please check your Task Manager to ensure there are no "
 "other Tor processes running."
-msgstr ""
+msgstr "Vidalia programa bandė pakeisti Tor slaptažodį, tačiau nepavyko perkrauti Tor programinės įrangos. Įsitikinkite, kad sistemoje nėra paleistų Tor procesų"
 
 msgctxt "MainWindow"
 msgid ""
 "The currently installed version of Tor is out of date or no longer "
 "recommended."
-msgstr ""
+msgstr "Šiuo metu įdiegta Tor versija yra pasenusi ir neberekomenduojama naudoti"
 
 msgctxt "MainWindow"
 msgid ""
 "Would you like to check if a newer package is available for installation?"
-msgstr ""
+msgstr "Ar norėtumėte patiktinti ar atsirado nauja versija?"
 
 msgctxt "MainWindow"
 msgid "Potentially Unsafe Connection"
-msgstr ""
+msgstr "Potencialiai NEsaugus ryšys"
 
 msgctxt "MainWindow"
 msgid ""
 "Tor has automatically closed your connection in order to protect your "
 "anonymity."
-msgstr ""
+msgstr "Tor automatiškai nutraukė ryšį, kad būtų išsaugotas anonimiškumas"
 
 msgctxt "MainWindow"
 msgid "Update Failed"
-msgstr ""
+msgstr "Atnaujinimas nepavyko"
 
 msgctxt "MainWindow"
 msgid "Your software is up to date"
-msgstr ""
+msgstr "Jūsų programinė įranga atnaujinta"
 
 msgctxt "MainWindow"
 msgid ""
 "There are no new Tor software packages available for your computer at this "
 "time."
-msgstr ""
+msgstr "Šiuo metu nėra naujesnės Tor programinės įrangos. Jūsų versija yra naujausia."
 
 msgctxt "MainWindow"
 msgid "Installation Failed"
-msgstr ""
+msgstr "Diegimas nepavyko"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to install your software updates."
-msgstr ""
+msgstr "Vidalia programai nepavyko įdiegti atnaujinimų"
 
 msgctxt "MainWindow"
 msgid "The following error occurred:"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ""
-"One of your applications%1appears to be making a potentially unencrypted and"
-" unsafe connection to port %2."
-msgstr ""
+msgstr "Įvyko klaida: "
 
 msgctxt "MainWindow"
 msgid ""
@@ -2071,13 +2084,46 @@ msgid ""
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "failed (%1)"
+msgid "Bootstrapping torrc from %1 to %2"
 msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "nepavyko (%1)"
 
 msgctxt "MainWindow"
 msgid ""
 "Your relay is shutting down.\n"
 "Click 'Stop' again to stop your relay now."
+msgstr "Jūsų retransliacijos taškas išjungiamas.\nPaspauskite \"Stop\" mygtuką nutraukti ryšiui."
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
 msgstr ""
 
 msgctxt "MainWindow"
@@ -2085,21 +2131,13 @@ msgid ""
 "You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
 "\n"
 "Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr ""
+msgstr "Jūsų kompiuteris veikia kaip Tor tinklo retransliatorius. Nutrukus sustabdžius retransliavimą bus nutraukti užmegzti sujungimai.\n\nAr norėtumėte naudotojus įspėti, kad jie turėtų laiko prisijungti prie kito retransliavimo taško?"
 
 msgctxt "MainWindow"
 msgid ""
 "Vidalia detected that the Tor software exited unexpectedly.\n"
 "\n"
 "Please check the message log for recent warning or error messages."
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably Telnet,"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably an email client,"
 msgstr ""
 
 msgctxt "MessageLog"
@@ -2188,7 +2226,7 @@ msgstr ""
 
 msgctxt "MessageLog"
 msgid "Ctrl+E"
-msgstr ""
+msgstr "Užmezgiamas sujungimas"
 
 msgctxt "MessageLog"
 msgid "Copy"
@@ -2514,14 +2552,6 @@ msgid "Ctrl+F"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "Invalid Bridge"
-msgstr ""
-
-msgctxt "NetworkPage"
-msgid "The specified bridge identifier is not valid."
-msgstr ""
-
-msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr ""
 
@@ -2654,11 +2684,11 @@ msgid "SOCKS 5"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "HTTP"
+msgid "HTTP / HTTPS"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "HTTP / HTTPS"
+msgid "You must specify one or more bridges."
 msgstr ""
 
 msgctxt "Policy"
@@ -2835,10 +2865,6 @@ msgstr ""
 
 msgctxt "ServerPage"
 msgid "Run as a client only"
-msgstr ""
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network"
 msgstr ""
 
 msgctxt "ServerPage"
@@ -3083,6 +3109,14 @@ msgstr ""
 
 msgctxt "ServerPage"
 msgid "Automatically distribute my bridge address"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
 msgstr ""
 
 msgctxt "ServerPage"
@@ -3664,14 +3698,6 @@ msgctxt "UpdatesAvailableDialog"
 msgid "Version"
 msgstr ""
 
-msgctxt "UploadProgressDialog"
-msgid "Uploading Crash Report"
-msgstr ""
-
-msgctxt "UploadProgressDialog"
-msgid "Unable to send report: %1"
-msgstr ""
-
 msgctxt "VMessageBox"
 msgid "OK"
 msgstr ""
@@ -3765,6 +3791,10 @@ msgid "Unable to open log file '%1': %2"
 msgstr ""
 
 msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
 msgid "Invalid language code specified:"
 msgstr ""
 
@@ -3814,5 +3844,3 @@ msgstr ""
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr ""
-
-

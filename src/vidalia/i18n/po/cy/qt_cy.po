@@ -1,11 +1,13 @@
-# 
+# Translators:
+# Translators:
+# cymro <markives@hotmail.co.uk>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:06+0000\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
+"Last-Translator: cymro <markives@hotmail.co.uk>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +19,7 @@ msgstr ""
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr ""
+msgstr "Ysgogi"
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
@@ -42,27 +44,27 @@ msgstr ""
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
 msgid "OK"
-msgstr ""
+msgstr "Iawn"
 
 #: qdialogbuttonbox.cpp:528
 msgctxt "QDialogButtonBox"
 msgid "Save"
-msgstr ""
+msgstr "Cadw"
 
 #: qdialogbuttonbox.cpp:531
 msgctxt "QDialogButtonBox"
 msgid "Open"
-msgstr ""
+msgstr "Agor"
 
 #: qdialogbuttonbox.cpp:534
 msgctxt "QDialogButtonBox"
 msgid "Cancel"
-msgstr ""
+msgstr "Diddymu"
 
 #: qdialogbuttonbox.cpp:537
 msgctxt "QDialogButtonBox"
 msgid "Close"
-msgstr ""
+msgstr "Cau"
 
 #: qdialogbuttonbox.cpp:540
 msgctxt "QDialogButtonBox"
@@ -72,27 +74,27 @@ msgstr ""
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr ""
+msgstr "Ailosod"
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr ""
+msgstr "Peidiwch â Cadw"
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
 msgid "Discard"
-msgstr ""
+msgstr "Gwaredu"
 
 #: qdialogbuttonbox.cpp:557
 msgctxt "QDialogButtonBox"
 msgid "&Yes"
-msgstr ""
+msgstr "&Ia"
 
 #: qdialogbuttonbox.cpp:560
 msgctxt "QDialogButtonBox"
@@ -147,7 +149,7 @@ msgstr ""
 #: qdirmodel.cpp:423
 msgctxt "QDirModel"
 msgid "Name"
-msgstr ""
+msgstr "Enw"
 
 #: qdirmodel.cpp:424
 msgctxt "QDirModel"
@@ -192,7 +194,7 @@ msgstr ""
 #: qfiledialog.cpp:435
 msgctxt "QFileDialog"
 msgid "Open"
-msgstr ""
+msgstr "Agor"
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
@@ -217,12 +219,12 @@ msgstr ""
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
 msgid "&Rename"
-msgstr ""
+msgstr "&Ailenwi"
 
 #: qfiledialog.cpp:463
 msgctxt "QFileDialog"
 msgid "&Delete"
-msgstr ""
+msgstr "&Dileu"
 
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"

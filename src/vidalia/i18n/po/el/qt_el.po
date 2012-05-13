@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 # Γιάννης  <yannanth@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-22 16:13+0000\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
 "Last-Translator: Γιάννης <yannanth@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 είδη υπάρχει.\n"
-"Θέλετε να το αντικαταστήσετε?"
+msgstr "%1 είδη υπάρχει.\nΘέλετε να το αντικαταστήσετε?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Το αρχείο δε βρέθηκε.\n"
-"Παρακαλώ βεβαιώστε ότι δόθηκε το σωστό όνομα αρχείου."
+msgstr "%1\nΤο αρχείο δε βρέθηκε.\nΠαρακαλώ βεβαιώστε ότι δόθηκε το σωστό όνομα αρχείου."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Ο καταλογος δεν βρέθηκε.\n"
-"Παρακαλούμε βεβαιώστε ότι δόθηκε το σωστό όνομα καταλόγου."
+msgstr "%1\nΟ καταλογος δεν βρέθηκε.\nΠαρακαλούμε βεβαιώστε ότι δόθηκε το σωστό όνομα καταλόγου."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"%1 έχει προστασία εγγραφής.\n"
-"Θέλετε να το διαγράψετε οπωσδήποτε?"
+msgstr "%1 έχει προστασία εγγραφής.\nΘέλετε να το διαγράψετε οπωσδήποτε?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -382,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>Το όνομα %1 δε μπορεί να χρησιμοποιηθεί.</b><p>Δοκιμάστε να δώσετε άλλο "
-"όνομα με λιγότερους χαρακτήρες ή/και χωρίς σημεία στίξης."
+msgstr "<b>Το όνομα %1 δε μπορεί να χρησιμοποιηθεί.</b><p>Δοκιμάστε να δώσετε άλλο όνομα με λιγότερους χαρακτήρες ή/και χωρίς σημεία στίξης."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -445,5 +433,3 @@ msgstr "%1 κιλομπάιτ (1024 bytes)"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 μπάιτ (8 bits)"
-
-

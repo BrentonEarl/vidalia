@@ -1,16 +1,26 @@
+# 
+# Translators:
+# まつ  <>, 2012.
+# Chris Harris <praisebe4him@gmail.com>, 2012.
+# Eshin Kunishima <kaoru@mikosu.ddo.jp>, 2012.
+#   <kaoru@mikosu.ddo.jp>, 2012.
+#   <pentive@gmail.com>, 2012.
+# runasand <runa.sandvik@gmail.com>, 2011.
+# siomiz  <>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: Vidalia\n"
-"Report-Msgid-Bugs-To: translations@vidalia-project.net\n"
-"POT-Creation-Date: 2009-05-19 23:56+0000\n"
-"PO-Revision-Date: 2010-04-10 02:06-0600\n"
-"Last-Translator: Shinji R. Yamane <s-yamane@computer.org>\n"
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-08 09:44+0000\n"
+"Last-Translator: Eshin Kunishima <kaoru@mikosu.ddo.jp>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 1.1.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Vidalia ts2po 0.2\n"
 
 msgctxt "AboutDialog"
 msgid "About Vidalia"
@@ -32,28 +42,13 @@ msgctxt "AboutDialog"
 msgid "Qt 4.4.2"
 msgstr "Qt 4.4.2"
 
-msgctxt "AboutDialog"
-msgid "Vidalia"
-msgstr "Vidalia"
-
-msgctxt "AboutDialog"
-msgid "Tor"
-msgstr "Tor"
-
-msgctxt "AboutDialog"
-msgid "Qt"
-msgstr "Qt"
-
-msgctxt "AboutDialog"
-msgid "version"
-msgstr "version"
-
 msgctxt "AdvancedPage"
 msgid "'%1' is not a valid IP address."
 msgstr "'%1' は有効な IP アドレスではありません。"
 
 msgctxt "AdvancedPage"
-msgid "You selected 'Password' authentication, but did not specify a password."
+msgid ""
+"You selected 'Password' authentication, but did not specify a password."
 msgstr "'パスワード' 認証を選択しましたが、パスワードを指定しませんでした。"
 
 msgctxt "AdvancedPage"
@@ -91,10 +86,6 @@ msgstr "Tor サービスをインストールすることができません"
 msgctxt "AdvancedPage"
 msgid "Vidalia was unable to install the Tor service."
 msgstr "Vidalia は Tor サービスをインストールすることができませんでした。"
-
-msgctxt "AdvancedPage"
-msgid "Control Port"
-msgstr "制御ポート"
 
 msgctxt "AdvancedPage"
 msgid "Authentication:"
@@ -146,17 +137,85 @@ msgstr "データディレクトリ"
 
 msgctxt "AdvancedPage"
 msgid "Store data for the Tor software in the following directory"
-msgstr ""
+msgstr "Torクライアントに関するデータを保存するディレクトリ"
 
 msgctxt "AdvancedPage"
 msgid "Select the directory used to store data for the Tor software"
+msgstr "Torクライアントに関するデータを保存するディレクトリを選ぶ"
+
+msgctxt "AdvancedPage"
+msgid "Tor Control"
 msgstr ""
 
 msgctxt "AdvancedPage"
-msgid "Vidalia was unable to remove the Tor service.\n"
+msgid "Use TCP connection (ControlPort)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Path:"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Use Unix domain socket (ControlSocket)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Edit current torrc"
+msgstr "現在のtorrcを編集します"
+
+msgctxt "AdvancedPage"
+msgid "NOTE: this will edit the currently loaded torrc"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "ControlSocket path doesn't exist."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor configuration file location contains characters that "
+"cannot be represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"The specified Tor data directory location contains characters that cannot be"
+" represented in your system's current 8-bit character encoding."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "AdvancedPage"
+msgid "You changed torrc path, would you like to restart Tor?"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Tor Configuration File (torrc);;All Files (*)"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Select a file to use for Tor socket path"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"Vidalia was unable to remove the Tor service.\n"
 "\n"
 "You may need to remove it manually."
-msgstr ""
+msgstr "VidaliaはTorサービスを削除できませんでした。\n\n手動で削除する必要があります。"
 
 msgctxt "AppearancePage"
 msgid "Language"
@@ -176,6 +235,23 @@ msgstr "Vidalia のインターフェイス スタイルを選択します"
 
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
+msgstr "Vidaliaは選択された言語データをロードできませんでした。"
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
 msgstr ""
 
 msgctxt "BandwidthGraph"
@@ -236,15 +312,15 @@ msgstr "キャンセル"
 
 msgctxt "BridgeDownloader"
 msgid "Starting HTTPS bridge request..."
-msgstr ""
+msgstr "HTTPSブリッジをリクエスト中..."
 
 msgctxt "BridgeDownloader"
 msgid "Connecting to %1:%2..."
-msgstr ""
+msgstr "%1:%2 へ接続中..."
 
 msgctxt "BridgeDownloader"
 msgid "Sending an HTTPS request for bridges..."
-msgstr ""
+msgstr "HTTPSリクエストをブリッジに送信中..."
 
 msgctxt "BridgeDownloader"
 msgid "Downloading a list of bridges..."
@@ -252,15 +328,15 @@ msgstr "ブリッジのリストをダウンロード..."
 
 msgctxt "BridgeDownloaderProgressDialog"
 msgid "Downloading Bridges"
-msgstr ""
+msgstr "ブリッジをダウンロード中"
 
 msgctxt "BridgeDownloaderProgressDialog"
 msgid "Unable to download bridges: %1"
-msgstr ""
+msgstr "ブリッジをダウンロードできません: %1"
 
 msgctxt "BridgeDownloaderProgressDialog"
 msgid "Retrying bridge request..."
-msgstr ""
+msgstr "ブリッジリクエストを再送信中..."
 
 msgctxt "BridgeUsageDialog"
 msgid "Country"
@@ -268,19 +344,19 @@ msgstr "国"
 
 msgctxt "BridgeUsageDialog"
 msgid "# Clients"
-msgstr ""
+msgstr "クライアント数"
 
 msgctxt "BridgeUsageDialog"
 msgid "Clients from the following countries have used your relay since %1"
-msgstr ""
+msgstr "%1 以降、あなたのリレーを利用した国別クライアント"
 
 msgctxt "BridgeUsageDialog"
 msgid "Bridge Usage Summary"
-msgstr ""
+msgstr "ブリッジ利用概要"
 
 msgctxt "BridgeUsageDialog"
 msgid "Client Summary"
-msgstr ""
+msgstr "クライアント概要"
 
 msgctxt "Circuit"
 msgid "New"
@@ -344,7 +420,7 @@ msgstr "共有"
 
 msgctxt "ConfigDialog"
 msgid "Services"
-msgstr ""
+msgstr "サービス"
 
 msgctxt "ConfigDialog"
 msgid "Appearance"
@@ -388,15 +464,17 @@ msgstr "コントロール ソケットは接続されていません。"
 
 msgctxt "ControlPasswordInputDialog"
 msgid "Password Required"
-msgstr ""
+msgstr "要パスワード"
 
 msgctxt "ControlPasswordInputDialog"
 msgid "Remember my password"
-msgstr ""
+msgstr "パスワードを記憶"
 
 msgctxt "ControlPasswordInputDialog"
-msgid "Vidalia has connected to a running Tor process that requires a password. Please enter your control password:"
-msgstr ""
+msgid ""
+"Vidalia has connected to a running Tor process that requires a password. "
+"Please enter your control password:"
+msgstr "Vidaliaは、パスワードが必要なTorプロセスに接続しました。管理パスワードを入力してください:"
 
 msgctxt "ControlSocket"
 msgid "Control socket is not connected."
@@ -416,275 +494,275 @@ msgstr "不正なコントロール返信です。[%1]"
 
 msgctxt "CountryInfo"
 msgid "Afghanistan"
-msgstr ""
+msgstr "アフガニスタン"
 
 msgctxt "CountryInfo"
 msgid "Andorra"
-msgstr ""
+msgstr "アンドラ"
 
 msgctxt "CountryInfo"
 msgid "Angola"
-msgstr ""
+msgstr "アンゴラ"
 
 msgctxt "CountryInfo"
 msgid "Antigua & Barbuda"
-msgstr ""
+msgstr "アンチグア & バーブーダ"
 
 msgctxt "CountryInfo"
 msgid "Argentina"
-msgstr ""
+msgstr "アルゼンチン"
 
 msgctxt "CountryInfo"
 msgid "Armenia"
-msgstr ""
+msgstr "アルマニア"
 
 msgctxt "CountryInfo"
 msgid "Australia"
-msgstr ""
+msgstr "オーストラリア"
 
 msgctxt "CountryInfo"
 msgid "Azerbaijan"
-msgstr ""
+msgstr "アゼルバイジャン"
 
 msgctxt "CountryInfo"
 msgid "Bahamas"
-msgstr ""
+msgstr "バハマ国"
 
 msgctxt "CountryInfo"
 msgid "Bangladesh"
-msgstr ""
+msgstr "バングラデシュ"
 
 msgctxt "CountryInfo"
 msgid "Barbados"
-msgstr ""
+msgstr "バルバドス"
 
 msgctxt "CountryInfo"
 msgid "Belarus"
-msgstr ""
+msgstr "ベラルーシ"
 
 msgctxt "CountryInfo"
 msgid "Belgium"
-msgstr ""
+msgstr "ベルギー"
 
 msgctxt "CountryInfo"
 msgid "Belize"
-msgstr ""
+msgstr "ベリーズ"
 
 msgctxt "CountryInfo"
 msgid "Bhutan"
-msgstr ""
+msgstr "ブータン"
 
 msgctxt "CountryInfo"
 msgid "Bolivia"
-msgstr ""
+msgstr "ボリビア"
 
 msgctxt "CountryInfo"
 msgid "Bosnia & Herzegovina"
-msgstr ""
+msgstr "ボスニア・ヘルツェゴビナ"
 
 msgctxt "CountryInfo"
 msgid "Botswana"
-msgstr ""
+msgstr "ボツワナ"
 
 msgctxt "CountryInfo"
 msgid "Brazil"
-msgstr ""
+msgstr "ブラジル"
 
 msgctxt "CountryInfo"
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "ブルネイ・ダルサラーム国"
 
 msgctxt "CountryInfo"
 msgid "Bulgaria"
-msgstr ""
+msgstr "ブルガリア"
 
 msgctxt "CountryInfo"
 msgid "Burkina Faso"
-msgstr ""
+msgstr "ブルキナファソ"
 
 msgctxt "CountryInfo"
 msgid "Burundi"
-msgstr ""
+msgstr "ブルンジ"
 
 msgctxt "CountryInfo"
 msgid "Cambodia"
-msgstr ""
+msgstr "カンボジア"
 
 msgctxt "CountryInfo"
 msgid "Cameroon"
-msgstr ""
+msgstr "カメルーン"
 
 msgctxt "CountryInfo"
 msgid "Canada"
-msgstr ""
+msgstr "カナダ"
 
 msgctxt "CountryInfo"
 msgid "Cape Verde"
-msgstr ""
+msgstr "カボベルデ"
 
 msgctxt "CountryInfo"
 msgid "Central African Republic"
-msgstr ""
+msgstr "中央アフリカ共和国"
 
 msgctxt "CountryInfo"
 msgid "Chad"
-msgstr ""
+msgstr "チャド"
 
 msgctxt "CountryInfo"
 msgid "Chile"
-msgstr ""
+msgstr "チリ"
 
 msgctxt "CountryInfo"
 msgid "China"
-msgstr ""
+msgstr "中国"
 
 msgctxt "CountryInfo"
 msgid "Colombia"
-msgstr ""
+msgstr "コロンビア"
 
 msgctxt "CountryInfo"
 msgid "Comoros"
-msgstr ""
+msgstr "コモロ"
 
 msgctxt "CountryInfo"
 msgid "Congo, The Democratic Republic of the"
-msgstr ""
+msgstr "コンゴ 民主共和国"
 
 msgctxt "CountryInfo"
 msgid "Congo"
-msgstr ""
+msgstr "コンゴ"
 
 msgctxt "CountryInfo"
 msgid "Costa Rica"
-msgstr ""
+msgstr "コスタリカ"
 
 msgctxt "CountryInfo"
 msgid "Cote dâIvoire"
-msgstr ""
+msgstr "コートジボワール"
 
 msgctxt "CountryInfo"
 msgid "Croatia"
-msgstr ""
+msgstr "クロアチア"
 
 msgctxt "CountryInfo"
 msgid "Cuba"
-msgstr ""
+msgstr "キューバ"
 
 msgctxt "CountryInfo"
 msgid "Cyprus"
-msgstr ""
+msgstr "キプロス"
 
 msgctxt "CountryInfo"
 msgid "Czech Republic"
-msgstr ""
+msgstr "チェコ"
 
 msgctxt "CountryInfo"
 msgid "Denmark"
-msgstr ""
+msgstr "デンマーク"
 
 msgctxt "CountryInfo"
 msgid "Djibouti"
-msgstr ""
+msgstr "ジブチ"
 
 msgctxt "CountryInfo"
 msgid "Dominica"
-msgstr ""
+msgstr "ドミニカ"
 
 msgctxt "CountryInfo"
 msgid "Dominican Republic"
-msgstr ""
+msgstr "ドミニカ共和国"
 
 msgctxt "CountryInfo"
 msgid "Ecuador"
-msgstr ""
+msgstr "エクアドル"
 
 msgctxt "CountryInfo"
 msgid "Egypt"
-msgstr ""
+msgstr "エジプト"
 
 msgctxt "CountryInfo"
 msgid "El Salvador"
-msgstr ""
+msgstr "エルサルバドル"
 
 msgctxt "CountryInfo"
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "赤道ギニア"
 
 msgctxt "CountryInfo"
 msgid "Eritrea"
-msgstr ""
+msgstr "エリトリア"
 
 msgctxt "CountryInfo"
 msgid "Estonia"
-msgstr ""
+msgstr "エストニア"
 
 msgctxt "CountryInfo"
 msgid "France"
-msgstr ""
+msgstr "フランス"
 
 msgctxt "CountryInfo"
 msgid "Gabon"
-msgstr ""
+msgstr "ガボン"
 
 msgctxt "CountryInfo"
 msgid "Gambia"
-msgstr ""
+msgstr "ガンビア"
 
 msgctxt "CountryInfo"
 msgid "Georgia"
-msgstr ""
+msgstr "グルジア"
 
 msgctxt "CountryInfo"
 msgid "Germany"
-msgstr ""
+msgstr "ドイツ"
 
 msgctxt "CountryInfo"
 msgid "Ghana"
-msgstr ""
+msgstr "ガーナ"
 
 msgctxt "CountryInfo"
 msgid "Grenada"
-msgstr ""
+msgstr "グレナダ"
 
 msgctxt "CountryInfo"
 msgid "Guatemala"
-msgstr ""
+msgstr "グアテマラ"
 
 msgctxt "CountryInfo"
 msgid "Guinea"
-msgstr ""
+msgstr "ギニア"
 
 msgctxt "CountryInfo"
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "ギニアビサウ"
 
 msgctxt "CountryInfo"
 msgid "Guyana"
-msgstr ""
+msgstr "ガイアナ"
 
 msgctxt "CountryInfo"
 msgid "Hong Kong"
-msgstr ""
+msgstr "香港"
 
 msgctxt "CountryInfo"
 msgid "Haiti"
-msgstr ""
+msgstr "ハイチ"
 
 msgctxt "CountryInfo"
 msgid "Honduras"
-msgstr ""
+msgstr "ホンジュラス"
 
 msgctxt "CountryInfo"
 msgid "Israel"
-msgstr ""
+msgstr "イスラエル"
 
 msgctxt "CountryInfo"
 msgid "Italy"
-msgstr ""
+msgstr "イタリア"
 
 msgctxt "CountryInfo"
 msgid "Jamaica"
-msgstr ""
+msgstr "ジャマイカ"
 
 msgctxt "CountryInfo"
 msgid "Japan"
@@ -692,518 +770,571 @@ msgstr "日本"
 
 msgctxt "CountryInfo"
 msgid "Jordan"
-msgstr ""
+msgstr "ヨルダン"
 
 msgctxt "CountryInfo"
 msgid "Kazakhstan"
-msgstr ""
+msgstr "カザフスタン"
 
 msgctxt "CountryInfo"
 msgid "Kenya"
-msgstr ""
+msgstr "ケニア"
 
 msgctxt "CountryInfo"
 msgid "Kiribati"
-msgstr ""
+msgstr "キリバス"
 
 msgctxt "CountryInfo"
 msgid "Kuwait"
-msgstr ""
+msgstr "クウェート"
 
 msgctxt "CountryInfo"
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "キルギス"
 
 msgctxt "CountryInfo"
 msgid "Laos"
-msgstr ""
+msgstr "ラオス"
 
 msgctxt "CountryInfo"
 msgid "Latvia"
-msgstr ""
+msgstr "ラトビア"
 
 msgctxt "CountryInfo"
 msgid "Lebanon"
-msgstr ""
+msgstr "レバノン"
 
 msgctxt "CountryInfo"
 msgid "Lesotho"
-msgstr ""
+msgstr "レソト"
 
 msgctxt "CountryInfo"
 msgid "Liberia"
-msgstr ""
+msgstr "リベリア"
 
 msgctxt "CountryInfo"
 msgid "Liechtenstein"
-msgstr ""
+msgstr "リヒテンシュタイン"
 
 msgctxt "CountryInfo"
 msgid "Lithuania"
-msgstr ""
+msgstr "リトアニア"
 
 msgctxt "CountryInfo"
 msgid "Luxembourg"
-msgstr ""
+msgstr "ルクセンブルク"
 
 msgctxt "CountryInfo"
 msgid "Macedonia"
-msgstr ""
+msgstr "マケドニア"
 
 msgctxt "CountryInfo"
 msgid "Madagascar"
-msgstr ""
+msgstr "マダガスカル"
 
 msgctxt "CountryInfo"
 msgid "Malawi"
-msgstr ""
+msgstr "マラウイ"
 
 msgctxt "CountryInfo"
 msgid "Malaysia"
-msgstr ""
+msgstr "マレーシア"
 
 msgctxt "CountryInfo"
 msgid "Mali"
-msgstr ""
+msgstr "マリ"
 
 msgctxt "CountryInfo"
 msgid "Malta"
-msgstr ""
+msgstr "マルタ"
 
 msgctxt "CountryInfo"
 msgid "Marshall Islands"
-msgstr ""
+msgstr "マーシャル諸島"
 
 msgctxt "CountryInfo"
 msgid "Mauritania"
-msgstr ""
+msgstr "モーリタニア"
 
 msgctxt "CountryInfo"
 msgid "Mauritius"
-msgstr ""
+msgstr "モーリシャス"
 
 msgctxt "CountryInfo"
 msgid "Micronesia"
-msgstr ""
+msgstr "ミクロネシア"
 
 msgctxt "CountryInfo"
 msgid "Moldova"
-msgstr ""
+msgstr "モルドバ"
 
 msgctxt "CountryInfo"
 msgid "Monaco"
-msgstr ""
+msgstr "モナコ"
 
 msgctxt "CountryInfo"
 msgid "Mongolia"
-msgstr ""
+msgstr "モンゴル"
 
 msgctxt "CountryInfo"
 msgid "Montenegro"
-msgstr ""
+msgstr "モンテネグロ"
 
 msgctxt "CountryInfo"
 msgid "Morocco"
-msgstr ""
+msgstr "モロッコ"
 
 msgctxt "CountryInfo"
 msgid "Mozambique"
-msgstr ""
+msgstr "モザンビーク"
 
 msgctxt "CountryInfo"
 msgid "Namibia"
-msgstr ""
+msgstr "ナミビア"
 
 msgctxt "CountryInfo"
 msgid "Nauru"
-msgstr ""
+msgstr "ナウル"
 
 msgctxt "CountryInfo"
 msgid "Nepal"
-msgstr ""
+msgstr "ネパール"
 
 msgctxt "CountryInfo"
 msgid "Netherlands"
-msgstr ""
+msgstr "オランダ"
 
 msgctxt "CountryInfo"
 msgid "New Zealand"
-msgstr ""
+msgstr "ニュージーランド"
 
 msgctxt "CountryInfo"
 msgid "Nicaragua"
-msgstr ""
+msgstr "ニカラグア"
 
 msgctxt "CountryInfo"
 msgid "Niger"
-msgstr ""
+msgstr "ニジェール"
 
 msgctxt "CountryInfo"
 msgid "Nigeria"
-msgstr ""
+msgstr "ナイジェリア"
 
 msgctxt "CountryInfo"
 msgid "Norway"
-msgstr ""
+msgstr "ノルウェー"
 
 msgctxt "CountryInfo"
 msgid "Oman"
-msgstr ""
+msgstr "オマーン"
 
 msgctxt "CountryInfo"
 msgid "Pakistan"
-msgstr ""
+msgstr "パキスタン"
 
 msgctxt "CountryInfo"
 msgid "Palau"
-msgstr ""
+msgstr "パラオ"
 
 msgctxt "CountryInfo"
 msgid "Palestine"
-msgstr ""
+msgstr "パレスチナ"
 
 msgctxt "CountryInfo"
 msgid "Panama"
-msgstr ""
+msgstr "パナマ"
 
 msgctxt "CountryInfo"
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "パプアニューギニア"
 
 msgctxt "CountryInfo"
 msgid "Paraguay"
-msgstr ""
+msgstr "パラグアイ"
 
 msgctxt "CountryInfo"
 msgid "Peru"
-msgstr ""
+msgstr "ペルー"
 
 msgctxt "CountryInfo"
 msgid "Philippines"
-msgstr ""
+msgstr "フィリピン"
 
 msgctxt "CountryInfo"
 msgid "Poland"
-msgstr ""
+msgstr "ポーランド"
 
 msgctxt "CountryInfo"
 msgid "Portugal"
-msgstr ""
+msgstr "ポルトガル"
 
 msgctxt "CountryInfo"
 msgid "Qatar"
-msgstr ""
+msgstr "カタール"
 
 msgctxt "CountryInfo"
 msgid "Romania"
-msgstr ""
+msgstr "ルーマニア"
 
 msgctxt "CountryInfo"
 msgid "Russia"
-msgstr ""
+msgstr "ロシア"
 
 msgctxt "CountryInfo"
 msgid "Rwanda"
-msgstr ""
+msgstr "ルワンダ"
 
 msgctxt "CountryInfo"
 msgid "Saint Kitts & Nevis"
-msgstr ""
+msgstr "セントクリストファー・ネイビス"
 
 msgctxt "CountryInfo"
 msgid "Saint Lucia"
-msgstr ""
+msgstr "セントルシア"
 
 msgctxt "CountryInfo"
 msgid "Saint Vincent & the Grenadines"
-msgstr ""
+msgstr "セントビンセント・グレナディーン"
 
 msgctxt "CountryInfo"
 msgid "Samoa"
-msgstr ""
+msgstr "サモア"
 
 msgctxt "CountryInfo"
 msgid "San Marino"
-msgstr ""
+msgstr "サンマリノ"
 
 msgctxt "CountryInfo"
 msgid "Sao Tome & Principe"
-msgstr ""
+msgstr "サントメ・プリンシペ"
 
 msgctxt "CountryInfo"
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "サウジアラビア"
 
 msgctxt "CountryInfo"
 msgid "Senegal"
-msgstr ""
+msgstr "セネガル"
 
 msgctxt "CountryInfo"
 msgid "Serbia"
-msgstr ""
+msgstr "セルビア"
 
 msgctxt "CountryInfo"
 msgid "Seychelles"
-msgstr ""
+msgstr "セーシェル"
 
 msgctxt "CountryInfo"
 msgid "Sierra Leone"
-msgstr ""
+msgstr "シエラレオネ"
 
 msgctxt "CountryInfo"
 msgid "Singapore"
-msgstr ""
+msgstr "シンガポール"
 
 msgctxt "CountryInfo"
 msgid "Slovakia"
-msgstr ""
+msgstr "スロバキア"
 
 msgctxt "CountryInfo"
 msgid "Slovenia"
-msgstr ""
+msgstr "スロベニア"
 
 msgctxt "CountryInfo"
 msgid "Solomon Islands"
-msgstr ""
+msgstr "ソロモン諸島"
 
 msgctxt "CountryInfo"
 msgid "Somalia"
-msgstr ""
+msgstr "ソマリア"
 
 msgctxt "CountryInfo"
 msgid "South Africa"
-msgstr ""
+msgstr "南アフリカ"
 
 msgctxt "CountryInfo"
 msgid "Spain"
-msgstr ""
+msgstr "スペイン"
 
 msgctxt "CountryInfo"
 msgid "Sri Lanka"
-msgstr ""
+msgstr "スリランカ"
 
 msgctxt "CountryInfo"
 msgid "Sudan"
-msgstr ""
+msgstr "スーダン"
 
 msgctxt "CountryInfo"
 msgid "Suriname"
-msgstr ""
+msgstr "スリナム"
 
 msgctxt "CountryInfo"
 msgid "Swaziland"
-msgstr ""
+msgstr "スワジランド"
 
 msgctxt "CountryInfo"
 msgid "Sweden"
-msgstr ""
+msgstr "スウェーデン"
 
 msgctxt "CountryInfo"
 msgid "Switzerland"
-msgstr ""
+msgstr "スイス"
 
 msgctxt "CountryInfo"
 msgid "Syria"
-msgstr ""
+msgstr "シリア"
 
 msgctxt "CountryInfo"
 msgid "Tajikistan"
-msgstr ""
+msgstr "タジキスタン"
 
 msgctxt "CountryInfo"
 msgid "Tanzania"
-msgstr ""
+msgstr "タンザニア"
 
 msgctxt "CountryInfo"
 msgid "Thailand"
-msgstr ""
+msgstr "タイ王国"
 
 msgctxt "CountryInfo"
 msgid "Timor-Leste (East Timor)"
-msgstr ""
+msgstr "東ティモール"
 
 msgctxt "CountryInfo"
 msgid "Togo"
-msgstr ""
+msgstr "トーゴ"
 
 msgctxt "CountryInfo"
 msgid "Tonga"
-msgstr ""
+msgstr "トンガ"
 
 msgctxt "CountryInfo"
 msgid "Trinidad & Tobago"
-msgstr ""
+msgstr "トリニダード・トバゴ"
 
 msgctxt "CountryInfo"
 msgid "Tunisia"
-msgstr ""
+msgstr "チュニジア"
 
 msgctxt "CountryInfo"
 msgid "Turkey"
-msgstr ""
+msgstr "トルコ"
 
 msgctxt "CountryInfo"
 msgid "Turkmenistan"
-msgstr ""
+msgstr "トルクメニスタン"
 
 msgctxt "CountryInfo"
 msgid "Tuvalu"
-msgstr ""
+msgstr "ツバル"
 
 msgctxt "CountryInfo"
 msgid "Uganda"
-msgstr ""
+msgstr "ウガンダ"
 
 msgctxt "CountryInfo"
 msgid "Ukraine"
-msgstr ""
+msgstr "ウクライナ"
 
 msgctxt "CountryInfo"
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "アラブ首長国連邦"
 
 msgctxt "CountryInfo"
 msgid "United Kingdom"
-msgstr ""
+msgstr "イギリス"
 
 msgctxt "CountryInfo"
 msgid "United States"
-msgstr ""
+msgstr "アメリカ合衆国"
 
 msgctxt "CountryInfo"
 msgid "Uruguay"
-msgstr ""
+msgstr "ウルグアイ"
 
 msgctxt "CountryInfo"
 msgid "Uzbekistan"
-msgstr ""
+msgstr "ウズベキスタン"
 
 msgctxt "CountryInfo"
 msgid "Vanuatu"
-msgstr ""
+msgstr "バヌアツ"
 
 msgctxt "CountryInfo"
 msgid "Vatican"
-msgstr ""
+msgstr "バチカン"
 
 msgctxt "CountryInfo"
 msgid "Venezuela"
-msgstr ""
+msgstr "ベネズエラ"
 
 msgctxt "CountryInfo"
 msgid "Vietnam"
-msgstr ""
+msgstr "ベトナム"
 
 msgctxt "CountryInfo"
 msgid "Western Sahara"
-msgstr ""
+msgstr "西サハラ"
 
 msgctxt "CountryInfo"
 msgid "Yemen"
-msgstr ""
+msgstr "イエメン"
 
 msgctxt "CountryInfo"
 msgid "Zambia"
-msgstr ""
+msgstr "ザンビア"
 
 msgctxt "CountryInfo"
 msgid "Zimbabwe"
+msgstr "ジンバブエ"
+
+msgctxt "CountryInfo"
+msgid "Zaire"
 msgstr ""
 
 msgctxt "CountryInfo"
 msgid "Albania"
-msgstr ""
+msgstr "アルバニア"
 
 msgctxt "CountryInfo"
 msgid "Algeria"
-msgstr ""
+msgstr "アルジェリア"
 
 msgctxt "CountryInfo"
 msgid "Austria"
-msgstr ""
+msgstr "オーストリア"
 
 msgctxt "CountryInfo"
 msgid "Bahrain"
-msgstr ""
+msgstr "バーレーン"
 
 msgctxt "CountryInfo"
 msgid "Benin"
-msgstr ""
+msgstr "ベニン"
 
 msgctxt "CountryInfo"
 msgid "Ethiopia"
-msgstr ""
+msgstr "エチオピア"
 
 msgctxt "CountryInfo"
 msgid "Fiji"
-msgstr ""
+msgstr "フィジー"
 
 msgctxt "CountryInfo"
 msgid "Finland"
-msgstr ""
+msgstr "フィンランド"
 
 msgctxt "CountryInfo"
 msgid "Greece"
-msgstr ""
+msgstr "ギリシャ"
 
 msgctxt "CountryInfo"
 msgid "Guam"
-msgstr ""
+msgstr "グアム"
 
 msgctxt "CountryInfo"
 msgid "Hungary"
-msgstr ""
+msgstr "ハンガリー"
 
 msgctxt "CountryInfo"
 msgid "Iceland"
-msgstr ""
+msgstr "アイスランド"
 
 msgctxt "CountryInfo"
 msgid "India"
-msgstr ""
+msgstr "インド"
 
 msgctxt "CountryInfo"
 msgid "Indonesia"
-msgstr ""
+msgstr "インドネシア"
 
 msgctxt "CountryInfo"
 msgid "Iran"
-msgstr ""
+msgstr "イラン"
 
 msgctxt "CountryInfo"
 msgid "Iraq"
-msgstr ""
+msgstr "イラク"
 
 msgctxt "CountryInfo"
 msgid "Ireland"
-msgstr ""
+msgstr "アイルランド"
 
 msgctxt "CountryInfo"
 msgid "Korea, North"
-msgstr ""
+msgstr "北朝鮮"
 
 msgctxt "CountryInfo"
 msgid "Korea, South"
-msgstr ""
+msgstr "韓国"
 
 msgctxt "CountryInfo"
 msgid "Libya"
-msgstr ""
+msgstr "リビア"
 
 msgctxt "CountryInfo"
 msgid "Maldives"
-msgstr ""
+msgstr "モルディブ"
 
 msgctxt "CountryInfo"
 msgid "Mexico"
-msgstr ""
+msgstr "メキシコ"
 
 msgctxt "CountryInfo"
 msgid "Myanmar"
-msgstr ""
+msgstr "ミャンマー"
 
 msgctxt "CountryInfo"
 msgid "Taiwan"
+msgstr "台湾"
+
+msgctxt "CrashReportDialog"
+msgid "Submit a Crash Report"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Vidalia encountered an error and needed to close"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Restart Vidalia"
+msgstr "Vidaliaを再起動します"
+
+msgctxt "CrashReportDialog"
+msgid "Don't Restart"
+msgstr "再起動しません"
+
+msgctxt "CrashReportDialog"
+msgid "Unable to restart Vidalia"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"We were unable to automatically restart Vidalia. Please restart Vidalia "
+"manually."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
 msgstr ""
 
 msgctxt "GeneralPage"
@@ -1216,15 +1347,11 @@ msgstr "Tor へのパスの選択"
 
 msgctxt "GeneralPage"
 msgid "Select Proxy Executable"
-msgstr ""
+msgstr "プロキシの実行可能ファイルを選択"
 
 msgctxt "GeneralPage"
 msgid "You must specify the name of your Tor executable."
 msgstr "Tor の実行ファイルの名前を指定する必要があります。"
-
-msgctxt "GeneralPage"
-msgid "The proxy arguments specified are not properly formatted."
-msgstr ""
 
 msgctxt "GeneralPage"
 msgid "Start Vidalia when my system starts"
@@ -1244,27 +1371,27 @@ msgstr "Tor"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application (optional)"
-msgstr ""
+msgstr "プロキシアプリケーション (オプション)"
 
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Tor starts"
-msgstr ""
+msgstr "Torを開始するときにプロキシアプリケーションを起動"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application Arguments:"
-msgstr ""
+msgstr "プロキシアプリケーションの引数:"
 
 msgctxt "GeneralPage"
 msgid "Software Updates"
-msgstr ""
+msgstr "ソフトウェアアップデート"
 
 msgctxt "GeneralPage"
 msgid "Check for new software updates automatically"
-msgstr ""
+msgstr "新しいアップデートがないか自動的に確認"
 
 msgctxt "GeneralPage"
 msgid "Check Now"
-msgstr ""
+msgstr "今すぐ確認"
 
 msgctxt "GraphFrame"
 msgid "%1 KB/s"
@@ -1284,11 +1411,11 @@ msgstr "%1 GB"
 
 msgctxt "GraphFrame"
 msgid "Recv:"
-msgstr ""
+msgstr "受信:"
 
 msgctxt "GraphFrame"
 msgid "Sent:"
-msgstr ""
+msgstr "送信:"
 
 msgctxt "HelpBrowser"
 msgid "Supplied XML file is not a valid Contents document."
@@ -1416,14 +1543,17 @@ msgstr "見つかったドキュメント"
 
 msgctxt "HelpBrowser"
 msgid "Error Loading Help Contents:"
-msgstr ""
+msgstr "ヘルプコンテンツの読み込みエラー:"
 
 msgctxt "HelpTextBrowser"
 msgid "Opening External Link"
-msgstr ""
+msgstr "外部リンクを開く"
 
 msgctxt "HelpTextBrowser"
-msgid "Vidalia can open the link you selected in your default Web browser. If your browser is not currently configured to use Tor then the request will not be anonymous."
+msgid ""
+"Vidalia can open the link you selected in your default Web browser. If your "
+"browser is not currently configured to use Tor then the request will not be "
+"anonymous."
 msgstr ""
 
 msgctxt "HelpTextBrowser"
@@ -1432,19 +1562,21 @@ msgstr ""
 
 msgctxt "HelpTextBrowser"
 msgid "Unable to Open Link"
-msgstr ""
+msgstr "リンクを開くことができません"
 
 msgctxt "HelpTextBrowser"
-msgid "Vidalia was unable to open the selected link in your Web browser. You can still copy the URL and paste it into your browser."
+msgid ""
+"Vidalia was unable to open the selected link in your Web browser. You can "
+"still copy the URL and paste it into your browser."
 msgstr ""
 
 msgctxt "HelpTextBrowser"
 msgid "Error opening help file:"
-msgstr ""
+msgstr "ヘルプファイルの表示エラー:"
 
 msgctxt "LicenseDialog"
 msgid "License Information"
-msgstr ""
+msgstr "ライセンス情報"
 
 msgctxt "LicenseDialog"
 msgid "License"
@@ -1452,7 +1584,7 @@ msgstr "ライセンス"
 
 msgctxt "LicenseDialog"
 msgid "Credits"
-msgstr ""
+msgstr "クレジット"
 
 msgctxt "LogEvent"
 msgid "Debug"
@@ -1478,9 +1610,33 @@ msgctxt "LogEvent"
 msgid "Unknown"
 msgstr "不明"
 
+msgctxt "LogTreeItem"
+msgid "Debug"
+msgstr ""
+
+msgctxt "LogTreeItem"
+msgid "Info"
+msgstr "情報"
+
+msgctxt "LogTreeItem"
+msgid "Notice"
+msgstr "通知"
+
+msgctxt "LogTreeItem"
+msgid "Warning"
+msgstr "警告"
+
+msgctxt "LogTreeItem"
+msgid "Error"
+msgstr "エラー"
+
+msgctxt "LogTreeItem"
+msgid "Unknown"
+msgstr "不明"
+
 msgctxt "MainWindow"
 msgid "Start Tor"
-msgstr ""
+msgstr "Torを実行する"
 
 msgctxt "MainWindow"
 msgid "Exit"
@@ -1568,7 +1724,7 @@ msgstr "Vidalia は構成されたウェブ ブラウザを起動することが
 
 msgctxt "MainWindow"
 msgid "Error starting IM client"
-msgstr ""
+msgstr "IMクライアントの起動エラー"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to start the configured IM client"
@@ -1584,47 +1740,43 @@ msgstr "Vidalia は構成されたプロキシ サーバーを起動すること
 
 msgctxt "MainWindow"
 msgid "Connecting to a relay directory"
-msgstr ""
+msgstr "リレーディレクトリへ接続"
 
 msgctxt "MainWindow"
 msgid "Establishing an encrypted directory connection"
-msgstr ""
+msgstr "暗号化されたディレクトリとの接続を確立"
 
 msgctxt "MainWindow"
 msgid "Retrieving network status"
-msgstr ""
+msgstr "ネットワークを検索中"
 
 msgctxt "MainWindow"
 msgid "Loading network status"
-msgstr ""
+msgstr "ネットワークを読込中"
 
 msgctxt "MainWindow"
 msgid "Loading authority certificates"
-msgstr ""
+msgstr "認証局の署名を読込中"
 
 msgctxt "MainWindow"
 msgid "Requesting relay information"
-msgstr ""
+msgstr "リレー情報を要求中"
 
 msgctxt "MainWindow"
 msgid "Loading relay information"
-msgstr ""
+msgstr "リレー情報を読込中"
 
 msgctxt "MainWindow"
 msgid "Connecting to the Tor network"
-msgstr ""
+msgstr "Torネットワックに接続しています"
 
 msgctxt "MainWindow"
 msgid "Establishing a Tor circuit"
-msgstr ""
+msgstr "Tor回線を設置しています"
 
 msgctxt "MainWindow"
 msgid "Connected to the Tor network!"
 msgstr "Torネットワークに接続しました!"
-
-msgctxt "MainWindow"
-msgid "Unrecognized startup status"
-msgstr ""
 
 msgctxt "MainWindow"
 msgid "miscellaneous"
@@ -1640,27 +1792,27 @@ msgstr "完了"
 
 msgctxt "MainWindow"
 msgid "connection refused"
-msgstr ""
+msgstr "接続に失敗"
 
 msgctxt "MainWindow"
 msgid "connection timeout"
-msgstr ""
+msgstr "接続タイムアウト"
 
 msgctxt "MainWindow"
 msgid "read/write error"
-msgstr ""
+msgstr "読み書きエラー"
 
 msgctxt "MainWindow"
 msgid "no route to host"
-msgstr ""
+msgstr "ホストへの経路が見つかりません"
 
 msgctxt "MainWindow"
 msgid "insufficient resources"
-msgstr ""
+msgstr "資源不足"
 
 msgctxt "MainWindow"
 msgid "unknown"
-msgstr ""
+msgstr "不明"
 
 msgctxt "MainWindow"
 msgid "Tor is not running"
@@ -1672,35 +1824,37 @@ msgstr "Tor はシャットダウンしています"
 
 msgctxt "MainWindow"
 msgid "Stop Tor Now"
-msgstr ""
+msgstr "Torを今すぐに停止"
 
 msgctxt "MainWindow"
 msgid "Stop Tor"
-msgstr ""
+msgstr "Torを停止"
 
 msgctxt "MainWindow"
 msgid "Starting the Tor software"
-msgstr ""
+msgstr "Torソフトウェアを開始中"
 
 msgctxt "MainWindow"
 msgid "Starting Tor"
-msgstr ""
+msgstr "Torを開始しています"
 
 msgctxt "MainWindow"
 msgid "Error Starting Tor"
 msgstr "Tor の開始エラー"
 
 msgctxt "MainWindow"
-msgid "Vidalia was unable to start Tor. Check your settings to ensure the correct name and location of your Tor executable is specified."
+msgid ""
+"Vidalia was unable to start Tor. Check your settings to ensure the correct "
+"name and location of your Tor executable is specified."
 msgstr "Vidalia は Tor を開始することができませんでした。Tor の実行ファイルの正しい名前と場所が指定されていることを確実にするには設定をチェックします。"
 
 msgctxt "MainWindow"
 msgid "Connecting to Tor"
-msgstr ""
+msgstr "Torに接続しています"
 
 msgctxt "MainWindow"
 msgid "Connection Error"
-msgstr ""
+msgstr "接続エラー"
 
 msgctxt "MainWindow"
 msgid "Relaying is Enabled"
@@ -1708,26 +1862,28 @@ msgstr "リレーは有効です"
 
 msgctxt "MainWindow"
 msgid "Error Shutting Down"
-msgstr ""
+msgstr "シャットダウンエラー"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to stop the Tor software."
-msgstr ""
+msgstr "VidaliaはTorを停止できませんでした。"
 
 msgctxt "MainWindow"
 msgid "Unexpected Error"
-msgstr ""
+msgstr "予期しないエラー"
 
 msgctxt "MainWindow"
 msgid "Authenticating to Tor"
-msgstr ""
+msgstr "Torに認証を行います"
 
 msgctxt "MainWindow"
 msgid "Cookie Authentication Required"
 msgstr "Cookie 認証が必要です"
 
 msgctxt "MainWindow"
-msgid "The Tor software requires Vidalia to send the contents of an authentication cookie, but Vidalia was unable to find one."
+msgid ""
+"The Tor software requires Vidalia to send the contents of an authentication "
+"cookie, but Vidalia was unable to find one."
 msgstr ""
 
 msgctxt "MainWindow"
@@ -1740,19 +1896,21 @@ msgstr "データディレクトリ"
 
 msgctxt "MainWindow"
 msgid "Control Cookie (control_auth_cookie)"
-msgstr ""
+msgstr "コントロールCookie (control_auth_cookie)"
 
 msgctxt "MainWindow"
 msgid "Error Registering for Events"
 msgstr "イベントの登録エラー"
 
 msgctxt "MainWindow"
-msgid "Vidalia was unable to register for some events. Many of Vidalia's features may be unavailable."
+msgid ""
+"Vidalia was unable to register for some events. Many of Vidalia's features "
+"may be unavailable."
 msgstr ""
 
 msgctxt "MainWindow"
 msgid "Authentication Error"
-msgstr ""
+msgstr "認証エラー"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to authenticate to the Tor software. (%1)"
@@ -1767,7 +1925,9 @@ msgid "Tor Update Available"
 msgstr "Tor の更新が利用可能です"
 
 msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended. Please visit the Tor website to download the latest version."
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended. Please visit the Tor website to download the latest version."
 msgstr "Tor の現在インストールされているバージョンは期限切れであるかもう推奨されない可能性があります。最新のバージョンをダウンロードするには Tor のウェブサイトを訪問してください。"
 
 msgctxt "MainWindow"
@@ -1775,7 +1935,9 @@ msgid "Tor website: %1"
 msgstr "Tor のウェブサイト: %1"
 
 msgctxt "MainWindow"
-msgid "All subsequent connections will appear to be different than your old connections."
+msgid ""
+"All subsequent connections will appear to be different than your old "
+"connections."
 msgstr "すべて順次接続は古い接続と異なっているようにみえます。"
 
 msgctxt "MainWindow"
@@ -1784,7 +1946,7 @@ msgstr "新しい識別の作成に失敗しました"
 
 msgctxt "MainWindow"
 msgid "Port Forwarding Failed"
-msgstr ""
+msgstr "ポート転送に失敗しました"
 
 msgctxt "MainWindow"
 msgid "Vidalia was unable to configure automatic port forwarding."
@@ -1804,7 +1966,7 @@ msgstr "Vidalia のショートカット"
 
 msgctxt "MainWindow"
 msgid "Setup Relaying"
-msgstr "リレーのセットアップ"
+msgstr "リレーのセットアップ\n"
 
 msgctxt "MainWindow"
 msgid "Set up a relay and help the network grow"
@@ -1828,11 +1990,11 @@ msgstr "順次接続を新しくみせる"
 
 msgctxt "MainWindow"
 msgid "View recent bandwidth usage"
-msgstr ""
+msgstr "最近の帯域幅の使用状況を閲覧"
 
 msgctxt "MainWindow"
 msgid "View log message history"
-msgstr ""
+msgstr "ログメッセージの履歴を閲覧"
 
 msgctxt "MainWindow"
 msgid "View help documentation"
@@ -1840,7 +2002,7 @@ msgstr "ヘルプ資料を表示します"
 
 msgctxt "MainWindow"
 msgid "Configure Vidalia"
-msgstr ""
+msgstr "Vidaliaを設定します"
 
 msgctxt "MainWindow"
 msgid "View version and license information"
@@ -1867,15 +2029,21 @@ msgid "Password Reset Failed"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "Vidalia tried to reset Tor's control password, but was not able to restart the Tor software. Please check your Task Manager to ensure there are no other Tor processes running."
+msgid ""
+"Vidalia tried to reset Tor's control password, but was not able to restart "
+"the Tor software. Please check your Task Manager to ensure there are no "
+"other Tor processes running."
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "The currently installed version of Tor is out of date or no longer recommended."
+msgid ""
+"The currently installed version of Tor is out of date or no longer "
+"recommended."
 msgstr "Tor の現在インストールされているバージョンは期限切れであるかもう推奨されない可能性があります。最新のバージョンをダウンロードするには Tor のウェブサイトを訪問してください。"
 
 msgctxt "MainWindow"
-msgid "Would you like to check if a newer package is available for installation?"
+msgid ""
+"Would you like to check if a newer package is available for installation?"
 msgstr ""
 
 msgctxt "MainWindow"
@@ -1883,11 +2051,9 @@ msgid "Potentially Unsafe Connection"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "One of your applications%1appears to be making a potentially unencrypted and unsafe connection to port %2. Anything sent over this connection could be monitored. Please check your application's configuration and use only encrypted protocols, such as SSL, if possible."
-msgstr ""
-
-msgctxt "MainWindow"
-msgid "Tor has automatically closed your connection in order to protect your anonymity."
+msgid ""
+"Tor has automatically closed your connection in order to protect your "
+"anonymity."
 msgstr ""
 
 msgctxt "MainWindow"
@@ -1899,7 +2065,9 @@ msgid "Your software is up to date"
 msgstr "ソフトウェアは最新版です"
 
 msgctxt "MainWindow"
-msgid "There are no new Tor software packages available for your computer at this time."
+msgid ""
+"There are no new Tor software packages available for your computer at this "
+"time."
 msgstr ""
 
 msgctxt "MainWindow"
@@ -1915,52 +2083,67 @@ msgid "The following error occurred:"
 msgstr ""
 
 msgctxt "MainWindow"
+msgid ""
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr ""
+
+msgctxt "MainWindow"
 msgid "failed (%1)"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "Your relay is shutting down.\n"
+msgid ""
+"Your relay is shutting down.\n"
 "Click 'Stop' again to stop your relay now."
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
 "\n"
 "Would you like to shutdown gracefully and give clients time to find a new relay?"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "Vidalia detected that the Tor software exited unexpectedly.\n"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
 "\n"
 "Please check the message log for recent warning or error messages."
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably Telnet,"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably an email client,"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid "Vidalia"
-msgstr "Vidalia"
-
-msgctxt "MainWindow"
-msgid "File"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid "About Vidalia"
-msgstr "Vidalia について"
-
-msgctxt "MainWindow"
-msgid "Home"
-msgstr "ホーム"
-
-msgctxt "MainWindow"
-msgid "Check For Updates"
 msgstr ""
 
 msgctxt "MessageLog"
@@ -2204,10 +2387,6 @@ msgid "messages"
 msgstr "件のメッセージ"
 
 msgctxt "MessageLog"
-msgid "Always Save New Log Messages"
-msgstr "常に新しいログ メッセージを保存"
-
-msgctxt "MessageLog"
 msgid "Browse"
 msgstr "参照"
 
@@ -2220,34 +2399,56 @@ msgid "Automatically save new log messages to a file"
 msgstr "自動的にファイルへ新しいログ メッセージを保存します"
 
 msgctxt "MessageLog"
-msgid "Messages that appear when something has \n"
+msgid "Basic"
+msgstr "基本的"
+
+msgctxt "MessageLog"
+msgid "Tor Status"
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Advanced"
+msgstr ""
+
+msgctxt "MessageLog"
+msgid "Always Save New Log Messages"
+msgstr "常に新しいログ メッセージを保存"
+
+msgctxt "MessageLog"
+msgid ""
+"Messages that appear when something has \n"
 "gone very wrong and Tor cannot proceed."
 msgstr ""
 
 msgctxt "MessageLog"
-msgid "Messages that only appear when \n"
+msgid ""
+"Messages that only appear when \n"
 "something has gone wrong with Tor."
 msgstr ""
 
 msgctxt "MessageLog"
-msgid "Messages that appear infrequently \n"
+msgid ""
+"Messages that appear infrequently \n"
 "during normal Tor operation and are \n"
 "not considered errors, but you may \n"
 "care about."
 msgstr ""
 
 msgctxt "MessageLog"
-msgid "Messages that appear frequently \n"
+msgid ""
+"Messages that appear frequently \n"
 "during normal Tor operation."
 msgstr ""
 
 msgctxt "MessageLog"
-msgid "Hyper-verbose messages primarily of \n"
+msgid ""
+"Hyper-verbose messages primarily of \n"
 "interest to Tor developers."
 msgstr ""
 
 msgctxt "MessageLog"
-msgid "Cannot write file %1\n"
+msgid ""
+"Cannot write file %1\n"
 "\n"
 "%2."
 msgstr ""
@@ -2357,23 +2558,19 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 msgctxt "NetworkPage"
-msgid "Invalid Bridge"
-msgstr "不正なブリッジ"
-
-msgctxt "NetworkPage"
-msgid "The specified bridge identifier is not valid."
-msgstr "指定されたブリッジ識別子は有効ではありません。"
-
-msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr "コピー (Ctrl+C)"
 
 msgctxt "NetworkPage"
-msgid "You must specify both an IP address or hostname and a port number to configure Tor to use a proxy to access the Internet."
+msgid ""
+"You must specify both an IP address or hostname and a port number to "
+"configure Tor to use a proxy to access the Internet."
 msgstr "インターネットのアクセスにプロキシを使用するには Tor の構成へ IP アドレスまたはホスト名とポート番号を両方指定する必要があります。"
 
 msgctxt "NetworkPage"
-msgid "You must specify one or more ports to which your firewall allows you to connect."
+msgid ""
+"You must specify one or more ports to which your firewall allows you to "
+"connect."
 msgstr "ファイアウォールが接続を許可する 1 つより多くのポートを指定する必要があります。"
 
 msgctxt "NetworkPage"
@@ -2393,16 +2590,8 @@ msgid "Proxy Settings"
 msgstr "プロキシの設定"
 
 msgctxt "NetworkPage"
-msgid "HTTP Proxy:"
-msgstr "HTTP プロキシ:"
-
-msgctxt "NetworkPage"
 msgid "Username:"
 msgstr "ユーザー名:"
-
-msgctxt "NetworkPage"
-msgid "Use this proxy for HTTPS also"
-msgstr "HTTPS にもこのプロキシを使用する"
 
 msgctxt "NetworkPage"
 msgid "Password:"
@@ -2433,7 +2622,9 @@ msgid "80, 443"
 msgstr "80, 443"
 
 msgctxt "NetworkPage"
-msgid "Check to encrypt directory requests and, optionally, use bridge relays to access the Tor network"
+msgid ""
+"Check to encrypt directory requests and, optionally, use bridge relays to "
+"access the Tor network"
 msgstr ""
 
 msgctxt "NetworkPage"
@@ -2442,19 +2633,11 @@ msgstr "ISP は Tor ネットワークへの接続をブロックする"
 
 msgctxt "NetworkPage"
 msgid "Bridge Settings"
-msgstr ""
-
-msgctxt "NetworkPage"
-msgid "The Tor software you are currently running does not support bridges. <br>Directory connections will still be encrypted."
-msgstr ""
+msgstr "ブリッジの設定"
 
 msgctxt "NetworkPage"
 msgid "Add a Bridge:"
 msgstr "ブリッジの追加:"
-
-msgctxt "NetworkPage"
-msgid "<a href=\"bridges.finding\">How do I find a bridge?</a>"
-msgstr "<a href=\"bridges.finding\">ブリッジを見つけるには?</a>"
 
 msgctxt "NetworkPage"
 msgid "Remove the selected bridges from the list"
@@ -2466,7 +2649,7 @@ msgstr "クリップボードへ選択されたブリッジをコピーします
 
 msgctxt "NetworkPage"
 msgid "Find Bridges Now"
-msgstr ""
+msgstr "ブリッジを検索します"
 
 msgctxt "NetworkPage"
 msgid "<a href=\"bridges.finding\">How else can I find bridges?</a>"
@@ -2474,14 +2657,44 @@ msgstr ""
 
 msgctxt "NetworkPage"
 msgid "<a href=\"bridges.finding\">How can I find bridges?</a>"
-msgstr ""
+msgstr "<a href=\"bridges.finding\">ブリッジを検索方法</a>"
 
 msgctxt "NetworkPage"
-msgid "No new bridges are currently available. You can either wait a while and try again, or try another method of finding new bridges."
+msgid ""
+"No new bridges are currently available. You can either wait a while and try "
+"again, or try another method of finding new bridges."
 msgstr ""
 
 msgctxt "NetworkPage"
 msgid "Click Help to see other methods of finding new bridges."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "Address:"
+msgstr "アドレス:"
+
+msgctxt "NetworkPage"
+msgid "Type:"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "You must select the proxy type."
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "SOCKS 4"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "SOCKS 5"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "HTTP / HTTPS"
+msgstr ""
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
 msgstr ""
 
 msgctxt "Policy"
@@ -2550,11 +2763,11 @@ msgstr "不明"
 
 msgctxt "RouterInfoDialog"
 msgid "Relay Details"
-msgstr ""
+msgstr "リレー詳細"
 
 msgctxt "RouterInfoDialog"
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 msgctxt "RouterInfoDialog"
 msgid "Name:"
@@ -2637,11 +2850,15 @@ msgid "Bridge Support Unavailable"
 msgstr "ブリッジ サポートが利用できません"
 
 msgctxt "ServerPage"
-msgid "You have configured Tor to act as a bridge relay for censored users, but your version of Tor does not support bridges."
+msgid ""
+"You have configured Tor to act as a bridge relay for censored users, but "
+"your version of Tor does not support bridges."
 msgstr "検閲されたユーザーのブリッジ リレーとなるよう Tor を構成していますが、Tor のバージョンがブリッジをサポートしません。"
 
 msgctxt "ServerPage"
-msgid "Please upgrade your Tor software or configure Tor to act as a normal Tor relay."
+msgid ""
+"Please upgrade your Tor software or configure Tor to act as a normal Tor "
+"relay."
 msgstr "Tor ソフトウェアをアップグレードするか通常の Tor リレーとなるよう Tor を構成してください。"
 
 msgctxt "ServerPage"
@@ -2655,10 +2872,6 @@ msgstr "少なくともリレーのニックネームとポートを指定する
 msgctxt "ServerPage"
 msgid "Run as a client only"
 msgstr ""
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network"
-msgstr "Tor ネットワークのトラフィックをリレーする"
 
 msgctxt "ServerPage"
 msgid "Relay Port:"
@@ -2709,7 +2922,9 @@ msgid "Basic Settings"
 msgstr "基本設定"
 
 msgctxt "ServerPage"
-msgid "For Internet connections with fast download speed but slow upload, please list your upload speed here."
+msgid ""
+"For Internet connections with fast download speed but slow upload, please "
+"list your upload speed here."
 msgstr "高速なダウンロードの速度だが低速なアップロードのインターネット接続は、ここでアップロードの速度を記載してください。"
 
 msgctxt "ServerPage"
@@ -2765,7 +2980,9 @@ msgid "Peak bandwidth rate limit"
 msgstr "ピーク帯域幅レートの制限です"
 
 msgctxt "ServerPage"
-msgid "Your maximum bandwidth rate must be greater than or equal to your average bandwidth rate. Both values must be at least 20 KB/s."
+msgid ""
+"Your maximum bandwidth rate must be greater than or equal to your average "
+"bandwidth rate. Both values must be at least 20 KB/s."
 msgstr "帯域幅の最大レートは帯域幅の平均レート以上である必要があります。両方の値は少なくとも 20 KB/s である必要があります。"
 
 msgctxt "ServerPage"
@@ -2825,11 +3042,14 @@ msgid "Show help topic on exit policies"
 msgstr "終了ポリシーのヘルプ トピックを表示します"
 
 msgctxt "ServerPage"
-msgid "What Internet resources should users be able to access from your relay?"
+msgid ""
+"What Internet resources should users be able to access from your relay?"
 msgstr ""
 
 msgctxt "ServerPage"
-msgid "Tor will still block some outgoing mail and file sharing applications by default to reduce spam and other abuse."
+msgid ""
+"Tor will still block some outgoing mail and file sharing applications by "
+"default to reduce spam and other abuse."
 msgstr ""
 
 msgctxt "ServerPage"
@@ -2841,7 +3061,8 @@ msgid "Let others access your bridge by giving them this line:"
 msgstr "その他をこの行で与えてブリッジをアクセスさせる:"
 
 msgctxt "ServerPage"
-msgid "This is the identity of your bridge relay that you can give to other people"
+msgid ""
+"This is the identity of your bridge relay that you can give to other people"
 msgstr "これはその他の人々へ与えられるブリッジ リレーの識別です"
 
 msgctxt "ServerPage"
@@ -2857,7 +3078,9 @@ msgid "No clients have used your relay recently."
 msgstr ""
 
 msgctxt "ServerPage"
-msgid "Leave your relay running so clients have a better chance of finding and using it."
+msgid ""
+"Leave your relay running so clients have a better chance of finding and "
+"using it."
 msgstr ""
 
 msgctxt "ServerPage"
@@ -2869,7 +3092,9 @@ msgid "Vidalia was unable to retrieve your bridge's usage history."
 msgstr "Vidalia は %1 の設定を保存することができませんでした。"
 
 msgctxt "ServerPage"
-msgid "Tor returned an improperly formatted response when Vidalia requested your bridge's usage history."
+msgid ""
+"Tor returned an improperly formatted response when Vidalia requested your "
+"bridge's usage history."
 msgstr ""
 
 msgctxt "ServerPage"
@@ -2885,11 +3110,28 @@ msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
 msgstr "<a href=\"bridges.finding\">ブリッジを見つけるには?</a>"
 
 msgctxt "ServerPage"
+msgid "<a href=\"#bridgeHelp\">What's this?</a>"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Automatically distribute my bridge address"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"
 msgstr ""
 
 msgctxt "ServerPage"
-msgid "Email address at which you may be reached if there is a\n"
+msgid ""
+"Email address at which you may be reached if there is a\n"
 "problem with your relay. You might also include your PGP or GPG fingerprint."
 msgstr ""
 
@@ -2898,7 +3140,9 @@ msgid "Error while trying to unpublish all services"
 msgstr ""
 
 msgctxt "ServicePage"
-msgid "Please configure at least a service directory and a virtual port for each service you want to save. Remove the other ones."
+msgid ""
+"Please configure at least a service directory and a virtual port for each "
+"service you want to save. Remove the other ones."
 msgstr ""
 
 msgctxt "ServicePage"
@@ -2927,7 +3171,7 @@ msgstr ""
 
 msgctxt "ServicePage"
 msgid "Form"
-msgstr ""
+msgstr "フォーム"
 
 msgctxt "ServicePage"
 msgid "Provided Hidden Services"
@@ -2971,6 +3215,251 @@ msgstr ""
 
 msgctxt "ServicePage"
 msgid "Created by Tor"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is Running"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "You are currently running version \"%1\" of the Tor software."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "The Tor Software is not Running"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
+"software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
+"details about any errors encountered."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which is no "
+"longer recommended. Please upgrade to the most recent version of the "
+"software, which may contain important security, reliability and performance "
+"fixes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"You are currently running version \"%1\" of the Tor software, which may no "
+"longer work with the current Tor network. Please upgrade to the most recent "
+"version of the software, which may contain important security, reliability "
+"and performance fixes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Tor Software is Out-of-date"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Connected to the Tor Network"
+msgstr "Tor ネットワークに接続"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"We were able to successfully establish a connection to the Tor network. You "
+"can now configure your applications to use the Internet anonymously."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Tor Software Error"
+msgstr "Tor ソフトウエアのエラー"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"The Tor software encountered an internal bug. Please report the following "
+"error message to the Tor developers at bugs.torproject.org: \"%1\""
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the past compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined that your computer's clock may be set to %1 seconds in "
+"the future compared to the source \"%2\". If your clock is not correct, Tor "
+"will not be able to function. Please verify your computer displays the "
+"correct time."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Computer's Clock is Potentially Incorrect"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended. For your "
+"protection, Tor has automatically closed this connection."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of the applications on your computer may have attempted to make an "
+"unencrypted connection through Tor to port %1. Sending unencrypted "
+"information over the Tor network is dangerous and not recommended."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Potentially Dangerous Connection!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications established a connection through Tor to \"%1\" "
+"using a protocol that may leak information about your destination. Please "
+"ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
+"remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Unknown SOCKS Protocol"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor using a"
+" protocol that Tor does not understand. Please ensure you configure your "
+"applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Invalid Destination Hostname"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"One of your applications tried to establish a connection through Tor to "
+"\"%1\", which Tor does not recognize as a valid hostname. Please check your "
+"application's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "External IP Address Changed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor has determined your relay's public IP address is currently %1%2. If that"
+" is not correct, please consider setting the 'Address' option in your "
+"relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "DNS Hijacking Detected"
+msgstr "DNSハイジャックを検出"
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for domains"
+" that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
+"known to do this in order to display their own search or advertising pages."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor detected that your DNS provider is providing false responses for well "
+"known domains. Since clients rely on Tor network relays to provide accurate "
+"DNS repsonses, your relay will not be configured as an exit relay."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Server Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's server port is reachable from the"
+" Tor network by connecting to itself at %1:%2. This test could take several "
+"minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's server port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Server Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's server port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and server port, "
+"please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Checking Directory Port Reachability"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Tor is trying to determine if your relay's directory port is reachable from "
+"the Tor network by connecting to itself at %1:%2. This test could take "
+"several minutes."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Successful!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your relay's directory port is reachable from the Tor network!"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Directory Port Reachability Test Failed"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's directory port is not reachable by other Tor clients. This can "
+"happen if you are behind a router or firewall that requires you to set up "
+"port forwarding. If %1:%2 is not your correct IP address and directory port,"
+" please check your relay's configuration."
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Relay Descriptor Rejected"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay's descriptor, which enables clients to connect to your relay, was"
+" rejected by the directory server at %1:%2. The reason given was: %3"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid "Your Relay is Online"
+msgstr ""
+
+msgctxt "StatusEventWidget"
+msgid ""
+"Your relay is now online and available for Tor clients to use. You should "
+"see an increase in network traffic shown by the Bandwidth Graph within a few"
+" hours as more clients learn about your relay. Thank you for contributing to"
+" the Tor network!"
 msgstr ""
 
 msgctxt "Stream"
@@ -3025,9 +3514,71 @@ msgctxt "TorSettings"
 msgid "Failed to hash the control password."
 msgstr "コントロール パスワードのハッシュに失敗しました。"
 
+msgctxt "TorrcDialog"
+msgid "Editing torrc"
+msgstr "Torrcの編集"
+
+msgctxt "TorrcDialog"
+msgid ""
+"Save settings. If unchecked it will only apply settings to the current Tor "
+"instance."
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Cut"
+msgstr "切り取り"
+
+msgctxt "TorrcDialog"
+msgid "Copy"
+msgstr "コピー"
+
+msgctxt "TorrcDialog"
+msgid "Paste"
+msgstr "貼り付け"
+
+msgctxt "TorrcDialog"
+msgid "Undo"
+msgstr "戻す"
+
+msgctxt "TorrcDialog"
+msgid "Redo"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Select All"
+msgstr "全て選択"
+
+msgctxt "TorrcDialog"
+msgid "Apply all"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Apply selection only"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error connecting to Tor"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Selection is empty. Please select some text, or check \"Apply all\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error at line %1: \"%2\""
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "Error"
+msgstr ""
+
+msgctxt "TorrcDialog"
+msgid "An error ocurred while opening torrc file"
+msgstr ""
+
 msgctxt "UPNPControl"
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 msgctxt "UPNPControl"
 msgid "No UPnP-enabled devices found"
@@ -3055,7 +3606,7 @@ msgstr ""
 
 msgctxt "UPNPControl"
 msgid "Unknown error"
-msgstr ""
+msgstr "不明なエラー"
 
 msgctxt "UPNPTestDialog"
 msgid "Discovering UPnP-enabled devices"
@@ -3082,11 +3633,15 @@ msgid "Testing Universal Plug & Play Support"
 msgstr ""
 
 msgctxt "UpdateProcess"
-msgid "Vidalia was unable to check for available software updates because it could not find '%1'."
+msgid ""
+"Vidalia was unable to check for available software updates because it could "
+"not find '%1'."
 msgstr ""
 
 msgctxt "UpdateProcess"
-msgid "Vidalia was unable to check for available software updates because Tor's update process exited unexpectedly."
+msgid ""
+"Vidalia was unable to check for available software updates because Tor's "
+"update process exited unexpectedly."
 msgstr ""
 
 msgctxt "UpdateProgressDialog"
@@ -3099,7 +3654,7 @@ msgstr "非表示にする"
 
 msgctxt "UpdateProgressDialog"
 msgid "Downloading updates..."
-msgstr ""
+msgstr "更新をダウンロードしています..."
 
 msgctxt "UpdateProgressDialog"
 msgid "Installing updated software..."
@@ -3135,7 +3690,7 @@ msgstr ""
 
 msgctxt "UpdatesAvailableDialog"
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 msgctxt "UpdatesAvailableDialog"
 msgid "The following updated software packages are ready for installation:"
@@ -3242,6 +3797,10 @@ msgid "Unable to open log file '%1': %2"
 msgstr "ログ ファイル '%1' を開くことができません: %2"
 
 msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
 msgid "Invalid language code specified:"
 msgstr ""
 
@@ -3254,7 +3813,8 @@ msgid "Invalid log level specified:"
 msgstr ""
 
 msgctxt "Vidalia"
-msgid "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
+msgid ""
+"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
 "\n"
 "Would you like to continue starting Vidalia?"
 msgstr ""

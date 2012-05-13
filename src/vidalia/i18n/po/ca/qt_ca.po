@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # Gerard Farràs Ballabriga <>, 2012.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2012-01-11 18:49+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
 "Last-Translator: Gerard Farràs Ballabriga <>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 ja existeix.\n"
-"Voleu reemplaçar-lo?"
+msgstr "%1 ja existeix.\nVoleu reemplaçar-lo?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Fitxer no trobat.\n"
-"Si us plau, verifiqueu que heu introduït el nom correcte."
+msgstr "%1\nFitxer no trobat.\nSi us plau, verifiqueu que heu introduït el nom correcte."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,20 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"\n"
-"Directori no trobat.\n"
-"Si us plau, verifiqueu que s'ha proporcionat un nom de directori correcte."
+msgstr "%1\n\nDirectori no trobat.\nSi us plau, verifiqueu que s'ha proporcionat un nom de directori correcte."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' està protegit per escriptura.\n"
-"El desitgeu suprimir igualment?"
+msgstr "'%1' està protegit per escriptura.\nEl desitgeu suprimir igualment?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -383,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>No es pot utilitzar el nom \"%1\".</b><p>Intenteu utilitzar un altre nom,"
-" amb menys caracters o sense marques de puntuació."
+msgstr "<b>No es pot utilitzar el nom \"%1\".</b><p>Intenteu utilitzar un altre nom, amb menys caracters o sense marques de puntuació."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -446,5 +433,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
-
-

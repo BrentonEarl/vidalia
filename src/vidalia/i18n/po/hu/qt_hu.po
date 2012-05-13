@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 #   <viktor.varga@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-07-17 21:47+0000\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
 "Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 már létezik.\n"
-"Szeretné felülírni?"
+msgstr "%1 már létezik.\nSzeretné felülírni?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Fájl nem található.\n"
-"Kérjük ellenőrizze, hogy helyes fájlnevet adott-e meg."
+msgstr "%1\nFájl nem található.\nKérjük ellenőrizze, hogy helyes fájlnevet adott-e meg."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Könyvtár nem található.\n"
-"Kérjük ellenőrizze, hogy helyes könyvtárnevet adott-e meg."
+msgstr "%1\nKönyvtár nem található.\nKérjük ellenőrizze, hogy helyes könyvtárnevet adott-e meg."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' írásvédett.\n"
-"Biztos hogy ennek ellenére törölni akarja?"
+msgstr "'%1' írásvédett.\nBiztos hogy ennek ellenére törölni akarja?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -382,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>A \"%1\" név nem használható.</b><p>Próbálja kevesebb karakterrel, vagy "
-"speciális karakterek nélkül."
+msgstr "<b>A \"%1\" név nem használható.</b><p>Próbálja kevesebb karakterrel, vagy speciális karakterek nélkül."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -445,5 +433,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bájt"
-
-

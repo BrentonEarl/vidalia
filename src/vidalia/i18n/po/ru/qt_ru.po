@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 # Андрей Костенко <andrey@kostenko.name>, 2011.
@@ -9,7 +9,7 @@ msgstr ""
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
 "PO-Revision-Date: 2010-12-05 19:59+0000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: Russian (http://www.transifex.net/projects/p/torproject/team/ru/)\n"
+"Language-Team: Russian (http://www.transifex.net/projects/p/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 уже существует.\n"
-"Заменить?"
+msgstr "%1 уже существует.\nЗаменить?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Файл не найден.\n"
-"Пожалуйста, проверьте правильность имени и пути."
+msgstr "%1\nФайл не найден.\nПожалуйста, проверьте правильность имени и пути."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Директория не найдена.\n"
-" Пожалуйста, проверьте правильность имени и пути."
+msgstr "%1\nДиректория не найдена.\n Пожалуйста, проверьте правильность имени и пути."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' защищён от записи.\n"
-"Все равно удалить?"
+msgstr "'%1' защищён от записи.\nВсе равно удалить?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -382,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>Нельзя использовать \"%1\" в качестве имени.</b><p>Выберите другое, без "
-"знаков препинания или с меньшим числом символов."
+msgstr "<b>Нельзя использовать \"%1\" в качестве имени.</b><p>Выберите другое, без знаков препинания или с меньшим числом символов."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -445,5 +433,3 @@ msgstr "%1 Кб"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 байт"
-
-

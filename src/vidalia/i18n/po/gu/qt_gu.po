@@ -1,10 +1,12 @@
-# 
+# Translators:
+# Translators:
+# runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-18 11:06+0000\n"
+"PO-Revision-Date: 2010-12-05 19:59+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -199,9 +201,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 પહેલેથી હાજર છે.\n"
-"શું તમે તેના પર બદલવા માંગો છો?"
+msgstr "%1 પહેલેથી હાજર છે.\nશું તમે તેના પર બદલવા માંગો છો?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -209,10 +209,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"ફાઈલ મળી નહી.\n"
-"મહેરબાની કરીને ચકાસો કે સાચું ફાઈલ નામ આપવામાં આવ્યું હતું."
+msgstr "%1\nફાઈલ મળી નહી.\nમહેરબાની કરીને ચકાસો કે સાચું ફાઈલ નામ આપવામાં આવ્યું હતું."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"

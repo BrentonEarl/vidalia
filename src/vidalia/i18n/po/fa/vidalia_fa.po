@@ -4,12 +4,14 @@
 #   <green.dove1388@gmail.com>, 2011.
 # martin luther king <sabztunnel@gmail.com>, 2012.
 # runasand <runa.sandvik@gmail.com>, 2011.
+#   <slander_mo@hotmail.com>, 2012.
+#   <s.sampad@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-09-07 14:40+0000\n"
-"PO-Revision-Date: 2012-02-03 10:08+0000\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-04-16 09:48+0000\n"
 "Last-Translator: Ardeshir <ardeshir@redteam.io>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +48,7 @@ msgstr "'%1' یک آدرس IP معتبر نیست"
 msgctxt "AdvancedPage"
 msgid ""
 "You selected 'Password' authentication, but did not specify a password."
-msgstr ""
-"شما احراز هویت بر اساس اسم رمز را انتخاب کردید، اما اسم رمز را مشخص نکردید."
+msgstr "شما احراز هویت بر اساس اسم رمز را انتخاب کردید، اما اسم رمز را مشخص نکردید."
 
 msgctxt "AdvancedPage"
 msgid "Select Tor Configuration File"
@@ -143,11 +144,11 @@ msgstr "انتخاب کردن فهرست جهت ذخیره داده ها برا�
 
 msgctxt "AdvancedPage"
 msgid "Tor Control"
-msgstr "کنترل پنل تُر"
+msgstr "کنترل پنل تور"
 
 msgctxt "AdvancedPage"
 msgid "Use TCP connection (ControlPort)"
-msgstr "Use TCP connection (ControlPort)"
+msgstr "از ارتباط TCP استفاده کن (ControlPort)"
 
 msgctxt "AdvancedPage"
 msgid "Path:"
@@ -167,23 +168,19 @@ msgstr "توجه : این torrc بارگذاری شده فعلی را ویرای
 
 msgctxt "AdvancedPage"
 msgid "ControlSocket path doesn't exist."
-msgstr "ControlSocket path doesn't exist."
+msgstr "مسیر ControlSocket وجود ندارد"
 
 msgctxt "AdvancedPage"
 msgid ""
 "The specified Tor configuration file location contains characters that "
 "cannot be represented in your system's current 8-bit character encoding."
-msgstr ""
-"The specified Tor configuration file location contains characters that "
-"cannot be represented in your system's current 8-bit character encoding."
+msgstr "The specified Tor configuration file location contains characters that cannot be represented in your system's current 8-bit character encoding."
 
 msgctxt "AdvancedPage"
 msgid ""
 "The specified Tor data directory location contains characters that cannot be"
 " represented in your system's current 8-bit character encoding."
-msgstr ""
-"تعیین محل دایرکتوری Tor را داده شامل کاراکتر است که می تواند در سیستم خود "
-"رمزگذاری کاراکتر در حال حاضر 8 - بیت نشان داده نمیشود."
+msgstr "تعیین محل دایرکتوری Tor را داده شامل کاراکتر است که می تواند در سیستم خود رمزگذاری کاراکتر در حال حاضر 8 - بیت نشان داده نمیشود."
 
 msgctxt "AdvancedPage"
 msgid "Warning"
@@ -191,7 +188,7 @@ msgstr "هشدار"
 
 msgctxt "AdvancedPage"
 msgid "You changed torrc path, would you like to restart Tor?"
-msgstr "شما مسیر torrc تغییر داده اید، آیا می خواهید تُر را ریستارت کنید؟"
+msgstr "شما مسیر torrc تغییر داده اید، آیا می خواهید تور را ریستارت کنید؟"
 
 msgctxt "AdvancedPage"
 msgid "Tor Configuration File (torrc);;All Files (*)"
@@ -199,21 +196,25 @@ msgstr "Tor Configuration File (torrc);;All Files (*)"
 
 msgctxt "AdvancedPage"
 msgid "Select a file to use for Tor socket path"
-msgstr "انتخاب فایل به مسیر سوکت از Tor استفاده کنید"
+msgstr "یک فایل برای استفاده مسیرِ سوکتِ تور انتخاب کنید"
 
 msgctxt "AdvancedPage"
 msgid "Configure ControlPort automatically"
-msgstr "پورتِ کنترل را بصورت خودکار پیکربندی کن"
+msgstr "ControlPort را بصورت خودکار پیکربندی کن"
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr "شما گزینه تنظیمات خودکار را برای ControlPort انتخاب کرده اید، ولی هیچ دایرکتوری داده ای ارایه نکردید. لطفن یکی اضافه کنید و یا گزینه تنظیم خودکار ControlPort را غیرفعال کنید."
 
 msgctxt "AdvancedPage"
 msgid ""
 "Vidalia was unable to remove the Tor service.\n"
 "\n"
 "You may need to remove it manually."
-msgstr ""
-"ویدالیا نتوانست سرویس تور را حذف کند.⏎\n"
-"⏎\n"
-"شاید لازم باشد به طور دستی آن را حذف کنید"
+msgstr "ویدالیا نتوانست سرویس تور را حذف کند.⏎\n⏎\nشاید لازم باشد به طور دستی آن را حذف کنید"
 
 msgctxt "AppearancePage"
 msgid "Language"
@@ -234,6 +235,23 @@ msgstr "نوع واسط کاربر ویدالیا را انتخاب کن"
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
 msgstr "ویدالیا قادر به بارگذاری زبان انتخاب شده نبود"
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr "آیکن کارایی سیستم (تغییرات اثر کند زمانی که شما ویدالیا را دوباره شروع می کنید)"
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr "(پیش فرض)Dock Icon و  Tray Icon نمایش"
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr "مخفی کردن Tray Icon"
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
+msgstr "مخفی کردن Dock Icon"
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
@@ -329,9 +347,7 @@ msgstr "# کلاینت ها"
 
 msgctxt "BridgeUsageDialog"
 msgid "Clients from the following countries have used your relay since %1"
-msgstr ""
-"از تاریخ ‪%1‬ کلاینت هایی از کشورهای زیر از بازپخش کننده شما استفاده "
-"کرده‌اند"
+msgstr "از تاریخ ‪%1‬ کلاینت هایی از کشورهای زیر از بازپخش کننده شما استفاده کرده‌اند"
 
 msgctxt "BridgeUsageDialog"
 msgid "Bridge Usage Summary"
@@ -457,9 +473,7 @@ msgctxt "ControlPasswordInputDialog"
 msgid ""
 "Vidalia has connected to a running Tor process that requires a password. "
 "Please enter your control password:"
-msgstr ""
-"ويداليا به یک تور که هم اکنون درحال اجراست و به رمز عبور نیاز دارد متصل شده "
-"است. لطفن رمز عبور را وارد كنيد"
+msgstr "ويداليا به یک تور که هم اکنون درحال اجراست و به رمز عبور نیاز دارد متصل شده است. لطفن رمز عبور را وارد كنيد"
 
 msgctxt "ControlSocket"
 msgid "Control socket is not connected."
@@ -1297,9 +1311,7 @@ msgctxt "CrashReportDialog"
 msgid ""
 "We were unable to automatically restart Vidalia. Please restart Vidalia "
 "manually."
-msgstr ""
-"ما نتوانستیم به طور خودکار ویدالیا راه اندازی مجدد کنیم. لطفا ویدالیا به "
-"صورت دستی ریستارت کنید."
+msgstr "ما نتوانستیم به طور خودکار ویدالیا راه اندازی مجدد کنیم. لطفا ویدالیا به صورت دستی ریستارت کنید."
 
 msgctxt "CrashReportDialog"
 msgid "Please fill a ticket in:"
@@ -1309,27 +1321,20 @@ msgctxt "CrashReportDialog"
 msgid ""
 "<a "
 "href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
-msgstr ""
-"<a "
-"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
+msgstr "<a href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
 
 msgctxt "CrashReportDialog"
 msgid ""
 "A crash report has been created that you can send to the Vidalia developers "
 "to help identify and fix the problem. The submitted report does not contain "
 "any personally identifying information."
-msgstr ""
-"گزارش از کار افتادن نرم افزار آماده شده و شما میتوانید آن را برای کمک به "
-"شناسایی و حل مشکل به توسعه دهندگان ویدالیا ارسال کنید. گزارش ثبت شده حاوی "
-"هیچگونه اطلاعات هویتی شخصی نیست."
+msgstr "گزارش از کار افتادن نرم افزار آماده شده و شما میتوانید آن را برای کمک به شناسایی و حل مشکل به توسعه دهندگان ویدالیا ارسال کنید. گزارش ثبت شده حاوی هیچگونه اطلاعات هویتی شخصی نیست."
 
 msgctxt "CrashReportDialog"
 msgid ""
 "with a description of what you were doing before the application crashed, "
 "along with the following files corresponding to the crash report:"
-msgstr ""
-"با شرحی از آنچه قبل ازکار افتادن نرم افزار انجام می‌دادید، بهمراه فایلهای "
-"مربوط به گزارش از کار افتادن:"
+msgstr "با شرحی از آنچه قبل ازکار افتادن نرم افزار انجام می‌دادید، بهمراه فایلهای مربوط به گزارش از کار افتادن:"
 
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
@@ -1548,10 +1553,7 @@ msgid ""
 "Vidalia can open the link you selected in your default Web browser. If your "
 "browser is not currently configured to use Tor then the request will not be "
 "anonymous."
-msgstr ""
-"ویدالیا می تواند پیوندی را که انتخاب کردید در مرورگر پیش فرض تان بازکند. اگر"
-" مرورگرتان برای استفاده از تور پیکربندی نشده، هویتتان در هنگام درخواست مخفی "
-"نخواهد بود."
+msgstr "ویدالیا می تواند پیوندی را که انتخاب کردید در مرورگر پیش فرض تان بازکند. اگر مرورگرتان برای استفاده از تور پیکربندی نشده، هویتتان در هنگام درخواست مخفی نخواهد بود."
 
 msgctxt "HelpTextBrowser"
 msgid "Do you want Vidalia to open the link in your Web browser?"
@@ -1565,9 +1567,7 @@ msgctxt "HelpTextBrowser"
 msgid ""
 "Vidalia was unable to open the selected link in your Web browser. You can "
 "still copy the URL and paste it into your browser."
-msgstr ""
-"ویدالیا نتوانست پیوند انتخاب شده را در مرورگر وب بازکند. شما می توانید نشانی"
-" وب را کپی کرده و آن را در مرورگرتان بچسبانید."
+msgstr "ویدالیا نتوانست پیوند انتخاب شده را در مرورگر وب بازکند. شما می توانید نشانی وب را کپی کرده و آن را در مرورگرتان بچسبانید."
 
 msgctxt "HelpTextBrowser"
 msgid "Error opening help file:"
@@ -1778,10 +1778,6 @@ msgid "Connected to the Tor network!"
 msgstr "وصل شده به شبکه تور"
 
 msgctxt "MainWindow"
-msgid "Unrecognized startup status"
-msgstr "وضعیت آغاز نامشخص"
-
-msgctxt "MainWindow"
 msgid "miscellaneous"
 msgstr "گوناگون"
 
@@ -1849,9 +1845,7 @@ msgctxt "MainWindow"
 msgid ""
 "Vidalia was unable to start Tor. Check your settings to ensure the correct "
 "name and location of your Tor executable is specified."
-msgstr ""
-"ویدالیا نتوانست تور را راه‌اندازی کند. تنظیمات خود را دوباره بررسی کنید تا "
-"مطمین شوید مسیر فایل اجرایی تر را درست مشخص کرده‌اید."
+msgstr "ویدالیا نتوانست تور را راه‌اندازی کند. تنظیمات خود را دوباره بررسی کنید تا مطمین شوید مسیر فایل اجرایی تر را درست مشخص کرده‌اید."
 
 msgctxt "MainWindow"
 msgid "Connecting to Tor"
@@ -1889,9 +1883,7 @@ msgctxt "MainWindow"
 msgid ""
 "The Tor software requires Vidalia to send the contents of an authentication "
 "cookie, but Vidalia was unable to find one."
-msgstr ""
-"نرم افزار تور نیاز به ارسال محتویات یک کوکی احراز هویت بوسیله ویدالیا دارد "
-"اما ویدالیا نتوانست آن را پیدا کند."
+msgstr "نرم افزار تور نیاز به ارسال محتویات یک کوکی احراز هویت بوسیله ویدالیا دارد اما ویدالیا نتوانست آن را پیدا کند."
 
 msgctxt "MainWindow"
 msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
@@ -1913,9 +1905,7 @@ msgctxt "MainWindow"
 msgid ""
 "Vidalia was unable to register for some events. Many of Vidalia's features "
 "may be unavailable."
-msgstr ""
-"ویدالیا نتوانست خود را برای برخی از رویدادها ثبت کند. بسیاری از خصوصیات "
-"ویدالیا ممکن است که فعال نباشند."
+msgstr "ویدالیا نتوانست خود را برای برخی از رویدادها ثبت کند. بسیاری از خصوصیات ویدالیا ممکن است که فعال نباشند."
 
 msgctxt "MainWindow"
 msgid "Authentication Error"
@@ -1937,9 +1927,7 @@ msgctxt "MainWindow"
 msgid ""
 "The currently installed version of Tor is out of date or no longer "
 "recommended. Please visit the Tor website to download the latest version."
-msgstr ""
-"نسخه نصب شده تور قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تور "
-"رفته و آخرین نسخه را بارگذاری کنید."
+msgstr "نسخه نصب شده تور قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تور رفته و آخرین نسخه را بارگذاری کنید."
 
 msgctxt "MainWindow"
 msgid "Tor website: %1"
@@ -1949,8 +1937,7 @@ msgctxt "MainWindow"
 msgid ""
 "All subsequent connections will appear to be different than your old "
 "connections."
-msgstr ""
-"تمام اتصالات بعدی به صورت متفاوت از اتصالات قبلی نمایش داده خواهند شد."
+msgstr "تمام اتصالات بعدی به صورت متفاوت از اتصالات قبلی نمایش داده خواهند شد."
 
 msgctxt "MainWindow"
 msgid "Failed to Create New Identity"
@@ -2045,18 +2032,13 @@ msgid ""
 "Vidalia tried to reset Tor's control password, but was not able to restart "
 "the Tor software. Please check your Task Manager to ensure there are no "
 "other Tor processes running."
-msgstr ""
-"ويداليا در حال تلاش برای تعويض کلمه عبور تر است ، اما قادر به راه اندازی "
-"مجدد نرم افزار تر نيست.لطفا نوار وظيفه(Task manager)راچك كنيد تا هيچ برنامه "
-"تُر در حال اجرا نباشد."
+msgstr "ويداليا در حال تلاش برای تعويض کلمه عبور تر است ، اما قادر به راه اندازی مجدد نرم افزار تر نيست.لطفا نوار وظيفه(Task manager)راچك كنيد تا هيچ برنامه تُر در حال اجرا نباشد."
 
 msgctxt "MainWindow"
 msgid ""
 "The currently installed version of Tor is out of date or no longer "
 "recommended."
-msgstr ""
-"نسخه نصب شده تُر قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تُر "
-"رفته و نهایی ترین نسخه آن را بارگذاری کنید."
+msgstr "نسخه نصب شده تُر قدیمی است و دیگر توصیه نمیشود. خواهشمند است به سایت تُر رفته و نهایی ترین نسخه آن را بارگذاری کنید."
 
 msgctxt "MainWindow"
 msgid ""
@@ -2104,43 +2086,11 @@ msgid ""
 "Anything sent over this connection could be monitored. Please check your "
 "application's configuration and use only encrypted protocols, such as SSL, "
 "if possible."
-msgstr ""
-"هرآنچه بوسیله این ارتباط فرستاده شود می تواند مانیتور شود. لطفا بتنظیمات "
-"برنامه را بررسی کنید و تنها از پروتکل های رمزگذاری شده، از قبیل SSL، در صورت"
-" امکان استفاده کنید."
-
-msgctxt "MainWindow"
-msgid "failed (%1)"
-msgstr "ناموفق(%1)"
-
-msgctxt "MainWindow"
-msgid ""
-"Your relay is shutting down.\n"
-"Click 'Stop' again to stop your relay now."
-msgstr "باز ژخش شما متوقف شده است./n"
+msgstr "هرآنچه بوسیله این ارتباط فرستاده شود می تواند مانیتور شود. لطفا بتنظیمات برنامه را بررسی کنید و تنها از پروتکل های رمزگذاری شده، از قبیل SSL، در صورت امکان استفاده کنید."
 
 msgctxt "MainWindow"
 msgid "Bootstrapping torrc from %1 to %2"
 msgstr "راه اندازی torrc از %1 به %2"
-
-msgctxt "MainWindow"
-msgid ""
-"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
-"\n"
-"Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr ""
-"شما در حال حاضر يك بازپخش داريد.پايان دادن به اين بازپخش ميتواند اتصالات "
-"كاربران را متوقف كند./n/nآيا مي خواهيد به تدريج بازپخش بسته شود و به كاربران"
-" فرصت دهيد تا يك بازپخش جديد بيابند؟"
-
-msgctxt "MainWindow"
-msgid ""
-"Vidalia detected that the Tor software exited unexpectedly.\n"
-"\n"
-"Please check the message log for recent warning or error messages."
-msgstr ""
-"ويداليا يك نسخه از تُر را شناسايي كرده است./n/nلطفا پيغامها را براي خاطاها "
-"بررسي كنيد."
 
 msgctxt "MainWindow"
 msgid "(probably Telnet)"
@@ -2154,9 +2104,46 @@ msgctxt "MainWindow"
 msgid ""
 "One of your applications %1 appears to be making a potentially unencrypted "
 "and unsafe connection to port %2."
-msgstr ""
-"به نظر می‌رسد یکی از برنامه‌های شما %1 در حال برقراری ارتباطی رمزگذاری نشده "
-"و ناامن به پورت %2 است"
+msgstr "به نظر می‌رسد یکی از برنامه‌های شما %1 در حال برقراری ارتباطی رمزگذاری نشده و ناامن به پورت %2 است"
+
+msgctxt "MainWindow"
+msgid "failed (%1)"
+msgstr "ناموفق(%1)"
+
+msgctxt "MainWindow"
+msgid ""
+"Your relay is shutting down.\n"
+"Click 'Stop' again to stop your relay now."
+msgstr "باز ژخش شما متوقف شده است./n"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr "\"ویدالیا\" نمی تواند راهی برای برقراری ارتباط با \"تُر\" پیدا کند زیرا به فایل: %1 دسترسی ندارد.\n\nآخرین پیغام خطا:\n%2"
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr "به نظر می رسد که \"تُر\" پس از اجرا شدن توسط Vidalia متوقف شده است.\n\nبرای کسب اطلاعات بیشتر می توانید قسمت گزارش پیام پیشرفته را مشاهده نمایید."
+
+msgctxt "MainWindow"
+msgid ""
+"You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
+"\n"
+"Would you like to shutdown gracefully and give clients time to find a new relay?"
+msgstr "شما در حال حاضر يك بازپخش داريد.پايان دادن به اين بازپخش ميتواند اتصالات كاربران را متوقف كند./n/nآيا مي خواهيد به تدريج بازپخش بسته شود و به كاربران فرصت دهيد تا يك بازپخش جديد بيابند؟"
+
+msgctxt "MainWindow"
+msgid ""
+"Vidalia detected that the Tor software exited unexpectedly.\n"
+"\n"
+"Please check the message log for recent warning or error messages."
+msgstr "ويداليا يك نسخه از تُر را شناسايي كرده است./n/nلطفا پيغامها را براي خاطاها بررسي كنيد."
 
 msgctxt "MessageLog"
 msgid "Error Setting Filter"
@@ -2436,9 +2423,7 @@ msgctxt "MessageLog"
 msgid ""
 "Messages that only appear when \n"
 "something has gone wrong with Tor."
-msgstr ""
-"Messages that only appear when \n"
-"something has gone wrong with Tor."
+msgstr "Messages that only appear when \nsomething has gone wrong with Tor."
 
 msgctxt "MessageLog"
 msgid ""
@@ -2446,37 +2431,26 @@ msgid ""
 "during normal Tor operation and are \n"
 "not considered errors, but you may \n"
 "care about."
-msgstr ""
-"Messages that appear infrequently \n"
-"during normal Tor operation and are \n"
-"not considered errors, but you may \n"
-"care about."
+msgstr "Messages that appear infrequently \nduring normal Tor operation and are \nnot considered errors, but you may \ncare about."
 
 msgctxt "MessageLog"
 msgid ""
 "Messages that appear frequently \n"
 "during normal Tor operation."
-msgstr ""
-"Messages that appear frequently \n"
-"during normal Tor operation."
+msgstr "Messages that appear frequently \nduring normal Tor operation."
 
 msgctxt "MessageLog"
 msgid ""
 "Hyper-verbose messages primarily of \n"
 "interest to Tor developers."
-msgstr ""
-"Hyper-verbose messages primarily of \n"
-"interest to Tor developers."
+msgstr "Hyper-verbose messages primarily of \ninterest to Tor developers."
 
 msgctxt "MessageLog"
 msgid ""
 "Cannot write file %1\n"
 "\n"
 "%2."
-msgstr ""
-"Cannot write file %1\n"
-"\n"
-"%2."
+msgstr "Cannot write file %1\n\n%2."
 
 msgctxt "NetViewer"
 msgid "Tor Network Map"
@@ -2583,14 +2557,6 @@ msgid "Ctrl+F"
 msgstr "کنترل + F"
 
 msgctxt "NetworkPage"
-msgid "Invalid Bridge"
-msgstr "پل نامعتبر"
-
-msgctxt "NetworkPage"
-msgid "The specified bridge identifier is not valid."
-msgstr "شناسه پل مشخص شده معتبر نمیباشد."
-
-msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr "کپی کردن (Ctrl+C)"
 
@@ -2598,16 +2564,13 @@ msgctxt "NetworkPage"
 msgid ""
 "You must specify both an IP address or hostname and a port number to "
 "configure Tor to use a proxy to access the Internet."
-msgstr ""
-"شما میبایست یک آدرس آی پی یا یک نام میزبان و یک شماره درگاه برای پیکربندی "
-"تُر مشخص کنید جهت استفاده ار یک پیشکار برای دسترسی به اینترنت."
+msgstr "شما میبایست یک آدرس آی پی یا یک نام میزبان و یک شماره درگاه برای پیکربندی تُر مشخص کنید جهت استفاده ار یک پیشکار برای دسترسی به اینترنت."
 
 msgctxt "NetworkPage"
 msgid ""
 "You must specify one or more ports to which your firewall allows you to "
 "connect."
-msgstr ""
-"شما میبایست یک یا چند درگاه که بارو اجازه دسترسی به آنها را میدهد مشخص کنید."
+msgstr "شما میبایست یک یا چند درگاه که بارو اجازه دسترسی به آنها را میدهد مشخص کنید."
 
 msgctxt "NetworkPage"
 msgid "'%1' is not a valid port number."
@@ -2615,8 +2578,7 @@ msgstr "شماره درگاه '%1' معتبر نمیباشد."
 
 msgctxt "NetworkPage"
 msgid "Check if your local network requires a proxy to access the Internet"
-msgstr ""
-"نشان بگذارید اگر شبکه محلی شما نیاز به یک پیشکار برای دسترسی به اینترنت دارد"
+msgstr "نشان بگذارید اگر شبکه محلی شما نیاز به یک پیشکار برای دسترسی به اینترنت دارد"
 
 msgctxt "NetworkPage"
 msgid "I use a proxy to access the Internet"
@@ -2640,9 +2602,7 @@ msgstr "درگاه:"
 
 msgctxt "NetworkPage"
 msgid "Check to only connect to relays using ports allowed by your firewall"
-msgstr ""
-"نشان بگذارید جهت متصل شدن به بازپخش هایی که تنها درگاه های مجاز بدست بارو را"
-" استفاده میکنند"
+msgstr "نشان بگذارید جهت متصل شدن به بازپخش هایی که تنها درگاه های مجاز بدست بارو را استفاده میکنند"
 
 msgctxt "NetworkPage"
 msgid "My firewall only lets me connect to certain ports"
@@ -2664,14 +2624,11 @@ msgctxt "NetworkPage"
 msgid ""
 "Check to encrypt directory requests and, optionally, use bridge relays to "
 "access the Tor network"
-msgstr ""
-"نشان بگذارید برای رمزبندی درخواست های فهرست و, اختیاری, از پلهای بازپخش برای"
-" دسترسی به شبکه تُر استفاده کنید"
+msgstr "نشان بگذارید برای رمزبندی درخواست های فهرست و, اختیاری, از پلهای بازپخش برای دسترسی به شبکه تُر استفاده کنید"
 
 msgctxt "NetworkPage"
 msgid "My ISP blocks connections to the Tor network"
-msgstr ""
-"ارایه کننده خدمات دسترسی به اینترنت اتصالات به شبکه تُر را مسدود می کند"
+msgstr "ارایه کننده خدمات دسترسی به اینترنت اتصالات به شبکه تُر را مسدود می کند"
 
 msgctxt "NetworkPage"
 msgid "Bridge Settings"
@@ -2705,9 +2662,7 @@ msgctxt "NetworkPage"
 msgid ""
 "No new bridges are currently available. You can either wait a while and try "
 "again, or try another method of finding new bridges."
-msgstr ""
-"پلِ جديدي در دسترس نيست.شما مي توانيد صبر كنيد و مجدداً سعي كنيد،يا روش "
-"ديگري امتحان كنيد براي پيدا كردن پل هاي جديد."
+msgstr "پلِ جديدي در دسترس نيست.شما مي توانيد صبر كنيد و مجدداً سعي كنيد،يا روش ديگري امتحان كنيد براي پيدا كردن پل هاي جديد."
 
 msgctxt "NetworkPage"
 msgid "Click Help to see other methods of finding new bridges."
@@ -2734,12 +2689,12 @@ msgid "SOCKS 5"
 msgstr "SOCKS 5"
 
 msgctxt "NetworkPage"
-msgid "HTTP"
-msgstr "HTTP"
-
-msgctxt "NetworkPage"
 msgid "HTTP / HTTPS"
 msgstr "HTTP / HTTPS"
+
+msgctxt "NetworkPage"
+msgid "You must specify one or more bridges."
+msgstr "شما باید یک یا پل های بیشتری را مشخص کنید."
 
 msgctxt "Policy"
 msgid "accept"
@@ -2897,17 +2852,13 @@ msgctxt "ServerPage"
 msgid ""
 "You have configured Tor to act as a bridge relay for censored users, but "
 "your version of Tor does not support bridges."
-msgstr ""
-"شما تُر را به گونه ای پیکربندی کردید که مانند یک پل بازپخش برای کاربران "
-"سانسورشده کارکند, اما نسخه تُر شما پل ها را پشتیبانی نمی کند."
+msgstr "شما تُر را به گونه ای پیکربندی کردید که مانند یک پل بازپخش برای کاربران سانسورشده کارکند, اما نسخه تُر شما پل ها را پشتیبانی نمی کند."
 
 msgctxt "ServerPage"
 msgid ""
 "Please upgrade your Tor software or configure Tor to act as a normal Tor "
 "relay."
-msgstr ""
-"خواهشمند است نرم افزار تُر را بروزرسانی کنید یا تُر را به گونه ای پیکربندی "
-"کنید که مانند یک بازپخش تُر نرمال کارکند."
+msgstr "خواهشمند است نرم افزار تُر را بروزرسانی کنید یا تُر را به گونه ای پیکربندی کنید که مانند یک بازپخش تُر نرمال کارکند."
 
 msgctxt "ServerPage"
 msgid "Your bridge relay is not running."
@@ -2920,10 +2871,6 @@ msgstr "شما میبایست دست کم یک لقب بازپخش و درگاه
 msgctxt "ServerPage"
 msgid "Run as a client only"
 msgstr "اجراکردن تنها مانند یک کاربر"
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network"
-msgstr "ترافیک بازپخش‌ شده برای شبکه‌ی تُر"
 
 msgctxt "ServerPage"
 msgid "Relay Port:"
@@ -2963,9 +2910,7 @@ msgstr "نام بازپخش شما"
 
 msgctxt "ServerPage"
 msgid "Port on which users and other relays can communicate with your relay"
-msgstr ""
-"درگاهی که کاربران و بازپخش های دیگر می توانند بوسیله آن با بازپخش شما ارتباط"
-" برقرار کنند"
+msgstr "درگاهی که کاربران و بازپخش های دیگر می توانند بوسیله آن با بازپخش شما ارتباط برقرار کنند"
 
 msgctxt "ServerPage"
 msgid "Nickname:"
@@ -2979,9 +2924,7 @@ msgctxt "ServerPage"
 msgid ""
 "For Internet connections with fast download speed but slow upload, please "
 "list your upload speed here."
-msgstr ""
-"برای ارتباطات اینترنتی با نرخ بارگیری (دانلود) سریع ولی نرخ بارگذاری (آپلود)"
-" کند، لطفا سرعت بارگذاری خود را اینجا مشخص کنید."
+msgstr "برای ارتباطات اینترنتی با نرخ بارگیری (دانلود) سریع ولی نرخ بارگذاری (آپلود) کند، لطفا سرعت بارگذاری خود را اینجا مشخص کنید."
 
 msgctxt "ServerPage"
 msgid "Cable/DSL 256 Kbps"
@@ -3009,8 +2952,7 @@ msgstr "خودت تغیین کن"
 
 msgctxt "ServerPage"
 msgid "Select the entry that most closely resembles your Internet connection"
-msgstr ""
-"گزینه‌ای را که از همه بیشتر به نوع ارتباط اینترنت شما شبیه است انتخاب کنید"
+msgstr "گزینه‌ای را که از همه بیشتر به نوع ارتباط اینترنت شما شبیه است انتخاب کنید"
 
 msgctxt "ServerPage"
 msgid "Show help topic on bandwidth rate limits"
@@ -3040,9 +2982,7 @@ msgctxt "ServerPage"
 msgid ""
 "Your maximum bandwidth rate must be greater than or equal to your average "
 "bandwidth rate. Both values must be at least 20 KB/s."
-msgstr ""
-"بیشترین میزان پهنای باند شما می بایست بزرگتر یا مساوی با میزان پهنای باند "
-"متوسط شما باشد. کوچکترین مقدار هردو میبایست 20 کیلوبایت در ثانیه باشد."
+msgstr "بیشترین میزان پهنای باند شما می بایست بزرگتر یا مساوی با میزان پهنای باند متوسط شما باشد. کوچکترین مقدار هردو میبایست 20 کیلوبایت در ثانیه باشد."
 
 msgctxt "ServerPage"
 msgid "Bandwidth Limits"
@@ -3074,9 +3014,7 @@ msgstr "سروریس‌های دیگر"
 
 msgctxt "ServerPage"
 msgid "Ports 706, 1863, 5050, 5190, 5222, 5223, 8300 and 8888"
-msgstr ""
-"درگاه‌های ۷۰۶، ۱۸۶۳، ۵۰۵۰، ۵۲۲۲، ۸۳۰۰ و ۸۸۸۸ {706, 1863, 5050, 5190, 5222, "
-"5223, 8300 ?} {8888?}"
+msgstr "درگاه‌های ۷۰۶، ۱۸۶۳، ۵۰۵۰، ۵۲۲۲، ۸۳۰۰ و ۸۸۸۸ {706, 1863, 5050, 5190, 5222, 5223, 8300 ?} {8888?}"
 
 msgctxt "ServerPage"
 msgid "Instant Messaging (IM)"
@@ -3111,9 +3049,7 @@ msgctxt "ServerPage"
 msgid ""
 "Tor will still block some outgoing mail and file sharing applications by "
 "default to reduce spam and other abuse."
-msgstr ""
-"تُر همچنان بعضي از ايميل ها و فايلهاي اشتراك گذاري شده ارسالي را به صورت "
-"پيشفرض مسدود كرده براي جلوگيري از اسپمينگ و استفاده هاي نادرست."
+msgstr "تُر همچنان بعضي از ايميل ها و فايلهاي اشتراك گذاري شده ارسالي را به صورت پيشفرض مسدود كرده براي جلوگيري از اسپمينگ و استفاده هاي نادرست."
 
 msgctxt "ServerPage"
 msgid "Exit Policies"
@@ -3121,8 +3057,7 @@ msgstr "سیاست‌های خروج"
 
 msgctxt "ServerPage"
 msgid "Let others access your bridge by giving them this line:"
-msgstr ""
-"بگذارید دیگران به پل شما دسترسی پیدا کنند با بیان کردن این خط به آنها:"
+msgstr "بگذارید دیگران به پل شما دسترسی پیدا کنند با بیان کردن این خط به آنها:"
 
 msgctxt "ServerPage"
 msgid ""
@@ -3145,9 +3080,7 @@ msgctxt "ServerPage"
 msgid ""
 "Leave your relay running so clients have a better chance of finding and "
 "using it."
-msgstr ""
-"اجازه دهيد بازپخش شما ادامه پيدا كند اينطور كاربران شانس بيشتري دارند تا آن "
-"را پيدا كنند."
+msgstr "اجازه دهيد بازپخش شما ادامه پيدا كند اينطور كاربران شانس بيشتري دارند تا آن را پيدا كنند."
 
 msgctxt "ServerPage"
 msgid "Bridge History"
@@ -3161,9 +3094,7 @@ msgctxt "ServerPage"
 msgid ""
 "Tor returned an improperly formatted response when Vidalia requested your "
 "bridge's usage history."
-msgstr ""
-"Tor returned an improperly formatted response when Vidalia requested your "
-"bridge's usage history."
+msgstr "Tor returned an improperly formatted response when Vidalia requested your bridge's usage history."
 
 msgctxt "ServerPage"
 msgid "The returned response was: %1"
@@ -3171,9 +3102,7 @@ msgstr "The returned response was: %1"
 
 msgctxt "ServerPage"
 msgid "Help censored users reach the Tor network"
-msgstr ""
-"کمک به کاربران سانسورشده برای دستیابی به شبکه تُر (تُر 0.2.0.8-alpha یا "
-"جدیدتر)"
+msgstr "کمک به کاربران سانسورشده برای دستیابی به شبکه تُر (تُر 0.2.0.8-alpha یا جدیدتر)"
 
 msgctxt "ServerPage"
 msgid "<a href=\"#bridgeUsage\">Who has used my bridge?</a>"
@@ -3188,6 +3117,14 @@ msgid "Automatically distribute my bridge address"
 msgstr "بطور خودکار آدرس پل من را پخش کن"
 
 msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr "(ترافیک باز پخش برای شبکه تُر (بازپخش خروجی"
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
+msgstr "باز پخش ترافیک درون شبکه \"تُر\" (بازپخش داخلی)"
+
+msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"
 msgstr "لينكهاي بازپخش فهرست"
 
@@ -3195,9 +3132,7 @@ msgctxt "ServerPage"
 msgid ""
 "Email address at which you may be reached if there is a\n"
 "problem with your relay. You might also include your PGP or GPG fingerprint."
-msgstr ""
-"Email address at which you may be reached if there is a\n"
-"problem with your relay. You might also include your PGP or GPG fingerprint."
+msgstr "Email address at which you may be reached if there is a\nproblem with your relay. You might also include your PGP or GPG fingerprint."
 
 msgctxt "ServicePage"
 msgid "Error while trying to unpublish all services"
@@ -3207,9 +3142,7 @@ msgctxt "ServicePage"
 msgid ""
 "Please configure at least a service directory and a virtual port for each "
 "service you want to save. Remove the other ones."
-msgstr ""
-"خواهشمند است حداقل یک سرویس فهرست و یک درگاه مجازی برای هریک از سرویس هایی "
-"که مایل به ذخیره آن هستید پیکربندی کنید. بقیه ها را خذف کن."
+msgstr "خواهشمند است حداقل یک سرویس فهرست و یک درگاه مجازی برای هریک از سرویس هایی که مایل به ذخیره آن هستید پیکربندی کنید. بقیه ها را خذف کن."
 
 msgctxt "ServicePage"
 msgid "Error"
@@ -3225,8 +3158,7 @@ msgstr "انتخاب فهرست سرویس"
 
 msgctxt "ServicePage"
 msgid "Virtual Port may only contain valid port numbers [1..65535]."
-msgstr ""
-"درگاه های مجازی تنها می توانند شامل شماره درگاه های معتبر باشند [1..65535]."
+msgstr "درگاه های مجازی تنها می توانند شامل شماره درگاه های معتبر باشند [1..65535]."
 
 msgctxt "ServicePage"
 msgid "Target may only contain address:port, address, or port."
@@ -3305,11 +3237,7 @@ msgid ""
 "Click \"Start Tor\" in the Vidalia Control Panel to restart the Tor "
 "software. If Tor exited unexpectedly, select the \"Advanced\" tab above for "
 "details about any errors encountered."
-msgstr ""
-"بر روی گزینهٔ \"Start Tor\" در داخل Vidalia کنترل پانل کلیک کنید، تا نرم "
-"افزار TOR اجرا شود. اگر که TOR به صورت غیر منتظره از کار ایستاد و خارج شد، "
-"تاب بالایی \"Advanced\" را انتخاب کنید تا از جزئیات مشکل پیش آماده مطلع "
-"شوید."
+msgstr "بر روی گزینهٔ \"Start Tor\" در داخل Vidalia کنترل پانل کلیک کنید، تا نرم افزار TOR اجرا شود. اگر که TOR به صورت غیر منتظره از کار ایستاد و خارج شد، تاب بالایی \"Advanced\" را انتخاب کنید تا از جزئیات مشکل پیش آماده مطلع شوید."
 
 msgctxt "StatusEventWidget"
 msgid ""
@@ -3317,10 +3245,7 @@ msgid ""
 "longer recommended. Please upgrade to the most recent version of the "
 "software, which may contain important security, reliability and performance "
 "fixes."
-msgstr ""
-"شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که دیگر توصیه "
-"نمی شود. لطفن به آخرین نسخه از نرم افزار به روز کنید. این بروزرسانی ممکن است"
-" شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
+msgstr "شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که دیگر توصیه نمی شود. لطفن به آخرین نسخه از نرم افزار به روز کنید. این بروزرسانی ممکن است شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
 
 msgctxt "StatusEventWidget"
 msgid ""
@@ -3328,10 +3253,7 @@ msgid ""
 "longer work with the current Tor network. Please upgrade to the most recent "
 "version of the software, which may contain important security, reliability "
 "and performance fixes."
-msgstr ""
-"شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که ممکن است "
-"دیگر با شبکه فعلی تور کار نکند. لطفن به آخرین نسخه از نرم افزار به روز کنید."
-" این بروزرسانی ممکن است شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
+msgstr "شما هم اکنون در حال اجرای نسخه \"%1\" از نرم افزار تور هستید که ممکن است دیگر با شبکه فعلی تور کار نکند. لطفن به آخرین نسخه از نرم افزار به روز کنید. این بروزرسانی ممکن است شامل رفع ایرادات مهم امنیتی، عملکرد و کارایی باشد"
 
 msgctxt "StatusEventWidget"
 msgid "Your Tor Software is Out-of-date"
@@ -3345,9 +3267,7 @@ msgctxt "StatusEventWidget"
 msgid ""
 "We were able to successfully establish a connection to the Tor network. You "
 "can now configure your applications to use the Internet anonymously."
-msgstr ""
-"اتصال به شبکهٔ TOR موفقیت آمیز بود. حال میتوانید برنامه‌های خود را تنظیم "
-"کنید تا بتوانید به طور ناشناس از اینترنت استفاده کنید. "
+msgstr "اتصال به شبکهٔ TOR موفقیت آمیز بود. حال میتوانید برنامه‌های خود را تنظیم کنید تا بتوانید به طور ناشناس از اینترنت استفاده کنید. "
 
 msgctxt "StatusEventWidget"
 msgid "Tor Software Error"
@@ -3357,9 +3277,7 @@ msgctxt "StatusEventWidget"
 msgid ""
 "The Tor software encountered an internal bug. Please report the following "
 "error message to the Tor developers at bugs.torproject.org: \"%1\""
-msgstr ""
-"نرم افزار تور با یک اشکال داخلی مواجه شد. لطفن پیام خطای زیر را برای سازندگان تور به آدرس زیر ارسال کنید:\n"
-"bugs.torproject.org: \"%1\""
+msgstr "نرم افزار تور با یک اشکال داخلی مواجه شد. لطفن پیام خطای زیر را برای سازندگان تور به آدرس زیر ارسال کنید:\nbugs.torproject.org: \"%1\""
 
 msgctxt "StatusEventWidget"
 msgid ""
@@ -3367,10 +3285,7 @@ msgid ""
 "the past compared to the source \"%2\". If your clock is not correct, Tor "
 "will not be able to function. Please verify your computer displays the "
 "correct time."
-msgstr ""
-"تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 "
-"ثانیه در گذشته تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. "
-"لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
+msgstr "تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 ثانیه در گذشته تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
 
 msgctxt "StatusEventWidget"
 msgid ""
@@ -3378,10 +3293,7 @@ msgid ""
 "the future compared to the source \"%2\". If your clock is not correct, Tor "
 "will not be able to function. Please verify your computer displays the "
 "correct time."
-msgstr ""
-"تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 "
-"ثانیه در آینده تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. "
-"لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
+msgstr "تور مشخص کرد که ساعت کامپیوتر شما ممکن است در مقایسه با منبع \"%2\"، %1 ثانیه در آینده تنظیم شده باشد. اگر ساعت شما تنظیم نباشد تور کار نمی کند. لطفن مطمین شوید کامپیوتر شما ساعت درست را نشان میدهد"
 
 msgctxt "StatusEventWidget"
 msgid "Your Computer's Clock is Potentially Incorrect"
@@ -3393,21 +3305,14 @@ msgid ""
 "unencrypted connection through Tor to port %1. Sending unencrypted "
 "information over the Tor network is dangerous and not recommended. For your "
 "protection, Tor has automatically closed this connection."
-msgstr ""
-"ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده "
-"از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق "
-"شبکه تور، خطرناک است و توصیه نمی شود. برای محافظت از شما، تور این ارتباط را "
-"بصورت خودکار بست."
+msgstr "ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق شبکه تور، خطرناک است و توصیه نمی شود. برای محافظت از شما، تور این ارتباط را بصورت خودکار بست."
 
 msgctxt "StatusEventWidget"
 msgid ""
 "One of the applications on your computer may have attempted to make an "
 "unencrypted connection through Tor to port %1. Sending unencrypted "
 "information over the Tor network is dangerous and not recommended."
-msgstr ""
-"ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده "
-"از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق "
-"شبکه تور، خطرناک است و توصیه نمی شود."
+msgstr "ممکن است یکی از اپلیکیشن های کامپیوتر شما برای برقراری ارتباط رمزگذاری نشده از درگاه %1 بتوسط تور تلاش کرده باشد. فرستادن اطلاعات رمزگذاری نشده از طریق شبکه تور، خطرناک است و توصیه نمی شود."
 
 msgctxt "StatusEventWidget"
 msgid "Potentially Dangerous Connection!"
@@ -3419,11 +3324,7 @@ msgid ""
 "using a protocol that may leak information about your destination. Please "
 "ensure you configure your applications to use only SOCKS4a or SOCKS5 with "
 "remote hostname resolution."
-msgstr ""
-"یکی از اپلیکیشن های شما از طریق تور و پروتکلی که ممکن است اطلاعاتی از مقصد "
-"نهایی شما را فاش سازد به \"%1\" برقرار ساخته. لطفن مطمین شوید اپلیکیشن خود "
-"را بنحوی تنظیم میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname "
-"resolution استفاده کند."
+msgstr "یکی از اپلیکیشن های شما از طریق تور و پروتکلی که ممکن است اطلاعاتی از مقصد نهایی شما را فاش سازد به \"%1\" برقرار ساخته. لطفن مطمین شوید اپلیکیشن خود را بنحوی تنظیم میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname resolution استفاده کند."
 
 msgctxt "StatusEventWidget"
 msgid "Unknown SOCKS Protocol"
@@ -3434,11 +3335,7 @@ msgid ""
 "One of your applications tried to establish a connection through Tor using a"
 " protocol that Tor does not understand. Please ensure you configure your "
 "applications to use only SOCKS4a or SOCKS5 with remote hostname resolution."
-msgstr ""
-"یکی از اپلیکیشن های شما تلاش کرده است که به توسط تور و از پروتکلی که تور آن "
-"را نمیفهمد ارتباطی برقرار کند.  لطفن مطمین شوید اپلیکیشن خود را بنحوی تنظیم "
-"میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname resolution استفاده"
-" کند."
+msgstr "یکی از اپلیکیشن های شما تلاش کرده است که به توسط تور و از پروتکلی که تور آن را نمیفهمد ارتباطی برقرار کند.  لطفن مطمین شوید اپلیکیشن خود را بنحوی تنظیم میکنید که فقط از SOCKS4a یا SOCKS5 بهمراه remote hostname resolution استفاده کند."
 
 msgctxt "StatusEventWidget"
 msgid "Invalid Destination Hostname"
@@ -3449,10 +3346,7 @@ msgid ""
 "One of your applications tried to establish a connection through Tor to "
 "\"%1\", which Tor does not recognize as a valid hostname. Please check your "
 "application's configuration."
-msgstr ""
-"یکی‌ از برنامه‌های شما سعی‌ داشت تا از طریق شبکهٔ TOR به \"%1\" دست رسی‌ "
-"پیدا کند، در حالی‌ که TOR این \"hostname\" یا نام میزبان را به رسمیت "
-"نمی‌شناسد. لطفا تنظیمات برنامه خود را مجدداً چک کنید."
+msgstr "یکی‌ از برنامه‌های شما سعی‌ داشت تا از طریق شبکهٔ TOR به \"%1\" دست رسی‌ پیدا کند، در حالی‌ که TOR این \"hostname\" یا نام میزبان را به رسمیت نمی‌شناسد. لطفا تنظیمات برنامه خود را مجدداً چک کنید."
 
 msgctxt "StatusEventWidget"
 msgid "External IP Address Changed"
@@ -3463,9 +3357,7 @@ msgid ""
 "Tor has determined your relay's public IP address is currently %1%2. If that"
 " is not correct, please consider setting the 'Address' option in your "
 "relay's configuration."
-msgstr ""
-"تور تشخیص داده که آدرس IP شما در حال حاضر %1%2 است. اگر درست نیست، لطفن "
-"تنظیم 'Address' را در پیکربندی بازپخش کننده خود در نظر داشته باشید."
+msgstr "تور تشخیص داده که آدرس IP شما در حال حاضر %1%2 است. اگر درست نیست، لطفن تنظیم 'Address' را در پیکربندی بازپخش کننده خود در نظر داشته باشید."
 
 msgctxt "StatusEventWidget"
 msgid "DNS Hijacking Detected"
@@ -3476,20 +3368,14 @@ msgid ""
 "Tor detected that your DNS provider is providing false responses for domains"
 " that do not exist. Some ISPs and other DNS providers, such as OpenDNS, are "
 "known to do this in order to display their own search or advertising pages."
-msgstr ""
-"TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ که"
-" موجود نیستند میدهد. بعضی‌ ISP‌ها و ارایه دهندگان DNS, مثل OpenDNS, به طور "
-"مشخص این کار را انجام داده تا نتایج جستجوی خود و یا تبلیغات را نمایش دهند."
+msgstr "TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ که موجود نیستند میدهد. بعضی‌ ISP‌ها و ارایه دهندگان DNS, مثل OpenDNS, به طور مشخص این کار را انجام داده تا نتایج جستجوی خود و یا تبلیغات را نمایش دهند."
 
 msgctxt "StatusEventWidget"
 msgid ""
 "Tor detected that your DNS provider is providing false responses for well "
 "known domains. Since clients rely on Tor network relays to provide accurate "
 "DNS repsonses, your relay will not be configured as an exit relay."
-msgstr ""
-"TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ "
-"شناخته شده میدهد. از آنجا که کامپیوتر کاربر برای دریافت پاسخ DNS به رله‌های "
-"شبکهٔ TOR اتکا می‌کند، رله شما به عنوان رله خروجی استفاده نخواهد شد. "
+msgstr "TOR تشخیص داده است که ارائه دهندهٔ DNS شما پاسخهای نادرستی به دامین‌هایی‌ شناخته شده میدهد. از آنجا که کامپیوتر کاربر برای دریافت پاسخ DNS به رله‌های شبکهٔ TOR اتکا می‌کند، رله شما به عنوان رله خروجی استفاده نخواهد شد. "
 
 msgctxt "StatusEventWidget"
 msgid "Checking Server Port Reachability"
@@ -3500,9 +3386,7 @@ msgid ""
 "Tor is trying to determine if your relay's server port is reachable from the"
 " Tor network by connecting to itself at %1:%2. This test could take several "
 "minutes."
-msgstr ""
-"TOR در حال تشخیص قابلیت دسترسیِ پورتِ سرور از درون شبکه TOR از طریق اتصال به خود در  \"%1:%2\" می‌باشد. \n"
-"این پروسه چند دقیقه طول می‌کشد."
+msgstr "TOR در حال تشخیص قابلیت دسترسیِ پورتِ سرور از درون شبکه TOR از طریق اتصال به خود در  \"%1:%2\" می‌باشد. \nاین پروسه چند دقیقه طول می‌کشد."
 
 msgctxt "StatusEventWidget"
 msgid "Server Port Reachability Test Successful!"
@@ -3522,11 +3406,7 @@ msgid ""
 "happen if you are behind a router or firewall that requires you to set up "
 "port forwarding. If %1:%2 is not your correct IP address and server port, "
 "please check your relay's configuration."
-msgstr ""
-"پورتِ سرورِ رله شما قابل دسترسی‌ توسط کاربران دیگر نیست. این ممکن از به این "
-"دلیل باشد که کامپیوترِ شما پشت firewall قرار دارد یا اینکه به روتر وصل شده "
-"است که لازم است پورت فرواردینگ کند. اگر \"%1:%2\" آدرسِ آی‌پی و پورتِ شما "
-"نیست، لطفا تنظیمات رله خود را چک کنید."
+msgstr "پورتِ سرورِ رله شما قابل دسترسی‌ توسط کاربران دیگر نیست. این ممکن از به این دلیل باشد که کامپیوترِ شما پشت firewall قرار دارد یا اینکه به روتر وصل شده است که لازم است پورت فرواردینگ کند. اگر \"%1:%2\" آدرسِ آی‌پی و پورتِ شما نیست، لطفا تنظیمات رله خود را چک کنید."
 
 msgctxt "StatusEventWidget"
 msgid "Checking Directory Port Reachability"
@@ -3537,9 +3417,7 @@ msgid ""
 "Tor is trying to determine if your relay's directory port is reachable from "
 "the Tor network by connecting to itself at %1:%2. This test could take "
 "several minutes."
-msgstr ""
-"تور در حال بررسی دسترسی پورت دایرکتوری بازپخش کننده شما، از داخل شبکه تور، "
-"به وسیله وصل خود در %1:%2 است. این آزمایش ممکن است چند دقیقه طول بکشد."
+msgstr "تور در حال بررسی دسترسی پورت دایرکتوری بازپخش کننده شما، از داخل شبکه تور، به وسیله وصل خود در %1:%2 است. این آزمایش ممکن است چند دقیقه طول بکشد."
 
 msgctxt "StatusEventWidget"
 msgid "Directory Port Reachability Test Successful!"
@@ -3559,11 +3437,7 @@ msgid ""
 "happen if you are behind a router or firewall that requires you to set up "
 "port forwarding. If %1:%2 is not your correct IP address and directory port,"
 " please check your relay's configuration."
-msgstr ""
-"دایرکتوری پورت بازپخش کننده شما، توسط دیگر کاربران تور قابل دسترس نیست. این "
-"اتفاق زمانی ممکن است بیافتد، که شما پشت روتر یا فایروالی هستید که نیاز به "
-"تنظیم انتقال پورت دارد. اگر %1:%2 آدرس IP و دایرکتوری پورت درست شما نیست، "
-"لطفن پیکربندی بازپخش کننده خود را چک کنید."
+msgstr "دایرکتوری پورت بازپخش کننده شما، توسط دیگر کاربران تور قابل دسترس نیست. این اتفاق زمانی ممکن است بیافتد، که شما پشت روتر یا فایروالی هستید که نیاز به تنظیم انتقال پورت دارد. اگر %1:%2 آدرس IP و دایرکتوری پورت درست شما نیست، لطفن پیکربندی بازپخش کننده خود را چک کنید."
 
 msgctxt "StatusEventWidget"
 msgid "Relay Descriptor Rejected"
@@ -3573,9 +3447,7 @@ msgctxt "StatusEventWidget"
 msgid ""
 "Your relay's descriptor, which enables clients to connect to your relay, was"
 " rejected by the directory server at %1:%2. The reason given was: %3"
-msgstr ""
-"واصف بازپخش کننده شما، که کاربران را قادر به اتصال به بازپخش کننده شما "
-"میکند، توسط سرور داده ها در %1:%2 رد شد. علت: %3"
+msgstr "واصف بازپخش کننده شما، که کاربران را قادر به اتصال به بازپخش کننده شما میکند، توسط سرور داده ها در %1:%2 رد شد. علت: %3"
 
 msgctxt "StatusEventWidget"
 msgid "Your Relay is Online"
@@ -3587,10 +3459,7 @@ msgid ""
 "see an increase in network traffic shown by the Bandwidth Graph within a few"
 " hours as more clients learn about your relay. Thank you for contributing to"
 " the Tor network!"
-msgstr ""
-"بازپخش کننده شما آنلاین و برای استفاده کاربران تور در دسترس است. همچنان که "
-"کاربران بیشتری از بازپخش کننده شما آگاه میشوند، در چند ساعت آینده، شما باید "
-"شاهد بالا رفتن ترافیک نمایش داده شده در نمودار پهنای باند باشید!"
+msgstr "بازپخش کننده شما آنلاین و برای استفاده کاربران تور در دسترس است. همچنان که کاربران بیشتری از بازپخش کننده شما آگاه میشوند، در چند ساعت آینده، شما باید شاهد بالا رفتن ترافیک نمایش داده شده در نمودار پهنای باند باشید!"
 
 msgctxt "Stream"
 msgid "New"
@@ -3652,9 +3521,7 @@ msgctxt "TorrcDialog"
 msgid ""
 "Save settings. If unchecked it will only apply settings to the current Tor "
 "instance."
-msgstr ""
-"تنظیمات را ذخیره کن. اگر علامت نخورده باشد فقط برای نمونه تور فعلی اعمال "
-"میشود."
+msgstr "تنظیمات را ذخیره کن. اگر علامت نخورده باشد فقط برای نمونه تور فعلی اعمال میشود."
 
 msgctxt "TorrcDialog"
 msgid "Cut"
@@ -3694,9 +3561,7 @@ msgstr "خطا در ارتباط با تور"
 
 msgctxt "TorrcDialog"
 msgid "Selection is empty. Please select some text, or check \"Apply all\""
-msgstr ""
-"محدوده انتخاب خالی است. لطفن مقداری از مت و یا \"همه را اعمال کن\" را انتخاب"
-" کنید"
+msgstr "محدوده انتخاب خالی است. لطفن مقداری از مت و یا \"همه را اعمال کن\" را انتخاب کنید"
 
 msgctxt "TorrcDialog"
 msgid "Error at line %1: \"%2\""
@@ -3770,17 +3635,13 @@ msgctxt "UpdateProcess"
 msgid ""
 "Vidalia was unable to check for available software updates because it could "
 "not find '%1'."
-msgstr ""
-"ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست.زیرا نمیتواند"
-" '%1' را پیدا کند."
+msgstr "ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست.زیرا نمیتواند '%1' را پیدا کند."
 
 msgctxt "UpdateProcess"
 msgid ""
 "Vidalia was unable to check for available software updates because Tor's "
 "update process exited unexpectedly."
-msgstr ""
-"ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست، زیرا روند به"
-" روز رسانی تُر غیر منتظره متوقف شده."
+msgstr "ویدالیا قادر به بررسی به روز رسانی های در دسترس نرم افزار نیست، زیرا روند به روز رسانی تُر غیر منتظره متوقف شده."
 
 msgctxt "UpdateProgressDialog"
 msgid "Checking for available updates..."
@@ -3955,10 +3816,7 @@ msgid ""
 "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
 "\n"
 "Would you like to continue starting Vidalia?"
-msgstr ""
-"Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
-"\n"
-"Would you like to continue starting Vidalia?"
+msgstr "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n\nWould you like to continue starting Vidalia?"
 
 msgctxt "stringutil.h"
 msgid "%1 secs"
@@ -3991,5 +3849,3 @@ msgstr "%1 ساعت"
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr "%1 دقیقه"
-
-

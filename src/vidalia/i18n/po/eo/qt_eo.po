@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # identity <eeemsi@googlemail.com>, 2011.
 msgid ""
@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-22 16:13+0000\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
 "Last-Translator: identity <eeemsi@googlemail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -201,9 +201,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 jam eksistas.\n"
-"Ĉu vi volas ĝin anstataŭigi?"
+msgstr "%1 jam eksistas.\nĈu vi volas ĝin anstataŭigi?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -211,10 +209,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Dosiero ne trovita.\n"
-"Bonvolu kontroli ĉu la korekta dosiernomo estis tajpata."
+msgstr "%1\nDosiero ne trovita.\nBonvolu kontroli ĉu la korekta dosiernomo estis tajpata."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -272,19 +267,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Dosierujo ne trovita.\n"
-"Bonvolu kontroli ĉu la korekta dosierujnomo estis tajpata."
+msgstr "%1\nDosierujo ne trovita.\nBonvolu kontroli ĉu la korekta dosierujnomo estis tajpata."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' estas neskribalirebla.\n"
-"Ĉu vi volas ĝin anstataŭigi ĉiukaze?"
+msgstr "'%1' estas neskribalirebla.\nĈu vi volas ĝin anstataŭigi ĉiukaze?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -381,9 +371,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>La nomo \"%1\" ne uzeblas.</b><p>Klopodi uzi alian nomon, kun malpli da "
-"signoj aŭ sen interpunkcio."
+msgstr "<b>La nomo \"%1\" ne uzeblas.</b><p>Klopodi uzi alian nomon, kun malpli da signoj aŭ sen interpunkcio."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -444,5 +432,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bajtoj"
-
-

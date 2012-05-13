@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # OsamaK <osamak@gnu.org>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-03-22 16:13+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
 "Last-Translator: OsamaK <osamak@gnu.org>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -202,9 +202,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 موجود فعلا.\n"
-"هل ترغب باستبداله؟"
+msgstr "%1 موجود فعلا.\nهل ترغب باستبداله؟"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -212,10 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"ملف غير موجود.\n"
-"رجاءاً تأكد من صحة سم الملف."
+msgstr "%1\nملف غير موجود.\nرجاءاً تأكد من صحة سم الملف."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -273,19 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"مجلد غير موجود.\n"
-"رجاءاً تأكد من صحة إسم المجلد."
+msgstr "%1\nمجلد غير موجود.\nرجاءاً تأكد من صحة إسم المجلد."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' محمي من الكتابة.\n"
-"هل تريد حذفه علي أي حال؟"
+msgstr "'%1' محمي من الكتابة.\nهل تريد حذفه علي أي حال؟"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -382,9 +372,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>لايمكن إستعمال الاسم \"%1\".</b>حاول استخدام اسم أخر مع تقليل عدد المحارف"
-" أو دون استخدام علامات التنقيط<p>"
+msgstr "<b>لايمكن إستعمال الاسم \"%1\".</b>حاول استخدام اسم أخر مع تقليل عدد المحارف أو دون استخدام علامات التنقيط<p>"
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -445,5 +433,3 @@ msgstr "%1 كيلو بايت"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 بايت"
-
-

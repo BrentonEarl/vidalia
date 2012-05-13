@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 #   <baldarra@euskalerria.org>, 2011.
 msgid ""
@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-11-14 14:31+0000\n"
+"PO-Revision-Date: 2012-02-14 09:47+0000\n"
 "Last-Translator: baldarra <baldarra@euskalerria.org>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
@@ -201,9 +201,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 existitzen da jada.\n"
-"Ordeztu nahi al duzu?"
+msgstr "%1 existitzen da jada.\nOrdeztu nahi al duzu?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -211,10 +209,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Fitxategia ez da aurkitu.\n"
-"Mesedez zihurtatu fitxategi izen zuzena eman duzula."
+msgstr "%1\nFitxategia ez da aurkitu.\nMesedez zihurtatu fitxategi izen zuzena eman duzula."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -272,19 +267,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Fitxategia ez da aurkitu.\n"
-"Zihurtatu direktorio izen zuzena eman duzula."
+msgstr "%1\nFitxategia ez da aurkitu.\nZihurtatu direktorio izen zuzena eman duzula."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' idatz babesturik dago.\n"
-"Ezabatu nahi al duzu hala ere?"
+msgstr "'%1' idatz babesturik dago.\nEzabatu nahi al duzu hala ere?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -381,9 +371,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>\"%1\" izena ezin da erabili.</b><p>Saiatu beste izen bat erabiltzen, "
-"karaktere gutxiagorekin edo puntu markarik gabe."
+msgstr "<b>\"%1\" izena ezin da erabili.</b><p>Saiatu beste izen bat erabiltzen, karaktere gutxiagorekin edo puntu markarik gabe."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -444,5 +432,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
-
-

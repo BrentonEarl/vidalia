@@ -1,10 +1,11 @@
 # 
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-03-09 13:05+0000\n"
-"PO-Revision-Date: 2011-08-10 10:46+0000\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2010-12-05 20:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -189,6 +190,10 @@ msgstr ""
 
 msgctxt "AdvancedPage"
 msgid "Select a file to use for Tor socket path"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
 msgstr ""
 
 msgctxt "AdvancedPage"
@@ -1261,24 +1266,6 @@ msgid "Vidalia encountered an error and needed to close"
 msgstr ""
 
 msgctxt "CrashReportDialog"
-msgid ""
-"A crash report has been created that you can automatically send to the "
-"Vidalia developers to help identify and fix the problem. The submitted "
-"report does not contain any personally identifying information, but your "
-"connection to the crash reporting server may not be anonymous."
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid ""
-"Please also describe what you were doing before the application crashed "
-"(optional):"
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid "Send my crash report to the Vidalia developers"
-msgstr ""
-
-msgctxt "CrashReportDialog"
 msgid "Restart Vidalia"
 msgstr ""
 
@@ -1296,16 +1283,27 @@ msgid ""
 "manually."
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Connecting..."
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Sending crash report..."
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Receiving response..."
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
 msgstr ""
 
 msgctxt "GeneralPage"
@@ -2059,12 +2057,6 @@ msgstr ""
 
 msgctxt "MainWindow"
 msgid ""
-"One of your applications%1appears to be making a potentially unencrypted and"
-" unsafe connection to port %2."
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ""
 "Anything sent over this connection could be monitored. Please check your "
 "application's configuration and use only encrypted protocols, such as SSL, "
 "if possible."
@@ -2078,6 +2070,10 @@ msgctxt "MainWindow"
 msgid ""
 "Your relay is shutting down.\n"
 "Click 'Stop' again to stop your relay now."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
 msgstr ""
 
 msgctxt "MainWindow"
@@ -2095,11 +2091,17 @@ msgid ""
 msgstr ""
 
 msgctxt "MainWindow"
-msgid ", probably Telnet,"
+msgid "(probably Telnet)"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid ", probably an email client,"
+msgid "(probably an email client)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
 msgstr ""
 
 msgctxt "MessageLog"
@@ -3664,14 +3666,6 @@ msgctxt "UpdatesAvailableDialog"
 msgid "Version"
 msgstr ""
 
-msgctxt "UploadProgressDialog"
-msgid "Uploading Crash Report"
-msgstr ""
-
-msgctxt "UploadProgressDialog"
-msgid "Unable to send report: %1"
-msgstr ""
-
 msgctxt "VMessageBox"
 msgid "OK"
 msgstr ""
@@ -3762,6 +3756,10 @@ msgstr ""
 
 msgctxt "Vidalia"
 msgid "Unable to open log file '%1': %2"
+msgstr ""
+
+msgctxt "Vidalia"
+msgid "Value required for parameter :"
 msgstr ""
 
 msgctxt "Vidalia"

@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
 "PO-Revision-Date: 2010-12-05 19:59+0000\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -209,10 +209,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Archivo no encontrado.\n"
-"Verifique que el nombre del archivo es correcto."
+msgstr "%1\nArchivo no encontrado.\nVerifique que el nombre del archivo es correcto."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -270,18 +267,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Archivo no encontrado.\n"
-"Verifique que el nombre del directorio es correcto."
+msgstr "%1\nArchivo no encontrado.\nVerifique que el nombre del directorio es correcto."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"«%1» está protegido contra escritura. ¿Desea eliminarlo de todas formas?"
+msgstr "«%1» está protegido contra escritura. ¿Desea eliminarlo de todas formas?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -378,9 +371,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>No se puede utilizar el nombre «%1».</b><p>Intente usar otro nombre con "
-"menos caracteres o sin signos de puntuación."
+msgstr "<b>No se puede utilizar el nombre «%1».</b><p>Intente usar otro nombre con menos caracteres o sin signos de puntuación."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -441,5 +432,3 @@ msgstr "%1 KB"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 bytes"
-
-

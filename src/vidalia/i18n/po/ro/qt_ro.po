@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
@@ -201,9 +201,7 @@ msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr ""
-"%1 există deja.\n"
-"Doriţi să-l înlocuiţi?"
+msgstr "%1 există deja.\nDoriţi să-l înlocuiţi?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -211,10 +209,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"%1\n"
-"Fişierul nu a fost găsit.\n"
-"Verificaţi numele fişierului şi încercaţi din nou."
+msgstr "%1\nFişierul nu a fost găsit.\nVerificaţi numele fişierului şi încercaţi din nou."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -272,19 +267,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"%1\n"
-"Directorul nu a fost găsit.\n"
-"Verificaţi numele directorului şi încercaţi din nou."
+msgstr "%1\nDirectorul nu a fost găsit.\nVerificaţi numele directorului şi încercaţi din nou."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"'%1' e protejat la scriere.\n"
-"Doriţi să-l ştergeţi oricum?"
+msgstr "'%1' e protejat la scriere.\nDoriţi să-l ştergeţi oricum?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -381,9 +371,7 @@ msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr ""
-"<b>Numele \"%1\" nu poate fi folosit.</b><p>Folosiţi alt nume, cu mai puţine"
-" litere or sau fără semne de punctuaţie."
+msgstr "<b>Numele \"%1\" nu poate fi folosit.</b><p>Folosiţi alt nume, cu mai puţine litere or sau fără semne de punctuaţie."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
@@ -444,5 +432,3 @@ msgstr "%1 KO"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1 octeţi"
-
-

@@ -1,11 +1,12 @@
 # 
+# Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-03-09 13:05+0000\n"
-"PO-Revision-Date: 2011-07-27 01:11+0000\n"
+"POT-Creation-Date: 2012-03-21 17:52+0000\n"
+"PO-Revision-Date: 2012-03-22 08:51+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -193,6 +194,17 @@ msgid "Select a file to use for Tor socket path"
 msgstr ""
 
 msgctxt "AdvancedPage"
+msgid "Configure ControlPort automatically"
+msgstr ""
+
+msgctxt "AdvancedPage"
+msgid ""
+"You've checked the autoconfiguration option for the ControlPort, but "
+"provided no Data Directory. Please add one, or uncheck the \"Configure "
+"ControlPort automatically\" option."
+msgstr ""
+
+msgctxt "AdvancedPage"
 msgid ""
 "Vidalia was unable to remove the Tor service.\n"
 "\n"
@@ -217,6 +229,23 @@ msgstr ""
 
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid ""
+"System Icon Preferences (changes will take effect when you restart Vidalia)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Show the Tray Icon and Dock Icon (default)"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Tray Icon"
+msgstr ""
+
+msgctxt "AppearancePage"
+msgid "Hide the Dock Icon"
 msgstr ""
 
 msgctxt "BandwidthGraph"
@@ -1262,24 +1291,6 @@ msgid "Vidalia encountered an error and needed to close"
 msgstr ""
 
 msgctxt "CrashReportDialog"
-msgid ""
-"A crash report has been created that you can automatically send to the "
-"Vidalia developers to help identify and fix the problem. The submitted "
-"report does not contain any personally identifying information, but your "
-"connection to the crash reporting server may not be anonymous."
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid ""
-"Please also describe what you were doing before the application crashed "
-"(optional):"
-msgstr ""
-
-msgctxt "CrashReportDialog"
-msgid "Send my crash report to the Vidalia developers"
-msgstr ""
-
-msgctxt "CrashReportDialog"
 msgid "Restart Vidalia"
 msgstr ""
 
@@ -1297,16 +1308,27 @@ msgid ""
 "manually."
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Connecting..."
+msgctxt "CrashReportDialog"
+msgid "Please fill a ticket in:"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Sending crash report..."
+msgctxt "CrashReportDialog"
+msgid ""
+"<a "
+"href=\"https://trac.torproject.org/projects/tor/newticket\">https://trac.torproject.org/projects/tor/newticket</a>"
 msgstr ""
 
-msgctxt "CrashReportUploader"
-msgid "Receiving response..."
+msgctxt "CrashReportDialog"
+msgid ""
+"A crash report has been created that you can send to the Vidalia developers "
+"to help identify and fix the problem. The submitted report does not contain "
+"any personally identifying information."
+msgstr ""
+
+msgctxt "CrashReportDialog"
+msgid ""
+"with a description of what you were doing before the application crashed, "
+"along with the following files corresponding to the crash report:"
 msgstr ""
 
 msgctxt "GeneralPage"
@@ -1751,10 +1773,6 @@ msgid "Connected to the Tor network!"
 msgstr ""
 
 msgctxt "MainWindow"
-msgid "Unrecognized startup status"
-msgstr ""
-
-msgctxt "MainWindow"
 msgid "miscellaneous"
 msgstr ""
 
@@ -2060,15 +2078,27 @@ msgstr ""
 
 msgctxt "MainWindow"
 msgid ""
-"One of your applications%1appears to be making a potentially unencrypted and"
-" unsafe connection to port %2."
+"Anything sent over this connection could be monitored. Please check your "
+"application's configuration and use only encrypted protocols, such as SSL, "
+"if possible."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
 msgstr ""
 
 msgctxt "MainWindow"
 msgid ""
-"Anything sent over this connection could be monitored. Please check your "
-"application's configuration and use only encrypted protocols, such as SSL, "
-"if possible."
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
 msgstr ""
 
 msgctxt "MainWindow"
@@ -2083,6 +2113,21 @@ msgstr ""
 
 msgctxt "MainWindow"
 msgid ""
+"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
+"\n"
+"Here's the last error message:\n"
+"%2"
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
+"It seems Tor has stopped running since Vidalia started it.\n"
+"\n"
+"See the Advanced Message Log for more information."
+msgstr ""
+
+msgctxt "MainWindow"
+msgid ""
 "You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
 "\n"
 "Would you like to shutdown gracefully and give clients time to find a new relay?"
@@ -2093,14 +2138,6 @@ msgid ""
 "Vidalia detected that the Tor software exited unexpectedly.\n"
 "\n"
 "Please check the message log for recent warning or error messages."
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably Telnet,"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ", probably an email client,"
 msgstr ""
 
 msgctxt "MessageLog"
@@ -2515,14 +2552,6 @@ msgid "Ctrl+F"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "Invalid Bridge"
-msgstr ""
-
-msgctxt "NetworkPage"
-msgid "The specified bridge identifier is not valid."
-msgstr ""
-
-msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr ""
 
@@ -2655,11 +2684,11 @@ msgid "SOCKS 5"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "HTTP"
+msgid "HTTP / HTTPS"
 msgstr ""
 
 msgctxt "NetworkPage"
-msgid "HTTP / HTTPS"
+msgid "You must specify one or more bridges."
 msgstr ""
 
 msgctxt "Policy"
@@ -2836,10 +2865,6 @@ msgstr ""
 
 msgctxt "ServerPage"
 msgid "Run as a client only"
-msgstr ""
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network"
 msgstr ""
 
 msgctxt "ServerPage"
@@ -3084,6 +3109,14 @@ msgstr ""
 
 msgctxt "ServerPage"
 msgid "Automatically distribute my bridge address"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network (exit relay)"
+msgstr ""
+
+msgctxt "ServerPage"
+msgid "Relay traffic inside the Tor network (non-exit relay)"
 msgstr ""
 
 msgctxt "ServerPage"
@@ -3665,14 +3698,6 @@ msgctxt "UpdatesAvailableDialog"
 msgid "Version"
 msgstr ""
 
-msgctxt "UploadProgressDialog"
-msgid "Uploading Crash Report"
-msgstr ""
-
-msgctxt "UploadProgressDialog"
-msgid "Unable to send report: %1"
-msgstr ""
-
 msgctxt "VMessageBox"
 msgid "OK"
 msgstr ""
@@ -3766,6 +3791,10 @@ msgid "Unable to open log file '%1': %2"
 msgstr ""
 
 msgctxt "Vidalia"
+msgid "Value required for parameter :"
+msgstr ""
+
+msgctxt "Vidalia"
 msgid "Invalid language code specified:"
 msgstr ""
 
@@ -3815,5 +3844,3 @@ msgstr ""
 msgctxt "stringutil.h"
 msgid "%1 mins"
 msgstr ""
-
-

@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 # John  <dragonandghost@gmail.com>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2011-09-25 13:55+0000\n"
-"Last-Translator: killdragonno1 <dragonandghost@gmail.com>\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
+"Last-Translator: John <dragonandghost@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,9 +210,7 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr ""
-"文件 %1 没有找到。\n"
-"请核实已给定正确文件名。"
+msgstr "文件 %1 没有找到。\n请核实已给定正确文件名。"
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
@@ -270,18 +268,14 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr ""
-"目录%1 没有找到。\n"
-"请核实已给定正确目录名。"
+msgstr "目录%1 没有找到。\n请核实已给定正确目录名。"
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr ""
-"“%1“ 只读。\n"
-"你还是想删除它么？"
+msgstr "“%1“ 只读。\n你还是想删除它么？"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
@@ -439,5 +433,3 @@ msgstr "%1千字节"
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
 msgstr "%1字节"
-
-
