@@ -23,6 +23,7 @@
     DefaultPluginsDirectory for better Browser configuration. Also set
     the Vidalia binary location as the starting point for relative
     paths.
+  o Enable Burmese, Croatian, Basque and Serbian translation.
 
 0.2.17  11-Feb-2012
   o Improve the translation policy: do not remove translations that
