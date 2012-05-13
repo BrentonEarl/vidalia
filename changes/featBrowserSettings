@@ -1,4 +1,0 @@
-  o Add ProfileDirectory, DefaultProfileDirectory, PluginsDirectory,
-    DefaultPluginsDirectory for better Browser configuration. Also set
-    the Vidalia binary location as the starting point for relative
-    paths.
