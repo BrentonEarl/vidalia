@@ -1,4 +1,4 @@
-0.2.18  13-May-2012
+0.2.18  14-May-2012
   o Use consensus bandwidth for routers when microdescriptors is
     enabled. Fixes bug 3287.
   o Notify users that a warning status event has appeared by flashing
@@ -12,8 +12,6 @@
     that string if needed.) Fixes bug 5109.
   o Displays Korean, Catalan and Greek in their native scripts. Fix
     bug 5110.
-  o Fix the bridge line parsing for requests to bridges.torproject.org
-    when the user clicks 'find bridges now'. Fixes bug 5730.
   o Support adding comments in the same line as a config option inside
     the torrc dialog. Fixes bug 5475.
   o Remove Polipo and Torbutton from Vidalia's build scripts. Resolves
@@ -24,6 +22,8 @@
     the Vidalia binary location as the starting point for relative
     paths.
   o Enable Burmese, Croatian, Basque and Serbian translation.
+  o Remove the "Find bridges" button in order to avoid compromising
+    users that need to hide behind tor at all times. Fixes bug 5371.
 
 0.2.17  11-Feb-2012
   o Improve the translation policy: do not remove translations that

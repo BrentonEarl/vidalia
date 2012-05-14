@@ -86,8 +86,6 @@ set(vidalia_SRCS ${vidalia_SRCS}
   config/AbstractTorSettings.cpp
   config/AdvancedPage.cpp
   config/AppearancePage.cpp
-  config/BridgeDownloader.cpp
-  config/BridgeDownloaderProgressDialog.cpp
   config/BridgeUsageDialog.cpp
   config/ConfigDialog.cpp
   config/ConfigPageStack.cpp
@@ -116,8 +114,6 @@ qt4_wrap_cpp(vidalia_SRCS
   config/AbstractTorSettings.h
   config/AdvancedPage.h
   config/AppearancePage.h
-  config/BridgeDownloader.h
-  config/BridgeDownloaderProgressDialog.h
   config/BridgeUsageDialog.h
   config/ConfigDialog.h
   config/ConfigPage.h
@@ -271,7 +267,6 @@ qt4_wrap_ui(vidalia_SRCS
   bwgraph/BandwidthGraph.ui
   config/AdvancedPage.ui
   config/AppearancePage.ui
-  config/BridgeDownloaderProgressDialog.ui
   config/BridgeUsageDialog.ui
   config/ConfigDialog.ui
   config/GeneralPage.ui
