@@ -25,6 +25,7 @@ VClickLabel::VClickLabel(QWidget *parent)
 {
   setCursor(Qt::PointingHandCursor);
   _flashToggle = false;
+  _isPressed = false;
 }
 
 /** Returns the current size hint for this widget's current contents. */
@@ -50,7 +51,7 @@ VClickLabel::paintEvent(QPaintEvent *e)
   QPainter p(this);
   QRect rect = this->rect();
 
-  if(_flashToggle) {
+  if (_flashToggle || _isPressed) {
     p.setBrush(QColor(150,150,150));
     rect.setX(rect.x()+1);
     rect.setY(rect.y()+1);
@@ -60,21 +61,36 @@ VClickLabel::paintEvent(QPaintEvent *e)
   }
 
   rect = this->rect();
+  
+  // when label is in "pressed" state, we will translate the pixmap and text
+  // a bit, just like regular buttons do
+  const int d = _isPressed ? 2 : 0;
 
   if (vApp->isLeftToRight()) {
     if (!_pixmap.isNull())
-      p.drawPixmap(0, qMax((rect.height()-_pixmap.height())/2, 0), _pixmap);
+      p.drawPixmap(d, qMax((rect.height()-_pixmap.height())/2+d, 0), _pixmap);
     if (!_text.isEmpty())
-      p.drawText(_pixmap.width()+2, (rect.height()+fontInfo().pixelSize())/2, _text);
+      p.drawText(_pixmap.width()+2+d, (rect.height()+fontInfo().pixelSize())/2+d, _text);
   } else {
     if (!_pixmap.isNull())
-      p.drawPixmap(qMax(rect.right()-_pixmap.width(), 0),
-                   qMax((rect.height()-_pixmap.height())/2, 0), _pixmap);
+      p.drawPixmap(qMax(rect.right()-_pixmap.width()-d, d),
+                   qMax((rect.height()-_pixmap.height())/2-d, d), _pixmap);
     if (!_text.isEmpty()) {
       int textWidth  = fontMetrics().width(_text);
-      p.drawText(qMax(rect.right()-_pixmap.width()-textWidth-2, 0),
-                 (rect.height()+fontInfo().pixelSize())/2, _text);
+      p.drawText(qMax(rect.right()-_pixmap.width()-textWidth-2-d, d),
+                 (rect.height()+fontInfo().pixelSize())/2-d, _text);
     }
+  }
+  e->accept();
+}
+
+/** Overloaded mouse event to remember click state. */
+void
+VClickLabel::mousePressEvent(QMouseEvent * e)
+{
+  if (e->button() == Qt::LeftButton) {
+    _isPressed = true;
+    update();
   }
   e->accept();
 }
@@ -84,6 +100,8 @@ void
 VClickLabel::mouseReleaseEvent(QMouseEvent *e)
 {
   if (e->button() == Qt::LeftButton) {
+    _isPressed = false;
+    update();
     emit clicked();
   }
   e->accept();

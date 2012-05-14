@@ -59,6 +59,8 @@ signals:
 protected:
   /** Overloaded paint event to draw a pixmap and a text label. */
   virtual void paintEvent(QPaintEvent *e);
+  /** Overloaded mouse event to remember click state. */
+  virtual void mousePressEvent(QMouseEvent * e);
   /** Overloaded mouse event to catch left mouse button clicks. */
   virtual void mouseReleaseEvent(QMouseEvent *e);
 
@@ -66,6 +68,7 @@ private:
   QString _text;    /**< Text label to display in the widget. */
   QPixmap _pixmap;  /**< Image to display in the widget. */
   bool _flashToggle;/**< Bool toggle for flashing the button. */
+  bool _isPressed;  /**< Remember if label is currently pressed. */
 };
 
 #endif
