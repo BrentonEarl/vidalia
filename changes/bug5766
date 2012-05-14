@@ -1,0 +1,3 @@
+  New Features:
+  o Add visual feedback from VClickLabel when in "pressed" state.
+    Resolves ticket 5766.
