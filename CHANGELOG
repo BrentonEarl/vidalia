@@ -24,6 +24,8 @@
   o Enable Burmese, Croatian, Basque and Serbian translation.
   o Remove the "Find bridges" button in order to avoid compromising
     users that need to hide behind tor at all times. Fixes bug 5371.
+  o Add visual feedback from VClickLabel when in "pressed" state.
+    Resolves ticket 5766.
 
 0.2.17  11-Feb-2012
   o Improve the translation policy: do not remove translations that
