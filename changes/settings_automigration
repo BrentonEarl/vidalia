@@ -1,2 +1,0 @@
-  o Automigrate TorExecutable, Torrc and DataDirectory config options
-    to the new relative path handling.

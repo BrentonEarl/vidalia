@@ -1,3 +1,10 @@
+0.2.19  28-May-2012
+  o Disable "Run Vidalia when my system starts" if the
+    BrowserExecutable config option is set. This will avoid issues with
+    TBB users starting Vidalia the wrong way.
+  o Automigrate TorExecutable, Torrc and DataDirectory config options
+    to the new relative path handling.
+
 0.2.18  14-May-2012
   o Use consensus bandwidth for routers when microdescriptors is
     enabled. Fixes bug 3287.
