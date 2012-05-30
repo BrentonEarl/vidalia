@@ -1,4 +1,2 @@
-  o Build fixes:
-    - For static builds on windows, correctly link with zlib and
-      ws32_2.lib.
-
+  o For static builds on windows, correctly link with zlib and
+    ws32_2.lib.
