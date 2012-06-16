@@ -233,7 +233,7 @@ MainWindow::MainWindow()
       TransformProcessType(&psn, kProcessTransformToForegroundApplication);
   }
   /* Vidalia launched in background (LSUIElement=true). Bring to foreground. */
-  VidaliaWindow::setVisible(true);
+  VidaliaWindow::setVisible(settings.showMainWindowAtStart());
 #endif
 
   _flashToggle = false;
