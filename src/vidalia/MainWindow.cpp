@@ -1104,7 +1104,7 @@ MainWindow::start()
   QString dataDirectory = settings.getDataDirectory();
   QFileInfo dataDirectoryInfo(dataDirectory);
 
-  if(QDir(dataDirectory).isRelative()) {
+  if(not dataDirectory.isEmpty() and QDir(dataDirectory).isRelative()) {
     dataDirectory = QCoreApplication::applicationDirPath() + "/" + dataDirectory;
 
     QFileInfo newDataDirectoryInfo(dataDirectory);
