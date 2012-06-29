@@ -326,7 +326,7 @@ AdvancedPage::browseTorConfig()
       return;
     }
   }
-  ui.lineTorConfig->setText(filename);
+  ui.lineTorConfig->setText(QDir::toNativeSeparators(filename));
 }
 
 /** Opens a QFileDialog for the user to browse to or create a directory for
@@ -339,7 +339,7 @@ AdvancedPage::browseTorDataDirectory()
                       ui.lineTorDataDirectory->text());
 
   if (!dataDir.isEmpty())
-    ui.lineTorDataDirectory->setText(dataDir);
+    ui.lineTorDataDirectory->setText(QDir::toNativeSeparators(dataDir));
 }
 
 /** Opens a QFileDialog for the user to browse to or create a socket path to
