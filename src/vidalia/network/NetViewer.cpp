@@ -313,11 +313,16 @@ NetViewer::loadNetworkStatus()
 {
   NetworkStatus networkStatus = _torControl->getNetworkStatus();
 
+  bool usingMicrodescriptors = _torControl->useMicrodescriptors();
+
   foreach(RouterStatus rs, networkStatus) {
     if (!rs.isRunning())
       continue;
 
     RouterDescriptor rd = _torControl->getRouterDescriptor(rs.id());
+    if(usingMicrodescriptors) {
+      rd.appendRouterStatusInfo(rs);
+    }
     if (!rd.isEmpty())
       addRouter(rd);
 
