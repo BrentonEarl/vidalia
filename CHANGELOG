@@ -1,3 +1,10 @@
+0.2.20  09-Jul-2012
+  o Append router status information if Tor is using microdescriptors.
+  o Display paths with their native separators. Resolves ticket 4337.
+  o Do not ignore the Show on Startup checkbox. Fixes bug 5351.
+  o Do not add relative root to DataDirectory if it is empty. Fixes
+    bug 6178.
+
 0.2.19  30-May-2012
   o Disable "Run Vidalia when my system starts" if the
     BrowserExecutable config option is set. This will avoid issues with
