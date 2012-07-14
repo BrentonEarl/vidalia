@@ -97,12 +97,15 @@ TorrcDialog::parseAndSet(QString *errmsg)
   int i = 0;
   foreach(QString line, lines) {
     i++;
+    line = line.trimmed();
+
+    if(line.startsWith("#") || line.isEmpty())
+      continue; // Skip commentaries and empty lines
+
     int commentIndex = line.indexOf("#");
     if(commentIndex != -1)
-      line = line.remove(commentIndex, line.length() - commentIndex);
+      line = line.mid(0, commentIndex).trimmed();
 
-    line = line.trimmed();
-    if(line.startsWith("#")) continue; // Skip commentaries
     parts = line.split(" ", QString::SkipEmptyParts);
     if(parts.count() < 2) {
       *errmsg = tr("Error at line %1: \"%2\"").arg(i).arg(line);
