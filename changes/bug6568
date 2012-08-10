@@ -1,0 +1,2 @@
+  o Save ControlPortWriteToFile with a relative path instead of an absolute
+    one. Fixes bug 6568.

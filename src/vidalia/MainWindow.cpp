@@ -1124,13 +1124,26 @@ MainWindow::start()
 
   if(settings.getControlMethod() == ControlMethod::Port) {
     if(settings.autoControlPort()) {
+      QString dataDirectory = settings.getDataDirectory();
+      if(QDir(dataDirectory).isRelative())
+        dataDirectory = QCoreApplication::applicationDirPath() + "/" + dataDirectory;
+
+      QString relativePortConf = QDir(QDir::currentPath())
+        .relativeFilePath(QString("%1/port.conf").arg(dataDirectory));
+
+#if defined(Q_WS_WIN)
+      QString torPath = settings.getExecutable();
+      if(QDir(torPath).isRelative())
+        torPath = QCoreApplication::applicationDirPath() + "/" + torPath;
+      relativePortConf = QDir(torPath).relativeFilePath(QString("%1/port.conf").arg(dataDirectory));
+#endif
       QString portconf = QString("%1/port.conf").arg(expDataDirectory);
       if(!QFile::remove(portconf))
         vWarn(QString("Unable to remove %1, may be it didn't existed.").arg(portconf));
 
       args << "ControlPort" << "auto";
       args << "SocksPort" << "auto";
-      args << "ControlPortWriteToFile" << portconf;
+      args << "ControlPortWriteToFile" << relativePortConf;
     } else {
       /* Add the intended control port value */
       quint16 controlPort = settings.getControlPort();
