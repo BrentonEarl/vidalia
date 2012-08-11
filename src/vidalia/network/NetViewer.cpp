@@ -312,12 +312,19 @@ void
 NetViewer::loadNetworkStatus()
 {
   NetworkStatus networkStatus = _torControl->getNetworkStatus();
+  if (networkStatus.isEmpty()) {
+    _refreshTimer.setInterval(2000);
+  } else {
+    _refreshTimer.setInterval(60*60*1000);
+  }
 
   bool usingMicrodescriptors = _torControl->useMicrodescriptors();
 
   foreach(RouterStatus rs, networkStatus) {
     if (!rs.isRunning())
       continue;
+    if (not _torControl->isConnected())
+      return;
 
     RouterDescriptor rd = _torControl->getRouterDescriptor(rs.id());
     if(usingMicrodescriptors) {

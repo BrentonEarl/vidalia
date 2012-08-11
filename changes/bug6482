@@ -1,0 +1,4 @@
+  o Do not wait too much to try reloading the router list if the ns/all command
+    returned empty. Fixes bug 6483.
+  o Stop trying to load router information if torControl is not connected
+    anymore. Fixes bug 6482.
