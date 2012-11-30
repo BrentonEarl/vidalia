@@ -1,3 +1,13 @@
+0.2.21 30-Nov-2012
+  o Don't wait so long before attempting to reload the router list if the ns/all
+    command returned empty. Fixes bug 6483.
+  o Stop trying to load router information if torControl is not connected
+    anymore. Fixes bug 6482.
+  o Save ControlPortWriteToFile with a relative path instead of an absolute
+    one. Fixes bug 6568.
+  o Fix RouterDescriptor's bandwidth and uptime values when defined from the
+    consensus. Fixes bug 6601.
+
 0.2.20  10-Jul-2012
   o Append router status information if Tor is using microdescriptors.
   o Display paths with their native separators. Resolves ticket 4337.
