@@ -1,6 +1,7 @@
 # 
 # Translators:
 # axe <axe.rode@ymail.com>, 2011.
+# Den Arefyev <>, 2012.
 #   <liquixis@gmail.com>, 2012.
 # Андрей Костенко <andrey@kostenko.name>, 2011.
 msgid ""
@@ -8,9 +9,9 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-03-28 17:35+0000\n"
-"Last-Translator: liquixis <liquixis@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.net/projects/p/torproject/language/ru/)\n"
+"PO-Revision-Date: 2012-07-17 07:58+0000\n"
+"Last-Translator: Den Arefyev <>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/torproject/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -312,7 +313,7 @@ msgstr "Начинаем HTTPS-запрос мостa ..."
 
 msgctxt "BridgeDownloader"
 msgid "Connecting to %1:%2..."
-msgstr "Соединяемся к %1:%2..."
+msgstr "Соединяемся c %1:%2..."
 
 msgctxt "BridgeDownloader"
 msgid "Sending an HTTPS request for bridges..."
@@ -364,7 +365,7 @@ msgstr "Открыть"
 
 msgctxt "Circuit"
 msgid "Building"
-msgstr "Building"
+msgstr "Создание"
 
 msgctxt "Circuit"
 msgid "Failed"
@@ -974,7 +975,7 @@ msgstr "Румыния"
 
 msgctxt "CountryInfo"
 msgid "Russia"
-msgstr "Русь"
+msgstr "Россия"
 
 msgctxt "CountryInfo"
 msgid "Rwanda"
@@ -1335,7 +1336,7 @@ msgstr "с описанием того, что вы делали перед ав
 
 msgctxt "GeneralPage"
 msgid "Executables (*.exe)"
-msgstr "Исполняемые файлы (*. EXE)"
+msgstr "Исполняемые файлы (*.exe)"
 
 msgctxt "GeneralPage"
 msgid "Select Path to Tor"
@@ -1367,7 +1368,7 @@ msgstr "Tor"
 
 msgctxt "GeneralPage"
 msgid "Proxy Application (optional)"
-msgstr "Прокси (опционально)"
+msgstr "Прокси (необязательно)"
 
 msgctxt "GeneralPage"
 msgid "Start a proxy application when Tor starts"
@@ -1479,7 +1480,7 @@ msgstr "Найти"
 
 msgctxt "HelpBrowser"
 msgid "Search for a word or phrase on current page (Ctrl+F)"
-msgstr "Поиск слово или фразу на текущей странице (Ctrl + F)"
+msgstr "Поиск слово или фразу на текущей странице (Ctrl+F)"
 
 msgctxt "HelpBrowser"
 msgid "Ctrl+F"
@@ -1519,7 +1520,7 @@ msgstr "Только слова целиком"
 
 msgctxt "HelpBrowser"
 msgid "Help Topics"
-msgstr "Справки"
+msgstr "Справка"
 
 msgctxt "HelpBrowser"
 msgid "Contents"
@@ -1708,7 +1709,7 @@ msgstr "Просмотр"
 
 msgctxt "MainWindow"
 msgid "Vidalia Help"
-msgstr "Помощь"
+msgstr "Помощь Vidalia"
 
 msgctxt "MainWindow"
 msgid "Error starting web browser"
@@ -1816,7 +1817,7 @@ msgstr "Tor не работает"
 
 msgctxt "MainWindow"
 msgid "Tor is shutting down"
-msgstr "Tor останавливается"
+msgstr "Tor останавливает свою работу"
 
 msgctxt "MainWindow"
 msgid "Stop Tor Now"
@@ -1874,13 +1875,13 @@ msgstr "Аутентификация Tor"
 
 msgctxt "MainWindow"
 msgid "Cookie Authentication Required"
-msgstr "Требуется проверка подлинности куки"
+msgstr "Требуется проверка подлинности cookie"
 
 msgctxt "MainWindow"
 msgid ""
 "The Tor software requires Vidalia to send the contents of an authentication "
 "cookie, but Vidalia was unable to find one."
-msgstr "Программное обеспечение Tor требует Vidalia отправить содержание аутентификации куки, но Vidalia не смогла найти ни одного."
+msgstr "Программное обеспечение Tor требует Vidalia отправить содержание аутентификации cookie, но Vidalia не смогла ничего найти."
 
 msgctxt "MainWindow"
 msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
@@ -2029,7 +2030,7 @@ msgid ""
 "Vidalia tried to reset Tor's control password, but was not able to restart "
 "the Tor software. Please check your Task Manager to ensure there are no "
 "other Tor processes running."
-msgstr "Vidalia пыталась сбросить пароль управления Tor, но была не в состоянии перезагрузить программное обеспечение Tor. Пожалуйста, проверьте диспетчер задач, чтобы убедиться, что нет больше никаких работающих процессов Tor."
+msgstr "Vidalia пыталась сбросить пароль управления Tor, но была не в состоянии перезагрузить программное обеспечение Tor. Пожалуйста, проверьте диспетчер задач, чтобы убедиться, что больше нет никаких работающих процессов Tor."
 
 msgctxt "MainWindow"
 msgid ""
@@ -2040,7 +2041,7 @@ msgstr "Установленная версия Tor устарела или не
 msgctxt "MainWindow"
 msgid ""
 "Would you like to check if a newer package is available for installation?"
-msgstr "Хотели бы Вы проверить, если новый пакет доступен для установки?"
+msgstr "Хотите проверить новые пакеты, доступные для установки?"
 
 msgctxt "MainWindow"
 msgid "Potentially Unsafe Connection"
@@ -3139,7 +3140,7 @@ msgctxt "ServicePage"
 msgid ""
 "Please configure at least a service directory and a virtual port for each "
 "service you want to save. Remove the other ones."
-msgstr "Пожалуйста, выберите по крайней мере каталог сервисов и виртуальный порт для каждого сервиса, который вы хотите  сохранить. Удалите другие."
+msgstr "Пожалуйста, выберите по крайней мере каталог сервисов и виртуальный порт для каждого сервиса, который вы хотите сохранить. Удалите другие."
 
 msgctxt "ServicePage"
 msgid "Error"
@@ -3813,7 +3814,7 @@ msgid ""
 "Another Vidalia process is possibly already running. If there really is not another Vidalia process running, you can choose to continue anyway.\n"
 "\n"
 "Would you like to continue starting Vidalia?"
-msgstr "Другой процесс Vidalia, возможно, уже запущен. Если действительно нет другого процесса работающего Vidalia, вы можете продолжить в любом случае. Хотели бы вы продолжить запуск Vidalia?"
+msgstr "Другой процесс Vidalia, возможно, уже запущен. Если действительно нет другого процесса работающего Vidalia, Вы можете продолжить. Хотели бы Вы продолжить запуск Vidalia?"
 
 msgctxt "stringutil.h"
 msgid "%1 secs"

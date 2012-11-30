@@ -1,6 +1,7 @@
 # 
 # Translators:
 #  arpalord <arpalord@gmail.com>, 2012.
+# Jonathan Metzman <jon.metzman@gmail.com>, 2012.
 # mehditaileb <mehditaileb@liberte-info.net>, 2011.
 # Pierre Antoine <pierre.antoine@ieee.org>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -9,14 +10,14 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-03-30 12:25+0000\n"
+"PO-Revision-Date: 2012-09-24 09:06+0000\n"
 "Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Vidalia ts2po 0.2\n"
 
 msgctxt "AboutDialog"
@@ -205,7 +206,7 @@ msgid ""
 "You've checked the autoconfiguration option for the ControlPort, but "
 "provided no Data Directory. Please add one, or uncheck the \"Configure "
 "ControlPort automatically\" option."
-msgstr ""
+msgstr "Vous avez selectionné l'option d'autoconfiguration pour le ControlPort, mais sans renseigner le Data Directory. Merci de compléter, ou désélectionner l'option \"Configurer le ControlPort automatiquement\"."
 
 msgctxt "AdvancedPage"
 msgid ""
@@ -237,19 +238,19 @@ msgstr "Vidalia n'a pas pu charger la traduction sélectionnée."
 msgctxt "AppearancePage"
 msgid ""
 "System Icon Preferences (changes will take effect when you restart Vidalia)"
-msgstr ""
+msgstr "Afficher l'icône Préférences (les changements prendront effet au redémarrage de Vidalia)"
 
 msgctxt "AppearancePage"
 msgid "Show the Tray Icon and Dock Icon (default)"
-msgstr ""
+msgstr "Afficher les icônes du Tray et du Dock (défaut)"
 
 msgctxt "AppearancePage"
 msgid "Hide the Tray Icon"
-msgstr ""
+msgstr "Masquer l'icône du Tray"
 
 msgctxt "AppearancePage"
 msgid "Hide the Dock Icon"
-msgstr ""
+msgstr "Masquer l'icône du Dock"
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
@@ -2120,14 +2121,14 @@ msgid ""
 "\n"
 "Here's the last error message:\n"
 "%2"
-msgstr ""
+msgstr "Vidalia n'arrive pas à communiquer avec Tor car il ne peut accéder à ce fichier: %1\n\nVoici le dernier message d'erreur:\n%2"
 
 msgctxt "MainWindow"
 msgid ""
 "It seems Tor has stopped running since Vidalia started it.\n"
 "\n"
 "See the Advanced Message Log for more information."
-msgstr ""
+msgstr "Tor semble être arrêté depuis le lancement de Vidalia.\n\nVeuillez consulter le journal des messages avancé pour plus d'informations."
 
 msgctxt "MainWindow"
 msgid ""
@@ -3120,7 +3121,7 @@ msgstr "Trafic du relai pour le réseau Tor (point de sortie)"
 
 msgctxt "ServerPage"
 msgid "Relay traffic inside the Tor network (non-exit relay)"
-msgstr ""
+msgstr "Relay traffic inside the Tor network (non-exit relay)"
 
 msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"
@@ -3275,7 +3276,7 @@ msgctxt "StatusEventWidget"
 msgid ""
 "The Tor software encountered an internal bug. Please report the following "
 "error message to the Tor developers at bugs.torproject.org: \"%1\""
-msgstr "Le programme Tor a rencontré une erreur interne. Merci de transmettre le message d'erruer suivant aux développeurs de Tor à bugs.torproject.org: \"%1\"\n"
+msgstr "Le programme Tor a rencontré une erreur interne. Merci de transmettre le message d'erreur suivant aux développeurs de Tor à bugs.torproject.org: \"%1\""
 
 msgctxt "StatusEventWidget"
 msgid ""

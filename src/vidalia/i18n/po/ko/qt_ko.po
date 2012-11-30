@@ -1,13 +1,14 @@
 # Translators:
 # Translators:
 #   <cwt967@naver.com>, 2011.
+# tor.korean.translate  <>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2012-02-14 09:47+0000\n"
-"Last-Translator: cwt96 <cwt967@naver.com>\n"
+"PO-Revision-Date: 2012-06-05 09:50+0000\n"
+"Last-Translator: tor.korean.translate <>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,7 +75,7 @@ msgstr "적용"
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr "리셋"
+msgstr "설정 초기화"
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
@@ -84,7 +85,7 @@ msgstr "도움말"
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr "저장하지 마시오"
+msgstr "저장하지 마십시오"
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
@@ -104,12 +105,12 @@ msgstr "모두 예(&A)"
 #: qdialogbuttonbox.cpp:563
 msgctxt "QDialogButtonBox"
 msgid "&No"
-msgstr "아니오(&N)"
+msgstr "아니요(&N)"
 
 #: qdialogbuttonbox.cpp:566
 msgctxt "QDialogButtonBox"
 msgid "N&o to All"
-msgstr "모두 아니오(&O)"
+msgstr "모두 아니요(&O)"
 
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"

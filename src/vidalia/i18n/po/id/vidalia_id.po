@@ -3,14 +3,15 @@
 # daweng  <thedaweng@yahoo.com>, 2011.
 #   <deni.komputer@gmail.com>, 2012.
 # runasand <runa.sandvik@gmail.com>, 2011.
+#   <SecretCommission@tormail.org>, 2012.
 #   <thedaweng@yahoo.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-03-23 07:03+0000\n"
-"Last-Translator: lukman <deni.komputer@gmail.com>\n"
+"PO-Revision-Date: 2012-08-21 05:45+0000\n"
+"Last-Translator: SecretCommision <SecretCommission@tormail.org>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -205,7 +206,7 @@ msgid ""
 "You've checked the autoconfiguration option for the ControlPort, but "
 "provided no Data Directory. Please add one, or uncheck the \"Configure "
 "ControlPort automatically\" option."
-msgstr ""
+msgstr "Anda telah mencentang pilihan konfigurasi otomatis untuk ControlPort, tapi tidak menyediakan direktori data. Harap tambahkan satu, atau lepaskan centang pada pilihan \"Configure ControlPort automatically\"."
 
 msgctxt "AdvancedPage"
 msgid ""
@@ -237,19 +238,19 @@ msgstr "Vidalia tidak bisa memuat bahasa yang dipilih."
 msgctxt "AppearancePage"
 msgid ""
 "System Icon Preferences (changes will take effect when you restart Vidalia)"
-msgstr ""
+msgstr "Preferensi ikon sistem (perubahan akan terlihat saat anda me-restart Vidalia)"
 
 msgctxt "AppearancePage"
 msgid "Show the Tray Icon and Dock Icon (default)"
-msgstr ""
+msgstr "Tunjukan ikon Tray dan Dock (lalai)"
 
 msgctxt "AppearancePage"
 msgid "Hide the Tray Icon"
-msgstr ""
+msgstr "Sembunyikan ikon Tray"
 
 msgctxt "AppearancePage"
 msgid "Hide the Dock Icon"
-msgstr ""
+msgstr "Sembunyikan ikon Dock"
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
@@ -2120,14 +2121,14 @@ msgid ""
 "\n"
 "Here's the last error message:\n"
 "%2"
-msgstr ""
+msgstr "Vidalia tidak dapat menemukan cara untuk merkomunikasi dengan Tor karena tidak mendapatkan akses atau file ini: %1\n\nIni adalah pesan error terakhir\n%2"
 
 msgctxt "MainWindow"
 msgid ""
 "It seems Tor has stopped running since Vidalia started it.\n"
 "\n"
 "See the Advanced Message Log for more information."
-msgstr ""
+msgstr "Tampaknya Tor telah berhenti beroperasi semenjak Vidalia memulainya.\n\nLihat log pesan lanjutan untuk informasi lebih lanjut."
 
 msgctxt "MainWindow"
 msgid ""
@@ -2692,7 +2693,7 @@ msgstr "HTTP / HTTPS"
 
 msgctxt "NetworkPage"
 msgid "You must specify one or more bridges."
-msgstr ""
+msgstr "Anda harus menspesifikan satu bridge atau lebih."
 
 msgctxt "Policy"
 msgid "accept"
@@ -3116,11 +3117,11 @@ msgstr "Secara otomatis mendistribusikan alamat penghubung saya"
 
 msgctxt "ServerPage"
 msgid "Relay traffic for the Tor network (exit relay)"
-msgstr ""
+msgstr "Relay traffic untuk jaringan Tor (relay keluar)"
 
 msgctxt "ServerPage"
 msgid "Relay traffic inside the Tor network (non-exit relay)"
-msgstr ""
+msgstr "Relay traffic dalam jaringan Tor (non-exit relay)"
 
 msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"

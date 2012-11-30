@@ -1,4 +1,4 @@
-# 
+# Translators:
 # Translators:
 #   <miguelmacedo@netcabo.pt>, 2011.
 # runasand <runa.sandvik@gmail.com>, 2011.
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-03-22 08:51+0000\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2012-02-16 14:22+0000\n"
 "Last-Translator: Zeca Gatilho <paulo.mosh@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -201,13 +201,6 @@ msgstr "Configurar automaticamente o ControlPort"
 
 msgctxt "AdvancedPage"
 msgid ""
-"You've checked the autoconfiguration option for the ControlPort, but "
-"provided no Data Directory. Please add one, or uncheck the \"Configure "
-"ControlPort automatically\" option."
-msgstr ""
-
-msgctxt "AdvancedPage"
-msgid ""
 "Vidalia was unable to remove the Tor service.\n"
 "\n"
 "You may need to remove it manually."
@@ -232,23 +225,6 @@ msgstr "Escolha o estilo de interface do Vidalia"
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
 msgstr "O Vidalia não pôde carregar a tradução no idioma seleccionado."
-
-msgctxt "AppearancePage"
-msgid ""
-"System Icon Preferences (changes will take effect when you restart Vidalia)"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Show the Tray Icon and Dock Icon (default)"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Hide the Tray Icon"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Hide the Dock Icon"
-msgstr ""
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
@@ -1775,6 +1751,10 @@ msgid "Connected to the Tor network!"
 msgstr "Conectado à rede Tor"
 
 msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "Estado de inicialização não reconhecido"
+
+msgctxt "MainWindow"
 msgid "miscellaneous"
 msgstr "diversos"
 
@@ -2086,24 +2066,6 @@ msgid ""
 msgstr "Qualquer coisa enviada por esta ligação pode estar a ser monitorizada. Por favor verifique a configuração da sua aplicação e use apenas protocolos encriptados como o SSL, se possível."
 
 msgctxt "MainWindow"
-msgid "Bootstrapping torrc from %1 to %2"
-msgstr "Iniciando torrc de %1 para %2"
-
-msgctxt "MainWindow"
-msgid "(probably Telnet)"
-msgstr "(provavelmente Telnet)"
-
-msgctxt "MainWindow"
-msgid "(probably an email client)"
-msgstr "(provavelmente um cliente de email)"
-
-msgctxt "MainWindow"
-msgid ""
-"One of your applications %1 appears to be making a potentially unencrypted "
-"and unsafe connection to port %2."
-msgstr "Uma das suas aplicações %1 parece estar a fazer uma potencial conexão desincriptada e insegura ao porto %2"
-
-msgctxt "MainWindow"
 msgid "failed (%1)"
 msgstr "Falhou (%1)"
 
@@ -2114,19 +2076,8 @@ msgid ""
 msgstr "O seu retransmissor está a encerrar.\nClique 'Stop' novamente para parar o seu retransmissor agora."
 
 msgctxt "MainWindow"
-msgid ""
-"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
-"\n"
-"Here's the last error message:\n"
-"%2"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ""
-"It seems Tor has stopped running since Vidalia started it.\n"
-"\n"
-"See the Advanced Message Log for more information."
-msgstr ""
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Iniciando torrc de %1 para %2"
 
 msgctxt "MainWindow"
 msgid ""
@@ -2141,6 +2092,20 @@ msgid ""
 "\n"
 "Please check the message log for recent warning or error messages."
 msgstr "Vidalia detectou que o software Tor encerrou inesperadamente.\n\nPor favor, verifique no seu registo de mensagens se há mensagens de aviso ou de erro."
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(provavelmente Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(provavelmente um cliente de email)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Uma das suas aplicações %1 parece estar a fazer uma potencial conexão desincriptada e insegura ao porto %2"
 
 msgctxt "MessageLog"
 msgid "Error Setting Filter"
@@ -2554,6 +2519,14 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 msgctxt "NetworkPage"
+msgid "Invalid Bridge"
+msgstr "Ponte inválida"
+
+msgctxt "NetworkPage"
+msgid "The specified bridge identifier is not valid."
+msgstr "A ponte especificada não é válida."
+
+msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr "Copiar (Ctrl+C)"
 
@@ -2686,12 +2659,12 @@ msgid "SOCKS 5"
 msgstr "SOCKS 5"
 
 msgctxt "NetworkPage"
-msgid "HTTP / HTTPS"
-msgstr "HTTP / HTTPS"
+msgid "HTTP"
+msgstr "HTTP"
 
 msgctxt "NetworkPage"
-msgid "You must specify one or more bridges."
-msgstr ""
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
 
 msgctxt "Policy"
 msgid "accept"
@@ -2868,6 +2841,10 @@ msgstr "Deve especificar pelo menos uma alcunha de retransmissor e porta."
 msgctxt "ServerPage"
 msgid "Run as a client only"
 msgstr "Executar apenas como cliente"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network"
+msgstr "Retransmitir o tráfego para a rede Tor"
 
 msgctxt "ServerPage"
 msgid "Relay Port:"
@@ -3112,14 +3089,6 @@ msgstr "<a href=\"#bridgeHelp\">O que é isto?</a>"
 msgctxt "ServerPage"
 msgid "Automatically distribute my bridge address"
 msgstr "Distribuir automaticamente o endereço da minha ponte"
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network (exit relay)"
-msgstr ""
-
-msgctxt "ServerPage"
-msgid "Relay traffic inside the Tor network (non-exit relay)"
-msgstr ""
 
 msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"

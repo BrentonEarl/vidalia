@@ -1,12 +1,12 @@
-# 
+# Translators:
 # Translators:
 # runasand <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-03-22 08:51+0000\n"
+"POT-Creation-Date: 2011-09-07 14:40+0000\n"
+"PO-Revision-Date: 2012-02-14 09:46+0000\n"
 "Last-Translator: smejicisebestie <smejicisebestie@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
@@ -199,13 +199,6 @@ msgstr "Nastavit ControlPort automaticky"
 
 msgctxt "AdvancedPage"
 msgid ""
-"You've checked the autoconfiguration option for the ControlPort, but "
-"provided no Data Directory. Please add one, or uncheck the \"Configure "
-"ControlPort automatically\" option."
-msgstr ""
-
-msgctxt "AdvancedPage"
-msgid ""
 "Vidalia was unable to remove the Tor service.\n"
 "\n"
 "You may need to remove it manually."
@@ -230,23 +223,6 @@ msgstr "Vyber styl rozhrání Vidalia"
 msgctxt "AppearancePage"
 msgid "Vidalia was unable to load the selected language translation."
 msgstr "Vidalia nebyl schopen načíst vybraný překlad."
-
-msgctxt "AppearancePage"
-msgid ""
-"System Icon Preferences (changes will take effect when you restart Vidalia)"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Show the Tray Icon and Dock Icon (default)"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Hide the Tray Icon"
-msgstr ""
-
-msgctxt "AppearancePage"
-msgid "Hide the Dock Icon"
-msgstr ""
 
 msgctxt "BandwidthGraph"
 msgid "Since:"
@@ -1773,6 +1749,10 @@ msgid "Connected to the Tor network!"
 msgstr "Připojeno do sítě Tor!"
 
 msgctxt "MainWindow"
+msgid "Unrecognized startup status"
+msgstr "Nerozpoznaný stav spuštění"
+
+msgctxt "MainWindow"
 msgid "miscellaneous"
 msgstr "různý"
 
@@ -2084,24 +2064,6 @@ msgid ""
 msgstr "Veškerá komunikace přes toto připojení může být monitorováno. Zkontrolujte nastavení aplikace a pokud možno používejte výhradně šifrovaný protokol jako je SSL"
 
 msgctxt "MainWindow"
-msgid "Bootstrapping torrc from %1 to %2"
-msgstr "Konfigurace připojení v torrc pomocí BOOTP od %1 do %2"
-
-msgctxt "MainWindow"
-msgid "(probably Telnet)"
-msgstr "(pravděpodobně Telnet)"
-
-msgctxt "MainWindow"
-msgid "(probably an email client)"
-msgstr "(pravděpodobně emailový klient)"
-
-msgctxt "MainWindow"
-msgid ""
-"One of your applications %1 appears to be making a potentially unencrypted "
-"and unsafe connection to port %2."
-msgstr "Zdá se že jedna z Vašich aplikací %1 komunikuje nešifrovaně a nebezpečně na portu %2."
-
-msgctxt "MainWindow"
 msgid "failed (%1)"
 msgstr "Selhání (%1)"
 
@@ -2112,19 +2074,8 @@ msgid ""
 msgstr "Váš uzel se vypíná.\nKlikněte na 'Stop' znovu pro okamžité odpojení."
 
 msgctxt "MainWindow"
-msgid ""
-"Vidalia can't find out how to talk to Tor because it can't access this file: %1\n"
-"\n"
-"Here's the last error message:\n"
-"%2"
-msgstr ""
-
-msgctxt "MainWindow"
-msgid ""
-"It seems Tor has stopped running since Vidalia started it.\n"
-"\n"
-"See the Advanced Message Log for more information."
-msgstr ""
+msgid "Bootstrapping torrc from %1 to %2"
+msgstr "Konfigurace připojení v torrc pomocí BOOTP od %1 do %2"
 
 msgctxt "MainWindow"
 msgid ""
@@ -2139,6 +2090,20 @@ msgid ""
 "\n"
 "Please check the message log for recent warning or error messages."
 msgstr "Vidalia zaznamenala neočekávané ukončení Tor software.\n\nZkontrolujte poslední varovné a chybové zprávy v logu."
+
+msgctxt "MainWindow"
+msgid "(probably Telnet)"
+msgstr "(pravděpodobně Telnet)"
+
+msgctxt "MainWindow"
+msgid "(probably an email client)"
+msgstr "(pravděpodobně emailový klient)"
+
+msgctxt "MainWindow"
+msgid ""
+"One of your applications %1 appears to be making a potentially unencrypted "
+"and unsafe connection to port %2."
+msgstr "Zdá se že jedna z Vašich aplikací %1 komunikuje nešifrovaně a nebezpečně na portu %2."
 
 msgctxt "MessageLog"
 msgid "Error Setting Filter"
@@ -2552,6 +2517,14 @@ msgid "Ctrl+F"
 msgstr "Ctrl+F"
 
 msgctxt "NetworkPage"
+msgid "Invalid Bridge"
+msgstr "Neplatný most"
+
+msgctxt "NetworkPage"
+msgid "The specified bridge identifier is not valid."
+msgstr "Uvedený identifikátor mostu je neplatný"
+
+msgctxt "NetworkPage"
 msgid "Copy (Ctrl+C)"
 msgstr "Kopírovat (Ctrl+C)"
 
@@ -2684,12 +2657,12 @@ msgid "SOCKS 5"
 msgstr "SOCKS 5"
 
 msgctxt "NetworkPage"
-msgid "HTTP / HTTPS"
-msgstr "HTTP / HTTPS"
+msgid "HTTP"
+msgstr "HTTP"
 
 msgctxt "NetworkPage"
-msgid "You must specify one or more bridges."
-msgstr ""
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
 
 msgctxt "Policy"
 msgid "accept"
@@ -2866,6 +2839,10 @@ msgstr "Musíte uvézt alespoň jméno uzlu a port"
 msgctxt "ServerPage"
 msgid "Run as a client only"
 msgstr "Pracovat pouze jako klient"
+
+msgctxt "ServerPage"
+msgid "Relay traffic for the Tor network"
+msgstr "Prenos dat pro sit Tor"
 
 msgctxt "ServerPage"
 msgid "Relay Port:"
@@ -3110,14 +3087,6 @@ msgstr "<a href=\"#bridgeHelp\">Co to je?</a>"
 msgctxt "ServerPage"
 msgid "Automatically distribute my bridge address"
 msgstr "Automatická distribuce adresy mého mostu"
-
-msgctxt "ServerPage"
-msgid "Relay traffic for the Tor network (exit relay)"
-msgstr ""
-
-msgctxt "ServerPage"
-msgid "Relay traffic inside the Tor network (non-exit relay)"
-msgstr ""
 
 msgctxt "ServerPage"
 msgid "Mirror the Relay Directory"

@@ -1,6 +1,7 @@
 # 
 # Translators:
 #   <fragos.george@hotmail.com>, 2012.
+#   <kotakota@gmail.com>, 2012.
 # runasand <runa.sandvik@gmail.com>, 2011.
 #   <smartmediagr@gmail.com>, 2011.
 # Γιάννης  <yannanth@gmail.com>, 2011.
@@ -9,14 +10,14 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-03-21 17:52+0000\n"
-"PO-Revision-Date: 2012-04-22 10:08+0000\n"
-"Last-Translator: anvo <fragos.george@hotmail.com>\n"
+"PO-Revision-Date: 2012-10-21 10:42+0000\n"
+"Last-Translator: kotkotkot <kotakota@gmail.com>\n"
 "Language-Team: translations@vidalia-project.net\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Vidalia ts2po 0.2\n"
 
 msgctxt "AboutDialog"
@@ -297,7 +298,7 @@ msgstr "100"
 
 msgctxt "BandwidthGraph"
 msgid "% Opaque"
-msgstr "% Αδιαφανώτητα"
+msgstr "% Αδιαφάνεια"
 
 msgctxt "BandwidthGraph"
 msgid "Save"
@@ -341,7 +342,7 @@ msgstr "Χώρα"
 
 msgctxt "BridgeUsageDialog"
 msgid "# Clients"
-msgstr "# Πελάτες"
+msgstr "# Πελατών"
 
 msgctxt "BridgeUsageDialog"
 msgid "Clients from the following countries have used your relay since %1"
@@ -353,7 +354,7 @@ msgstr "Σύνοψη Χρήσης της Γέφυρας"
 
 msgctxt "BridgeUsageDialog"
 msgid "Client Summary"
-msgstr "Σύνοψη Πελάτου"
+msgstr "Σύνοψη Πελάτη"
 
 msgctxt "Circuit"
 msgid "New"
@@ -1793,7 +1794,7 @@ msgstr "απόρριψη σύνδεσης"
 
 msgctxt "MainWindow"
 msgid "connection timeout"
-msgstr "έληξε ο χρόνος αναμονής για την σύνδεση"
+msgstr "λήξη χρονικού ορίου σύνδεσης"
 
 msgctxt "MainWindow"
 msgid "read/write error"
@@ -1871,7 +1872,7 @@ msgstr "Απρόσμενο Σφάλμα"
 
 msgctxt "MainWindow"
 msgid "Authenticating to Tor"
-msgstr "Γίνεται εξακρίβωση στο Tor"
+msgstr "Γίνεται αυθεντικοποίηση με το Tor"
 
 msgctxt "MainWindow"
 msgid "Cookie Authentication Required"
@@ -1885,7 +1886,7 @@ msgstr "Το λογισμικό Tor απαιτεί από το Vidalia να στ
 
 msgctxt "MainWindow"
 msgid "Would you like to browse for the file 'control_auth_cookie' yourself?"
-msgstr "Θέλετε να αναζητήσετε ο ίδιος/η ίδια το αρχείο «control_auth_cookie»;"
+msgstr "Θέλετε να αναζητήσετε το αρχείο 'control_auth_cookie'' εσείς;"
 
 msgctxt "MainWindow"
 msgid "Data Directory"
@@ -2007,7 +2008,7 @@ msgstr "Εμφάνιση της έκδοσης και αδειοδοτικών �
 
 msgctxt "MainWindow"
 msgid "Exit Vidalia"
-msgstr "Έξοδος του Vidalia"
+msgstr "Έξοδος από το Vidalia"
 
 msgctxt "MainWindow"
 msgid "Show this window on startup"
@@ -2134,7 +2135,7 @@ msgid ""
 "You are currently running a relay. Terminating your relay will interrupt any open connections from clients.\n"
 "\n"
 "Would you like to shutdown gracefully and give clients time to find a new relay?"
-msgstr "Αυτή τη στιγμή εκτελείτε έναν αναμεταδότη. Ο τερματισμός του αναμεταδότη σας θα διακόψει κάθε ανοικτή επικοινωνία από άλλα προγράμματα.\nΘέλετε η διακοπή να γίνει ομαλά ώστε να δοθεί χρόνος στα προγράμματα-πελάτες για να βρουν νέο αναμεταδότη;"
+msgstr "Αυτή τη στιγμή εκτελείτε έναν αναμεταδότη. Ο τερματισμός του αναμεταδότη σας θα διακόψει κάθε ανοικτή επικοινωνία από άλλους πελάτες.\nΘέλετε η διακοπή να γίνει ομαλά ώστε να δοθεί χρόνος στους πελάτες να βρουν νέο αναμεταδότη;"
 
 msgctxt "MainWindow"
 msgid ""
@@ -2145,7 +2146,7 @@ msgstr "Το Vidalia διαπίστωσε ότι το Tor τερμάτισε α�
 
 msgctxt "MessageLog"
 msgid "Error Setting Filter"
-msgstr "Φίλτρο Ρύθμισης Λαθών"
+msgstr "Αποτυχία Ρύθμισης Φίλτρου"
 
 msgctxt "MessageLog"
 msgid "Vidalia was unable to register for Tor's log events."
@@ -2441,7 +2442,7 @@ msgctxt "MessageLog"
 msgid ""
 "Hyper-verbose messages primarily of \n"
 "interest to Tor developers."
-msgstr "Υπερφλύαρα μηνύματα που κυρίως\nαφορούν στους προγραμματιστές του Tor."
+msgstr "Υπερφλύαρα μηνύματα που κυρίως\nαφορούν τους προγραμματιστές του Tor."
 
 msgctxt "MessageLog"
 msgid ""

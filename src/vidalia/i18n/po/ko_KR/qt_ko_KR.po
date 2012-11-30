@@ -1,35 +1,36 @@
 # Translators:
 # Translators:
-# Gediminas Golcevas <>, 2012.
+#   <SpicaRS@live.com>, 2011.
+# tor.korean.translate  <>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2008-08-20 03:25+0000\n"
-"PO-Revision-Date: 2012-07-25 13:31+0000\n"
-"Last-Translator: Gediminas Golcevas <>\n"
+"PO-Revision-Date: 2012-06-05 09:47+0000\n"
+"Last-Translator: tor.korean.translate <>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "X-Generator: Vidalia ts2po 0.2\n"
 
 #: qaccessibleobject.cpp:348
 msgctxt "QApplication"
 msgid "Activate"
-msgstr "Aktyvuoti"
+msgstr "가동"
 
 #: qmessagebox.h:319
 msgctxt "QApplication"
 msgid "Executable '%1' requires Qt %2, found Qt %3."
-msgstr "Programai '%1' reikia Qt %2, rasta Qt %3."
+msgstr "실행 파일 '%1'이 Qt %2를 요구했지만 %3이 발견되었습니다"
 
 #: qmessagebox.h:321
 msgctxt "QApplication"
 msgid "Incompatible Qt Library Error"
-msgstr "Nesuderinamos Qt bibliotekos klaida"
+msgstr "Qt 라이브러리가 호환되지 않는 오류"
 
 #: qapplication.cpp:2095
 msgctxt "QApplication"
@@ -39,169 +40,169 @@ msgstr "QT_LAYOUT_DIRECTION"
 #: qaccessibleobject.cpp:350
 msgctxt "QApplication"
 msgid "Activates the program's main window"
-msgstr "Aktyvuoja pagrindinį programos langą"
+msgstr "프로그램의 메인 창을 띄우기"
 
 #: qmessagebox.cpp:2104
 msgctxt "QDialogButtonBox"
 msgid "OK"
-msgstr "Gerai"
+msgstr "확인"
 
 #: qdialogbuttonbox.cpp:528
 msgctxt "QDialogButtonBox"
 msgid "Save"
-msgstr "Įrašyti"
+msgstr "저장"
 
 #: qdialogbuttonbox.cpp:531
 msgctxt "QDialogButtonBox"
 msgid "Open"
-msgstr "Atverti"
+msgstr "열기"
 
 #: qdialogbuttonbox.cpp:534
 msgctxt "QDialogButtonBox"
 msgid "Cancel"
-msgstr "Atsisakyti"
+msgstr "취소"
 
 #: qdialogbuttonbox.cpp:537
 msgctxt "QDialogButtonBox"
 msgid "Close"
-msgstr "Uždaryti"
+msgstr "닫기"
 
 #: qdialogbuttonbox.cpp:540
 msgctxt "QDialogButtonBox"
 msgid "Apply"
-msgstr "Taikyti"
+msgstr "적용"
 
 #: qdialogbuttonbox.cpp:543
 msgctxt "QDialogButtonBox"
 msgid "Reset"
-msgstr "Atstatyti"
+msgstr "되돌리기"
 
 #: qdialogbuttonbox.cpp:546
 msgctxt "QDialogButtonBox"
 msgid "Help"
-msgstr "Pagalba"
+msgstr "도움말"
 
 #: qdialogbuttonbox.cpp:550
 msgctxt "QDialogButtonBox"
 msgid "Don't Save"
-msgstr "Neįrašyti"
+msgstr "저장 안 함"
 
 #: qdialogbuttonbox.cpp:554
 msgctxt "QDialogButtonBox"
 msgid "Discard"
-msgstr "Atmesti pakeitimus"
+msgstr "버리기"
 
 #: qdialogbuttonbox.cpp:557
 msgctxt "QDialogButtonBox"
 msgid "&Yes"
-msgstr "&Taip"
+msgstr "예 (&Y)"
 
 #: qdialogbuttonbox.cpp:560
 msgctxt "QDialogButtonBox"
 msgid "Yes to &All"
-msgstr "&Visada taip"
+msgstr "모두 예 (&A)"
 
 #: qdialogbuttonbox.cpp:563
 msgctxt "QDialogButtonBox"
 msgid "&No"
-msgstr "&Ne"
+msgstr "아니오 (&N)"
 
 #: qdialogbuttonbox.cpp:566
 msgctxt "QDialogButtonBox"
 msgid "N&o to All"
-msgstr "Visada n&e"
+msgstr "모두 아니오 (&O)"
 
 #: qdialogbuttonbox.cpp:569
 msgctxt "QDialogButtonBox"
 msgid "Save All"
-msgstr "Įrašyti viską"
+msgstr "모두 저장"
 
 #: qdialogbuttonbox.cpp:572
 msgctxt "QDialogButtonBox"
 msgid "Abort"
-msgstr "Nutraukti"
+msgstr "건너뛰기"
 
 #: qdialogbuttonbox.cpp:575
 msgctxt "QDialogButtonBox"
 msgid "Retry"
-msgstr "Pakartoti"
+msgstr "다시 시도"
 
 #: qdialogbuttonbox.cpp:578
 msgctxt "QDialogButtonBox"
 msgid "Ignore"
-msgstr "Ignoruoti"
+msgstr "무시"
 
 #: qdialogbuttonbox.cpp:581
 msgctxt "QDialogButtonBox"
 msgid "Restore Defaults"
-msgstr "Atstatyti numatytuosius"
+msgstr "기본값으로 돌림"
 
 #: qdialogbuttonbox.cpp:552
 msgctxt "QDialogButtonBox"
 msgid "Close without Saving"
-msgstr "Užverti neįrašant"
+msgstr "저장 안 하고 끄기"
 
 #: qdialogbuttonbox.cpp:525
 msgctxt "QDialogButtonBox"
 msgid "&OK"
-msgstr "&Gerai"
+msgstr "확인 (&O)"
 
 #: qdirmodel.cpp:423
 msgctxt "QDirModel"
 msgid "Name"
-msgstr "Pavadinimas"
+msgstr "이름"
 
 #: qdirmodel.cpp:424
 msgctxt "QDirModel"
 msgid "Size"
-msgstr "Dydis"
+msgstr "크기"
 
 #: qdirmodel.cpp:427
 msgctxt "QDirModel"
 msgid "Kind"
-msgstr "Rūšis"
+msgstr "종류"
 
 #: qdirmodel.cpp:429
 msgctxt "QDirModel"
 msgid "Type"
-msgstr "Tipas"
+msgstr "유형"
 
 #: qdirmodel.cpp:435
 msgctxt "QDirModel"
 msgid "Date Modified"
-msgstr "Pakeitimo data"
+msgstr "수정된 날짜"
 
 #: qfiledialog_win.cpp:126
 msgctxt "QFileDialog"
 msgid "All Files (*)"
-msgstr "Visi failai (*.*)"
+msgstr "모든 파일 (*)"
 
 #: qfiledialog.cpp:881
 msgctxt "QFileDialog"
 msgid "Directories"
-msgstr "Katalogai"
+msgstr "경로"
 
 #: qfiledialog.cpp:2408
 msgctxt "QFileDialog"
 msgid "&Open"
-msgstr "&Atverti"
+msgstr "열기 (&O)"
 
 #: qfiledialog.cpp:919
 msgctxt "QFileDialog"
 msgid "&Save"
-msgstr "&Įrašyti"
+msgstr "저장 (&S)"
 
 #: qfiledialog.cpp:435
 msgctxt "QFileDialog"
 msgid "Open"
-msgstr "Atverti"
+msgstr "열기"
 
 #: qfiledialog.cpp:1670
 msgctxt "QFileDialog"
 msgid ""
 "%1 already exists.\n"
 "Do you want to replace it?"
-msgstr "%1 jau egzistuoja.\nAr norite perrašyti?"
+msgstr "%1은 이미 있습니다.\n덮어씌우시겠어요?"
 
 #: qfiledialog.cpp:1690
 msgctxt "QFileDialog"
@@ -209,57 +210,57 @@ msgid ""
 "%1\n"
 "File not found.\n"
 "Please verify the correct file name was given."
-msgstr "Nepavyko rasti\n%1\nPrašome patikrinti ar įvedėte teisingą pavadinimą"
+msgstr "%1\n파일을 찾지 못했어요.\n써주신 파일 이름이 정확한지 확인해주세요."
 
 #: qdirmodel.cpp:833
 msgctxt "QFileDialog"
 msgid "My Computer"
-msgstr "Mano kompiuteris"
+msgstr "내 컴퓨터"
 
 #: qfiledialog.cpp:462
 msgctxt "QFileDialog"
 msgid "&Rename"
-msgstr "&Pervardinti"
+msgstr "이름 바꾸기 (&R)"
 
 #: qfiledialog.cpp:463
 msgctxt "QFileDialog"
 msgid "&Delete"
-msgstr "&Pašalinti"
+msgstr "지우기 (&D)"
 
 #: qfiledialog.cpp:464
 msgctxt "QFileDialog"
 msgid "Show &hidden files"
-msgstr "Rodyti &paslėptus failus"
+msgstr "숨긴 파일 보이기 (%H)"
 
 #: ui_qfiledialog.h:264
 msgctxt "QFileDialog"
 msgid "Back"
-msgstr "Atgal"
+msgstr "뒤로"
 
 #: ui_qfiledialog.h:274
 msgctxt "QFileDialog"
 msgid "Parent Directory"
-msgstr "Pagrindinis katalogas"
+msgstr "상위 경로"
 
 #: ui_qfiledialog.h:284
 msgctxt "QFileDialog"
 msgid "List View"
-msgstr "Sąrašo rodinys"
+msgstr "목록으로 보기"
 
 #: ui_qfiledialog.h:289
 msgctxt "QFileDialog"
 msgid "Detail View"
-msgstr "Detalus rodinys"
+msgstr "자세히 보기"
 
 #: ui_qfiledialog.h:292
 msgctxt "QFileDialog"
 msgid "Files of type:"
-msgstr "Failų tipas:"
+msgstr "파일 유형:"
 
 #: qfiledialog.cpp:883
 msgctxt "QFileDialog"
 msgid "Directory:"
-msgstr "Katalogas"
+msgstr "경로:"
 
 #: qfiledialog.cpp:2476
 msgctxt "QFileDialog"
@@ -267,146 +268,146 @@ msgid ""
 "%1\n"
 "Directory not found.\n"
 "Please verify the correct directory name was given."
-msgstr "Nerastas katalogas\n%1\nPrašome patikrinti ar teisingai įvedėte pavadinimą."
+msgstr "%1\n경로를 찾지 못했어요.\n써주신 경로 이름이 정확한지 확인해주세요."
 
 #: qfiledialog.cpp:2281
 msgctxt "QFileDialog"
 msgid ""
 "'%1' is write protected.\n"
 "Do you want to delete it anyway?"
-msgstr "%1 apsaugotas nuo pakeitimų.\nAr tikrai norite jį pašalinti?"
+msgstr "'%1'은 쓰기 작업에 대해 보호되어 있어요.\n그래도 그냥 지우시겠어요?"
 
 #: qfiledialog.cpp:2286
 msgctxt "QFileDialog"
 msgid "Are sure you want to delete '%1'?"
-msgstr "Ar tikrai norite pašalinti '%1'?"
+msgstr "정말 '%1'을 지우시겠어요?"
 
 #: qfiledialog.cpp:2299
 msgctxt "QFileDialog"
 msgid "Could not delete directory."
-msgstr "Nepavyko pašalinti katalogo."
+msgstr "경로를 지울 수 없었어요."
 
 #: qfiledialog_win.cpp:128
 msgctxt "QFileDialog"
 msgid "All Files (*.*)"
-msgstr "Visi failai (*.*)"
+msgstr "모든 파일 (*.*)"
 
 #: qfiledialog.cpp:437
 msgctxt "QFileDialog"
 msgid "Save As"
-msgstr "Irašyti kaip"
+msgstr "다른 이름으로 저장"
 
 #: qfileiconprovider.cpp:379
 msgctxt "QFileDialog"
 msgid "Drive"
-msgstr "Diskas"
+msgstr "드라이브"
 
 #: qfileiconprovider.cpp:383
 msgctxt "QFileDialog"
 msgid "File"
-msgstr "Failas"
+msgstr "파일"
 
 #: qfileiconprovider.cpp:412
 msgctxt "QFileDialog"
 msgid "Unknown"
-msgstr "Nežinomas"
+msgstr "알 수 없음"
 
 #: qfiledialog.cpp:439
 msgctxt "QFileDialog"
 msgid "Find Directory"
-msgstr "Rasti katalogą"
+msgstr "경로 찾기"
 
 #: qfiledialog.cpp:458
 msgctxt "QFileDialog"
 msgid "Show "
-msgstr "Rodyti"
+msgstr "보이기 "
 
 #: ui_qfiledialog.h:269
 msgctxt "QFileDialog"
 msgid "Forward"
-msgstr "Pirmyn"
+msgstr "앞으로"
 
 #: qfiledialog.cpp:2137
 msgctxt "QFileDialog"
 msgid "New Folder"
-msgstr "Naujas katalogas"
+msgstr "새 폴더"
 
 #: qfiledialog.cpp:465
 msgctxt "QFileDialog"
 msgid "&New Folder"
-msgstr "&Naujas katalogas"
+msgstr "새 폴더 (&N)"
 
 #: qfiledialog.cpp:917
 msgctxt "QFileDialog"
 msgid "&Choose"
-msgstr "&Pasirinkti"
+msgstr "고르기 (&C)"
 
 #: qsidebar.cpp:388
 msgctxt "QFileDialog"
 msgid "Remove"
-msgstr "Pašalinti"
+msgstr "삭제"
 
 #: qfiledialog.cpp:886
 msgctxt "QFileDialog"
 msgid "File &name:"
-msgstr "Failo &pavadinimas"
+msgstr "파일 이름 (&N):"
 
 #: ui_qfiledialog.h:261
 msgctxt "QFileDialog"
 msgid "Look in:"
-msgstr "Ieškoti"
+msgstr "찾을 위치:"
 
 #: ui_qfiledialog.h:279
 msgctxt "QFileDialog"
 msgid "Create New Folder"
-msgstr "Sukurti Naują Katalogą"
+msgstr "새 폴더 만들기"
 
 #: qfilesystemmodel.cpp:761
 msgctxt "QFileSystemModel"
 msgid "Invalid filename"
-msgstr "Netinkamas failo pavadinimas"
+msgstr "잘못된 파일 이름"
 
 #: qfilesystemmodel.cpp:763
 msgctxt "QFileSystemModel"
 msgid ""
 "<b>The name \"%1\" can not be used.</b><p>Try using another name, with fewer"
 " characters or no punctuations marks."
-msgstr "<b>Negalima naudoti pavadinimo \"%1\".</b><p>Bandykite įvesti kitokį, trumpesnį, pavadinimą, be skyrybos ženklų."
+msgstr " <b> \"%1\"이란 이름은 쓸 수 없어요.</b><p>문장 부호를 지우거나 글자 수를 줄여서 이름을 바꾸어 보세요."
 
 #: qfilesystemmodel.cpp:832
 msgctxt "QFileSystemModel"
 msgid "Name"
-msgstr "Pavadinimas"
+msgstr "이름"
 
 #: qfilesystemmodel.cpp:834
 msgctxt "QFileSystemModel"
 msgid "Size"
-msgstr "Dydis"
+msgstr "크기"
 
 #: qfilesystemmodel.cpp:838
 msgctxt "QFileSystemModel"
 msgid "Kind"
-msgstr "Rūšis"
+msgstr "종류"
 
 #: qfilesystemmodel.cpp:840
 msgctxt "QFileSystemModel"
 msgid "Type"
-msgstr "Tipas"
+msgstr "유형"
 
 #: qfilesystemmodel.cpp:847
 msgctxt "QFileSystemModel"
 msgid "Date Modified"
-msgstr "Pakeitimo data"
+msgstr "수정한 날짜"
 
 #: qfilesystemmodel_p.h:198
 msgctxt "QFileSystemModel"
 msgid "My Computer"
-msgstr "Mano kompiuteris"
+msgstr "내 컴퓨터"
 
 #: qfilesystemmodel_p.h:200
 msgctxt "QFileSystemModel"
 msgid "Computer"
-msgstr "Kompiuteris"
+msgstr "컴퓨터"
 
 #: qfilesystemmodel.cpp:677
 msgctxt "QFileSystemModel"
@@ -431,4 +432,4 @@ msgstr "%1 KB"
 #: qfilesystemmodel.cpp:684
 msgctxt "QFileSystemModel"
 msgid "%1 bytes"
-msgstr "%1 baitų"
+msgstr "%1 바이트"
